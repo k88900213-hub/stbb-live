@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#047857">The pH meter reads hydrogen ion concentration</text>
+
+  <rect x="380" y="90" width="150" height="80" rx="8" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+  <text x="455" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#047857">pH 7.0</text>
+  <text x="455" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#475569">display</text>
+
+  <rect x="300" y="60" width="130" height="22" rx="4" fill="#cbd5e1" stroke="#475569" stroke-width="1.5"/>
+  <text x="365" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#334155">electrode lead</text>
+
+  <rect x="320" y="82" width="20" height="130" fill="#475569"/>
+  <circle cx="330" cy="212" r="16" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/>
+  <text x="330" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e40af">E</text>
+
+  <path d="M110,150 L110,280 Q110,300 130,300 L250,300 Q270,300 270,280 L270,150 Z" fill="#e0f2fe" stroke="#2563eb" stroke-width="2"/>
+  <text x="190" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" fill="#1e40af">solution</text>
+  <text x="190" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#1e40af">[H⁺] measured</text>
+  <text x="190" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#075985">beaker</text>
+
+  <rect x="110" y="120" width="160" height="22" rx="4" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="190" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#166534">glass electrode</text>
+
+  <text x="310" y="270" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">voltage depends on [H⁺]</text>
+  <text x="310" y="288" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">→ meter converts to pH</text>
+
+  <rect x="110" y="318" width="420" height="28" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="320" y="337" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" fill="#166534">Calibrate with buffers first, then the meter reads tenths or hundredths of a pH unit.</text>
+</svg>

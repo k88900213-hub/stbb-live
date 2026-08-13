@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+    <marker id="arA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c2410c"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">The human ear: turning sound into signals</text>
+
+  <path d="M80,170 Q60,140 90,120 Q130,110 150,130 Q160,150 140,168" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+  <text x="100" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#92400e">pinna (outer ear)</text>
+
+  <path d="M140,152 L230,168 Q245,170 250,185" fill="none" stroke="#92400e" stroke-width="5"/>
+  <text x="205" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#92400e">ear canal</text>
+
+  <path d="M252,185 Q270,180 280,188" fill="none" stroke="#dc2626" stroke-width="4"/>
+  <text x="278" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#dc2626">eardrum</text>
+
+  <g stroke="#334155" stroke-width="2.5" fill="#cbd5e1">
+    <path d="M282,190 L320,172"/>
+    <path d="M320,172 L350,190"/>
+    <path d="M350,190 L382,168"/>
+  </g>
+  <text x="338" y="162" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#334155">malleus</text>
+  <text x="372" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#334155">incus</text>
+  <text x="342" y="202" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#334155">stapes</text>
+
+  <path d="M385,170 Q440,160 455,195 Q470,235 440,260 Q415,280 395,260 Q375,242 385,215 Z" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="435" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e40af">cochlea</text>
+  <text x="435" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1e40af">(fluid + hair cells)</text>
+
+  <path d="M460,170 Q500,150 545,120" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arA)"/>
+  <text x="520" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c2410c">auditory nerve</text>
+  <text x="520" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#475569">electrical impulses to brain</text>
+
+  <text x="320" y="348" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Sound waves vibrate the eardrum; three tiny bones pass them on; the cochlea turns them into nerve signals.</text>
+</svg>

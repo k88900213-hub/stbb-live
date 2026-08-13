@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+    <marker id="arA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c2410c"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">Inside a cathode ray oscilloscope (CRO)</text>
+
+  <rect x="70" y="90" width="520" height="180" rx="10" fill="#e2e8f0" stroke="#475569" stroke-width="1.5"/>
+  <text x="330" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#475569">sealed glass tube, mostly evacuated</text>
+
+  <g transform="translate(100,150)">
+    <rect x="0" y="-18" width="40" height="36" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <path d="M-8,-18 Q20,-28 48,-18 M-8,18 Q20,28 48,18" fill="none" stroke="#b45309" stroke-width="2"/>
+    <text x="20" y="46" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#92400e">electron gun</text>
+    <line x1="48" y1="0" x2="460" y2="0" stroke="#c2410c" stroke-width="2.5" marker-end="url(#arA)"/>
+  </g>
+
+  <g transform="translate(210,120)">
+    <line x1="0" y1="-20" x2="0" y2="60" stroke="#2563eb" stroke-width="6"/>
+    <line x1="22" y1="-20" x2="22" y2="60" stroke="#2563eb" stroke-width="6"/>
+    <text x="11" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1e40af">Y plates (up/down)</text>
+  </g>
+  <g transform="translate(340,120)">
+    <line x1="-20" y1="0" x2="60" y2="0" stroke="#16a34a" stroke-width="6"/>
+    <line x1="-20" y1="22" x2="60" y2="22" stroke="#16a34a" stroke-width="6"/>
+    <text x="20" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#166534">X plates (left/right)</text>
+  </g>
+
+  <rect x="500" y="110" width="60" height="50" rx="4" fill="#a5f3fc" stroke="#0e7490" stroke-width="2"/>
+  <text x="530" y="136" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#155e75">glowing</text>
+  <text x="530" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#155e75">screen</text>
+  <path d="M500,135 L460,135 Q455,135 455,140 L455,150" fill="none" stroke="#c2410c" stroke-width="2"/>
+  <path d="M455,150 Q452,158 448,160 L440,160 Q450,150 455,142" fill="none" stroke="#c2410c" stroke-width="2"/>
+  <text x="320" y="286" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#c2410c">sine wave traced on the screen</text>
+
+  <rect x="150" y="260" width="220" height="40" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="260" y="276" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#166534">time base sweeps the spot sideways</text>
+  <text x="260" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#166534">while the Y plates move it up and down</text>
+
+  <text x="320" y="348" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">The Y plates carry the measured voltage and the time base sweeps the beam, drawing a voltage–time graph.</text>
+</svg>

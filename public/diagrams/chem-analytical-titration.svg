@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#047857">Titration: the burette measures the unknown</text>
+
+  <rect x="240" y="70" width="18" height="170" fill="#dbeafe" stroke="#1e40af" stroke-width="2"/>
+  <g stroke="#1e40af" stroke-width="1">
+    <line x1="258" y1="90" x2="272" y2="90"/><line x1="258" y1="110" x2="272" y2="110"/>
+    <line x1="258" y1="130" x2="272" y2="130"/><line x1="258" y1="150" x2="272" y2="150"/>
+    <line x1="258" y1="170" x2="272" y2="170"/><line x1="258" y1="190" x2="272" y2="190"/>
+  </g>
+  <text x="285" y="100" font-family="Arial, sans-serif" font-size="12" fill="#1e40af">burette</text>
+  <text x="285" y="116" font-family="Arial, sans-serif" font-size="10.5" fill="#1e40af">titrant of known</text>
+  <text x="285" y="130" font-family="Arial, sans-serif" font-size="10.5" fill="#1e40af">concentration</text>
+
+  <rect x="235" y="236" width="28" height="10" rx="2" fill="#b45309" stroke="#92400e" stroke-width="1.5"/>
+  <text x="285" y="246" font-family="Arial, sans-serif" font-size="12" fill="#92400e">tap</text>
+
+  <line x1="248" y1="246" x2="248" y2="272" stroke="#1e40af" stroke-width="2"/>
+  <g stroke="#f59e0b" stroke-width="1.8">
+    <circle cx="248" cy="272" r="4" fill="#fef3c7"/>
+    <line x1="248" y1="276" x2="248" y2="288"/>
+  </g>
+
+  <path d="M120,290 L380,290 L380,310 L120,310 Z" fill="#e2e8f0" stroke="#475569" stroke-width="1.5"/>
+  <text x="250" y="302" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">white tile (colour contrast)</text>
+
+  <path d="M190,288 L250,230 L310,288 Z" fill="#f8fafc" stroke="#475569" stroke-width="2"/>
+  <path d="M190,288 L250,230 L310,288 Z" fill="#f472b6" opacity="0.55"/>
+  <text x="250" y="300" font-family="Arial, sans-serif" font-size="11" fill="#334155">flask + indicator</text>
+  <text x="250" y="316" font-family="Arial, sans-serif" font-size="10.5" fill="#334155">colour change = end point</text>
+
+  <g stroke="#64748b" stroke-width="2" marker-end="url(#ar)">
+    <line x1="150" y1="160" x2="200" y2="205"/>
+  </g>
+  <text x="150" y="175" font-family="Arial, sans-serif" font-size="11.5" fill="#64748b">dropwise</text>
+
+  <rect x="110" y="330" width="420" height="26" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="320" y="347" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#166534">The volume of titrant used reveals the unknown concentration: c₁V₁ = c₂V₂.</text>
+</svg>

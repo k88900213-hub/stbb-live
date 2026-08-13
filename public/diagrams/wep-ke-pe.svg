@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="arA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c2410c"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">Potential energy turns into kinetic energy</text>
+  <g transform="translate(70,80)">
+    <line x1="30" y1="240" x2="520" y2="240" stroke="#475569" stroke-width="2"/>
+    <line x1="30" y1="240" x2="30" y2="40" stroke="#475569" stroke-width="2"/>
+    <circle cx="160" cy="70" r="22" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+    <text x="160" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#92400e">m</text>
+    <text x="210" y="66" font-family="Arial, sans-serif" font-size="14" fill="#7c3aed">P.E. = mgh</text>
+    <circle cx="300" cy="150" r="18" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+    <text x="300" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#92400e">m</text>
+    <path d="M170,90 Q210,110 285,138" fill="none" stroke="#c2410c" stroke-width="2.5" marker-end="url(#arA)"/>
+    <text x="240" y="120" font-family="Arial, sans-serif" font-size="12" fill="#c2410c">falling</text>
+    <circle cx="430" cy="222" r="14" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+    <text x="430" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#92400e">m</text>
+    <line x1="430" y1="222" x2="520" y2="222" stroke="#16a34a" stroke-width="2" marker-end="url(#arA)"/>
+    <text x="470" y="205" font-family="Arial, sans-serif" font-size="14" fill="#16a34a">K.E. = ½mv²</text>
+  </g>
+  <text x="320" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">the energy is never lost — it just changes from stored to moving</text>
+</svg>

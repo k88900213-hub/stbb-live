@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+    <marker id="arA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c2410c"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="26" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#0369a1">Stomata: how a stoma opens and closes</text>
+
+  <rect x="60" y="46" width="250" height="230" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+  <rect x="330" y="46" width="250" height="230" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="185" y="64" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e40af">STOMA OPEN (day)</text>
+  <text x="455" y="64" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e40af">STOMA CLOSED (night)</text>
+
+  <g>
+    <path d="M88,100 C106,106 106,156 88,162 C78,150 78,112 88,100 Z" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/>
+    <path d="M142,100 C124,106 124,156 142,162 C152,150 152,112 142,100 Z" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/>
+    <ellipse cx="115" cy="131" rx="10" ry="26" fill="#fffdf7" stroke="#2563eb" stroke-width="1.5"/>
+    <circle cx="93" cy="112" r="4" fill="#16a34a"/>
+    <circle cx="137" cy="112" r="4" fill="#16a34a"/>
+    <text x="64" y="90" font-family="Arial, sans-serif" font-size="11" fill="#166534">nucleus</text>
+    <text x="140" y="88" font-family="Arial, sans-serif" font-size="11" fill="#166534">nucleus</text>
+    <text x="70" y="196" font-family="Arial, sans-serif" font-size="12" fill="#166534">guard cells turgid,</text>
+    <text x="70" y="212" font-family="Arial, sans-serif" font-size="12" fill="#166534">pore wide open</text>
+    <line x1="160" y1="118" x2="132" y2="118" stroke="#c2410c" stroke-width="2" marker-end="url(#arA)"/>
+    <text x="164" y="122" font-family="Arial, sans-serif" font-size="12" fill="#c2410c">CO₂ in</text>
+    <line x1="132" y1="146" x2="160" y2="146" stroke="#64748b" stroke-width="2" marker-end="url(#ar)"/>
+    <text x="164" y="150" font-family="Arial, sans-serif" font-size="12" fill="#334155">O₂ out</text>
+  </g>
+
+  <g>
+    <path d="M88,100 C116,104 116,158 88,162 C78,150 78,112 88,100 Z" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/>
+    <path d="M142,100 C114,104 114,158 142,162 C152,150 152,112 142,100 Z" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/>
+    <line x1="115" y1="106" x2="115" y2="156" stroke="#2563eb" stroke-width="2"/>
+    <circle cx="95" cy="112" r="4" fill="#16a34a"/>
+    <circle cx="135" cy="112" r="4" fill="#16a34a"/>
+    <text x="66" y="90" font-family="Arial, sans-serif" font-size="11" fill="#166534">nucleus</text>
+    <text x="140" y="88" font-family="Arial, sans-serif" font-size="11" fill="#166534">nucleus</text>
+    <text x="340" y="196" font-family="Arial, sans-serif" font-size="12" fill="#166534">guard cells flaccid,</text>
+    <text x="340" y="212" font-family="Arial, sans-serif" font-size="12" fill="#166534">pore closed</text>
+  </g>
+
+  <text x="320" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#334155">guard cells have thicker inner and thinner elastic outer walls; chloroplasts help pump solutes</text>
+  <text x="320" y="332" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Stomata open when guard cells are turgid and close when the guard cells lose water</text>
+</svg>

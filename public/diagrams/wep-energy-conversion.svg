@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="arA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c2410c"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">Energy changes form — it is never destroyed</text>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#334155">
+    <rect x="60" y="70" width="150" height="46" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+    <text x="135" y="87" text-anchor="middle" fill="#78350f">chemical</text>
+    <text x="135" y="104" text-anchor="middle" fill="#78350f">energy (fuel)</text>
+    <line x1="210" y1="93" x2="250" y2="93" stroke="#c2410c" stroke-width="2.5" marker-end="url(#arA)"/>
+    <rect x="255" y="70" width="150" height="46" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="330" y="87" text-anchor="middle" fill="#1e40af">kinetic</text>
+    <text x="330" y="104" text-anchor="middle" fill="#1e40af">energy</text>
+    <line x1="405" y1="93" x2="445" y2="93" stroke="#c2410c" stroke-width="2.5" marker-end="url(#arA)"/>
+    <rect x="450" y="70" width="150" height="46" rx="8" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="525" y="87" text-anchor="middle" fill="#92400e">heat + sound</text>
+    <text x="525" y="104" text-anchor="middle" fill="#92400e">(car engine)</text>
+
+    <rect x="60" y="180" width="150" height="46" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+    <text x="135" y="197" text-anchor="middle" fill="#78350f">food</text>
+    <text x="135" y="214" text-anchor="middle" fill="#78350f">(chemical)</text>
+    <line x1="210" y1="203" x2="250" y2="203" stroke="#c2410c" stroke-width="2.5" marker-end="url(#arA)"/>
+    <rect x="255" y="180" width="150" height="46" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="330" y="197" text-anchor="middle" fill="#1e40af">muscle</text>
+    <text x="330" y="214" text-anchor="middle" fill="#1e40af">(kinetic)</text>
+    <line x1="405" y1="203" x2="445" y2="203" stroke="#c2410c" stroke-width="2.5" marker-end="url(#arA)"/>
+    <rect x="450" y="180" width="150" height="46" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="525" y="197" text-anchor="middle" fill="#166534">body heat</text>
+    <text x="525" y="214" text-anchor="middle" fill="#166534">(thermal)</text>
+  </g>
+  <text x="320" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#9a3412">conservation of energy: total energy stays constant</text>
+</svg>

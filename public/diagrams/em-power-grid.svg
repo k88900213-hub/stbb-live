@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+    <marker id="arA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c2410c"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">Electricity from power plant to home</text>
+
+  <g transform="translate(40,90)">
+    <path d="M60,80 L90,60 L120,80 L120,60 M60,60 L90,40 L120,60" fill="none" stroke="#94a3b8" stroke-width="2.5"/>
+    <rect x="70" y="80" width="40" height="10" fill="#94a3b8"/>
+    <rect x="40" y="90" width="100" height="8" fill="#475569"/>
+    <text x="90" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#334155">power plant</text>
+    <text x="90" y="134" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#475569">~ 11 kV</text>
+  </g>
+
+  <g transform="translate(230,70)">
+    <line x1="0" y1="20" x2="0" y2="80" stroke="#64748b" stroke-width="2"/>
+    <line x1="0" y1="80" x2="16" y2="80" stroke="#64748b" stroke-width="3"/>
+    <line x1="16" y1="80" x2="16" y2="20" stroke="#64748b" stroke-width="2"/>
+    <line x1="0" y1="20" x2="16" y2="20" stroke="#64748b" stroke-width="3"/>
+    <text x="8" y="104" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2563eb">step-up</text>
+    <text x="8" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2563eb">transformer</text>
+    <text x="8" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#475569">11 kV → 132 kV</text>
+  </g>
+
+  <line x1="150" y1="110" x2="230" y2="110" stroke="#64748b" stroke-width="2" marker-end="url(#ar)"/>
+  <line x1="246" y1="110" x2="330" y2="110" stroke="#c2410c" stroke-width="2.5"/>
+  <line x1="330" y1="110" x2="340" y2="110" stroke="#c2410c" stroke-width="2.5"/>
+  <line x1="330" y1="70" x2="380" y2="70" stroke="#c2410c" stroke-width="2.5"/>
+  <line x1="330" y1="150" x2="380" y2="150" stroke="#c2410c" stroke-width="2.5"/>
+  <text x="290" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c2410c">transmission</text>
+  <text x="290" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c2410c">lines</text>
+  <text x="300" y="62" font-family="Arial, sans-serif" font-size="11" fill="#475569">high voltage</text>
+  <text x="300" y="176" font-family="Arial, sans-serif" font-size="11" fill="#475569">low current → small I²R loss</text>
+
+  <g transform="translate(430,70)">
+    <line x1="0" y1="20" x2="0" y2="80" stroke="#64748b" stroke-width="3"/>
+    <line x1="0" y1="80" x2="16" y2="80" stroke="#64748b" stroke-width="2"/>
+    <line x1="16" y1="80" x2="16" y2="20" stroke="#64748b" stroke-width="3"/>
+    <line x1="0" y1="20" x2="16" y2="20" stroke="#64748b" stroke-width="2"/>
+    <text x="8" y="104" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#16a34a">step-down</text>
+    <text x="8" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#16a34a">transformer</text>
+    <text x="8" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#475569">132 kV → 220 V</text>
+  </g>
+
+  <line x1="380" y1="110" x2="430" y2="110" stroke="#64748b" stroke-width="2" marker-end="url(#ar)"/>
+  <line x1="446" y1="110" x2="510" y2="110" stroke="#64748b" stroke-width="2" marker-end="url(#ar)"/>
+
+  <g transform="translate(520,80)">
+    <path d="M0,40 L28,40 L28,10 M28,40 L52,40 M52,40 L52,10 M28,10 L44,10" fill="none" stroke="#475569" stroke-width="2"/>
+    <path d="M28,22 L52,22" stroke="#475569" stroke-width="2"/>
+    <text x="26" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#334155">homes</text>
+    <text x="26" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#475569">220 V</text>
+  </g>
+
+  <text x="320" y="348" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Step-up transformers raise the voltage for the lines (so current and heat loss fall), and step-down ones lower it for homes.</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#047857">Common laboratory equipment</text>
+
+  <g>
+    <path d="M60,80 h56 l6,6 v58 h-68 v-58 z" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <rect x="64" y="100" width="48" height="20" fill="#93c5fd"/>
+    <text x="88" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#334155">beaker</text>
+  </g>
+  <g>
+    <path d="M245,80 l26,70 v24 h-52 v-24 z" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+    <rect x="252" y="104" width="32" height="18" fill="#fbbf24"/>
+    <line x1="251" y1="88" x2="245" y2="80" stroke="#b45309" stroke-width="2"/>
+    <line x1="299" y1="88" x2="305" y2="80" stroke="#b45309" stroke-width="2"/>
+    <text x="273" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#334155">flask</text>
+  </g>
+  <g>
+    <rect x="440" y="80" width="34" height="70" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <rect x="432" y="78" width="50" height="6" rx="2" fill="#cbd5e1" stroke="#475569" stroke-width="1.5"/>
+    <rect x="445" y="100" width="24" height="24" fill="#93c5fd"/>
+    <g stroke="#475569" stroke-width="1.5">
+      <line x1="440" y1="102" x2="452" y2="102"/>
+      <line x1="440" y1="112" x2="454" y2="112"/>
+      <line x1="440" y1="122" x2="452" y2="122"/>
+    </g>
+    <text x="457" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#334155">cylinder</text>
+  </g>
+
+  <g>
+    <rect x="40" y="250" width="110" height="14" rx="3" fill="#e2e8f0" stroke="#475569" stroke-width="1.5"/>
+    <rect x="40" y="264" width="110" height="24" rx="3" fill="#e2e8f0" stroke="#475569" stroke-width="1.5"/>
+    <g stroke="#64748b" stroke-width="2" fill="none">
+      <path d="M48,250 v-26 a6,6 0 0 1 12,0 v26 z"/>
+      <path d="M64,250 v-26 a6,6 0 0 1 12,0 v26 z"/>
+      <path d="M80,250 v-26 a6,6 0 0 1 12,0 v26 z"/>
+      <path d="M96,250 v-26 a6,6 0 0 1 12,0 v26 z"/>
+      <path d="M112,250 v-26 a6,6 0 0 1 12,0 v26 z"/>
+      <path d="M128,250 v-26 a6,6 0 0 1 12,0 v26 z"/>
+    </g>
+    <text x="95" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#334155">test tubes</text>
+  </g>
+  <g>
+    <rect x="240" y="290" width="70" height="10" rx="3" fill="#fecaca" stroke="#dc2626" stroke-width="1.5"/>
+    <rect x="262" y="240" width="26" height="50" fill="#cbd5e1" stroke="#475569" stroke-width="2"/>
+    <path d="M262,240 h26 l-3,-14 h-20 z" fill="#94a3b8"/>
+    <path d="M269,226 q7,-14 0,-20 q7,8 7,20 z" fill="#fde047" stroke="#b45309" stroke-width="1"/>
+    <path d="M269,217 q4,-8 4,-13 q0,8 -4,13 z" fill="#fbbf24"/>
+    <text x="275" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#334155">Bunsen burner</text>
+  </g>
+  <g>
+    <rect x="448" y="296" width="78" height="8" rx="3" fill="#e2e8f0" stroke="#475569" stroke-width="1.5"/>
+    <rect x="485" y="260" width="5" height="36" fill="#475569"/>
+    <line x1="470" y1="266" x2="505" y2="266" stroke="#475569" stroke-width="3"/>
+    <circle cx="470" cy="266" r="3" fill="#475569"/>
+    <circle cx="505" cy="266" r="3" fill="#475569"/>
+    <line x1="470" y1="266" x2="452" y2="248" stroke="#64748b" stroke-width="2"/>
+    <path d="M444,248 h16 v3 h-16 z" fill="#fde68a" stroke="#b45309" stroke-width="1"/>
+    <line x1="505" y1="266" x2="523" y2="248" stroke="#64748b" stroke-width="2"/>
+    <path d="M515,248 h16 v3 h-16 z" fill="#fde68a" stroke="#b45309" stroke-width="1"/>
+    <text x="487" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#334155">balance</text>
+  </g>
+
+  <text x="320" y="352" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Accurate chemistry begins with clean, well-chosen apparatus</text>
+</svg>

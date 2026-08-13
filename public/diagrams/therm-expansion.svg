@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">Expansion on heating and the bimetallic strip</text>
+  <g transform="translate(60,80)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="13" fill="#334155">liquids expand more than solids</text>
+    <rect x="0" y="18" width="220" height="70" rx="8" fill="#e2e8f0" stroke="#475569" stroke-width="1.5"/>
+    <rect x="0" y="60" width="220" height="28" fill="#bae6fd" stroke="#0ea5e9" stroke-width="1"/>
+    <line x1="0" y1="60" x2="220" y2="60" stroke="#0ea5e9" stroke-width="2"/>
+    <text x="110" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#075985">cold water</text>
+    <line x1="60" y1="18" x2="60" y2="88" stroke="#c2410c" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <text x="48" y="100" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#c2410c">level</text>
+  </g>
+  <g transform="translate(350,80)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="13" fill="#334155">hot water — the tube overflows</text>
+    <rect x="0" y="18" width="220" height="70" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+    <rect x="0" y="48" width="220" height="40" fill="#bae6fd" stroke="#0ea5e9" stroke-width="1"/>
+    <path d="M 0 55 Q 110 55 220 55 L 220 48 L 0 48 Z" fill="#0ea5e9"/>
+    <text x="110" y="74" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#075985">hot water</text>
+    <line x1="60" y1="18" x2="60" y2="88" stroke="#c2410c" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <text x="48" y="100" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#c2410c">level rises</text>
+    <path d="M -10 48 Q 20 30 40 26" fill="none" stroke="#0ea5e9" stroke-width="3" marker-end="url(#ar)"/>
+  </g>
+  <g transform="translate(60,200)">
+    <rect x="0" y="10" width="300" height="14" fill="#cbd5e1" stroke="#475569" stroke-width="1"/>
+    <rect x="0" y="24" width="300" height="14" fill="#fca5a5" stroke="#dc2626" stroke-width="1"/>
+    <text x="320" y="24" font-family="Arial, sans-serif" font-size="13" fill="#334155">brass + steel riveted</text>
+    <text x="320" y="46" font-family="Arial, sans-serif" font-size="13" fill="#334155">→ the strip bends on heating</text>
+    <rect x="150" y="52" width="20" height="12" fill="#64748b"/>
+  </g>
+  <text x="320" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">bimetallic strips switch thermostats, fridges and traffic-light heaters</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#0369a1">The human digestive system</text>
+
+  <g stroke="#475569" stroke-width="2.5" fill="#fef3c7">
+    <ellipse cx="255" cy="52" rx="20" ry="12"/>
+    <ellipse cx="305" cy="52" rx="20" ry="12"/>
+  </g>
+  <text x="255" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#475569">salivary gland</text>
+  <text x="305" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#475569">salivary gland</text>
+
+  <g fill="#fff7ed" stroke="#475569" stroke-width="2.5">
+    <ellipse cx="280" cy="58" rx="24" ry="13"/>
+    <rect x="268" y="64" width="24" height="58"/>
+    <path d="M268,126 L268,150 Q266,190 306,190 L328,190 Q350,190 346,162 Q342,142 320,138 Q294,134 268,130 Z"/>
+  </g>
+  <text x="280" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#334155">mouth</text>
+
+  <g fill="#ecfdf5" stroke="#475569" stroke-width="2">
+    <path d="M310,192 C 348,198 350,218 310,222 C 272,226 272,246 312,250 C 350,254 350,272 312,276" fill="none" stroke="#475569" stroke-width="5"/>
+    <path d="M312,276 L354,276 Q376,276 376,256 L376,204 Q376,188 354,188 L330,188 L250,188 Q230,188 230,210 L230,238 Q230,260 250,260 L272,260" fill="none" stroke="#475569" stroke-width="5"/>
+    <path d="M272,260 L280,292" stroke="#475569" stroke-width="5"/>
+    <ellipse cx="280" cy="310" rx="14" ry="8"/>
+  </g>
+  <text x="286" y="314" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#334155">anus</text>
+
+  <g fill="#fca5a5" stroke="#b91c1c" stroke-width="2">
+    <path d="M402,108 Q450,86 472,128 Q482,168 430,178 Q388,168 394,138 Z"/>
+    <ellipse cx="432" cy="196" rx="16" ry="10" fill="#fde047" stroke="#a16207"/>
+  </g>
+  <g fill="#fbbf24" stroke="#b45309" stroke-width="2">
+    <ellipse cx="396" cy="210" rx="36" ry="14"/>
+  </g>
+
+  <g stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 3" fill="none">
+    <line x1="432" y1="178" x2="366" y2="200"/>
+    <line x1="432" y1="200" x2="372" y2="206"/>
+    <line x1="396" y1="222" x2="350" y2="218"/>
+    <line x1="255" y1="60" x2="268" y2="60"/>
+    <line x1="305" y1="60" x2="292" y2="60"/>
+  </g>
+
+  <text x="470" y="118" font-family="Arial, sans-serif" font-size="12" fill="#334155">liver</text>
+  <text x="470" y="134" font-family="Arial, sans-serif" font-size="10" fill="#475569">makes bile</text>
+  <text x="470" y="196" font-family="Arial, sans-serif" font-size="12" fill="#334155">gall bladder</text>
+  <text x="470" y="214" font-family="Arial, sans-serif" font-size="10" fill="#475569">stores bile</text>
+  <text x="470" y="246" font-family="Arial, sans-serif" font-size="12" fill="#334155">pancreas</text>
+  <text x="470" y="262" font-family="Arial, sans-serif" font-size="10" fill="#475569">trypsin, lipase,</text>
+  <text x="470" y="274" font-family="Arial, sans-serif" font-size="10" fill="#475569">amylase</text>
+
+  <text x="150" y="100" font-family="Arial, sans-serif" font-size="11" fill="#334155">oesophagus</text>
+  <text x="150" y="150" font-family="Arial, sans-serif" font-size="11" fill="#334155">stomach</text>
+  <text x="130" y="240" font-family="Arial, sans-serif" font-size="11" fill="#334155">small intestine</text>
+  <text x="130" y="256" font-family="Arial, sans-serif" font-size="10" fill="#475569">(duodenum, jejunum, ileum)</text>
+  <text x="150" y="200" font-family="Arial, sans-serif" font-size="11" fill="#334155">large intestine</text>
+  <text x="150" y="292" font-family="Arial, sans-serif" font-size="11" fill="#334155">rectum</text>
+  <g stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 3" fill="none">
+    <line x1="150" y1="104" x2="266" y2="100"/>
+    <line x1="150" y1="155" x2="300" y2="155"/>
+    <line x1="138" y1="244" x2="250" y2="244"/>
+    <line x1="150" y1="295" x2="276" y2="298"/>
+  </g>
+
+  <rect x="120" y="328" width="400" height="26" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="320" y="346" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#166534">Peristalsis pushes food along; enzymes and bile break it down as it travels.</text>
+</svg>

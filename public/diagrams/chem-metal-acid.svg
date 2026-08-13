@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#047857">Metals with dilute acid release hydrogen</text>
+
+  <g font-family="Arial, sans-serif">
+    <path d="M140,140 h110 v150 h-110 z" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="195" y="125" text-anchor="middle" font-size="12" fill="#334155">dilute HCl</text>
+    <rect x="175" y="260" width="40" height="30" rx="4" fill="#cbd5e1" stroke="#475569" stroke-width="2"/>
+    <text x="195" y="280" text-anchor="middle" font-size="12" font-weight="bold" fill="#334155">Mg</text>
+    <g fill="none" stroke="#1e40af" stroke-width="1.5">
+      <circle cx="165" cy="220" r="6"/>
+      <circle cx="180" cy="205" r="5"/>
+      <circle cx="205" cy="215" r="7"/>
+      <circle cx="222" cy="225" r="5"/>
+      <circle cx="155" cy="200" r="5"/>
+    </g>
+
+    <line x1="250" y1="180" x2="360" y2="140" stroke="#475569" stroke-width="2.5"/>
+    <line x1="360" y1="140" x2="360" y2="190" stroke="#475569" stroke-width="2.5"/>
+
+    <path d="M330,190 h70 v-70 l-30,-6 v76 z" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+    <text x="365" y="110" text-anchor="middle" font-size="11" fill="#334155">collecting</text>
+    <text x="365" y="124" text-anchor="middle" font-size="11" fill="#334155">H₂</text>
+    <text x="380" y="196" text-anchor="middle" font-size="11" fill="#475569">water bath</text>
+
+    <line x1="400" y1="110" x2="460" y2="90" stroke="#475569" stroke-width="2.5"/>
+    <path d="M470,84 l14,4 l-14,4 z" fill="#64748b"/>
+    <text x="478" y="76" text-anchor="middle" font-size="11" fill="#334155">glowing</text>
+    <text x="478" y="88" text-anchor="middle" font-size="11" fill="#334155">splint</text>
+  </g>
+
+  <text x="320" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#047857">pop! - the squeaky-pop test confirms hydrogen</text>
+  <text x="320" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">Mg + 2HCl  gives  MgCl₂ + H₂</text>
+  <text x="320" y="344" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Metals above hydrogen in the series displace it from dilute acids</text>
+</svg>

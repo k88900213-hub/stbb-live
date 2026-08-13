@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c2410c"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">The right-hand thumb rule</text>
+
+  <g stroke="#c2410c" stroke-width="2.5" fill="none">
+    <circle cx="300" cy="180" r="50"/>
+    <circle cx="300" cy="180" r="80"/>
+    <circle cx="300" cy="180" r="110"/>
+  </g>
+  <path d="M350,180 l0,-12 l6,5 z" fill="#c2410c"/>
+  <path d="M380,180 l0,-12 l6,5 z" fill="#c2410c"/>
+  <path d="M410,180 l0,-12 l6,5 z" fill="#c2410c"/>
+
+  <circle cx="300" cy="180" r="11" fill="#ffffff" stroke="#334155" stroke-width="2.5"/>
+  <circle cx="300" cy="180" r="4.5" fill="#334155"/>
+  <text x="300" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#334155">current out of page (⊙)</text>
+  <text x="300" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#475569">field anticlockwise</text>
+
+  <g stroke="#c2410c" stroke-width="2.5" fill="none">
+    <circle cx="525" cy="180" r="50"/>
+  </g>
+  <path d="M575,180 l0,12 l6,-5 z" fill="#c2410c"/>
+  <circle cx="525" cy="180" r="11" fill="#ffffff" stroke="#334155" stroke-width="2.5"/>
+  <line x1="518" y1="173" x2="532" y2="187" stroke="#334155" stroke-width="2.5"/>
+  <line x1="532" y1="173" x2="518" y2="187" stroke="#334155" stroke-width="2.5"/>
+  <text x="525" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#334155">current into page (⊗)</text>
+  <text x="525" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#475569">field clockwise</text>
+
+  <rect x="150" y="255" width="340" height="52" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="320" y="274" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1e40af">Grip the wire with your RIGHT hand, thumb pointing along the current.</text>
+  <text x="320" y="291" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1e40af">Your curled fingers show the direction of the magnetic field.</text>
+  <text x="320" y="308" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1e40af">Reverse the current and the field lines circle the other way.</text>
+
+  <text x="320" y="346" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">The field around a straight wire forms concentric circles centred on the wire.</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#047857">Metals reacting with water</text>
+
+  <g font-family="Arial, sans-serif">
+    <path d="M80,180 h150 v110 h-150 z" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="155" y="165" text-anchor="middle" font-size="12" fill="#334155">cold water</text>
+    <circle cx="155" cy="210" r="14" fill="#cbd5e1" stroke="#475569" stroke-width="2"/>
+    <text x="155" y="214" text-anchor="middle" font-size="12" font-weight="bold" fill="#334155">Na</text>
+    <g fill="none" stroke="#1e40af" stroke-width="1.5">
+      <circle cx="120" cy="235" r="6"/>
+      <circle cx="135" cy="255" r="7"/>
+      <circle cx="110" cy="265" r="5"/>
+      <circle cx="175" cy="250" r="6"/>
+      <circle cx="190" cy="265" r="7"/>
+    </g>
+    <path d="M150,196 l6,-14 l-6,-14" stroke="#f59e0b" stroke-width="3"/>
+    <path d="M160,196 l6,-14 l-6,-14" stroke="#f59e0b" stroke-width="3"/>
+    <text x="155" y="318" text-anchor="middle" font-size="12" fill="#dc2626">K, Na: violent</text>
+    <text x="155" y="336" text-anchor="middle" font-size="11" fill="#475569">heat can ignite the hydrogen</text>
+
+    <text x="320" y="205" text-anchor="middle" font-size="12" fill="#92400e">Mg: hot water</text>
+    <text x="320" y="222" text-anchor="middle" font-size="12" fill="#92400e">or steam only</text>
+
+    <path d="M400,240 h60 v60 a20,20 0 0 0 40,0 v-60 h40" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <path d="M430,200 h80 l30,-10 v90 h-110 z" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+    <rect x="500" y="170" width="34" height="40" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="517" y="193" text-anchor="middle" font-size="10" fill="#92400e">Fe wool</text>
+    <path d="M515,240 q8,14 0,26" stroke="#b45309" stroke-width="3"/>
+    <path d="M515,250 q8,10 0,20" stroke="#fbbf24" stroke-width="3"/>
+    <path d="M515,260 q8,8 0,16" stroke="#f59e0b" stroke-width="3"/>
+    <text x="400" y="310" text-anchor="middle" font-size="11" fill="#475569">steam</text>
+    <text x="555" y="340" text-anchor="middle" font-size="12" fill="#dc2626">Fe: steam only</text>
+    <text x="555" y="356" text-anchor="middle" font-size="11" fill="#475569">H₂ collected over water</text>
+  </g>
+
+  <text x="320" y="352" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Cu, Ag, Au below: no reaction with water at all</text>
+</svg>

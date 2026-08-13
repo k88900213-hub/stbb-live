@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+    <marker id="arA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c2410c"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">The electron gun</text>
+
+  <g transform="translate(70,140)">
+    <rect x="0" y="-25" width="150" height="50" fill="#e2e8f0" stroke="#475569" stroke-width="1.5"/>
+    <text x="75" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#334155">vacuum tube</text>
+    <rect x="20" y="-16" width="18" height="32" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <path d="M10,-16 Q29,-26 48,-16 M10,16 Q29,26 48,16" fill="none" stroke="#b45309" stroke-width="2"/>
+    <text x="29" y="54" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#92400e">heated cathode</text>
+    <rect x="70" y="-14" width="14" height="28" fill="#cbd5e1" stroke="#475569" stroke-width="1.5"/>
+    <text x="77" y="-28" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#475569">grid</text>
+    <rect x="105" y="-16" width="16" height="32" fill="#cbd5e1" stroke="#475569" stroke-width="1.5"/>
+    <text x="113" y="-28" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#475569">anode</text>
+    <g fill="#c2410c">
+      <circle cx="160" cy="0" r="3"/><circle cx="180" cy="-8" r="3"/><circle cx="180" cy="8" r="3"/>
+      <circle cx="200" cy="-6" r="3"/><circle cx="200" cy="6" r="3"/><circle cx="220" cy="0" r="3"/>
+    </g>
+    <line x1="160" y1="0" x2="255" y2="0" stroke="#c2410c" stroke-width="3" marker-end="url(#arA)"/>
+    <text x="200" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c2410c">electron beam</text>
+  </g>
+
+  <rect x="500" y="105" width="90" height="70" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="545" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#166534">electrodes</text>
+  <text x="545" y="144" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#166534">accelerate and</text>
+  <text x="545" y="158" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#166534">focus the beam</text>
+
+  <line x1="480" y1="140" x2="500" y2="140" stroke="#64748b" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="490" y="128" font-family="Arial, sans-serif" font-size="11" fill="#475569">out of</text>
+  <text x="490" y="150" font-family="Arial, sans-serif" font-size="11" fill="#475569">gun</text>
+
+  <rect x="180" y="300" width="280" height="34" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="320" y="322" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#166534">Heating the cathode releases electrons (thermionic emission);</text>
+  <text x="320" y="336" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#166534">the anodes pull them into a fast, narrow beam.</text>
+
+  <text x="320" y="348" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">A hot filament emits electrons; electrodes focus and accelerate them into a beam.</text>
+</svg>

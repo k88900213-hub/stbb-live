@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">Three types of motion</text>
+  <g transform="translate(40,80)">
+    <line x1="0" y1="40" x2="170" y2="40" stroke="#475569" stroke-width="2" marker-end="url(#ar)"/>
+    <rect x="60" y="28" width="60" height="24" rx="4" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="85" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#334155">translatory — whole body slides</text>
+
+    <circle cx="330" cy="60" r="44" fill="none" stroke="#c2410c" stroke-width="3" stroke-dasharray="6 5"/>
+    <circle cx="330" cy="60" r="7" fill="#334155"/>
+    <line x1="330" y1="60" x2="330" y2="16" stroke="#475569" stroke-width="2"/>
+    <circle cx="330" cy="16" r="4" fill="#475569"/>
+    <path d="M282,60 A48,48 0 0 1 330,12" fill="none" stroke="#16a34a" stroke-width="2" marker-end="url(#ar)"/>
+    <text x="330" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#334155">rotatory — spins about an axis</text>
+
+    <path d="M95,220 Q145,140 195,220" fill="none" stroke="#16a34a" stroke-width="3"/>
+    <circle cx="95" cy="220" r="10" fill="#c2410c"/>
+    <circle cx="195" cy="220" r="10" fill="#c2410c"/>
+    <line x1="145" y1="140" x2="145" y2="220" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 3"/>
+    <text x="145" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#334155">vibratory — to-and-fro about a mean position</text>
+  </g>
+  <text x="320" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">a pendulum, a moving car and a spinning top together show all three</text>
+</svg>

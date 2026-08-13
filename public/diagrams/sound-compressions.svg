@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+    <marker id="arA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c2410c"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">Compressions and rarefactions of a sound wave</text>
+
+  <rect x="90" y="90" width="130" height="34" rx="8" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+  <text x="155" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#92400e">drum skin</text>
+  <line x1="155" y1="124" x2="155" y2="150" stroke="#92400e" stroke-width="3"/>
+  <line x1="220" y1="107" x2="260" y2="107" stroke="#64748b" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="240" y="98" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#475569">vibration</text>
+
+  <g transform="translate(260,90)">
+    <rect x="0" y="0" width="14" height="50" fill="#334155"/>
+    <rect x="14" y="0" width="18" height="50" fill="#e2e8f0"/>
+    <rect x="32" y="0" width="14" height="50" fill="#334155"/>
+    <rect x="46" y="0" width="18" height="50" fill="#e2e8f0"/>
+    <rect x="64" y="0" width="14" height="50" fill="#334155"/>
+    <rect x="78" y="0" width="18" height="50" fill="#e2e8f0"/>
+    <rect x="96" y="0" width="14" height="50" fill="#334155"/>
+    <rect x="110" y="0" width="18" height="50" fill="#e2e8f0"/>
+    <rect x="128" y="0" width="14" height="50" fill="#334155"/>
+    <rect x="142" y="0" width="18" height="50" fill="#e2e8f0"/>
+    <rect x="160" y="0" width="14" height="50" fill="#334155"/>
+    <rect x="174" y="0" width="18" height="50" fill="#e2e8f0"/>
+    <rect x="192" y="0" width="14" height="50" fill="#334155"/>
+    <rect x="206" y="0" width="18" height="50" fill="#e2e8f0"/>
+    <rect x="224" y="0" width="14" height="50" fill="#334155"/>
+    <rect x="238" y="0" width="18" height="50" fill="#e2e8f0"/>
+    <rect x="256" y="0" width="14" height="50" fill="#334155"/>
+    <rect x="270" y="0" width="18" height="50" fill="#e2e8f0"/>
+    <rect x="288" y="0" width="14" height="50" fill="#334155"/>
+  </g>
+  <line x1="260" y1="72" x2="600" y2="72" stroke="#64748b" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="430" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#475569">direction of travel</text>
+
+  <rect x="316" y="66" width="14" height="14" fill="#334155"/>
+  <text x="340" y="78" font-family="Arial, sans-serif" font-size="12" fill="#334155">compression (crowded)</text>
+  <rect x="316" y="92" width="14" height="14" fill="#e2e8f0"/>
+  <text x="340" y="104" font-family="Arial, sans-serif" font-size="12" fill="#334155">rarefaction (spread out)</text>
+
+  <line x1="274" y1="140" x2="302" y2="140" stroke="#c2410c" stroke-width="2"/>
+  <line x1="274" y1="140" x2="274" y2="150" stroke="#c2410c" stroke-width="2"/>
+  <line x1="302" y1="140" x2="302" y2="150" stroke="#c2410c" stroke-width="2"/>
+  <text x="288" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c2410c">wavelength λ</text>
+  <text x="300" y="188" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#475569">distance between two compressions</text>
+
+  <text x="320" y="348" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Sound is longitudinal: air particles bunch in compressions and spread in rarefactions as the disturbance travels.</text>
+</svg>

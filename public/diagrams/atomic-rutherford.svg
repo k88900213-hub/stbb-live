@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+    <marker id="arA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c2410c"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">Rutherford's gold-foil experiment</text>
+
+  <g transform="translate(60,150)">
+    <rect x="0" y="-18" width="60" height="36" rx="6" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="30" y="-2" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#92400e">alpha</text>
+    <text x="30" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#92400e">source</text>
+    <line x1="60" y1="-2" x2="300" y2="-2" stroke="#c2410c" stroke-width="2"/>
+    <line x1="60" y1="2" x2="300" y2="2" stroke="#c2410c" stroke-width="2"/>
+  </g>
+
+  <line x1="330" y1="90" x2="330" y2="230" stroke="#eab308" stroke-width="6"/>
+  <rect x="318" y="88" width="24" height="144" fill="none" stroke="#b45309" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="330" y="258" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#92400e">thin gold foil</text>
+
+  <path d="M340,128 L470,128 L520,128" fill="none" stroke="#c2410c" stroke-width="2" marker-end="url(#arA)"/>
+  <path d="M340,152 L480,158 L540,162" fill="none" stroke="#c2410c" stroke-width="2"/>
+  <path d="M330,168 L300,205 L280,230" fill="none" stroke="#dc2626" stroke-width="2.5" marker-end="url(#arA)"/>
+  <path d="M330,180 L330,260" fill="none" stroke="#c2410c" stroke-width="2" marker-end="url(#arA)"/>
+  <text x="470" y="118" font-family="Arial, sans-serif" font-size="11" fill="#166534">most pass straight through</text>
+  <text x="250" y="240" font-family="Arial, sans-serif" font-size="11" fill="#dc2626">about 1 in 8000</text>
+  <text x="250" y="254" font-family="Arial, sans-serif" font-size="11" fill="#dc2626">bounces back</text>
+
+  <path d="M545,80 L600,90 Q630,120 620,150 L620,230 Q630,260 600,280 L545,288 Z" fill="#e2e8f0" stroke="#475569" stroke-width="1.5"/>
+  <text x="575" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#334155">fluorescent</text>
+  <text x="575" y="166" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#334155">screen</text>
+  <text x="575" y="182" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#475569">flashes where a</text>
+  <text x="575" y="196" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#475569">particle strikes</text>
+
+  <rect x="120" y="300" width="400" height="34" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="320" y="316" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#166534">The bounces-back particles hit a tiny, massive, positive nucleus —</text>
+  <text x="320" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#166534">so the atom is mostly empty space.</text>
+
+  <text x="320" y="348" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Most alphas pass straight through; a few deflect; a rare few bounce back off the nucleus.</text>
+</svg>

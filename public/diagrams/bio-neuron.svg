@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+    <marker id="arA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c2410c"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="26" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#0369a1">Structure of a neuron</text>
+
+  <g stroke="#475569" stroke-width="3" fill="none">
+    <path d="M150,175 L95,130 M150,175 L85,175 M150,175 L95,220"/>
+    <path d="M95,130 L60,112 M95,130 L80,150 M85,175 L45,175 M85,175 L70,192 M95,220 L60,240 M95,220 L80,200"/>
+  </g>
+  <ellipse cx="168" cy="175" rx="24" ry="30" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="168" cy="175" r="9" fill="#1e40af"/>
+
+  <line x1="192" y1="175" x2="470" y2="175" stroke="#64748b" stroke-width="7"/>
+  <g fill="#94a3b8">
+    <rect x="210" y="166" width="34" height="18" rx="4"/>
+    <rect x="260" y="166" width="34" height="18" rx="4"/>
+    <rect x="310" y="166" width="34" height="18" rx="4"/>
+    <rect x="360" y="166" width="34" height="18" rx="4"/>
+    <rect x="410" y="166" width="34" height="18" rx="4"/>
+  </g>
+
+  <path d="M470,175 C490,160 500,155 506,150 M470,175 C496,175 506,178 508,186 M470,175 C490,190 500,200 504,208" stroke="#475569" stroke-width="3" fill="none"/>
+  <circle cx="506" cy="150" r="5" fill="#fca5a5" stroke="#dc2626" stroke-width="1.5"/>
+  <circle cx="508" cy="186" r="5" fill="#fca5a5" stroke="#dc2626" stroke-width="1.5"/>
+  <circle cx="504" cy="208" r="5" fill="#fca5a5" stroke="#dc2626" stroke-width="1.5"/>
+
+  <line x1="240" y1="200" x2="340" y2="200" stroke="#c2410c" stroke-width="2.5" marker-end="url(#arA)"/>
+  <text x="290" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#c2410c">impulse →</text>
+
+  <text x="70" y="260" font-family="Arial, sans-serif" font-size="12" fill="#334155">dendrites</text>
+  <text x="42" y="274" font-family="Arial, sans-serif" font-size="12" fill="#334155">(receive impulses)</text>
+  <text x="120" y="232" font-family="Arial, sans-serif" font-size="12" fill="#334155">cell body (cyton)</text>
+  <text x="240" y="158" font-family="Arial, sans-serif" font-size="12" fill="#334155">axon</text>
+  <text x="268" y="150" font-family="Arial, sans-serif" font-size="11" fill="#475569">myelin sheath</text>
+  <text x="340" y="158" font-family="Arial, sans-serif" font-size="11" fill="#475569">nodes of Ranvier</text>
+  <text x="516" y="142" font-family="Arial, sans-serif" font-size="11" fill="#334155">terminal</text>
+  <text x="516" y="155" font-family="Arial, sans-serif" font-size="11" fill="#334155">bulbs</text>
+  <text x="516" y="196" font-family="Arial, sans-serif" font-size="11" fill="#334155">(synapse</text>
+  <text x="516" y="209" font-family="Arial, sans-serif" font-size="11" fill="#334155">with next cell)</text>
+
+  <text x="320" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">impulse path: dendrites → cell body → axon → terminal bulbs</text>
+</svg>

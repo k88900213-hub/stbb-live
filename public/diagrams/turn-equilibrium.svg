@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">Stable, unstable and neutral equilibrium</text>
+  <g transform="translate(55,110)">
+    <ellipse cx="95" cy="180" rx="62" ry="24" fill="none" stroke="#475569" stroke-width="2"/>
+    <circle cx="95" cy="140" r="34" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+    <circle cx="95" cy="140" r="5" fill="#c2410c"/>
+    <text x="95" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#334155">stable — returns</text>
+    <ellipse cx="320" cy="180" rx="62" ry="24" fill="none" stroke="#475569" stroke-width="2"/>
+    <circle cx="320" cy="128" r="34" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <circle cx="320" cy="128" r="5" fill="#2563eb"/>
+    <text x="320" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#334155">unstable — topples</text>
+    <circle cx="555" cy="166" r="34" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <circle cx="555" cy="166" r="5" fill="#d97706"/>
+    <text x="555" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#334155">neutral — stays put</text>
+  </g>
+  <text x="320" y="322" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">a low centre of gravity and a wide base make a body stable</text>
+</svg>

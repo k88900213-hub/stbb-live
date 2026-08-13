@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#047857">A fat: glycerol + three fatty acids = triglyceride</text>
+
+  <g font-family="Arial, sans-serif">
+    <circle cx="140" cy="105" r="9" fill="#334155"/>
+    <circle cx="140" cy="160" r="9" fill="#334155"/>
+    <circle cx="140" cy="215" r="9" fill="#334155"/>
+    <text x="140" y="270" text-anchor="middle" font-size="12" fill="#334155" font-weight="bold">glycerol</text>
+    <text x="140" y="288" text-anchor="middle" font-size="11" fill="#64748b">(three carbon atoms)</text>
+
+    <path d="M150,105 C190,105 200,125 240,125 C280,125 290,95 330,95 C370,95 380,115 420,115 C460,115 470,95 510,95" fill="none" stroke="#047857" stroke-width="3"/>
+    <path d="M150,160 C190,160 200,180 240,180 C280,180 290,150 330,150 C370,150 380,170 420,170 C460,170 470,150 510,150" fill="none" stroke="#047857" stroke-width="3"/>
+    <path d="M150,215 C190,215 200,235 240,235 C280,235 290,205 330,205 C370,205 380,225 420,225 C460,225 470,205 510,205" fill="none" stroke="#047857" stroke-width="3"/>
+
+    <text x="545" y="100" font-size="12" fill="#047857">fatty acid</text>
+    <text x="545" y="120" font-size="12" fill="#047857">chain 1</text>
+    <text x="545" y="165" font-size="12" fill="#047857">chain 2</text>
+    <text x="545" y="220" font-size="12" fill="#047857">chain 3</text>
+
+    <line x1="440" y1="95" x2="440" y2="40" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="320" y="40" text-anchor="middle" font-size="12" fill="#475569">ester bonds hold the three chains to glycerol</text>
+  </g>
+
+  <rect x="90" y="292" width="200" height="30" rx="8" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+  <text x="190" y="312" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#92400e">solid fats come from animals</text>
+  <rect x="350" y="292" width="200" height="30" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="450" y="312" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1e40af">liquid oils come from plants</text>
+
+  <rect x="110" y="326" width="420" height="26" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="320" y="344" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" fill="#166534">Saturated fats are solid and linked to heart disease; unsaturated oils are healthier.</text>
+</svg>

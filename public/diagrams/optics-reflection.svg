@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+    <marker id="arA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c2410c"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">The laws of reflection at a plane mirror</text>
+
+  <rect x="120" y="60" width="400" height="12" fill="#475569"/>
+  <rect x="118" y="72" width="12" height="10" fill="#94a3b8"/>
+  <rect x="510" y="72" width="12" height="10" fill="#94a3b8"/>
+  <text x="320" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#334155">plane mirror</text>
+
+  <line x1="220" y1="60" x2="320" y2="200" stroke="#c2410c" stroke-width="2.5" marker-end="url(#arA)"/>
+  <line x1="420" y1="60" x2="320" y2="200" stroke="#c2410c" stroke-width="2.5" marker-end="url(#arA)"/>
+  <line x1="320" y1="60" x2="320" y2="230" stroke="#64748b" stroke-width="1.5" stroke-dasharray="6 4"/>
+
+  <path d="M265,128 A68,60 0 0 0 288,170" fill="none" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="248" y="128" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#dc2626">i</text>
+  <path d="M375,128 A68,60 0 0 1 352,170" fill="none" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="382" y="128" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#dc2626">r</text>
+
+  <text x="206" y="52" font-family="Arial, sans-serif" font-size="12" fill="#475569">incident ray</text>
+  <text x="432" y="52" font-family="Arial, sans-serif" font-size="12" fill="#475569">reflected ray</text>
+  <text x="332" y="250" font-family="Arial, sans-serif" font-size="12" fill="#475569">normal (perpendicular to mirror)</text>
+
+  <rect x="180" y="272" width="280" height="44" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="320" y="289" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#166534">angle of incidence = angle of reflection</text>
+  <text x="320" y="306" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#166534">incident ray, reflected ray and normal lie in one plane</text>
+
+  <text x="320" y="348" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">i = r — the two laws of reflection hold for every smooth mirror.</text>
+</svg>

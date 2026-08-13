@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#0369a1">Blood vessels: artery, capillary and vein</text>
+
+  <text x="140" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#334155">Artery</text>
+  <circle cx="140" cy="160" r="58" fill="#f1f5f9" stroke="#475569" stroke-width="3"/>
+  <circle cx="140" cy="160" r="42" fill="#fca5a5"/>
+  <circle cx="140" cy="160" r="20" fill="#ffffff" stroke="#b91c1c" stroke-width="2.5"/>
+  <g fill="#ef4444">
+    <circle cx="140" cy="156" r="4"/>
+    <circle cx="131" cy="165" r="4"/>
+    <circle cx="149" cy="164" r="4"/>
+  </g>
+  <text x="140" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#334155">thick muscular, elastic wall</text>
+  <text x="140" y="252" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#334155">narrow lumen, no valves</text>
+  <text x="140" y="266" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#b91c1c">carries blood away, high pressure</text>
+
+  <text x="320" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#334155">Capillary</text>
+  <circle cx="320" cy="160" r="48" fill="#f1f5f9" stroke="#475569" stroke-width="3"/>
+  <circle cx="320" cy="160" r="41" fill="#ffffff"/>
+  <g fill="#ef4444">
+    <circle cx="314" cy="152" r="4"/>
+    <circle cx="328" cy="158" r="4"/>
+    <circle cx="318" cy="170" r="4"/>
+    <circle cx="330" cy="172" r="4"/>
+  </g>
+  <text x="320" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#334155">wall only one cell thick</text>
+  <text x="320" y="242" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#16a34a">O₂ and nutrients out,</text>
+  <text x="320" y="256" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#16a34a">CO₂ and wastes in — exchange</text>
+
+  <text x="500" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#334155">Vein</text>
+  <circle cx="500" cy="160" r="56" fill="#f1f5f9" stroke="#475569" stroke-width="3"/>
+  <circle cx="500" cy="160" r="44" fill="#fecaca"/>
+  <circle cx="500" cy="160" r="34" fill="#ffffff" stroke="#b91c1c" stroke-width="2"/>
+  <path d="M486,158 L500,146 M514,158 L500,146" stroke="#dc2626" stroke-width="2.5" fill="none"/>
+  <g fill="#ef4444">
+    <circle cx="500" cy="170" r="4"/>
+    <circle cx="491" cy="163" r="4"/>
+    <circle cx="509" cy="165" r="4"/>
+  </g>
+  <text x="500" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#334155">thinner wall, wider lumen</text>
+  <text x="500" y="252" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#334155">valves prevent backflow</text>
+  <text x="500" y="266" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#b91c1c">carries blood back to heart, low pressure</text>
+
+  <rect x="90" y="296" width="460" height="30" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="320" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#166534">Arteries branch into arterioles and then into capillaries, which rejoin as venules and veins.</text>
+  <text x="320" y="324" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#166534">Every cell is never far from a capillary — that is where the exchange of materials happens.</text>
+
+  <text x="320" y="352" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#64748b">Cross-sections not to scale.</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#047857">Classification of matter</text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="270" y="60" width="100" height="44" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+    <text x="320" y="88" text-anchor="middle" font-size="15" font-weight="bold" fill="#166534">MATTER</text>
+    <line x1="320" y1="104" x2="205" y2="130" stroke="#64748b" stroke-width="2" marker-end="url(#ar)"/>
+    <line x1="320" y1="104" x2="435" y2="130" stroke="#64748b" stroke-width="2" marker-end="url(#ar)"/>
+
+    <rect x="130" y="132" width="150" height="44" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="205" y="160" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e40af">Pure substance</text>
+    <rect x="360" y="132" width="150" height="44" rx="8" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+    <text x="435" y="160" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400e">Mixture</text>
+
+    <line x1="205" y1="176" x2="112" y2="208" stroke="#64748b" stroke-width="2" marker-end="url(#ar)"/>
+    <line x1="205" y1="176" x2="248" y2="208" stroke="#64748b" stroke-width="2" marker-end="url(#ar)"/>
+    <line x1="435" y1="176" x2="395" y2="208" stroke="#64748b" stroke-width="2" marker-end="url(#ar)"/>
+    <line x1="435" y1="176" x2="533" y2="208" stroke="#64748b" stroke-width="2" marker-end="url(#ar)"/>
+
+    <rect x="40" y="210" width="144" height="44" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+    <text x="112" y="238" text-anchor="middle" font-size="14" font-weight="bold" fill="#166534">Element</text>
+    <rect x="176" y="210" width="144" height="44" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+    <text x="248" y="238" text-anchor="middle" font-size="14" font-weight="bold" fill="#166534">Compound</text>
+    <rect x="323" y="210" width="144" height="44" rx="8" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+    <text x="395" y="238" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400e">Homogeneous</text>
+    <rect x="461" y="210" width="144" height="44" rx="8" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+    <text x="533" y="238" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400e">Heterogeneous</text>
+  </g>
+
+  <text x="320" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">elements and compounds have fixed composition</text>
+  <text x="320" y="312" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">mixtures are physical blends in any proportion</text>
+  <text x="320" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Mixtures separate by physical means; compounds only by chemical reactions</text>
+</svg>

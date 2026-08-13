@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#047857">Isotopes of hydrogen: same protons, different neutrons</text>
+
+  <g font-family="Arial, sans-serif">
+    <circle cx="130" cy="175" r="52" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <circle cx="130" cy="123" r="5" fill="#eab308"/>
+    <circle cx="130" cy="175" r="13" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    <circle cx="130" cy="175" r="4.5" fill="#ef4444"/>
+    <text x="130" y="258" text-anchor="middle" font-size="14" font-weight="bold" fill="#334155">hydrogen-1</text>
+    <text x="130" y="276" text-anchor="middle" font-size="12" fill="#475569">¹H · 1 proton, 0 neutron</text>
+
+    <circle cx="320" cy="175" r="52" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <circle cx="320" cy="123" r="5" fill="#eab308"/>
+    <circle cx="320" cy="175" r="13" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    <circle cx="314" cy="171" r="4.5" fill="#ef4444"/>
+    <circle cx="326" cy="179" r="4.5" fill="#64748b"/>
+    <text x="320" y="258" text-anchor="middle" font-size="14" font-weight="bold" fill="#334155">hydrogen-2 (deuterium)</text>
+    <text x="320" y="276" text-anchor="middle" font-size="12" fill="#475569">²H · 1 proton, 1 neutron</text>
+
+    <circle cx="510" cy="175" r="52" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <circle cx="510" cy="123" r="5" fill="#eab308"/>
+    <circle cx="510" cy="175" r="13" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    <circle cx="503" cy="171" r="4.5" fill="#ef4444"/>
+    <circle cx="517" cy="176" r="4.5" fill="#64748b"/>
+    <circle cx="510" cy="184" r="4.5" fill="#64748b"/>
+    <text x="510" y="258" text-anchor="middle" font-size="14" font-weight="bold" fill="#334155">hydrogen-3 (tritium)</text>
+    <text x="510" y="276" text-anchor="middle" font-size="12" fill="#475569">³H · 1 proton, 2 neutrons</text>
+  </g>
+
+  <text x="320" y="312" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#047857">Identical chemistry — only the mass number changes</text>
+  <text x="320" y="332" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">Deuterium forms heavy water; tritium is radioactive</text>
+  <text x="320" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Protons = red · neutrons = grey</text>
+</svg>

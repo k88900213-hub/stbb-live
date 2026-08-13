@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">SI prefixes and the power-of-ten scale</text>
+  <g transform="translate(90,120)">
+    <line x1="0" y1="40" x2="460" y2="40" stroke="#64748b" stroke-width="2"/>
+    <rect x="180" y="24" width="100" height="32" rx="6" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="230" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#92400e">1 metre</text>
+    <g font-family="Arial, sans-serif" font-size="13" fill="#334155">
+      <text x="20" y="80">10⁻⁹ nano (nm)</text>
+      <text x="20" y="104">10⁻⁶ micro (µm)</text>
+      <text x="20" y="128">10⁻³ milli (mm)</text>
+      <text x="20" y="152">10⁻² centi (cm)</text>
+      <text x="220" y="80">10³ kilo (km)</text>
+      <text x="220" y="104">10⁶ mega (Mm)</text>
+      <text x="220" y="128">10⁹ giga (Gm)</text>
+    </g>
+  </g>
+  <rect x="120" y="252" width="400" height="60" rx="10" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="320" y="274" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#166534">width of a human hair ≈ 10⁻⁴ m = 100 µm</text>
+  <text x="320" y="296" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#166534">transistor features in a phone chip ≈ a few nanometres</text>
+</svg>

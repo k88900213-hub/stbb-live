@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+    <marker id="arA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c2410c"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">A coin in water appears raised by refraction</text>
+
+  <path d="M80,120 L560,120 Q580,120 580,140 L580,280 L80,280 Z" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <path d="M80,120 Q320,90 560,120" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+  <text x="520" y="104" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1e40af">water</text>
+
+  <ellipse cx="320" cy="255" rx="34" ry="12" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+  <text x="320" y="286" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#92400e">real position of coin</text>
+
+  <line x1="250" y1="258" x2="320" y2="150" stroke="#c2410c" stroke-width="2.5" marker-end="url(#arA)"/>
+  <line x1="390" y1="258" x2="320" y2="150" stroke="#c2410c" stroke-width="2.5" marker-end="url(#arA)"/>
+  <path d="M250,258 L238,268 M390,258 L402,268" stroke="#c2410c" stroke-width="2"/>
+  <path d="M250,258 L205,290 M390,258 L435,290" stroke="#c2410c" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <ellipse cx="320" cy="150" rx="20" ry="7" fill="none" stroke="#dc2626" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="320" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">apparent position</text>
+  <text x="320" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#dc2626">(where the eye sees it)</text>
+
+  <circle cx="320" cy="60" r="16" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+  <line x1="332" y1="50" x2="348" y2="38" stroke="#475569" stroke-width="2"/>
+  <text x="320" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#334155">eye</text>
+
+  <text x="320" y="348" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Light bends away from the normal as it leaves the water, so the eye traces it back to a raised position.</text>
+</svg>

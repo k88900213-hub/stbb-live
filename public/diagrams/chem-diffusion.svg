@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="arG" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#047857"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#047857">Diffusion: particles spread from high to low concentration</text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="70" y="150" width="500" height="120" rx="8" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+    <rect x="100" y="122" width="150" height="18" rx="4" fill="#fde68a" stroke="#b45309" stroke-width="1"/>
+    <text x="175" y="135" text-anchor="middle" font-size="11" fill="#92400e">ink drop added</text>
+
+    <circle cx="105" cy="180" r="7" fill="#7c2d12"/>
+    <circle cx="130" cy="200" r="7" fill="#7c2d12"/>
+    <circle cx="95" cy="225" r="7" fill="#7c2d12"/>
+    <circle cx="125" cy="245" r="7" fill="#7c2d12"/>
+    <circle cx="150" cy="190" r="7" fill="#7c2d12"/>
+    <circle cx="170" cy="225" r="7" fill="#7c2d12"/>
+    <circle cx="190" cy="180" r="6" fill="#7c2d12"/>
+    <circle cx="215" cy="205" r="6" fill="#7c2d12"/>
+    <circle cx="200" cy="240" r="6" fill="#7c2d12"/>
+    <circle cx="240" cy="185" r="5" fill="#7c2d12"/>
+    <circle cx="260" cy="215" r="5" fill="#7c2d12"/>
+    <circle cx="235" cy="245" r="5" fill="#7c2d12"/>
+    <circle cx="290" cy="195" r="4" fill="#7c2d12"/>
+    <circle cx="315" cy="230" r="4" fill="#7c2d12"/>
+    <circle cx="350" cy="185" r="4" fill="#7c2d12"/>
+    <circle cx="380" cy="215" r="3.5" fill="#7c2d12"/>
+    <circle cx="420" cy="195" r="3" fill="#7c2d12"/>
+    <circle cx="460" cy="220" r="3" fill="#7c2d12"/>
+    <circle cx="500" cy="190" r="2.5" fill="#7c2d12"/>
+    <circle cx="535" cy="235" r="2.5" fill="#7c2d12"/>
+
+    <line x1="120" y1="110" x2="250" y2="110" stroke="#047857" stroke-width="3" marker-end="url(#arG)"/>
+    <line x1="300" y1="110" x2="430" y2="110" stroke="#047857" stroke-width="3" marker-end="url(#arG)"/>
+    <line x1="480" y1="110" x2="560" y2="110" stroke="#047857" stroke-width="3" marker-end="url(#arG)"/>
+
+    <text x="110" y="320" font-size="12" fill="#475569">high concentration</text>
+    <text x="470" y="320" font-size="12" fill="#475569">low concentration</text>
+    <text x="320" y="340" text-anchor="middle" font-size="13" fill="#047857">spreading continues until the mixture is uniform</text>
+  </g>
+
+  <text x="320" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">A drop of ink colours a whole beaker of water without stirring</text>
+</svg>

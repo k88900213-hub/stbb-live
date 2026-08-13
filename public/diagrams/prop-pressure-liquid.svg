@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">Pressure in a liquid grows with depth</text>
+  <g transform="translate(150,70)">
+    <rect x="90" y="20" width="300" height="240" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2.5"/>
+    <text x="240" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1e40af">surface</text>
+    <line x1="240" y1="50" x2="240" y2="230" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <circle cx="200" cy="90" r="7" fill="#475569"/>
+    <text x="0" y="94" font-family="Arial, sans-serif" font-size="12" fill="#334155">A: small pressure</text>
+    <path d="M207,90 Q250,105 270,135" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ar)"/>
+    <circle cx="200" cy="165" r="7" fill="#475569"/>
+    <text x="0" y="169" font-family="Arial, sans-serif" font-size="12" fill="#334155">B: more pressure</text>
+    <path d="M207,165 Q250,195 280,230" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ar)"/>
+    <circle cx="240" cy="215" r="7" fill="#475569"/>
+    <text x="330" y="205" font-family="Arial, sans-serif" font-size="12" fill="#334155">C: greatest —</text>
+    <text x="330" y="221" font-family="Arial, sans-serif" font-size="12" fill="#334155">jet flies farthest</text>
+    <path d="M247,215 Q290,235 310,250" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ar)"/>
+  </g>
+  <text x="320" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">P = ρ·g·h · dams are made thicker at the bottom</text>
+</svg>

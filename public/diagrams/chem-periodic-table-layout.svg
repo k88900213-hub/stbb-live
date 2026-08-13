@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#047857">Layout of the modern periodic table</text>
+
+  <g font-family="Arial, sans-serif">
+    <text x="130" y="66" text-anchor="middle" font-size="11" fill="#475569">1</text>
+    <text x="153" y="66" text-anchor="middle" font-size="11" fill="#475569">2</text>
+    <text x="406" y="66" text-anchor="middle" font-size="11" fill="#475569">13</text>
+    <text x="429" y="66" text-anchor="middle" font-size="11" fill="#475569">14</text>
+    <text x="452" y="66" text-anchor="middle" font-size="11" fill="#475569">15</text>
+    <text x="475" y="66" text-anchor="middle" font-size="11" fill="#475569">16</text>
+    <text x="498" y="66" text-anchor="middle" font-size="11" fill="#475569">17</text>
+    <text x="521" y="66" text-anchor="middle" font-size="11" fill="#475569">18</text>
+
+    <text x="108" y="95" text-anchor="end" font-size="11" fill="#475569">1</text>
+    <text x="108" y="118" text-anchor="end" font-size="11" fill="#475569">2</text>
+    <text x="108" y="141" text-anchor="end" font-size="11" fill="#475569">3</text>
+    <text x="108" y="164" text-anchor="end" font-size="11" fill="#475569">4</text>
+    <text x="108" y="187" text-anchor="end" font-size="11" fill="#475569">5</text>
+    <text x="108" y="210" text-anchor="end" font-size="11" fill="#475569">6</text>
+    <text x="108" y="233" text-anchor="end" font-size="11" fill="#475569">7</text>
+
+    <rect x="120" y="80" width="46" height="20" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+    <rect x="120" y="103" width="46" height="20" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+    <rect x="166" y="103" width="138" height="20" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <rect x="120" y="126" width="46" height="20" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+    <rect x="166" y="126" width="138" height="20" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <rect x="120" y="149" width="46" height="20" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+    <rect x="166" y="149" width="230" height="20" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <rect x="396" y="149" width="138" height="20" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <rect x="120" y="172" width="46" height="20" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+    <rect x="166" y="172" width="230" height="20" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <rect x="396" y="172" width="138" height="20" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <rect x="120" y="195" width="46" height="20" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+    <rect x="166" y="195" width="230" height="20" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <rect x="396" y="195" width="138" height="20" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <rect x="120" y="218" width="46" height="20" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+    <rect x="166" y="218" width="230" height="20" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <rect x="396" y="218" width="138" height="20" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+
+    <rect x="212" y="252" width="322" height="20" fill="#e2e8f0" stroke="#475569" stroke-width="1.5"/>
+    <rect x="212" y="275" width="322" height="20" fill="#e2e8f0" stroke="#475569" stroke-width="1.5"/>
+    <text x="373" y="289" text-anchor="middle" font-size="11" fill="#334155">f-block (lanthanides and actinides)</text>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="11" fill="#334155">
+    <rect x="560" y="80" width="12" height="12" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="576" y="90">s-block</text>
+    <rect x="560" y="108" width="12" height="12" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="576" y="118">d-block</text>
+    <rect x="560" y="136" width="12" height="12" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="576" y="146">p-block</text>
+    <rect x="560" y="164" width="12" height="12" fill="#e2e8f0" stroke="#475569" stroke-width="1.5"/>
+    <text x="576" y="174">f-block</text>
+  </g>
+
+  <text x="320" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">7 periods (horizontal rows), 18 groups (vertical columns)</text>
+  <text x="320" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Elements in a group share the same number of valence electrons</text>
+</svg>

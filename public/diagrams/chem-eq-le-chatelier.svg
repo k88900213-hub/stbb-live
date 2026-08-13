@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#047857">Le Chatelier's principle: concentration shifts the position</text>
+
+  <polygon points="320,240 292,280 348,280" fill="#e2e8f0" stroke="#475569" stroke-width="1.5"/>
+  <text x="320" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#475569">fulcrum</text>
+
+  <line x1="140" y1="256" x2="500" y2="244" stroke="#475569" stroke-width="4"/>
+
+  <path d="M110,258 L88,262 L88,288 L170,288 L170,262 L148,258 Z" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="129" y="278" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e40af">N₂ + 3H₂</text>
+  <text x="129" y="308" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#334155">reactants</text>
+
+  <path d="M470,246 L492,242 L492,270 L530,270 L530,242 L508,246 Z" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="501" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#166534">2NH₃</text>
+  <text x="501" y="296" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#334155">products (favoured)</text>
+
+  <line x1="160" y1="118" x2="160" y2="196" stroke="#c2410c" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text x="160" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#c2410c">add N₂</text>
+
+  <text x="480" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#047857">shifts to products</text>
+  <line x1="480" y1="128" x2="480" y2="196" stroke="#047857" stroke-width="2.5" marker-end="url(#ar)"/>
+
+  <rect x="110" y="318" width="420" height="30" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="320" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" fill="#166534">Adding a reactant (or removing a product) shifts the position — the value of Kc is unchanged.</text>
+</svg>

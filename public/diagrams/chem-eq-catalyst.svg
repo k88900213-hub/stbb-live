@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#047857">A catalyst lowers the activation energy</text>
+
+  <line x1="80" y1="280" x2="580" y2="280" stroke="#475569" stroke-width="2" marker-end="url(#ar)"/>
+  <line x1="80" y1="280" x2="80" y2="50" stroke="#475569" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="584" y="300" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#334155">reaction coordinate</text>
+  <text x="52" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#334155">energy</text>
+
+  <line x1="110" y1="250" x2="180" y2="250" stroke="#475569" stroke-width="2.5"/>
+  <circle cx="110" cy="250" r="4" fill="#475569"/>
+  <text x="110" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#334155">reactants</text>
+
+  <line x1="470" y1="165" x2="545" y2="165" stroke="#475569" stroke-width="2.5"/>
+  <circle cx="545" cy="165" r="4" fill="#475569"/>
+  <text x="545" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#334155">products</text>
+
+  <path d="M180,250 C220,140 270,85 305,82 C340,85 390,140 470,165" fill="none" stroke="#c2410c" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <path d="M180,250 C220,200 270,160 305,158 C340,160 390,175 470,165" fill="none" stroke="#047857" stroke-width="2.5"/>
+
+  <text x="320" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#c2410c">without catalyst</text>
+  <text x="320" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#047857">with catalyst</text>
+
+  <line x1="205" y1="250" x2="205" y2="120" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="200" y1="120" x2="210" y2="120" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="200" y1="250" x2="210" y2="250" stroke="#94a3b8" stroke-width="1"/>
+  <text x="196" y="188" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#c2410c">Ea (no catalyst)</text>
+
+  <line x1="245" y1="250" x2="245" y2="202" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="240" y1="202" x2="250" y2="202" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="240" y1="250" x2="250" y2="250" stroke="#94a3b8" stroke-width="1"/>
+  <text x="237" y="228" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#047857">Ea (catalysed)</text>
+
+  <line x1="150" y1="165" x2="150" y2="250" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="140" y="210" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#334155">heat given out</text>
+
+  <rect x="110" y="316" width="420" height="30" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="320" y="336" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" fill="#166534">A catalyst speeds up both directions equally — it never shifts the equilibrium position.</text>
+</svg>

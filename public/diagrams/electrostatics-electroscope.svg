@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+    <marker id="arA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c2410c"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">The gold-leaf electroscope</text>
+
+  <rect x="230" y="70" width="180" height="18" rx="4" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+  <text x="320" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#92400e">metal disc (cap)</text>
+
+  <line x1="320" y1="88" x2="320" y2="200" stroke="#475569" stroke-width="5"/>
+  <text x="352" y="150" font-family="Arial, sans-serif" font-size="12" fill="#334155">metal rod</text>
+
+  <path d="M300,205 L260,270 M300,205 L340,270" stroke="#eab308" stroke-width="2.5"/>
+  <text x="260" y="290" font-family="Arial, sans-serif" font-size="12" fill="#92400e">gold leaves</text>
+  <text x="252" y="306" font-family="Arial, sans-serif" font-size="11" fill="#475569">(they repel and spread apart)</text>
+
+  <path d="M200,230 Q170,190 180,120 L180,90 Q180,80 190,80 L450,80 Q460,80 460,90 L460,120 Q470,190 440,230 Z" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+  <text x="250" y="330" font-family="Arial, sans-serif" font-size="12" fill="#334155">glass jar</text>
+
+  <g transform="translate(470,110)">
+    <rect x="-6" y="-30" width="12" height="60" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#dc2626">+</text>
+    <text x="24" y="46" font-family="Arial, sans-serif" font-size="12" fill="#92400e">charged rod</text>
+    <line x1="0" y1="-30" x2="0" y2="-52" stroke="#c2410c" stroke-width="2" marker-end="url(#arA)"/>
+    <text x="26" y="-40" font-family="Arial, sans-serif" font-size="11" fill="#c2410c">bring near</text>
+  </g>
+
+  <rect x="120" y="336" width="400" height="1" fill="none"/>
+  <text x="320" y="348" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Charge spreads from the cap to the leaves; like charges repel, so the leaves diverge more with more charge.</text>
+</svg>

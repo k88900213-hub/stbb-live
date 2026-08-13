@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+    <marker id="arA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c2410c"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">Total internal reflection in an optical fibre</text>
+
+  <path d="M120,180 L520,180 L560,210 L560,215 L505,186 L120,186 Z" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+  <text x="120" y="206" font-family="Arial, sans-serif" font-size="12" fill="#92400e">cladding (low index)</text>
+  <text x="180" y="176" font-family="Arial, sans-serif" font-size="12" fill="#92400e">core (high index)</text>
+
+  <path d="M120,186 L150,186 L185,196 L245,176 L305,190 L365,172 L425,192 L470,178" fill="none" stroke="#c2410c" stroke-width="3"/>
+  <path d="M120,186 L145,186" stroke="#dc2626" stroke-width="2.5" marker-end="url(#arA)"/>
+  <text x="112" y="160" font-family="Arial, sans-serif" font-size="12" fill="#dc2626">incoming light</text>
+
+  <line x1="150" y1="186" x2="150" y2="222" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="150" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#475569">normal</text>
+  <path d="M158,196 A12,12 0 0 0 170,190" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="180" y="206" font-family="Arial, sans-serif" font-size="11" fill="#166534">θᶜ</text>
+  <text x="272" y="218" font-family="Arial, sans-serif" font-size="11" fill="#166534">angle &gt; critical angle</text>
+
+  <path d="M470,178 L505,186 L545,214" fill="none" stroke="#dc2626" stroke-width="2.5" marker-end="url(#arA)"/>
+  <text x="520" y="240" font-family="Arial, sans-serif" font-size="12" fill="#dc2626">light out,</text>
+  <text x="520" y="254" font-family="Arial, sans-serif" font-size="12" fill="#dc2626">km away</text>
+
+  <rect x="120" y="268" width="420" height="46" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="330" y="286" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#166534">Ray hits the core–cladding boundary at more than the critical angle</text>
+  <text x="330" y="304" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#166534">and is reflected back in — it can never escape the core.</text>
+
+  <text x="320" y="348" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Repeated total internal reflection guides light along the fibre with very little loss.</text>
+</svg>

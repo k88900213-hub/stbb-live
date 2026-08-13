@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+    <marker id="arA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c2410c"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">A compound microscope</text>
+
+  <rect x="270" y="70" width="100" height="180" fill="#e2e8f0" stroke="#475569" stroke-width="1.5"/>
+  <rect x="290" y="150" width="60" height="6" rx="3" fill="#cbd5e1" stroke="#475569" stroke-width="1"/>
+  <text x="320" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#334155">tube</text>
+
+  <path d="M260,88 Q320,110 380,88" fill="none" stroke="#b45309" stroke-width="5"/>
+  <text x="320" y="102" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#92400e">eyepiece lens</text>
+
+  <path d="M260,222 Q320,200 380,222" fill="none" stroke="#2563eb" stroke-width="5"/>
+  <text x="320" y="246" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e40af">objective lens</text>
+
+  <rect x="300" y="262" width="40" height="16" rx="3" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+  <text x="320" y="294" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#92400e">specimen</text>
+
+  <path d="M300,78 L300,30 M340,78 L340,30 M320,30 L320,14" fill="none" stroke="#c2410c" stroke-width="2" marker-end="url(#arA)"/>
+  <circle cx="320" cy="54" r="10" fill="none" stroke="#c2410c" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="360" y="40" font-family="Arial, sans-serif" font-size="12" fill="#dc2626">virtual image</text>
+  <text x="360" y="54" font-family="Arial, sans-serif" font-size="11" fill="#dc2626">(seen by the eye)</text>
+
+  <path d="M308,240 L308,216 M332,240 L332,216" stroke="#16a34a" stroke-width="1.5"/>
+  <path d="M308,230 L332,230" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="300" y="208" font-family="Arial, sans-serif" font-size="11" fill="#166534">real image formed here</text>
+
+  <line x1="240" y1="280" x2="230" y2="300" stroke="#94a3b8" stroke-width="2"/>
+  <text x="180" y="318" font-family="Arial, sans-serif" font-size="11" fill="#475569">stage / mirror</text>
+
+  <rect x="120" y="80" width="90" height="70" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="165" y="104" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#166534">objective</text>
+  <text x="165" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#166534">forms a large</text>
+  <text x="165" y="134" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#166534">real image</text>
+  <rect x="430" y="80" width="90" height="70" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="475" y="104" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#166534">eyepiece</text>
+  <text x="475" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#166534">magnifies it</text>
+  <text x="475" y="134" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#166534">further</text>
+
+  <text x="320" y="348" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Two lenses work together: the objective makes a real image, the eyepiece enlarges it for the eye.</text>
+</svg>

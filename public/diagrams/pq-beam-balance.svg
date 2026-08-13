@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">The beam balance compares unknown mass with standard masses</text>
+  <line x1="320" y1="70" x2="320" y2="300" stroke="#64748b" stroke-width="3"/>
+  <line x1="120" y1="120" x2="520" y2="120" stroke="#334155" stroke-width="7"/>
+  <circle cx="320" cy="120" r="14" fill="#c2410c"/>
+  <text x="320" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#334155">pivot</text>
+  <line x1="120" y1="120" x2="80" y2="250" stroke="#334155" stroke-width="4"/>
+  <line x1="520" y1="120" x2="560" y2="250" stroke="#334155" stroke-width="4"/>
+  <line x1="80" y1="250" x2="80" y2="290" stroke="#334155" stroke-width="4"/>
+  <line x1="560" y1="250" x2="560" y2="290" stroke="#334155" stroke-width="4"/>
+  <rect x="36" y="290" width="88" height="34" rx="6" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+  <text x="80" y="312" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#92400e">object</text>
+  <rect x="516" y="290" width="88" height="34" rx="6" fill="#e2e8f0" stroke="#475569" stroke-width="1.5"/>
+  <text x="560" y="312" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#334155">standard masses</text>
+  <text x="320" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">the pans balance only when the two masses are equal — this compares mass, it does not weigh it</text>
+</svg>

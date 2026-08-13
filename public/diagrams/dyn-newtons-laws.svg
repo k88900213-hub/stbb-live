@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+    <marker id="arA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c2410c"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">Newton's three laws of motion</text>
+
+  <g transform="translate(30,60)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#9a3412">First law — inertia</text>
+    <rect x="60" y="18" width="120" height="26" rx="4" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="120" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#92400e">book at rest</text>
+    <line x1="30" y1="0" x2="210" y2="0" stroke="#94a3b8" stroke-width="1"/>
+    <text x="20" y="70" font-family="Arial, sans-serif" font-size="11.5" fill="#334155">stays at rest unless a force acts</text>
+    <text x="20" y="88" font-family="Arial, sans-serif" font-size="11.5" fill="#334155">moving body keeps moving at steady speed</text>
+  </g>
+
+  <g transform="translate(320,60)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#9a3412">Second law — F = ma</text>
+    <rect x="20" y="18" width="110" height="26" rx="4" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="75" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#92400e">mass m</text>
+    <line x1="130" y1="31" x2="220" y2="31" stroke="#c2410c" stroke-width="3" marker-end="url(#arA)"/>
+    <text x="170" y="24" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#c2410c">F</text>
+    <text x="20" y="70" font-family="Arial, sans-serif" font-size="11.5" fill="#334155">force gives acceleration</text>
+    <text x="20" y="88" font-family="Arial, sans-serif" font-size="11.5" fill="#334155">a = F/m</text>
+  </g>
+
+  <g transform="translate(30,170)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#9a3412">Third law — action–reaction</text>
+    <rect x="10" y="18" width="90" height="26" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="55" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1e40af">hand</text>
+    <rect x="200" y="18" width="90" height="26" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="245" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1e40af">wall</text>
+    <line x1="100" y1="31" x2="198" y2="31" stroke="#c2410c" stroke-width="2.5" marker-end="url(#arA)"/>
+    <line x1="200" y1="45" x2="102" y2="45" stroke="#64748b" stroke-width="2.5" marker-end="url(#ar)"/>
+    <text x="20" y="80" font-family="Arial, sans-serif" font-size="11.5" fill="#334155">equal and opposite forces</text>
+    <text x="20" y="98" font-family="Arial, sans-serif" font-size="11.5" fill="#334155">acting on different bodies</text>
+  </g>
+
+  <g transform="translate(320,170)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#9a3412">Inertia in a crash</text>
+    <line x1="30" y1="18" x2="230" y2="18" stroke="#475569" stroke-width="2"/>
+    <rect x="60" y="18" width="60" height="22" rx="4" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="90" y="33" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#92400e">car</text>
+    <circle cx="75" cy="44" r="8" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <circle cx="165" cy="44" r="8" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="20" y="80" font-family="Arial, sans-serif" font-size="11.5" fill="#334155">a sudden stop throws bodies</text>
+    <text x="20" y="98" font-family="Arial, sans-serif" font-size="11.5" fill="#334155">forward — hence seat belts</text>
+  </g>
+  <text x="320" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">momentum p = mv · impulse F·Δt = Δ(mv)</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#047857">Flame tests identify metal ions</text>
+
+  <g>
+    <path d="M320,220 C300,185 300,150 320,130 C340,150 340,185 320,220 Z" fill="#fbbf24" opacity="0.9"/>
+    <path d="M320,205 C308,182 308,160 320,148 C332,160 332,182 320,205 Z" fill="#f97316"/>
+    <path d="M320,185 C314,172 314,160 320,154 C326,160 326,172 320,185 Z" fill="#7c3aed"/>
+  </g>
+  <line x1="320" y1="220" x2="320" y2="250" stroke="#475569" stroke-width="3"/>
+  <text x="320" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">wire loop dipped in salt</text>
+
+  <g font-family="Arial, sans-serif" font-size="12" fill="#334155">
+    <circle cx="120" cy="110" r="9" fill="#facc15" stroke="#b45309" stroke-width="1.5"/>
+    <text x="140" y="114">sodium — intense yellow</text>
+    <circle cx="120" cy="140" r="9" fill="#a78bfa" stroke="#6d28d9" stroke-width="1.5"/>
+    <text x="140" y="144">potassium — lilac</text>
+    <circle cx="120" cy="170" r="9" fill="#dc2626" stroke="#991b1b" stroke-width="1.5"/>
+    <text x="140" y="174">calcium — brick red</text>
+    <circle cx="120" cy="200" r="9" fill="#16a34a" stroke="#14532d" stroke-width="1.5"/>
+    <text x="140" y="204">barium — apple green</text>
+    <circle cx="120" cy="230" r="9" fill="#22d3ee" stroke="#0e7490" stroke-width="1.5"/>
+    <text x="140" y="234">copper — blue-green</text>
+  </g>
+
+  <rect x="420" y="110" width="170" height="80" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="505" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" fill="#166534">Electrons jump to higher</text>
+  <text x="505" y="158" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" fill="#166534">shells, then fall back,</text>
+  <text x="505" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" fill="#166534">emitting the colour.</text>
+
+  <rect x="110" y="300" width="420" height="34" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="320" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" fill="#166534">The colour belongs to the metal ion, not the salt — sodium chloride and sodium</text>
+  <text x="320" y="332" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#166534">nitrate both give the same yellow flame.</text>
+</svg>

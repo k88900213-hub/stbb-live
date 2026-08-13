@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#047857">Particle model of solids, liquids and gases</text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="35" y="80" width="170" height="170" rx="10" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+    <text x="120" y="105" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400e">SOLID</text>
+    <circle cx="62" cy="122" r="9" fill="#059669"/>
+    <circle cx="92" cy="122" r="9" fill="#059669"/>
+    <circle cx="122" cy="122" r="9" fill="#059669"/>
+    <circle cx="152" cy="122" r="9" fill="#059669"/>
+    <circle cx="62" cy="150" r="9" fill="#059669"/>
+    <circle cx="92" cy="150" r="9" fill="#059669"/>
+    <circle cx="122" cy="150" r="9" fill="#059669"/>
+    <circle cx="152" cy="150" r="9" fill="#059669"/>
+    <circle cx="62" cy="178" r="9" fill="#059669"/>
+    <circle cx="92" cy="178" r="9" fill="#059669"/>
+    <circle cx="122" cy="178" r="9" fill="#059669"/>
+    <circle cx="152" cy="178" r="9" fill="#059669"/>
+    <circle cx="62" cy="206" r="9" fill="#059669"/>
+    <circle cx="92" cy="206" r="9" fill="#059669"/>
+    <circle cx="122" cy="206" r="9" fill="#059669"/>
+    <circle cx="152" cy="206" r="9" fill="#059669"/>
+    <text x="120" y="268" text-anchor="middle" font-size="12" fill="#475569">tight, ordered, vibrating</text>
+    <text x="120" y="284" text-anchor="middle" font-size="12" fill="#475569">fixed shape and volume</text>
+
+    <rect x="235" y="80" width="170" height="170" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="320" y="105" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e40af">LIQUID</text>
+    <circle cx="255" cy="125" r="9" fill="#059669"/>
+    <circle cx="295" cy="118" r="9" fill="#059669"/>
+    <circle cx="335" cy="126" r="9" fill="#059669"/>
+    <circle cx="375" cy="119" r="9" fill="#059669"/>
+    <circle cx="265" cy="160" r="9" fill="#059669"/>
+    <circle cx="308" cy="168" r="9" fill="#059669"/>
+    <circle cx="350" cy="158" r="9" fill="#059669"/>
+    <circle cx="385" cy="172" r="9" fill="#059669"/>
+    <circle cx="258" cy="200" r="9" fill="#059669"/>
+    <circle cx="300" cy="205" r="9" fill="#059669"/>
+    <circle cx="345" cy="198" r="9" fill="#059669"/>
+    <text x="320" y="268" text-anchor="middle" font-size="12" fill="#475569">close but sliding past</text>
+    <text x="320" y="284" text-anchor="middle" font-size="12" fill="#475569">fixed volume, shape of container</text>
+
+    <rect x="435" y="80" width="170" height="170" rx="10" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+    <text x="520" y="105" text-anchor="middle" font-size="14" font-weight="bold" fill="#166534">GAS</text>
+    <circle cx="462" cy="120" r="9" fill="#059669"/>
+    <circle cx="520" cy="110" r="9" fill="#059669"/>
+    <circle cx="575" cy="122" r="9" fill="#059669"/>
+    <circle cx="485" cy="165" r="9" fill="#059669"/>
+    <circle cx="545" cy="158" r="9" fill="#059669"/>
+    <circle cx="590" cy="170" r="9" fill="#059669"/>
+    <circle cx="468" cy="208" r="9" fill="#059669"/>
+    <circle cx="530" cy="212" r="9" fill="#059669"/>
+    <circle cx="580" cy="205" r="9" fill="#059669"/>
+    <text x="520" y="268" text-anchor="middle" font-size="12" fill="#475569">far apart, fast, random</text>
+    <text x="520" y="284" text-anchor="middle" font-size="12" fill="#475569">fills the whole container</text>
+  </g>
+
+  <text x="320" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">The same particles — only their spacing and motion change</text>
+  <text x="320" y="342" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Motion beats attraction → gas; attraction beats motion → solid</text>
+</svg>

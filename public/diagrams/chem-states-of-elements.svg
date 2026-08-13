@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#047857">States and symbols of elements at room temperature</text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="40" y="75" width="88" height="56" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="84" y="98" text-anchor="middle" font-size="16" font-weight="bold" fill="#166534">H</text>
+    <text x="84" y="118" text-anchor="middle" font-size="11" fill="#166534">hydrogen</text>
+    <rect x="138" y="75" width="88" height="56" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="182" y="98" text-anchor="middle" font-size="16" font-weight="bold" fill="#166534">O</text>
+    <text x="182" y="118" text-anchor="middle" font-size="11" fill="#166534">oxygen</text>
+    <rect x="236" y="75" width="88" height="56" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="280" y="98" text-anchor="middle" font-size="16" font-weight="bold" fill="#166534">N</text>
+    <text x="280" y="118" text-anchor="middle" font-size="11" fill="#166534">nitrogen</text>
+    <rect x="334" y="75" width="88" height="56" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="378" y="98" text-anchor="middle" font-size="16" font-weight="bold" fill="#166534">Cl</text>
+    <text x="378" y="118" text-anchor="middle" font-size="11" fill="#166534">chlorine</text>
+    <rect x="432" y="75" width="88" height="56" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="476" y="98" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e40af">Br</text>
+    <text x="476" y="118" text-anchor="middle" font-size="11" fill="#1e40af">bromine</text>
+    <rect x="530" y="75" width="88" height="56" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="574" y="98" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e40af">Hg</text>
+    <text x="574" y="118" text-anchor="middle" font-size="11" fill="#1e40af">mercury</text>
+
+    <rect x="40" y="145" width="88" height="56" rx="8" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="84" y="168" text-anchor="middle" font-size="16" font-weight="bold" fill="#92400e">Na</text>
+    <text x="84" y="188" text-anchor="middle" font-size="11" fill="#92400e">sodium</text>
+    <rect x="138" y="145" width="88" height="56" rx="8" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="182" y="168" text-anchor="middle" font-size="16" font-weight="bold" fill="#92400e">Fe</text>
+    <text x="182" y="188" text-anchor="middle" font-size="11" fill="#92400e">iron</text>
+    <rect x="236" y="145" width="88" height="56" rx="8" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="280" y="168" text-anchor="middle" font-size="16" font-weight="bold" fill="#92400e">Cu</text>
+    <text x="280" y="188" text-anchor="middle" font-size="11" fill="#92400e">copper</text>
+    <rect x="334" y="145" width="88" height="56" rx="8" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="378" y="168" text-anchor="middle" font-size="16" font-weight="bold" fill="#92400e">C</text>
+    <text x="378" y="188" text-anchor="middle" font-size="11" fill="#92400e">carbon</text>
+    <rect x="432" y="145" width="88" height="56" rx="8" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="476" y="168" text-anchor="middle" font-size="16" font-weight="bold" fill="#92400e">S</text>
+    <text x="476" y="188" text-anchor="middle" font-size="11" fill="#92400e">sulphur</text>
+    <rect x="530" y="145" width="88" height="56" rx="8" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="574" y="168" text-anchor="middle" font-size="16" font-weight="bold" fill="#92400e">Au</text>
+    <text x="574" y="188" text-anchor="middle" font-size="11" fill="#92400e">gold</text>
+  </g>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="180" y="245" width="16" height="16" rx="3" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="202" y="258" font-size="13" fill="#334155">Gas</text>
+    <rect x="300" y="245" width="16" height="16" rx="3" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="322" y="258" font-size="13" fill="#334155">Liquid</text>
+    <rect x="420" y="245" width="16" height="16" rx="3" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="442" y="258" font-size="13" fill="#334155">Solid</text>
+  </g>
+  <text x="320" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">Symbols (H, O, Fe) are the universal language of chemistry</text>
+  <text x="320" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Only two elements are liquid at room temperature: bromine and mercury</text>
+</svg>

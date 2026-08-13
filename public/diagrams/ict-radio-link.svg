@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+    <marker id="arA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c2410c"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">A radio link: transmitter, wave and receiver</text>
+
+  <g transform="translate(40,80)">
+    <rect x="0" y="20" width="90" height="70" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="45" y="46" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1e40af">transmitter</text>
+    <text x="45" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e40af">modulates the</text>
+    <text x="45" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e40af">carrier wave</text>
+    <line x1="45" y1="20" x2="45" y2="0" stroke="#475569" stroke-width="2"/>
+    <circle cx="45" cy="-4" r="4" fill="#c2410c"/>
+    <line x1="45" y1="0" x2="45" y2="6" stroke="#475569" stroke-width="3"/>
+    <text x="45" y="-14" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#475569">aerial</text>
+    <path d="M10,88 L10,108 M80,88 L80,108" stroke="#94a3b8" stroke-width="1.5"/>
+    <rect x="0" y="108" width="90" height="22" rx="4" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="45" y="123" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#92400e">microphone</text>
+  </g>
+
+  <path d="M190,96 Q240,40 300,96 Q360,152 420,96 Q480,40 520,96" fill="none" stroke="#c2410c" stroke-width="2.5"/>
+  <g stroke="#c2410c" stroke-width="1.8" fill="none">
+    <path d="M200,110 Q250,70 290,110"/>
+    <path d="M310,110 Q360,70 400,110"/>
+    <path d="M420,110 Q470,70 510,110"/>
+  </g>
+  <text x="355" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c2410c">modulated carrier wave</text>
+  <text x="355" y="56" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#475569">(AM: the height follows the audio)</text>
+
+  <g transform="translate(560,80)">
+    <circle cx="0" cy="-4" r="4" fill="#c2410c"/>
+    <line x1="0" y1="0" x2="0" y2="20" stroke="#475569" stroke-width="3"/>
+    <rect x="-45" y="20" width="90" height="70" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="0" y="46" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#166534">receiver</text>
+    <text x="0" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#166534">tunes, demodulates</text>
+    <text x="0" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#166534">and amplifies</text>
+    <rect x="-45" y="90" width="90" height="22" rx="4" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="0" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#92400e">loudspeaker</text>
+  </g>
+
+  <text x="320" y="348" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Modulation writes the audio onto the carrier wave; the receiver takes it off again and turns it into sound.</text>
+</svg>

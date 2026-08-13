@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+    <marker id="arA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c2410c"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">Light pulses in an optical fibre</text>
+
+  <rect x="120" y="150" width="400" height="46" rx="8" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+  <text x="320" y="182" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#92400e">fibre core</text>
+  <path d="M120,196 L520,196 L530,216 L110,216 Z" fill="#e2e8f0" stroke="#475569" stroke-width="1.5"/>
+  <text x="330" y="234" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#475569">cladding (lower refractive index)</text>
+
+  <rect x="70" y="140" width="50" height="66" rx="6" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+  <text x="95" y="166" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#92400e">laser /</text>
+  <text x="95" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#92400e">LED</text>
+  <text x="95" y="196" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#92400e">sender</text>
+
+  <rect x="520" y="140" width="50" height="66" rx="6" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="545" y="166" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#166534">detector</text>
+  <text x="545" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#166534">/ receiver</text>
+
+  <path d="M120,173 L160,173 L190,185 L250,163 L310,185 L370,163 L430,185 L480,173 L520,173" fill="none" stroke="#c2410c" stroke-width="3.5"/>
+  <line x1="120" y1="173" x2="160" y2="173" stroke="#dc2626" stroke-width="2.5" marker-end="url(#arA)"/>
+  <g fill="#c2410c">
+    <circle cx="190" cy="185" r="4"/><circle cx="250" cy="163" r="4"/>
+    <circle cx="310" cy="185" r="4"/><circle cx="370" cy="163" r="4"/>
+    <circle cx="430" cy="185" r="4"/><circle cx="480" cy="173" r="4"/>
+  </g>
+  <text x="320" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c2410c">pulses of light bouncing along by total internal reflection</text>
+
+  <line x1="190" y1="185" x2="190" y2="214" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="190" y="252" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#475569">reflect at</text>
+  <text x="190" y="264" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#475569">core–cladding</text>
+
+  <rect x="170" y="280" width="300" height="34" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="320" y="302" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#166534">Millions of light pulses per second carry huge amounts of data,</text>
+  <text x="320" y="316" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#166534">immune to electrical interference.</text>
+
+  <text x="320" y="348" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">The fibre guides light by total internal reflection, carrying far more data than copper wire.</text>
+</svg>

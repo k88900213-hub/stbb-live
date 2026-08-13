@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="arA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c2410c"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">Radiation: heat travels as waves, no medium needed</text>
+  <g transform="translate(120,110)">
+    <rect x="0" y="40" width="120" height="120" rx="10" fill="#fca5a5" stroke="#dc2626" stroke-width="2"/>
+    <text x="60" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f1d1d">Sun / fire</text>
+    <path d="M130,60 A120,120 0 0 1 280,60" fill="none" stroke="#c2410c" stroke-width="2.5" stroke-dasharray="6 6" marker-end="url(#arA)"/>
+    <path d="M120,100 A130,130 0 0 1 280,100" fill="none" stroke="#c2410c" stroke-width="2.5" stroke-dasharray="6 6" marker-end="url(#arA)"/>
+    <path d="M120,140 A130,130 0 0 1 280,140" fill="none" stroke="#c2410c" stroke-width="2.5" stroke-dasharray="6 6" marker-end="url(#arA)"/>
+    <rect x="285" y="55" width="120" height="120" rx="10" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+    <text x="345" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#92400e">your hand</text>
+    <text x="345" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#92400e">feels warm</text>
+  </g>
+  <text x="320" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#334155">infrared waves cross empty space — that is how the Sun heats the Earth</text>
+  <rect x="120" y="300" width="400" height="40" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="320" y="326" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#166534">dark matt surfaces absorb and emit radiation better than shiny ones</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+    <marker id="arA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c2410c"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="26" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#0369a1">The nephron: the functional unit of the kidney</text>
+
+  <circle cx="200" cy="80" r="16" fill="#fecaca" stroke="#dc2626" stroke-width="1.5"/>
+  <circle cx="190" cy="76" r="6" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+  <circle cx="205" cy="84" r="6" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+  <circle cx="196" cy="88" r="6" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+  <text x="200" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#334155">glomerulus</text>
+  <text x="200" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#334155">Bowman's capsule</text>
+
+  <path d="M182,100 C180,125 220,128 215,150 C210,172 185,170 188,190" stroke="#475569" stroke-width="8" fill="none"/>
+  <text x="150" y="130" font-family="Arial, sans-serif" font-size="11" fill="#334155">proximal</text>
+  <text x="150" y="143" font-family="Arial, sans-serif" font-size="11" fill="#334155">convoluted</text>
+  <text x="150" y="156" font-family="Arial, sans-serif" font-size="11" fill="#334155">tubule</text>
+
+  <path d="M235,175 L245,240 Q250,270 275,270 L315,270 Q340,270 345,240 L350,185" stroke="#475569" stroke-width="8" fill="none"/>
+  <text x="260" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#334155">loop of Henle</text>
+
+  <path d="M350,160 C350,130 385,128 382,150 C380,170 352,168 350,130" stroke="#475569" stroke-width="8" fill="none"/>
+  <text x="388" y="118" font-family="Arial, sans-serif" font-size="11" fill="#334155">distal</text>
+  <text x="388" y="131" font-family="Arial, sans-serif" font-size="11" fill="#334155">convoluted</text>
+  <text x="388" y="144" font-family="Arial, sans-serif" font-size="11" fill="#334155">tubule</text>
+
+  <line x1="425" y1="120" x2="425" y2="300" stroke="#64748b" stroke-width="14"/>
+  <line x1="425" y1="120" x2="425" y2="300" stroke="#cbd5e1" stroke-width="8"/>
+  <text x="425" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#334155">collecting duct</text>
+
+  <line x1="60" y1="62" x2="186" y2="72" stroke="#dc2626" stroke-width="4"/>
+  <text x="70" y="52" font-family="Arial, sans-serif" font-size="11" fill="#334155">afferent arteriole</text>
+  <path d="M214,90 C250,95 280,110 300,130" stroke="#dc2626" stroke-width="3" fill="none"/>
+  <path d="M300,130 C310,150 300,170 275,180 C250,190 225,180 210,160" stroke="#dc2626" stroke-width="3" fill="none"/>
+  <line x1="210" y1="160" x2="60" y2="190" stroke="#dc2626" stroke-width="4"/>
+  <text x="70" y="205" font-family="Arial, sans-serif" font-size="11" fill="#334155">efferent arteriole</text>
+
+  <text x="200" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c2410c">filtration</text>
+  <text x="250" y="240" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#166534">reabsorption</text>
+  <text x="310" y="250" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#166534">(water, salts,</text>
+  <text x="310" y="264" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#166534">glucose)</text>
+
+  <text x="320" y="348" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">the nephron filters the blood and reabsorbs what the body needs; the rest becomes urine</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+    <marker id="arA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#c2410c"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#c2410c">Circular and plane wavefronts in a ripple tank</text>
+
+  <g transform="translate(120,170)">
+    <g fill="none" stroke="#c2410c" stroke-width="2">
+      <circle cx="0" cy="0" r="30"/>
+      <circle cx="0" cy="0" r="55"/>
+      <circle cx="0" cy="0" r="80"/>
+      <circle cx="0" cy="0" r="105"/>
+      <circle cx="0" cy="0" r="130"/>
+    </g>
+    <circle cx="0" cy="0" r="6" fill="#c2410c"/>
+    <text x="0" y="-140" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#334155">spherical dipper</text>
+    <line x1="0" y1="-8" x2="0" y2="-30" stroke="#64748b" stroke-width="1.5" marker-end="url(#ar)"/>
+    <text x="60" y="60" font-family="Arial, sans-serif" font-size="12" fill="#475569">circular wavefronts</text>
+    <text x="-150" y="180" font-family="Arial, sans-serif" font-size="12" fill="#475569">waves spread in all directions</text>
+  </g>
+
+  <g transform="translate(410,170)">
+    <g stroke="#c2410c" stroke-width="2">
+      <line x1="0" y1="-110" x2="0" y2="110"/>
+      <line x1="30" y1="-110" x2="30" y2="110"/>
+      <line x1="60" y1="-110" x2="60" y2="110"/>
+      <line x1="90" y1="-110" x2="90" y2="110"/>
+      <line x1="120" y1="-110" x2="120" y2="110"/>
+      <line x1="150" y1="-110" x2="150" y2="110"/>
+      <line x1="180" y1="-110" x2="180" y2="110"/>
+    </g>
+    <rect x="-8" y="-120" width="6" height="240" fill="#e2e8f0" stroke="#475569" stroke-width="1.5"/>
+    <text x="86" y="-132" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#334155">straight dipper</text>
+    <line x1="196" y1="0" x2="225" y2="0" stroke="#64748b" stroke-width="1.5" marker-end="url(#ar)"/>
+    <text x="224" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#475569">travel</text>
+    <text x="86" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#475569">plane (straight) wavefronts</text>
+  </g>
+
+  <text x="320" y="348" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">A wavefront joins points of the wave in the same phase — circles from a point source, straight lines from a straight one.</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#047857">Metals, non-metals and metalloids</text>
+
+  <g font-family="Arial, sans-serif">
+    <text x="320" y="82" text-anchor="middle" font-size="12" fill="#475569">increasing non-metallic character →</text>
+
+    <rect x="30" y="100" width="50" height="30" rx="5" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="55" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400e">Li</text>
+    <rect x="84" y="100" width="50" height="30" rx="5" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="109" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400e">Be</text>
+    <rect x="138" y="100" width="50" height="30" rx="5" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="163" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#166534">B</text>
+    <rect x="192" y="100" width="50" height="30" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="217" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e40af">C</text>
+    <rect x="246" y="100" width="50" height="30" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="271" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e40af">N</text>
+    <rect x="300" y="100" width="50" height="30" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="325" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e40af">O</text>
+    <rect x="354" y="100" width="50" height="30" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="379" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e40af">F</text>
+
+    <rect x="30" y="134" width="50" height="30" rx="5" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="55" y="154" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400e">Na</text>
+    <rect x="84" y="134" width="50" height="30" rx="5" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="109" y="154" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400e">Mg</text>
+    <rect x="138" y="134" width="50" height="30" rx="5" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="163" y="154" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400e">Al</text>
+    <rect x="192" y="134" width="50" height="30" rx="5" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="217" y="154" text-anchor="middle" font-size="14" font-weight="bold" fill="#166534">Si</text>
+    <rect x="246" y="134" width="50" height="30" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="271" y="154" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e40af">P</text>
+    <rect x="300" y="134" width="50" height="30" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="325" y="154" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e40af">S</text>
+    <rect x="354" y="134" width="50" height="30" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="379" y="154" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e40af">Cl</text>
+
+    <rect x="30" y="168" width="50" height="30" rx="5" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="55" y="188" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400e">K</text>
+    <rect x="84" y="168" width="50" height="30" rx="5" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="109" y="188" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400e">Ca</text>
+    <rect x="138" y="168" width="50" height="30" rx="5" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="163" y="188" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400e">Ga</text>
+    <rect x="192" y="168" width="50" height="30" rx="5" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="217" y="188" text-anchor="middle" font-size="14" font-weight="bold" fill="#166534">Ge</text>
+    <rect x="246" y="168" width="50" height="30" rx="5" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="271" y="188" text-anchor="middle" font-size="14" font-weight="bold" fill="#166534">As</text>
+    <rect x="300" y="168" width="50" height="30" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="325" y="188" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e40af">Se</text>
+    <rect x="354" y="168" width="50" height="30" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="379" y="188" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e40af">Br</text>
+  </g>
+
+  <text x="55" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#92400e">metals</text>
+  <text x="163" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#166534">metalloids</text>
+  <text x="325" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1e40af">non-metals</text>
+
+  <text x="320" y="272" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">Metals sit left of the staircase; non-metals right; metalloids on the border</text>
+  <text x="320" y="294" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">Metals lose electrons to form positive ions</text>
+  <text x="320" y="312" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">Non-metals gain electrons to form negative ions</text>
+  <text x="320" y="346" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">B, Si, Ge, As, Sb, Te have properties between metals and non-metals</text>
+</svg>

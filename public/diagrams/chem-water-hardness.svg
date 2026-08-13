@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#047857">Hard water forms scum; soft water lathers</text>
+
+  <path d="M110,100 L110,250 Q110,270 130,270 L240,270 Q260,270 260,250 L260,100 Z" fill="#e0f2fe" stroke="#2563eb" stroke-width="2"/>
+  <g fill="#f8fafc" stroke="#94a3b8" stroke-width="1">
+    <ellipse cx="140" cy="120" rx="26" ry="8"/>
+    <ellipse cx="200" cy="110" rx="22" ry="7"/>
+    <ellipse cx="160" cy="135" rx="20" ry="6"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#1e40af" font-size="11">
+    <text x="185" y="160" text-anchor="middle">scum (insoluble soap)</text>
+    <text x="185" y="190" text-anchor="middle">Ca²⁺, Mg²⁺ present</text>
+    <text x="185" y="210" text-anchor="middle">soap wasted</text>
+  </g>
+  <text x="185" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e40af">hard water + soap</text>
+
+  <path d="M390,100 L390,250 Q390,270 410,270 L520,270 Q540,270 540,250 L540,100 Z" fill="#e0f2fe" stroke="#16a34a" stroke-width="2"/>
+  <g stroke="#16a34a" stroke-width="1.5" fill="none">
+    <circle cx="420" cy="115" r="8"/><circle cx="450" cy="105" r="7"/>
+    <circle cx="490" cy="118" r="9"/><circle cx="470" cy="128" r="6"/>
+    <circle cx="510" cy="110" r="6"/><circle cx="435" cy="132" r="6"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#166534" font-size="11">
+    <text x="465" y="160" text-anchor="middle">lather (foam)</text>
+    <text x="465" y="190" text-anchor="middle">no Ca²⁺ or Mg²⁺</text>
+    <text x="465" y="210" text-anchor="middle">soap cleans fully</text>
+  </g>
+  <text x="465" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#166534">soft water + soap</text>
+
+  <rect x="110" y="316" width="420" height="30" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="320" y="336" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" fill="#166534">Ca²⁺ and Mg²⁺ react with soap to give insoluble scum — detergents avoid this.</text>
+</svg>

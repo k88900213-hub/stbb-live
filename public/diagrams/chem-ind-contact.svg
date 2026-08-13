@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#64748b"/></marker>
+  </defs>
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#047857">The Contact process: sulfur to sulfuric acid</text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="30" y="120" width="130" height="66" rx="8" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+    <text x="95" y="148" text-anchor="middle" font-size="12" fill="#92400e" font-weight="bold">sulfur burner</text>
+    <text x="95" y="168" text-anchor="middle" font-size="10.5" fill="#92400e">S + O₂ → SO₂</text>
+
+    <rect x="220" y="120" width="130" height="66" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="285" y="146" text-anchor="middle" font-size="11.5" fill="#1e40af" font-weight="bold">converter</text>
+    <text x="285" y="163" text-anchor="middle" font-size="10.5" fill="#1e40af">V₂O₅ catalyst, 450 °C</text>
+    <text x="285" y="179" text-anchor="middle" font-size="10.5" fill="#1e40af">2SO₂ + O₂ ⇌ 2SO₃</text>
+
+    <rect x="410" y="120" width="130" height="66" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="475" y="146" text-anchor="middle" font-size="11.5" fill="#991b1b" font-weight="bold">absorption tower</text>
+    <text x="475" y="163" text-anchor="middle" font-size="10.5" fill="#991b1b">SO₃ + H₂SO₄ → oleum</text>
+    <text x="475" y="179" text-anchor="middle" font-size="10.5" fill="#991b1b">(H₂S₂O₇)</text>
+
+    <rect x="220" y="225" width="320" height="60" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="380" y="250" text-anchor="middle" font-size="12" fill="#166534" font-weight="bold">dilute oleum carefully with water</text>
+    <text x="380" y="270" text-anchor="middle" font-size="11" fill="#166534">H₂S₂O₇ + H₂O → 2H₂SO₄</text>
+  </g>
+
+  <line x1="160" y1="153" x2="218" y2="153" stroke="#64748b" stroke-width="2" marker-end="url(#ar)"/>
+  <line x1="350" y1="153" x2="408" y2="153" stroke="#64748b" stroke-width="2" marker-end="url(#ar)"/>
+  <path d="M475,186 C475,230 380,225 380,223" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#ar)"/>
+  <line x1="350" y1="223" x2="408" y2="225" stroke="#64748b" stroke-width="2" marker-end="url(#ar)"/>
+
+  <g stroke="#94a3b8" stroke-width="1.5">
+    <line x1="220" y1="120" x2="220" y2="96"/>
+  </g>
+  <text x="300" y="92" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">excess air (O₂) keeps the equilibrium toward SO₃</text>
+
+  <rect x="110" y="310" width="420" height="34" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="320" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" fill="#166534">SO₃ is never added directly to water — the reaction is violently hot.</text>
+  <text x="320" y="342" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#166534">Sulfuric acid is the most-produced chemical in the world.</text>
+</svg>

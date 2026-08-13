@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#fffdf7"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#047857">Electrolysis of molten sodium chloride</text>
+
+  <g font-family="Arial, sans-serif">
+    <line x1="324" y1="60" x2="324" y2="72" stroke="#475569" stroke-width="2"/>
+    <line x1="300" y1="72" x2="348" y2="72" stroke="#475569" stroke-width="2"/>
+    <line x1="300" y1="72" x2="300" y2="96" stroke="#475569" stroke-width="2"/>
+    <line x1="348" y1="72" x2="348" y2="96" stroke="#475569" stroke-width="2"/>
+    <line x1="308" y1="96" x2="340" y2="96" stroke="#475569" stroke-width="2"/>
+    <line x1="324" y1="96" x2="212" y2="200" stroke="#475569" stroke-width="2"/>
+    <line x1="324" y1="96" x2="428" y2="200" stroke="#475569" stroke-width="2"/>
+    <text x="324" y="54" text-anchor="middle" font-size="12" fill="#334155">DC source</text>
+
+    <rect x="140" y="200" width="360" height="100" rx="8" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+    <text x="320" y="284" text-anchor="middle" font-size="12" fill="#92400e">molten NaCl</text>
+
+    <rect x="200" y="200" width="24" height="90" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+    <text x="212" y="316" text-anchor="middle" font-size="12" fill="#334155">cathode (−)</text>
+    <rect x="416" y="200" width="24" height="90" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+    <text x="428" y="316" text-anchor="middle" font-size="12" fill="#334155">anode (+)</text>
+
+    <circle cx="175" cy="230" r="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="175" y="234" text-anchor="middle" font-size="11" font-weight="bold" fill="#166534">Na⁺</text>
+    <circle cx="175" cy="262" r="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="175" y="266" text-anchor="middle" font-size="11" font-weight="bold" fill="#166534">Na⁺</text>
+    <circle cx="150" cy="246" r="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="150" y="250" text-anchor="middle" font-size="11" font-weight="bold" fill="#166534">Na⁺</text>
+    <text x="175" y="222" text-anchor="middle" font-size="10" fill="#475569">← to cathode</text>
+
+    <circle cx="465" cy="230" r="12" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+    <text x="465" y="234" text-anchor="middle" font-size="11" font-weight="bold" fill="#334155">Cl⁻</text>
+    <circle cx="465" cy="262" r="12" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+    <text x="465" y="266" text-anchor="middle" font-size="11" font-weight="bold" fill="#334155">Cl⁻</text>
+    <circle cx="490" cy="246" r="12" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+    <text x="490" y="250" text-anchor="middle" font-size="11" font-weight="bold" fill="#334155">Cl⁻</text>
+    <text x="490" y="222" text-anchor="middle" font-size="10" fill="#475569">to anode →</text>
+
+    <g fill="none" stroke="#16a34a" stroke-width="1.5">
+      <circle cx="440" cy="180" r="6"/>
+      <circle cx="455" cy="170" r="5"/>
+      <circle cx="448" cy="160" r="6"/>
+    </g>
+    <text x="452" y="152" text-anchor="middle" font-size="11" fill="#166534">Cl₂ gas</text>
+  </g>
+
+  <text x="320" y="344" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Electrical energy drives the decomposition: 2NaCl → 2Na + Cl₂</text>
+</svg>
