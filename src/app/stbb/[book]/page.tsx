@@ -40,14 +40,14 @@ export default async function StbbBookPage({ params }: Props) {
         </Link>
 
         <div className="mt-4 rounded-3xl border border-orange-200/60 bg-gradient-to-br from-orange-50/90 to-amber-50/60 p-8 dark:border-orange-400/20 dark:from-orange-400/10 dark:to-transparent">
-          <div className="flex flex-wrap items-start gap-6">
-            <BookCover book={book} className="w-36 shrink-0 shadow-[0_18px_50px_rgb(0,0,0,0.25)]" />
+          <div className="flex flex-col items-center gap-6 text-center sm:flex-row sm:items-start sm:text-left">
+            <BookCover book={book} className="w-28 shrink-0 shadow-[0_18px_50px_rgb(0,0,0,0.25)] sm:w-36" />
             <div className="min-w-0 flex-1">
-              <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-widest text-orange-600 dark:text-orange-400">
+              <div className="flex flex-wrap items-center justify-center gap-2 text-[11px] font-semibold uppercase tracking-widest text-orange-600 sm:justify-start dark:text-orange-400">
                 <BookOpen className="h-3.5 w-3.5" />
                 Class {book.grade} · {book.medium} · {book.subject}
               </div>
-              <h1 className="mt-2 font-display text-3xl font-bold text-foreground sm:text-4xl">{book.title}</h1>
+              <h1 className="mt-2 break-words font-display text-3xl font-bold text-foreground sm:text-4xl">{book.title}</h1>
               {book.year && <p className="mt-1 text-sm text-foreground/55">Sindh Textbook Board · Edition {book.year}</p>}
               <div className="mt-3 flex flex-wrap gap-2">
                 <span className="inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-orange-500 to-amber-500 px-4 py-1.5 text-xs font-semibold text-white shadow-lg shadow-orange-500/30">

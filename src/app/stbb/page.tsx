@@ -89,11 +89,11 @@ export default function StbbLibraryPage() {
                         {subjectIcon(b.subject)}
                       </span>
                     </div>
-                    <div className="mt-4 flex gap-4">
-                      <BookCover book={b} compact className="w-24 shrink-0 group-hover:-translate-y-0.5 group-hover:rotate-[0.5deg]" />
+                    <div className="mt-4 flex items-start gap-4">
+                      <BookCover book={b} compact className="w-20 shrink-0 sm:w-24 group-hover:-translate-y-0.5 group-hover:rotate-[0.5deg]" />
                       <div className="min-w-0 flex-1">
-                        <h3 className="font-display text-base font-bold leading-snug text-foreground">{b.title}</h3>
-                        <p className="mt-1 text-xs text-foreground/60">
+                        <h3 className="break-words font-display text-base font-bold leading-snug text-foreground">{b.title}</h3>
+                        <p className="mt-1 break-words text-xs text-foreground/60">
                           {b.subject} · {b.chapters.length} live chapters
                         </p>
                         <div className="mt-2 flex flex-wrap gap-1">

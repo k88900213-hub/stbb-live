@@ -129,10 +129,10 @@ export function BookCover({
       <div aria-hidden className="absolute -left-[35%] -top-[20%] h-[150%] w-[55%] rotate-[16deg] bg-gradient-to-br from-white/20 via-white/10 to-transparent" />
 
       {/* content */}
-      <div className="relative flex h-full min-h-0 flex-col items-center justify-between px-[6cqw] pb-[4.5cqw] pt-[4.2cqw] pl-[16.5cqw]">
+      <div className="relative flex h-full min-h-0 max-w-full flex-col items-center justify-between overflow-hidden px-[6cqw] pb-[4.5cqw] pt-[4.2cqw] pl-[16.5cqw]">
         {/* top brand */}
-        <div className="flex flex-col items-center">
-          <div className="font-serif text-[3.5cqw] font-semibold uppercase tracking-[0.16em] text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.5)]">
+        <div className="flex max-w-full flex-col items-center">
+          <div className="max-w-full break-words font-serif text-[3.5cqw] font-semibold uppercase tracking-[0.16em] text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.5)]">
             Sindh Textbook Board
           </div>
           {!compact && (
@@ -141,29 +141,29 @@ export function BookCover({
         </div>
 
         {/* middle: emblem + subject */}
-        <div className="flex min-h-0 flex-1 flex-col items-center justify-center gap-[2.6cqw] text-center">
-          <div className="relative flex h-[17cqw] w-[17cqw] items-center justify-center rounded-full border-[0.8cqw] border-double border-white/75 bg-white/10 shadow-[0_0_3cqw_rgba(0,0,0,0.35)]">
+        <div className="flex min-h-0 max-w-full flex-1 flex-col items-center justify-center gap-[2.6cqw] text-center">
+          <div className="relative flex h-[17cqw] w-[17cqw] shrink-0 items-center justify-center rounded-full border-[0.8cqw] border-double border-white/75 bg-white/10 shadow-[0_0_3cqw_rgba(0,0,0,0.35)]">
             <span aria-hidden className="absolute inset-[1.6cqw] rounded-full border border-white/25" />
             <div className="flex h-[8.5cqw] w-[8.5cqw] items-center justify-center [&_svg]:h-full [&_svg]:w-full">
               {t.icon}
             </div>
           </div>
           <div
-            className="font-serif text-[11.5cqw] font-black leading-none tracking-[0.05em] drop-shadow-[0_1.5px_3px_rgba(0,0,0,0.5)]"
+            className="max-w-full break-words font-serif text-[10cqw] font-black leading-none tracking-[0.05em] drop-shadow-[0_1.5px_3px_rgba(0,0,0,0.5)]"
             style={{ textShadow: `0 0 ${"2.5cqw"} ${t.accent}33` }}
           >
             {subject}
           </div>
-          <div className="h-[0.9cqw] w-[15cqw] rounded-full bg-gradient-to-r from-transparent via-amber-200 to-transparent" />
+          <div className="h-[0.9cqw] w-[15cqw] shrink-0 rounded-full bg-gradient-to-r from-transparent via-amber-200 to-transparent" />
           {!compact && (
-            <div className="text-[3.3cqw] font-semibold uppercase tracking-[0.24em] text-white/90">
+            <div className="max-w-full break-words text-[3.3cqw] font-semibold uppercase tracking-[0.24em] text-white/90">
               {book.title}
             </div>
           )}
         </div>
 
         {/* bottom: class box */}
-        <div className="flex flex-col items-center gap-[1.4cqw]">
+        <div className="flex shrink-0 flex-col items-center gap-[1.4cqw]">
           <span className="rounded-[0.6cqw] border-[0.5cqw] border-amber-200/80 bg-black/10 px-[3cqw] py-[1.1cqw] text-[3.2cqw] font-black uppercase tracking-[0.24em] text-white shadow-[0_1px_2px_rgba(0,0,0,0.35)]">
             Class {gradeLabel}
           </span>
