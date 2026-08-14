@@ -159,15 +159,22 @@ export async function notes(req: NoteRequest): Promise<NoteResponse> {
   if (!provider) return offlineNotes(req);
 
   const kindPrompt: Record<string, string> = {
-    smart: "Smart study notes with a core idea, key terms, connections and self-test sections.",
-    keypoints: "Bullet key points with memory hooks and an exam tip.",
-    cheatsheet: "A one-page cheat sheet: one-liner, formulas and a golden rule.",
-    flashcards: "At least 4 flashcards: {front, back} pairs.",
+    smart: `detailed, descriptive study notes. Build these sections in order:
+1. "Core Idea" — one clear paragraph capturing the heart of the passage.
+2. "Key Terms" — each key term in bold followed by a plain-language definition.
+3. "How It Works" — the main section: explain every concept in the passage in full descriptive sentences (at least 4-6 sentences).
+4. "Real-World Examples" — concrete everyday examples that illustrate the ideas.
+5. "Connections" — how the ideas link to each other and to the chapter as a whole.
+6. "Common Mistakes" — typical misunderstandings students make, and how to avoid them.
+7. "Self-Test" — 3 descriptive questions with brief answers to check understanding.`,
+    keypoints: `descriptive key points: every bullet is a complete, informative sentence that clearly explains one idea. Group them under headings (Main Ideas, In Depth, Examples, Exam Tip) and add one memorable memory hook.`,
+    cheatsheet: `a one-page cheat sheet: a one-line summary, every important formula written out and explained in words, the golden rule to remember, and one quick worked example. Make each section descriptive and self-contained.`,
+    flashcards: `at least 4 detailed flashcards: {front, back} pairs. The front asks a clear question; the back is a full descriptive answer of 2-4 complete sentences (never a single word or fragment).`,
   };
 
-  const userPrompt = `Generate ${kindPrompt[req.kind]}. Respond with STRICT JSON only, matching exactly:
-{"kind":"${req.kind}","title":"string","sections":[{"heading":"string","body":"string"}],"cards":[{"front":"string","back":"string"}]}
-Include "cards" only for flashcards kind.
+  const userPrompt = `Generate ${kindPrompt[req.kind]} Respond with STRICT JSON only, matching exactly:
+{"kind":"${req.kind}","title":"string","sections":[{"heading":"string","body":"detailed descriptive paragraph"}],"cards":[{"front":"string","back":"string"}]}
+Write every "body" as a descriptive paragraph of complete sentences, not bullet fragments. Include "cards" only for flashcards kind.
 
 Passage:
 """

@@ -504,38 +504,62 @@ export function offlineNotes(req: NoteRequest): NoteResponse {
       ? [
           { heading: "Core Idea", body: core },
           {
+            heading: "How It Works",
+            body: sentences.length
+              ? `${sentences.slice(0, 3).join(" ")} ${sentences.length > 3 ? "The passage then shows how these ideas fit together and apply in real situations." : ""}`.trim()
+              : core,
+          },
+          {
             heading: "Key Terms",
             body: concept
-              ? `${concept} — ${info?.def ?? "core chapter term"}`
-              : "Identify bold and highlighted words in the passage and define each in one line.",
+              ? `${concept} — ${info?.def ?? "core chapter term"}. Know its definition, its symbol (if any) and one example before moving on.`
+              : "Identify the main technical words in the passage; each one is a key term. Write a one-line definition for each in your own words.",
           },
-          { heading: "Connection", body: "This fits within the chapter's big picture. Relate it to the section heading and the chapter title." },
-          { heading: "Self-Test", body: "Cover the text and rewrite the idea in your own words; then check with the quiz generator." },
+          { heading: "Real-World Example", body: pick(EXAMPLES, text) },
+          {
+            heading: "Connections",
+            body: `"${concept ?? "This idea"}" builds on what came before in the section and links to the chapter's main theme. Describe how the ideas support one another and where this topic reappears later.`,
+          },
+          {
+            heading: "Common Mistakes",
+            body: "A frequent mistake is mixing up cause and effect, or forgetting the units in calculations. Re-read the passage, then check every claim against the definition and its example.",
+          },
+          {
+            heading: "Self-Test",
+            body: "Without looking, write a three-sentence summary of the passage, list its key terms, and explain how any two of them relate. Then compare your answer with the text.",
+          },
         ]
       : kind === "keypoints"
         ? [
             { heading: "Key Points", body: core },
-            { heading: "Memory Hook", body: info?.analogy ?? "Use the chapter title as a hook: link each term to the big idea." },
-            { heading: "Exam Note", body: "State the law, give the formula, then apply it to one worked example in 3 lines." },
+            {
+              heading: "In Depth",
+              body: sentences.length
+                ? `${sentences.slice(0, 2).join(" ")} ${sentences.length > 2 ? "Continue building the explanation step by step until every idea in the passage is covered." : ""}`.trim()
+                : core,
+            },
+            { heading: "Memory Hook", body: info?.analogy ?? "Use the chapter title as a hook: link each key term to the big idea so one reminds you of the other." },
+            { heading: "Exam Note", body: "State the law or principle, give the formula, then apply it to one worked example in three clear lines." },
           ]
         : kind === "cheatsheet"
           ? [
               { heading: "One-Liner", body: core },
-              { heading: "Formula(s)", body: concept === "ohm's law" || concept === "resistance" || concept === "current" || concept === "voltage" ? "V = I·R  |  I = V/R  |  R = V/I" : "F = m·a  |  a = F/m  |  action = −reaction" },
-              { heading: "Golden Rule", body: info?.analogy ?? "Always define your symbols and use SI units." },
+              { heading: "Formula(s)", body: concept === "ohm's law" || concept === "resistance" || concept === "current" || concept === "voltage" ? "V = I·R  |  I = V/R  |  R = V/I — voltage equals current times resistance; the other two are rearrangements." : "F = m·a  |  a = F/m  |  action = −reaction — force equals mass times acceleration; acceleration equals force divided by mass." },
+              { heading: "Golden Rule", body: info?.analogy ?? "Always define your symbols and use SI units before calculating." },
+              { heading: "Quick Example", body: pick(EXAMPLES, text) },
             ]
           : [];
 
   const cards: { front: string; back: string }[] = [];
   if (kind === "flashcards" && concept) {
-    cards.push({ front: `Define "${concept}"`, back: `${info!.def}` });
-    cards.push({ front: `Give an example of ${concept}`, back: `${info!.example}` });
-    cards.push({ front: `Analogy for ${concept}`, back: `${info!.analogy}` });
-    cards.push({ front: "What does F = m·a mean in words?", back: "Acceleration is directly proportional to force and inversely proportional to mass." });
+    cards.push({ front: `Define "${concept}"`, back: `${info!.def} In everyday terms, this means ${info!.analogy.toLowerCase()}` });
+    cards.push({ front: `Give an example of ${concept}`, back: `${info!.example} Notice how the example shows the definition in action.` });
+    cards.push({ front: `Analogy for ${concept}`, back: `${info!.analogy} An analogy makes the abstract idea feel familiar.` });
+    cards.push({ front: "What does F = m·a mean in words?", back: "Acceleration is directly proportional to force and inversely proportional to mass: push harder and it speeds up more, while heavier objects need more force for the same acceleration." });
   } else if (kind === "flashcards") {
     cards.push({ front: "State the main idea of this passage", back: core });
     cards.push({ front: "Give one everyday example", back: pick(EXAMPLES, text) });
-    cards.push({ front: "Rewrite it in 10 words", back: sentences.slice(0, 1).join(" ").slice(0, 140) });
+    cards.push({ front: "Rewrite it in your own words", back: sentences.slice(0, 1).join(" ").slice(0, 140) });
   }
 
   return {
