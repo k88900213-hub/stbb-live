@@ -102,20 +102,33 @@ export function FlashcardsPanel({ chapterSlug, sectionTitle, text }: FlashcardsP
       </div>
 
       <div className="mt-4 flex flex-1 items-center">
-        <button onClick={flip} className="group w-full" aria-label="Flip card">
+        <button onClick={flip} className="group h-full w-full" aria-label="Flip card">
           <div className="relative h-56 w-full [perspective:1000px]">
             <div
-              className={`absolute inset-0 flex flex-col items-center justify-center gap-3 rounded-2xl border border-orange-200/60 bg-gradient-to-br from-white/80 via-orange-50/50 to-amber-50/60 p-6 text-center shadow-xl transition-transform duration-500 [transform-style:preserve-3d] dark:border-orange-400/20 dark:from-white/10 dark:via-orange-400/5 dark:to-transparent ${flipped ? "[transform:rotateY(180deg)]" : ""}`}
+              className={`relative h-full w-full transition-transform duration-500 [transform-style:preserve-3d] ${flipped ? "[transform:rotateY(180deg)]" : ""}`}
             >
-              <div className="text-xs font-semibold uppercase tracking-wider text-orange-500/70">
-                {flipped ? "Back" : "Front"}
+              {/* front face */}
+              <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 rounded-2xl border border-orange-200/60 bg-gradient-to-br from-white/80 via-orange-50/50 to-amber-50/60 p-6 text-center shadow-xl [backface-visibility:hidden] dark:border-orange-400/20 dark:from-white/10 dark:via-orange-400/5 dark:to-transparent">
+                <div className="text-xs font-semibold uppercase tracking-wider text-orange-500/70">
+                  Front
+                </div>
+                <p className="text-lg font-medium leading-relaxed text-foreground">{card.front}</p>
+                <span className="mt-2 inline-flex items-center gap-1.5 text-xs text-foreground/40">
+                  <FlipVertical className="h-3.5 w-3.5" /> Tap to flip
+                </span>
               </div>
-              <p className="text-lg font-medium leading-relaxed text-foreground [backface-visibility:hidden]">
-                {flipped ? card.back : card.front}
-              </p>
-              <span className="mt-2 inline-flex items-center gap-1.5 text-xs text-foreground/40">
-                <FlipVertical className="h-3.5 w-3.5" /> Tap to flip
-              </span>
+              {/* back face */}
+              <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 rounded-2xl border border-amber-300/60 bg-gradient-to-br from-amber-50/80 to-orange-50/60 p-6 text-center shadow-xl [transform:rotateY(180deg)] [backface-visibility:hidden] dark:border-amber-400/20 dark:from-amber-400/10 dark:to-transparent">
+                <div className="text-xs font-semibold uppercase tracking-wider text-amber-600/80 dark:text-amber-300/80">
+                  Answer
+                </div>
+                <p className="text-lg font-medium leading-relaxed text-foreground">
+                  {card.back || "No answer provided."}
+                </p>
+                <span className="mt-2 inline-flex items-center gap-1.5 text-xs text-foreground/40">
+                  <FlipVertical className="h-3.5 w-3.5" /> Tap to flip
+                </span>
+              </div>
             </div>
           </div>
         </button>
