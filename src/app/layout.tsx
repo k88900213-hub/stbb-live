@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { ProgressProvider } from "@/store/progress";
+import { SiteNav } from "@/components/SiteNav";
 import "./globals.css";
 import "katex/dist/katex.min.css";
 
@@ -27,7 +28,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full">
-        <ProgressProvider>{children}</ProgressProvider>
+        <ProgressProvider>
+          <SiteNav />
+          {children}
+        </ProgressProvider>
       </body>
     </html>
   );
