@@ -49,11 +49,11 @@ interface BlockViewProps {
   chapterSlug: string;
   chapterTitle: string;
   sectionTitle: string;
-  mode: ExplainMode;
+  mode?: ExplainMode;
   audience?: string;
 }
 
-export function BlockView({ block, chapterSlug, chapterTitle, sectionTitle, mode, audience }: BlockViewProps) {
+export function BlockView({ block, chapterSlug, chapterTitle, sectionTitle, mode = "intermediate", audience }: BlockViewProps) {
   const ref = useRef<HTMLDivElement | null>(null);
   const { recordView, recordAsk, recordNote } = useProgress();
   const { supported, speaking, speak, stop } = useSpeech();

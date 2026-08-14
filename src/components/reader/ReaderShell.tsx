@@ -3,12 +3,11 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Chapter, Section } from "@/lib/content/types";
 import { getChapterIndex } from "@/lib/content/catalog";
-import type { ExplainMode, LanguageCode } from "@/lib/ai/types";
+import type { LanguageCode } from "@/lib/ai/types";
 import { useProgress } from "@/store/progress";
 import { cn } from "@/lib/utils/cn";
 import { BlockView } from "./BlockView";
 import { ChapterNav } from "./ChapterNav";
-import { ExplainModeBar } from "./ExplainModeBar";
 import { TutorPanel } from "@/components/tutor/TutorPanel";
 import { NotesPanel } from "@/components/tools/NotesPanel";
 import { QuizPanel } from "@/components/tools/QuizPanel";
@@ -45,8 +44,6 @@ interface ReaderShellProps {
 export function ReaderShell({ chapter, navChapters, chapterPosition, navLabel, isCustomChapter }: ReaderShellProps) {
   const [navOpen, setNavOpen] = useState(false);
   const [panel, setPanel] = useState<Panel>(null);
-  const [mode, setMode] = useState<ExplainMode>("intermediate");
-  const [audience, setAudience] = useState("");
   const [searchText, setSearchText] = useState("");
   const [activeSectionId, setActiveSectionId] = useState<string | null>(chapter.sections[0]?.id ?? null);
   const [selection, setSelection] = useState<string | null>(null);
@@ -330,8 +327,6 @@ export function ReaderShell({ chapter, navChapters, chapterPosition, navLabel, i
           </div>
         </header>
 
-        <ExplainModeBar mode={mode} onModeChange={setMode} audience={audience} onAudienceChange={setAudience} />
-
         {/* reading surface */}
         <main className="flex-1 overflow-y-auto" onMouseUp={handleMouseUp} ref={contentRef}>
           <div className="mx-auto max-w-3xl px-5 py-8 sm:px-8">
@@ -368,8 +363,6 @@ export function ReaderShell({ chapter, navChapters, chapterPosition, navLabel, i
                       chapterSlug={chapter.slug}
                       chapterTitle={chapter.title}
                       sectionTitle={sec.title}
-                      mode={mode}
-                      audience={audience || undefined}
                     />
                   </div>
                 ))}

@@ -85,7 +85,7 @@ export default function Home() {
           </h2>
           <FeatureCarousel
             items={[
-              { icon: <BrainCircuit className="h-5 w-5" />, title: "Live Reading Engine", desc: "Explain any paragraph as a Beginner, Expert, Grade 6 student, or for an exam — without changing the textbook." },
+              { icon: <BrainCircuit className="h-5 w-5" />, title: "Live Reading Engine", desc: "Explain any paragraph in plain, easy-to-understand language — without changing the textbook." },
               { icon: <MessageSquareText className="h-5 w-5" />, title: "Ask Anything", desc: "Select any text and ask: what does this mean, in Urdu, with an example, or like I'm 10." },
               { icon: <FlaskConical className="h-5 w-5" />, title: "AI Simulations", desc: "Build circuits, run force experiments, and visualize physics — right inside the chapter." },
               { icon: <NotebookPen className="h-5 w-5" />, title: "One-click Notes", desc: "Smart notes, cheat sheets, mind maps, key points and flashcards generated from any section." },
