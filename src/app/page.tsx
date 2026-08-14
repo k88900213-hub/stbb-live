@@ -54,12 +54,6 @@ export default function Home() {
               <ArrowRight className="h-4 w-4" />
             </Link>
             <Link
-              href={`/read/${book.chapters[1].slug}`}
-              className="inline-flex items-center gap-2 rounded-2xl border border-white/50 bg-white/60 px-6 py-3 text-sm font-semibold text-foreground/75 backdrop-blur transition hover:scale-[1.02] hover:bg-white/80 dark:border-white/10 dark:bg-white/5"
-            >
-              Explore the Circuit Lab
-            </Link>
-            <Link
               href="/import"
               className="inline-flex items-center gap-2 rounded-2xl border border-orange-300/50 bg-orange-50/70 px-6 py-3 text-sm font-semibold text-orange-700 backdrop-blur transition hover:scale-[1.02] hover:bg-orange-100/80 dark:border-orange-400/25 dark:bg-orange-400/10 dark:text-orange-300"
             >

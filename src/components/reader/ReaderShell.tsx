@@ -1,7 +1,6 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import Link from "next/link";
 import type { Chapter, Section } from "@/lib/content/types";
 import { getChapterIndex } from "@/lib/content/catalog";
 import type { ExplainMode, LanguageCode } from "@/lib/ai/types";
@@ -21,7 +20,6 @@ import {
   BookOpen,
   ChevronRight,
   Gauge,
-  Home,
   Lightbulb,
   Menu,
   MessageSquareText,
@@ -264,14 +262,6 @@ export function ReaderShell({ chapter, navChapters, chapterPosition, navLabel, i
       <div className="flex min-w-0 flex-1 flex-col">
         {/* toolbar */}
         <header className="flex items-center gap-2 border-b border-white/40 bg-white/60 px-3 py-2.5 backdrop-blur-xl dark:border-white/10 dark:bg-[#120c08]/70">
-          <Link
-            href="/"
-            title="Back to home"
-            aria-label="Back to home"
-            className="rounded-lg p-1.5 text-foreground/50 transition hover:bg-white/50 hover:text-foreground dark:hover:bg-white/10"
-          >
-            <Home className="h-5 w-5" />
-          </Link>
           <button
             onClick={() => setNavOpen(true)}
             className="rounded-lg p-1.5 text-foreground/60 transition hover:bg-white/50 hover:text-foreground dark:hover:bg-white/10 lg:hidden"
