@@ -1,6 +1,7 @@
 import { book } from "@/lib/content/catalog";
 import Link from "next/link";
 import { ImportedLibrary } from "@/components/home/ImportedLibrary";
+import { FeatureCarousel } from "@/components/home/FeatureCarousel";
 import {
   ArrowRight,
   BrainCircuit,
@@ -15,6 +16,7 @@ import {
   Radar,
   Rocket,
   ScanText,
+  Sparkles,
   Users,
   Zap,
 } from "lucide-react";
@@ -76,17 +78,25 @@ export default function Home() {
           </div>
         </div>
 
-        <section className="mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          <FeatureCard icon={<BrainCircuit className="h-5 w-5" />} title="Live Reading Engine" desc="Explain any paragraph as a Beginner, Expert, Grade 6 student, or for an exam — without changing the textbook." />
-          <FeatureCard icon={<MessageSquareText className="h-5 w-5" />} title="Ask Anything" desc="Select any text and ask: what does this mean, in Urdu, with an example, or like I'm 10." />
-          <FeatureCard icon={<FlaskConical className="h-5 w-5" />} title="AI Simulations" desc="Build circuits, run force experiments, and visualize physics — right inside the chapter." />
-          <FeatureCard icon={<NotebookPen className="h-5 w-5" />} title="One-click Notes" desc="Smart notes, cheat sheets, mind maps, key points and flashcards generated from any section." />
-          <FeatureCard icon={<Zap className="h-5 w-5" />} title="Quiz Engine" desc="MCQs from easy to Olympiad level with instant feedback and explanations." />
-          <FeatureCard icon={<Mic className="h-5 w-5" />} title="Voice Learning" desc="Listen to any passage read aloud, pause, and ask questions while you listen." />
-          <FeatureCard icon={<Languages className="h-5 w-5" />} title="Instant Translation" desc="Every page in Urdu, Arabic, German, French, Spanish, Hindi or Chinese." />
-          <FeatureCard icon={<Radar className="h-5 w-5" />} title="Confusion Detection" desc="Progress analytics track reading time, focus level, and weak topics in real time." />
-          <FeatureCard icon={<ScanText className="h-5 w-5" />} title="Import Anything" desc="Paste notes, photograph a textbook page, or upload a PDF — it becomes a live chapter." />
-          <FeatureCard icon={<Users className="h-5 w-5" />} title="Personal AI Tutor" desc="A tutor that remembers your history, predicts performance, and adapts its style." />
+        <section className="mt-16">
+          <h2 className="mb-4 flex items-center gap-2 font-display text-xl font-bold text-foreground">
+            <Sparkles className="h-5 w-5 text-orange-500" />
+            Everything you can do
+          </h2>
+          <FeatureCarousel
+            items={[
+              { icon: <BrainCircuit className="h-5 w-5" />, title: "Live Reading Engine", desc: "Explain any paragraph as a Beginner, Expert, Grade 6 student, or for an exam — without changing the textbook." },
+              { icon: <MessageSquareText className="h-5 w-5" />, title: "Ask Anything", desc: "Select any text and ask: what does this mean, in Urdu, with an example, or like I'm 10." },
+              { icon: <FlaskConical className="h-5 w-5" />, title: "AI Simulations", desc: "Build circuits, run force experiments, and visualize physics — right inside the chapter." },
+              { icon: <NotebookPen className="h-5 w-5" />, title: "One-click Notes", desc: "Smart notes, cheat sheets, mind maps, key points and flashcards generated from any section." },
+              { icon: <Zap className="h-5 w-5" />, title: "Quiz Engine", desc: "MCQs from easy to Olympiad level with instant feedback and explanations." },
+              { icon: <Mic className="h-5 w-5" />, title: "Voice Learning", desc: "Listen to any passage read aloud, pause, and ask questions while you listen." },
+              { icon: <Languages className="h-5 w-5" />, title: "Instant Translation", desc: "Every page in Urdu, Arabic, German, French, Spanish, Hindi or Chinese." },
+              { icon: <Radar className="h-5 w-5" />, title: "Confusion Detection", desc: "Progress analytics track reading time, focus level, and weak topics in real time." },
+              { icon: <ScanText className="h-5 w-5" />, title: "Import Anything", desc: "Paste notes, photograph a textbook page, or upload a PDF — it becomes a live chapter." },
+              { icon: <Users className="h-5 w-5" />, title: "Personal AI Tutor", desc: "A tutor that remembers your history, predicts performance, and adapts its style." },
+            ]}
+          />
         </section>
 
         <section className="mt-16">
@@ -145,18 +155,6 @@ function MiniStat({ value, label }: { value: string; label: string }) {
     <div className="rounded-2xl border border-white/40 bg-white/50 p-3 backdrop-blur dark:border-white/10 dark:bg-white/5">
       <div className="font-display text-2xl font-bold text-orange-600 dark:text-orange-400">{value}</div>
       <div className="text-[11px] text-foreground/55">{label}</div>
-    </div>
-  );
-}
-
-function FeatureCard({ icon, title, desc }: { icon: React.ReactNode; title: string; desc: string }) {
-  return (
-    <div className="rounded-2xl border border-white/40 bg-white/50 p-5 backdrop-blur transition hover:bg-white/70 dark:border-white/10 dark:bg-white/5 dark:hover:bg-white/10">
-      <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-orange-500 to-amber-500 text-white shadow-lg shadow-orange-500/25">
-        {icon}
-      </span>
-      <h3 className="mt-3 text-sm font-bold text-foreground">{title}</h3>
-      <p className="mt-1 text-[13px] leading-relaxed text-foreground/60">{desc}</p>
     </div>
   );
 }
