@@ -34,6 +34,9 @@ export const physics9 = [
           "Derived quantities and” obtained from base quantities by multiplication or division, such as speed (length Ã· time), area (length Ã— length) and density (mass Ã· volume).",
         ]),
         p("Speed, force, pressure, energy and power are all derived quantities. Once you know the base units, you can build the unit of any derived quantity from them."),
+        f("\\text{area} = \\text{length} \\times \\text{breadth} \\;(\\text{m}^2), \\qquad \\text{volume} = \\text{length} \\times \\text{breadth} \\times \\text{height} \\;(\\text{m}^3)", "Derived quantities are built from base quantities"),
+        p("The same idea works for every derived quantity. Speed divides a length by a time to give m/s; density divides a mass by a volume to give kg/m³; force multiplies mass and acceleration to give the newton. If you can remember which base quantities a derived quantity comes from, its unit follows automatically."),
+        callout("When you meet a unit you do not recognise, unpack it into base units — that usually reveals exactly what the quantity is.", "tip"),
       ]),
       section("The International System of Units", [
         p("For centuries every region used its own units, causing confusion in trade and science. In 1960 the world agreed on the International System of Units (SI), a single consistent set of units used by scientists and engineers everywhere."),
@@ -49,6 +52,13 @@ export const physics9 = [
         p("Derived quantities are expressed using derived units built from these base units. Force has the newton (N), where 1 N = 1 kgÂ·m/sÂ²; pressure has the pascal (Pa), where 1 Pa = 1 N/mÂ²; energy has the joule (J), where 1 J = 1 NÂ·m."),
         f("1\\ \\text{N} = 1\\ \\text{kg m/s}^2, \\qquad 1\\ \\text{Pa} = 1\\ \\text{N/m}^2, \\qquad 1\\ \\text{J} = 1\\ \\text{N m}", "Derived units built from base units"),
         callout("Master the base units and every formula in this book becomes a statement about metres, kilograms and seconds.", "key"),
+        list("Derived units you will meet again and again:", [
+          "Newton (N) for force and” 1 N = 1 kg·m/s².",
+          "Pascal (Pa) for pressure and” 1 Pa = 1 N/m².",
+          "Joule (J) for energy and” 1 J = 1 N·m.",
+          "Watt (W) for power and” 1 W = 1 J/s.",
+        ]),
+        p("Modern SI units are anchored to fixed constants of nature. The second is defined by the vibrations of a caesium atom, the metre by the speed of light, and the kilogram by a number called Planck's constant. The definitions are subtle, but the units you write in class are unchanged."),
       ]),
       section("Scientific notation", [
         p("Nature works on an astonishing range of scales. The diameter of an atom is about 0.0000000001 m, while the distance to the Sun is about 150,000,000,000 m. Writing such numbers in full is clumsy and invites mistakes."),
@@ -62,6 +72,9 @@ export const physics9 = [
           "Age of the universe and” about 1.4 Ã— 10Â¹â° years",
         ]),
         callout("A positive power of ten (10Â², 10â¶) means a large number; a negative power (10â»Â³, 10â»â¹) means a small fraction. Reading the exponent at a glance tells you the scale.", "tip"),
+        callout("Worked example: write 0.000045 m in scientific notation. Move the decimal point five places to the right until only one digit (4) stands before it, giving 4.5 × 10⁻⁵ m. The exponent −5 counts the places moved. Now multiply 3 × 10⁻⁷ by 2 × 10⁵: multiply the numbers first (3 × 2 = 6) and add the exponents (−7 + 5 = −2), so the answer is 6 × 10⁻².", "key"),
+        f("3 \\times 10^{-7} \\times 2 \\times 10^5 = 6 \\times 10^{-2}", "Multiplying numbers in scientific notation"),
+        p("Division works the other way: subtract the exponents. So 8 × 10⁶ ÷ 4 × 10² = 2 × 10⁴. Practise a few such conversions until moving decimal points feels automatic — they appear in nearly every calculation that involves very large or very small numbers."),
       ]),
       section("SI prefixes", [
         p("Even with scientific notation, writing every measurement with powers of ten is tedious in everyday work. SI prefixes attach directly to units to multiply them by a power of ten."),
@@ -78,6 +91,8 @@ export const physics9 = [
         f("1\\ \\text{km} = 10^3\\ \\text{m}, \\qquad 1\\ \\text{cm} = 10^{-2}\\ \\text{m}, \\qquad 1\\ \\text{mm} = 10^{-3}\\ \\text{m}", "Prefixes in action"),
         figure("SI prefixes arranged on the power-of-ten scale", "/diagrams/pq-si-prefix-scale.svg"),
         p("The width of a human hair is about 1 Ã— 10â»â´ m = 100 Âµm. A chip inside a phone contains features measured in nanometres. The same metre serves all scales, from mountains to molecules."),
+        callout("Do not confuse the metre prefix 'm' with the millimetre 'mm' or the micrometre 'µm'. Writing 1 m instead of 1 mm in an experiment changes the answer by a factor of 1000 — and remember that areas shrink by the square of the prefix, not the prefix itself.", "warning"),
+        f("1\\ \\text{cm}^2 = 10^{-4}\\ \\text{m}^2, \\qquad 1\\ \\text{mm}^2 = 10^{-6}\\ \\text{m}^2", "Areas shrink by the square of the length prefix"),
       ]),
       section("Measuring length: the metre rule", [
         p("The metre rule (or metre scale) is the everyday tool for measuring lengths up to one metre. Its smallest division is usually 1 mm, so its least count and” the smallest value it can measure reliably and” is 1 mm."),
@@ -93,6 +108,8 @@ export const physics9 = [
         f("\\text{reading} = \\text{main scale} + (\\text{coinciding division} \\times \\text{least count})", "How to read a Vernier calliper"),
         figure("The Vernier calliper reads length to 0.1 mm", "/diagrams/pq-vernier-calliper.svg"),
         callout("The Vernier calliper also has jaws for measuring external and internal diameters and a thin strip for depths.", "info"),
+        p("Like every instrument, a Vernier calliper can carry a zero error. If the two scales do not both read zero when the jaws are fully closed, every reading is wrong by the same amount. A positive zero error must be subtracted and a negative one added, before the measurement is trusted."),
+        callout("Exams love the Vernier reading. Write it as: main scale reading + (coinciding division × least count), and always check the least count first.", "tip"),
       ]),
       section("Screw gauge", [
         p("The screw gauge (micrometer screw gauge) measures even finer and” to 0.01 mm. It works by the simple idea that one complete turn of a screw moves it by a fixed distance called the pitch, usually 1 mm."),
@@ -118,6 +135,7 @@ export const physics9 = [
           "A stopwatch (0.01 s) suits timing a race.",
         ]),
         callout("Always choose an instrument whose least count is small enough for the quantity you are measuring and” but not absurdly small, or you pay for precision you do not need.", "key"),
+        p("A good way to picture accuracy and precision is a dartboard. If your darts land clustered together, you are precise; if they land near the bullseye, you are accurate. The best throwers are both — and an instrument is the same: precise readings can still be wrong if the scale is not calibrated."),
       ]),
       section("Errors and significant figures", [
         p("No measurement is perfect. Systematic errors repeat in the same direction every time and” a mis-calibrated scale always reads too high. Random errors vary unpredictably between readings, from your eye or your reaction time. Taking several readings and averaging reduces random errors."),
@@ -219,6 +237,9 @@ export const physics9 = [
         p("Direction matters so much that adding vectors is not the same as adding numbers. Walking 3 km north and then 4 km south gives 1 km north and” not 7 km."),
         p("A velocity of 5 m/s north and a velocity of 5 m/s south are not the same quantity even though both have the same magnitude — direction is part of the information. Whenever you quote a vector, you must state its direction as well as its size."),
         callout("Vectors combine by taking both size and direction into account. Two equal forces in opposite directions cancel out completely.", "key"),
+        p("A vector is usually drawn as an arrow: the length of the arrow shows the magnitude and the arrowhead shows the direction. When adding vectors, place the arrows nose-to-tail and join the start of the first to the end of the last — the closing arrow is the resultant."),
+        f("\\vec{R} = \\vec{A} + \\vec{B}", "Vector addition is done nose-to-tail"),
+        callout("A number on its own is never a complete vector answer. '10 m north' is a displacement; '10 m' alone is just a distance.", "warning"),
       ]),
       section("Distance and displacement", [
         p("Distance is the total length of the path actually travelled and” a scalar. Displacement is the straight-line distance between the starting and finishing points together with its direction and” a vector."),
@@ -226,6 +247,12 @@ export const physics9 = [
         p("If a man walks 3 km north then 4 km east, the distance is 7 km but the displacement is the straight line from start to finish, found by the Pythagorean rule: 5 km in a north-easterly direction."),
         f("d = \\sqrt{(3\\ \\text{km})^2 + (4\\ \\text{km})^2} = 5\\ \\text{km}", "Displacement is the straight-line result"),
         callout("Distance is always positive and can only increase; displacement can be zero, positive or negative and” it depends only on start and end.", "key"),
+        list("Distance versus displacement:", [
+          "Distance is the length of the path travelled; displacement is the straight line from start to finish.",
+          "Distance is a scalar; displacement is a vector with a direction.",
+          "Distance can never be less than the magnitude of the displacement.",
+          "After a closed loop, the distance is large but the displacement is zero.",
+        ]),
       ]),
       section("Speed", [
         p("Speed tells us how fast an object is moving: the distance covered per unit time. It is a scalar."),
@@ -233,6 +260,9 @@ export const physics9 = [
         p("A car that covers 100 km in 2 hours has an average speed of 50 km/h. Average speed is total distance divided by total time and” it says nothing about how fast the car was going at any particular moment."),
         p("Instantaneous speed is the speed at one instant, shown by the needle of a speedometer. Uniform speed means covering equal distances in equal time intervals."),
         callout("Average speed hides variation. A journey averaging 50 km/h may include crawling traffic and motorway bursts.", "tip"),
+        callout("Worked example: a cyclist covers 15 km in 45 minutes. Convert the time to hours (45 min = 0.75 h) and divide: v = 15 ÷ 0.75 = 20 km/h. The same speed in metres per second is 20 × 1000 ÷ 3600 ≈ 5.6 m/s.", "key"),
+        f("1\\ \\text{m/s} = 3.6\\ \\text{km/h}", "Converting between m/s and km/h"),
+        p("To convert a speed from km/h to m/s, divide by 3.6; to convert the other way, multiply by 3.6. A speed of 100 km/h is therefore about 27.8 m/s — the number sounds smaller but describes exactly the same motion."),
       ]),
       section("Velocity", [
         p("Velocity is displacement per unit time and” speed with a direction. It is a vector. A train moving north at 100 km/h and one moving south at 100 km/h have equal speeds but different velocities."),
@@ -247,6 +277,8 @@ export const physics9 = [
         p("Acceleration is also a vector. On a circular path, even constant speed means acceleration, because the direction of velocity is continually changing. The unit of acceleration is m/sÂ²."),
         f("1\\ \\text{m/s}^2 = \\frac{1\\ \\text{m/s}}{1\\ \\text{s}}", "Unit of acceleration"),
         p("Notice the sign convention: if we take forward as positive, a car that speeds up has positive acceleration and a car that brakes has negative acceleration. A positive acceleration can even mean slowing down, if the object is already moving in the negative direction — always think about direction."),
+        callout("Acceleration is measured in m/s², which reads 'metres per second, per second'. A value of 4 m/s² means the velocity grows by 4 m/s every second — it is not a speed of 4 m/s.", "info"),
+        p("A useful exam trick is to check units. If a question gives time in minutes or hours, convert to seconds first; if distance is in kilometres, convert to metres. The equations of motion work cleanly only in SI units."),
       ]),
       section("Distance-time graphs", [
         p("A distance-time graph plots distance on the vertical axis against time on the horizontal. The slope (gradient) of the line gives the speed: a steep line means fast motion, a flat line means the object is at rest."),
@@ -261,6 +293,8 @@ export const physics9 = [
         figure("Speed-time graphs: slope gives acceleration, area gives distance", "/diagrams/kin-velocity-time-graph.svg"),
         p("A horizontal line on a speed-time graph means constant speed (zero acceleration). A straight diagonal line means constant acceleration. The area under any speed-time graph and” whether triangular, rectangular or curved and” equals the distance covered."),
         callout("This is a favourite exam idea: the distance is the area under the speed-time graph, not under the distance-time graph.", "key"),
+        f("\\text{distance} = \\frac{1}{2}(\\text{sum of parallel sides}) \\times \\text{height}", "Area of a trapezium speed-time graph"),
+        p("When a speed-time graph is made of straight sections, split it into rectangles and triangles. Each rectangle contributes v × t, each triangle contributes ½ × base × height, and the total area is the distance travelled. Graph problems almost always resolve into these two shapes."),
       ]),
       section("The three equations of motion", [
         p("For straight-line motion with uniform acceleration, three equations connect the initial velocity vâ‚€, final velocity v, acceleration a, time t and displacement s."),
@@ -276,6 +310,8 @@ export const physics9 = [
         f("v = gt, \\qquad s = \\tfrac{1}{2}gt^2, \\qquad v^2 = 2gs", "Equations of free fall from rest"),
         p("These are just the equations of motion with a = g and vâ‚€ = 0. For a body thrown upward, the same value of g slows it down, so it rises until its velocity is zero, then falls back."),
         callout("Air resistance is what spoils free fall on Earth for light, flat objects. In a vacuum there is no air resistance and all objects fall with the same acceleration.", "key"),
+        p("In practice, falling objects on Earth feel air resistance. As a skydiver accelerates, air drag grows until it balances weight, and the skydiver then falls at a constant terminal velocity. The acceleration is g only until that balance is reached."),
+        callout("Remember the sign: taking downward as positive, a falling body has positive velocity and positive acceleration; a body thrown upward has positive velocity but negative acceleration, because g acts downward.", "tip"),
       ]),
       section("Projectile motion", [
         p("A projectile is any object launched into the air, such as a cricket ball, an arrow or a cannon shell. Its motion is two-dimensional, but the horizontal and vertical motions are independent."),
@@ -284,6 +320,8 @@ export const physics9 = [
         f("R = \\frac{v^2 \\sin 2\\theta}{g}", "Range of a projectile launched at angle Î¸"),
         p("The range is the horizontal distance travelled. It is greatest at 45Â°. The time taken to rise equals the time taken to fall, and the path is a symmetric parabola."),
         sim("projectile", "Change the launch angle and watch the symmetric parabolic path and” gravity affects only the vertical part.", "projectile path"),
+        f("T = \\frac{2v \\sin\\theta}{g}", "Time of flight of a projectile"),
+        p("The time of flight tells how long the projectile stays in the air. It depends on the upward part of the launch velocity and on g. Since the path is symmetric, the time to reach the top equals the time to fall back down — so the whole flight takes twice the rise time."),
       ]),
       section("Worked examples", [
         h("Worked example 1: a car accelerates from rest"),
@@ -356,6 +394,11 @@ export const physics9 = [
         p("Force is a vector quantity measured in newtons (N). One newton is the force that gives a mass of one kilogram an acceleration of one metre per second squared."),
         p("Forces come in two broad kinds. Contact forces, such as friction, tension in a rope and the push of your hand, need the surfaces to touch. Field (non-contact) forces, such as gravity, magnetism and the electric force, act across empty space without any touching."),
         callout("Forces are not always visible and” gravity, friction and magnetism are invisible forces that still act on objects all around you.", "info"),
+        list("Contact and non-contact forces:", [
+          "Contact: friction, tension in a rope, the push of your hand, air resistance.",
+          "Non-contact: gravity, magnetism, the electric force between charges.",
+        ]),
+        p("An electric charge attracts or repels another without touching it, a magnet lifts a nail through thin paper, and gravity pulls a ball back down — all field forces that act across empty space."),
       ]),
       section("Inertia and Newton's first law", [
         p("Newton's first law states that an object remains at rest, or continues to move at constant velocity, unless acted upon by an unbalanced (net) force."),
@@ -363,6 +406,8 @@ export const physics9 = [
         p("Inertia is the tendency of matter to resist a change in its state of motion. The more massive an object, the more inertia it has, and the harder it is to start or stop it."),
         f("\\text{inertia} \\propto \\text{mass}", "More mass, more resistance to change"),
         callout("Why do you lurch forward when a bus brakes suddenly? Your body's inertia keeps it moving forward while the bus slows down.", "key"),
+        p("A sudden tug on a tablecloth pulls it out from under the dishes because the dishes' inertia keeps them in place. When you shake a carpet, the carpet moves but the dust keeps going. All of these are the first law in action."),
+        callout("The first law is sometimes called the law of inertia. Its real content is this: a force is needed to change motion, not to maintain it.", "tip"),
       ]),
       section("Newton's second law", [
         p("Newton's second law makes the idea of force quantitative: the net force acting on an object equals the product of its mass and its acceleration."),
@@ -372,6 +417,8 @@ export const physics9 = [
         p("Because F = ma, we define the unit of force: 1 N = 1 kg Ã— 1 m/sÂ². Force, mass and acceleration are all vectors, and the acceleration is always in the direction of the net force."),
         callout("The 'net' force matters. Two equal and opposite forces cancel, giving zero net force and zero acceleration.", "key"),
         sim("forces", "Push with a bigger force and watch the acceleration rise - F = ma.", "Newton's second law"),
+        callout("Worked example: a 5 kg box is pushed with a net force of 20 N. Its acceleration is a = F ÷ m = 20 ÷ 5 = 4 m/s². If the same force pushes a 10 kg box, the acceleration halves to 2 m/s² — the heavier box is exactly twice as hard to accelerate.", "key"),
+        p("The equation F = ma is both a definition and a working tool: given any two of force, mass and acceleration, the third follows. Always make sure the force in the equation is the net force — the resultant of all the forces acting."),
       ]),
       section("Newton's third law", [
         p("Newton's third law states that every action has an equal and opposite reaction: if body A exerts a force on body B, then B exerts an equal and opposite force on A."),
@@ -386,6 +433,8 @@ export const physics9 = [
         p("The two forces always act on different objects, so they never cancel each other. The action and reaction are equal in size and opposite in direction, but they act on different bodies."),
         sim("newtons-third-law", "Fire the cannon and watch the recoil - action and reaction are equal and opposite.", "Newton's third law"),
         callout("A rocket works in empty space precisely because it does not need to push against anything and” it pushes against its own exhaust.", "key"),
+        callout("The two forces of an action-reaction pair act on different bodies, so they can never cancel each other out. If you try to cancel them, you are looking at the wrong body.", "warning"),
+        p("When a horse pulls a cart, the cart pulls the horse back with an equal force. The horse still moves because the ground pushes the horse forward — that ground push is larger than the cart's pull whenever the horse accelerates."),
       ]),
       section("Mass and weight", [
         p("Mass and weight are often confused. Mass is the amount of matter in an object and” it is a scalar, measured in kilograms, and it never changes wherever the object goes. Weight is the gravitational force on the object."),
@@ -393,6 +442,11 @@ export const physics9 = [
         p("On Earth, g â‰ˆ 9.8 N/kg, so a 60 kg student has a weight of 60 Ã— 9.8 â‰ˆ 588 N. On the Moon, g â‰ˆ 1.6 N/kg, so the same student weighs only about 96 N and” but their mass is still 60 kg."),
         callout("Weight is a force (measured in newtons), mass is a quantity of matter (measured in kilograms).", "key"),
         sim("gravitation", "Slide the mass and watch it read far less on the Moon than on Earth and” the weight changes, the mass never does.", "mass and weight"),
+        list("Mass versus weight:", [
+          "Mass is the quantity of matter, measured in kilograms with a balance; it never changes.",
+          "Weight is the force of gravity on a mass, measured in newtons with a spring balance; it depends on g.",
+          "On Earth a 1 kg mass weighs about 9.8 N; on the Moon only about 1.6 N.",
+        ]),
       ]),
       section("Momentum", [
         p("Momentum is 'mass in motion' and” a measure of how hard it is to stop a moving object. It is a vector, the product of mass and velocity."),
@@ -401,6 +455,8 @@ export const physics9 = [
         p("Newton's second law can be written in terms of momentum: the net force equals the rate of change of momentum. The unit of momentum is kgÂ·m/s."),
         f("F = \\frac{\\Delta p}{t} = \\frac{mv - mu}{t}", "Force as rate of change of momentum"),
         p("This version of the second law is more general than F = ma because it stays true even when the mass itself changes, as when a rocket burns fuel and grows lighter. A very small force acting for a long time can change momentum just as much as a huge force acting briefly."),
+        callout("Momentum is a vector pointing along the velocity. In a straight-line problem, call one direction positive and keep the signs straight — a ball that bounces back changes its momentum by far more than one that simply stops.", "info"),
+        p("Units matter: momentum is measured in kg·m/s, which is exactly the same as N·s. That identity is why impulse — a force multiplied by a time — changes momentum by a predictable amount."),
       ]),
       section("Impulse", [
         p("When a large force acts for a very short time, we talk about impulse and” the change in momentum it produces."),
@@ -408,6 +464,12 @@ export const physics9 = [
         p("This explains many safety ideas. A cricket fielder pulls his hands back while catching a fast ball, increasing the time of impact and so reducing the force. Airbags, crumple zones, cushioned sports shoes and stretched safety nets all work by spreading the momentum change over a longer time."),
         p("For the same change of momentum, doubling the time halves the force. That single idea protects lives in car crashes every day."),
         callout("Hitting a wall with a glass bottle breaks it; hitting a soft cushion does not and” the cushion increases the time over which the momentum change happens, so the force is much smaller.", "key"),
+        list("Safety devices that lengthen impact time:", [
+          "Airbags and crumple zones in cars.",
+          "Helmet padding and cushioned sports shoes.",
+          "Sand or foam pits beneath gymnastics equipment.",
+          "Stretched safety nets and elastic ropes.",
+        ]),
       ]),
       section("Conservation of momentum", [
         p("In any collision or explosion, the total momentum before equals the total momentum after, provided no external force acts. This is the law of conservation of momentum."),
@@ -417,6 +479,8 @@ export const physics9 = [
         p("The law also explains explosions: when a firework bursts, its pieces fly off in all directions, yet the total momentum of all the pieces together remains zero, exactly as it was before the burst."),
         callout("Conservation of momentum is one of the strongest laws in physics and” it holds in collisions from atomic particles to galaxies.", "key"),
         sim("momentum", "Fire one cart into another and check that the total momentum before equals the total momentum after - every time.", "conservation of momentum"),
+        callout("Worked example: a 2 kg cart moving at 3 m/s collides with a stationary 1 kg cart and sticks to it. Total momentum before = 2 × 3 = 6 kg·m/s. After the collision the combined mass is 3 kg, so v = 6 ÷ 3 = 2 m/s.", "key"),
+        p("The conservation law holds for the two carts together because the only forces involved are internal. If friction from the ground is negligible, no external force acts and the total momentum is unchanged."),
       ]),
       section("Friction and” a force that opposes motion", [
         p("Friction is the force that opposes the relative motion (or attempted motion) of two surfaces in contact. It arises because surfaces, however smooth they look, have microscopic roughness that interlocks."),
@@ -521,6 +585,8 @@ export const physics9 = [
         p("The moment depends on the perpendicular distance from the line of action of the force to the pivot. If you push a spanner at an angle, only the component of distance perpendicular to the force counts."),
         figure("The moment of a force is force × perpendicular distance from the pivot", "/diagrams/turn-moment.svg"),
         callout("The distance d is measured perpendicular to the line of action of the force and” the shortest distance from pivot to the line of the force.", "key"),
+        callout("Worked example: a mechanic pushes a spanner with a force of 40 N at a perpendicular distance of 0.25 m from the nut. The moment is τ = F × d = 40 × 0.25 = 10 N·m. If he uses a spanner twice as long, the same push gives 20 N·m — twice the turning effect.", "key"),
+        p("The same principle explains a wheelbarrow, a door, a tap and a wrench: wherever a handle is made longer, a smaller force does the same job. The product force × distance is what actually rotates the object."),
       ]),
       section("Units and direction of moment", [
         p("The unit of moment is the newton metre (NÂ·m). Moments have a sense of rotation: clockwise or anticlockwise."),
@@ -528,6 +594,8 @@ export const physics9 = [
         p("A moment of 10 NÂ·m can be produced by 10 N at 1 m, or 5 N at 2 m, or 1 N at 10 m. The same turning effect can be achieved in many ways."),
         p("By convention, clockwise moments tend to rotate a body clockwise and anticlockwise moments the other way. When solving problems, keep the two directions separate."),
         p("This is why door handles are fitted at the far edge rather than near the hinges, and why designers put the steering wheel in a car and the pedals of a bicycle where they are: every turning device is tuned by choosing the right lever arm for the force."),
+        callout("Adopt one convention and stick to it: clockwise moments positive, anticlockwise negative. When you sum moments for equilibrium, the total must come to zero.", "tip"),
+        p("A moment of 10 N·m can come from 10 N at 1 m, 5 N at 2 m or 1 N at 10 m. When a problem gives several forces, compute each moment with its own lever arm, then add them together with their signs."),
         callout("The longer the spanner, the smaller the force needed to undo a tight nut and” mechanics use long handles precisely because moment = force Ã— distance.", "tip"),
       ]),
       section("A couple", [
@@ -541,12 +609,16 @@ export const physics9 = [
           "Opening a jar lid with both hands.",
           "Turning a key in a lock.",
         ]),
+        p("The moment of a couple is the same about every point, which is what makes a couple so useful: turning a wheel or a screwdriver produces rotation regardless of where you grip. This is why a couple is the natural way to describe steering a car or winding a clock."),
+        callout("Two equal, opposite, parallel forces that do not act along the same line always form a couple. Their moment is one force multiplied by the perpendicular distance between them — a pure turning effect with no translation.", "info"),
       ]),
       section("Resultant of forces", [
         p("When several forces act on a body, their net effect and” the resultant and” can replace them all. Forces acting in the same straight line simply add or subtract; forces at an angle combine by vector addition using the parallelogram rule."),
         f("R = \\sqrt{F_1^2 + F_2^2 + 2 F_1 F_2 \\cos\\theta}", "Resultant of two forces at an angle Î¸"),
         p("Two parallel forces in the same direction give a resultant equal to their sum, acting at a point between them. Parallel forces in opposite directions give a resultant equal to their difference."),
         callout("Two equal parallel forces in opposite directions produce no translation and” only the couple you met in the previous section.", "info"),
+        p("The parallelogram rule draws the two forces as adjacent sides of a parallelogram; the diagonal through their common point is the resultant. Its size and direction can be measured directly from a scale drawing, which is often the fastest way to get an answer."),
+        f("R = \\sqrt{F_1^2 + F_2^2 + 2F_1F_2\\cos\\theta}", "Resultant magnitude of two forces at an angle θ"),
       ]),
       section("The principle of moments", [
         p("When a body is balanced, the anticlockwise moments about any pivot exactly equal the clockwise moments. This is the principle of moments, the condition for rotational equilibrium."),
@@ -555,6 +627,8 @@ export const physics9 = [
         p("A balanced metre rule with weights on both sides obeys the same rule: add up all the moments on each side and they will match."),
         callout("The pivot (fulcrum) is your choice and” the principle holds about any point of a balanced body.", "tip"),
         sim("moments", "Balance the beam by adjusting the masses and their distances from the pivot — clockwise and anticlockwise moments must be equal.", "principle of moments"),
+        callout("Worked example: a 200 g mass hangs 30 cm from the pivot on the left. On the right, a 300 g mass balances it. The moments: 0.2 × g × 0.3 = 0.06g anticlockwise; on the right, 0.3 × g × d must equal it, so d = 0.06 ÷ 0.3 = 0.2 m = 20 cm from the pivot.", "key"),
+        p("When several masses sit on both sides, add the moments on each side first, then set the two totals equal. The pivot can be chosen anywhere for convenience, since a balanced body has equal moments about any point."),
       ]),
       section("Centre of gravity", [
         p("The centre of gravity is the single point at which the entire weight of a body appears to act. Every part of a body is pulled by gravity, but we can treat all that pull as one force acting at this point."),
@@ -563,6 +637,8 @@ export const physics9 = [
         f("x = \\frac{w_1 x_1 + w_2 x_2 + \\dots}{w_1 + w_2 + \\dots}", "Locating the centre of gravity"),
         p("A body hangs stably when suspended at its centre of gravity and” the point that balances all the weights of its parts."),
         callout("The centre of gravity is not always inside the body and” a ring's centre of gravity is at the centre of the hole.", "key"),
+        p("The balancing method finds the centre of gravity of a flat card: balance it on a knife edge in two different orientations, and the centre of gravity lies at the crossing of the two balance lines. Suspending the card from a point and drawing the vertical line works the same way."),
+        callout("Exams often ask: where is the centre of gravity of a uniform metre rule? The answer is its 50 cm mark — its geometric midpoint.", "tip"),
       ]),
       section("Centre of mass", [
         p("Closely related is the centre of mass and” the point where the whole mass of a body may be considered to be concentrated. In a uniform gravitational field, the centre of mass and the centre of gravity are the same point."),
@@ -600,6 +676,12 @@ export const physics9 = [
         p("You use this rule without thinking: you lean into a bend when riding a bicycle, a porter bends forward when lifting a heavy load, and a delivery van stops its contents from sliding by spreading them low. In every case the trick is to keep the weight line over the base."),
         callout("A tightrope walker carries a long pole and may bend the knees: lowering the centre of gravity and widening the effective base keeps balance.", "tip"),
         sim("centre-of-gravity", "Tilt the block and watch the weight line - stable while it stays over the base, toppling when it falls outside.", "centre of gravity and stability"),
+        list("Stability in real objects:", [
+          "Racing cars are low and wide so they corner without tipping.",
+          "Cranes carry counterweights and spread their legs wide.",
+          "A ship loads heavy cargo low in the hold and keeps high loads small.",
+          "A walking person sways slightly so the weight line always stays over the feet.",
+        ]),
       ]),
       section("Levers and everyday machines", [
         p("A lever is a rigid bar that turns about a pivot (fulcrum) to lift a load with effort. Levers multiply force or distance depending on where the fulcrum, load and effort sit."),
@@ -680,6 +762,7 @@ export const physics9 = [
         p("Although it is the weakest of the fundamental forces, gravity is the most universal and” it never switches off and it acts over any distance."),
         p("Before Newton, people thought the rules for falling objects and the rules for the heavens were different. Newton showed that the same force governs both and” the apple and the Moon."),
         callout("Gravity is universal: every mass attracts every other mass. Nothing is exempt.", "key"),
+        p("Gravity always attracts — it never pushes. Two objects attract each other along the line joining their centres, and each pulls the other with a force of exactly the same size, in obedience to Newton's third law. The Earth pulls you down with the same force with which you pull the Earth up."),
       ]),
       section("Newton's law of universal gravitation", [
         p("Newton's law states that every particle of matter attracts every other particle with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between them."),
@@ -688,6 +771,8 @@ export const physics9 = [
         p("Doubling either mass doubles the force. Doubling the distance reduces the force to one quarter and” the inverse square law. Triple the distance and the force falls to one ninth."),
         p("The force acts along the line joining the two masses, and the two masses attract each other with equal and opposite forces, exactly as Newton's third law demands."),
         callout("Inverse square: 2Ã— the distance gives Â¼ the force, 3Ã— gives 1/9, 10Ã— gives 1/100.", "key"),
+        callout("Worked example: two masses of 4 kg and 9 kg have their centres 2 m apart. With G = 6.674 × 10⁻¹¹ N·m²/kg², the force is F = G(4)(9)/2² = 9G ≈ 6.0 × 10⁻¹⁰ N. Doubling both masses would multiply the force by four.", "key"),
+        p("The inverse-square behaviour is why gravity weakens so quickly with distance yet still dominates the cosmos: although one planet's pull on you is tiny by itself, the Sun's colossal mass makes its grip on the whole Solar System overwhelming."),
       ]),
       section("The gravitational constant G", [
         p("The constant G in the law is the gravitational constant. Its value is the same everywhere in the universe: 6.674 Ã— 10â»Â¹Â¹ NÂ·mÂ²/kgÂ²."),
@@ -696,6 +781,7 @@ export const physics9 = [
         p("Gravity dominates the universe only because planets and stars have colossal masses. Henry Cavendish measured G in 1798 with a delicate torsion balance."),
         p("Cavendish hung two small lead spheres from a thread and brought two large lead spheres near them. The tiny attraction between the spheres twisted the thread, and measuring that twist gave the first reliable value of G. The experiment was so precise it earned the name 'weighing the Earth'."),
         callout("Because G is so tiny, the attraction between two people is undetectable. Only astronomical masses make gravity obvious.", "key"),
+        callout("G has units N·m²/kg². If your gravitational-force calculation does not come out in newtons, check that every length is in metres and every mass in kilograms before you substitute.", "warning"),
       ]),
       section("Mass of the Earth", [
         p("Once G was known, the mass of the Earth could be calculated. At the Earth's surface, a mass m is pulled by weight W = mg, and the law of gravitation gives the same force using the Earth's mass M and radius R."),
@@ -712,6 +798,13 @@ export const physics9 = [
         p("For an object of mass m falling freely, Newton's second law F = ma combines with the law of gravitation to give mg = GMm/RÂ², and the m cancels. That is why all objects fall with the same acceleration regardless of their mass."),
         p("On the Moon, M is much smaller, so g â‰ˆ 1.6 m/sÂ². On Jupiter, g â‰ˆ 25 m/sÂ², about two and a half times the Earth's value."),
         callout("g is the gravitational field strength and” the force per unit mass, 9.8 N/kg and” identical to an acceleration of 9.8 m/sÂ².", "key"),
+        list("Value of g on different worlds:", [
+          "Moon and” about 1.6 m/s².",
+          "Earth and” about 9.8 m/s².",
+          "Jupiter and” about 25 m/s².",
+          "Sun and” about 274 m/s².",
+        ]),
+        p("A balance reading of 60 kg on the Moon still says 60 kg, because a beam balance compares masses. Only a spring balance — which measures force — shows the smaller weight. The value of g decides what the spring balance reads."),
       ]),
       section("Variation of g with altitude and depth", [
         p("The value of g is not constant. It changes with height above the surface and with depth below it."),
@@ -721,6 +814,8 @@ export const physics9 = [
         p("So an object dropped into a tunnel bored right through the Earth would accelerate all the way to the centre, then be slowed by gravity on the far side — and, if nothing stopped it, would emerge the other side before falling back again."),
         f("g_d = g\\left(1 - \\frac{d}{R}\\right)", "g at depth d below the surface"),
         callout("The biggest difference in everyday life is at altitude: satellites orbiting at hundreds of kilometres feel g far weaker than at the surface.", "tip"),
+        p("The change with altitude is slow: 10 km up (the cruising height of a jetliner), g falls by only about 0.3%. Even at the top of Mount Everest the change is under 0.5%. Only spacecraft, thousands of kilometres out, feel the drop sharply."),
+        f("g_h = g\\left(\\frac{R}{R+h}\\right)^2", "g decreases slowly with height"),
       ]),
       section("Variation of g with latitude", [
         p("g is slightly larger at the poles than at the equator. Two effects combine: the Earth bulges at the equator, so the surface there is farther from the centre; and the Earth's rotation provides a small outward effect that reduces the apparent g."),
@@ -741,6 +836,7 @@ export const physics9 = [
         p("On Earth a 70 kg astronaut weighs 70 Ã— 9.8 â‰ˆ 686 N. On the Moon, with g = 1.6 m/sÂ², the same astronaut weighs only about 112 N and” roughly one sixth of Earth weight and” but their mass is still exactly 70 kg."),
         p("Weight is a force, so it is measured with a spring balance and expressed in newtons. Mass is measured with a beam or electronic balance in kilograms."),
         callout("A spring balance measures weight (a force); a beam balance compares masses. Mass never changes, weight depends on where you are.", "key"),
+        callout("Exam trick: weight on another world = mass × g of that world. A 10 kg box weighs 98 N on Earth but only 16 N on the Moon — yet its mass is still 10 kg in both places.", "tip"),
       ]),
       section("Free fall and weightlessness", [
         p("In free fall, the only force acting is gravity, so the acceleration is g for every object regardless of mass. In a vacuum a feather and a hammer fall together, as demonstrated on the Moon by the Apollo astronauts."),
@@ -756,6 +852,9 @@ export const physics9 = [
         p("The planets follow the same physics around the Sun. Kepler's laws describe their elliptical paths, and Newton's gravitation explains why the paths are what they are."),
         p("Kepler had found that planets sweep out equal areas in equal times, and that the square of the orbital period is proportional to the cube of the orbit's size. Newton's inverse-square law produces exactly these rules — a spectacular confirmation that heavenly and earthly motion obey the same laws."),
         callout("A satellite is simply a projectile that keeps missing the Earth. Fire a cannonball fast enough sideways and it falls around the curve instead of to the ground.", "key"),
+        f("T = 2\\pi\\sqrt{\\frac{r^3}{GM}}", "Period of a circular orbit"),
+        p("The period of an orbit depends only on the orbit's radius and the central mass — not on the satellite's own mass. A light satellite and a heavy one at the same height circle at the same speed and with the same period."),
+        sim("circular-motion", "Adjust the orbital speed and watch the satellite settle into a stable circle, spiral inward, or escape entirely.", "satellites and circular orbits"),
       ]),
       section("Artificial satellites and their uses", [
         p("The first artificial satellite, Sputnik 1, was launched by the Soviet Union in 1957. Today thousands of satellites orbit the Earth for communication, weather, navigation and observation."),
@@ -769,6 +868,7 @@ export const physics9 = [
         p("A geostationary satellite orbits above the equator at about 35,800 km, taking exactly 24 hours to complete one orbit. It appears fixed above one point of the Earth, so its dishes can stay pointed at it forever."),
         p("Geostationary satellites are ideal for communication and broadcasting; lower polar-orbiting satellites sweep the whole Earth for weather and surveillance."),
         callout("A communication satellite appears motionless in the sky because its period matches the Earth's rotation and” a direct consequence of the orbital speed formula.", "key"),
+        p("Not all satellites need geostationary orbits. Weather and mapping satellites often use low polar orbits, passing over every part of the Earth a few times a day so their sensors can see the whole globe. Each orbit design is chosen to fit the job."),
       ]),
       section("Worked examples", [
         h("Worked example 1: gravitational force between two masses"),
@@ -837,6 +937,8 @@ export const physics9 = [
         p("Work is a scalar quantity measured in joules (J). One joule is the work done when a force of one newton moves an object one metre in its own direction."),
         figure("Work is done when a force moves a body along its direction", "/diagrams/wep-work.svg"),
         callout("1 J = 1 NÂ·m. Lifting an apple (about 1 N) through one metre does about one joule of work.", "tip"),
+        callout("Worked example: a gardener pushes a wheelbarrow with a force of 50 N along a level path of 20 m. The work done is W = F × s = 50 × 20 = 1000 J. If the force were doubled, the work would double; if the distance were halved, the work would halve.", "key"),
+        p("Work is a scalar, so two workers doing 500 J each contribute 1000 J regardless of direction. The direction of the force decides whether the work is positive (adding energy), negative (removing energy) or zero (force perpendicular to motion)."),
       ]),
       section("When force and motion are not parallel", [
         p("When the force is not exactly in the direction of the displacement, only the component of the force along the displacement does work."),
@@ -845,6 +947,7 @@ export const physics9 = [
         p("When the force is perpendicular to the motion, Î¸ = 90Â° and cos Î¸ = 0, so no work is done. A satellite in a circular orbit has gravity always perpendicular to its motion and” gravity does no work on it, which is why its speed stays constant."),
         p("If the force opposes the motion, Î¸ = 180Â° and cos Î¸ = âˆ’1, so the work is negative and” friction does negative work, removing energy."),
         callout("Positive work adds energy, negative work removes it, and perpendicular forces (Î¸ = 90Â°) do no work at all.", "key"),
+        p("The formula W = Fs cos θ handles every case at once. For a horizontal force, θ = 0° and cos θ = 1; for a force straight up while the body moves sideways, θ = 90° and cos θ = 0, so no work is done; for a brake, θ = 180° and cos θ = −1, giving negative work."),
       ]),
       section("Energy and” the ability to do work", [
         p("Energy is the capacity to do work. When you do work on an object, you transfer energy to it; when an object does work on you, it transfers energy to you. Work and energy are measured in the same unit and” the joule."),
@@ -858,6 +961,8 @@ export const physics9 = [
           "Electrical, heat, light, sound and nuclear energy.",
         ]),
         callout("Energy can change form, but the total amount in an isolated system never changes.", "key"),
+        p("Nutrition labels express food energy in kilocalories (Calories); one food Calorie is about 4184 J. The energy a person gets from food is chemical energy, later converted into the kinetic energy of muscles, heat to keep the body warm and work done on the world."),
+        callout("A kilowatt-hour is an energy unit used on electricity bills: 1 kWh = 3.6 million joules — the energy a 1000 W appliance uses in one hour.", "info"),
       ]),
       section("Kinetic energy", [
         p("Kinetic energy is the energy an object has because it is moving. A fast car, a rushing river and the wind all carry kinetic energy."),
@@ -867,6 +972,9 @@ export const physics9 = [
         p("Wind turbines and water wheels harvest kinetic energy directly: moving air or water sets the blades spinning, and a generator turns that motion into electricity. The faster the flow, the more energy it carries — doubling the wind speed multiplies the available power about eightfold."),
         callout("Kinetic energy grows with the square of speed: three times the speed means nine times the energy.", "key"),
         sim("energy", "Roll the ball down the hill and watch potential energy turn into kinetic energy.", "kinetic and potential energy"),
+        p("The square in ½mv² explains why stopping distances grow so fast with speed. Doubling the speed quadruples the kinetic energy, so a car needs four times the braking distance; tripling the speed needs nine times."),
+        f("\\text{braking distance} \\propto v^2", "Kinetic energy grows with the square of speed"),
+        callout("Exam trap: kinetic energy depends on the square of speed, not on speed itself. A car at 30 m/s does not carry three times the energy of one at 10 m/s — it carries nine times.", "warning"),
       ]),
       section("Gravitational potential energy", [
         p("An object lifted above the ground has stored energy because gravity will pull it down if released. This is gravitational potential energy."),
@@ -874,6 +982,8 @@ export const physics9 = [
         p("A dam stores enormous potential energy in the water piled behind it; releasing that water through turbines turns it into electrical energy."),
         p("The potential energy depends on the height chosen as the reference level. Doubling the height doubles the stored energy; the mass and g simply multiply."),
         callout("mgh is the work done against gravity to lift the mass to that height and” that is exactly why it is stored energy.", "key"),
+        p("The reference level is your choice: measure h from the ground, from a table, or from sea level, and the stored energy is different in each case. What matters in physics is the change in mgh when a body moves, because that change equals the work done."),
+        callout("A ball thrown upward converts kinetic energy into potential energy on the way up and back into kinetic energy on the way down. If air resistance is ignored, it lands at exactly the speed it was thrown.", "tip"),
       ]),
       section("Elastic potential energy", [
         p("A stretched bow, a compressed spring and a squeezed balloon all store elastic potential energy. It is the energy stored when an elastic material is deformed."),
@@ -889,6 +999,8 @@ export const physics9 = [
         figure("Potential energy converts into kinetic energy as a body descends", "/diagrams/wep-ke-pe.svg"),
         p("A pendulum repeats this exchange forever in a vacuum. In air, friction and air resistance slowly convert the energy to heat and sound, so the swing dies down and” the energy is not destroyed, it is just dissipated."),
         callout("Energy is never lost, only spread around. The 'lost' mechanical energy shows up as heat, sound and light.", "key"),
+        callout("Worked example: a 2 kg ball is dropped from a height of 5 m. Its potential energy at the top is mgh = 2 × 9.8 × 5 = 98 J. Just before landing all of it is kinetic, so ½mv² = 98, giving v = √(2 × 9.8 × 5) ≈ 9.9 m/s — independent of the mass.", "key"),
+        p("Notice that the mass cancelled. A heavy ball and a light ball released from the same height reach the ground with the same speed — the same result as free fall, now seen from the energy point of view."),
       ]),
       section("Interconversion of energy", [
         p("Every power station and every living cell is an energy conversion machine. Consider a hydroelectric plant: the potential energy of stored water becomes kinetic energy as it rushes down, then mechanical energy of the turbine, then electrical energy in the generator."),
@@ -911,6 +1023,8 @@ export const physics9 = [
         figure("Power is the work done per second", "/diagrams/wep-power.svg"),
         callout("Power is about the speed of working. A horse and a man can do the same work, but the horse does it faster and” higher power.", "key"),
         sim("power", "Adjust force, distance and time and watch power rise when the same work is done faster.", "power and work rate"),
+        callout("Worked example: a student climbs a flight of stairs, lifting their 60 kg body through 3 m in 6 s. Work = mgh = 60 × 9.8 × 3 ≈ 1764 J, and power = 1764 ÷ 6 ≈ 294 W — roughly four light bulbs' worth of output.", "key"),
+        p("Power ratings appear everywhere: a 1000 W iron, a 2000 W heater, a 50 W fan. Each number is the energy converted per second, and multiplying a wattage by time in seconds gives the total energy used in joules."),
       ]),
       section("Efficiency and machines", [
         p("A machine is a device that makes work easier by changing the size or direction of a force and” a lever, a pulley, a ramp or a gear. Machines never create energy; they only transform or transmit it."),
@@ -918,6 +1032,12 @@ export const physics9 = [
         p("Friction always wastes some input energy as heat, so no real machine is 100% efficient. A good electric motor might be 90% efficient; an old incandescent bulb only about 5%."),
         p("An ideal machine would give output work equal to input work. In practice the input is always a little larger, and the difference is lost to friction and other losses."),
         callout("Efficiency is always less than 100% for real devices. Perpetual-motion machines that give out more than they take in would violate conservation of energy and” they do not exist.", "warning"),
+        list("Where the 'lost' energy goes:", [
+          "Heat from friction in bearings and gears.",
+          "Sound from moving parts.",
+          "Heat in motor windings and bulbs.",
+          "Waste heat in engines exhausted to the air.",
+        ]),
       ]),
       section("Energy sources", [
         p("The world runs on energy sources. Renewable sources and” sunlight, wind, falling water, tides and biomass and” are continually replenished. Non-renewable sources and” coal, oil, natural gas and nuclear fuels and” are finite and take millions of years to form."),
@@ -1006,6 +1126,8 @@ export const physics9 = [
           "Adding heat makes particles move faster and matter expand.",
         ]),
         callout("The kinetic model is the story behind everything in this chapter: the faster the particles, the hotter the body.", "key"),
+        p("One spectacular consequence of the model is that temperature is just a measure of average particle kinetic energy. Heat a solid and its particles vibrate faster; cool a gas and its particles slow down. That link between motion and temperature drives all of the thermal behaviour in this chapter."),
+        callout("Diffusion happens faster at higher temperature: the faster the particles move, the quicker a smell or a dye spreads. Warm air carries scents farther than cold air for exactly this reason.", "tip"),
       ]),
       section("The three states of matter", [
         p("Temperature and the strength of the inter-particle forces decide which state matter takes."),
@@ -1018,6 +1140,11 @@ export const physics9 = [
         f("\\text{solid} \\to \\text{liquid} \\to \\text{gas} \\qquad \\text{(as heat is added)}", "State changes with heat"),
         figure("The three states of matter at the particle level", "/diagrams/prop-states-of-matter.svg"),
         p("A solid is rigid because its particles cannot move past each other; a gas fills its container because its particles travel freely."),
+        list("Comparing the three states:", [
+          "Solids: fixed shape and volume, not compressible, particles vibrate in place.",
+          "Liquids: fixed volume, shape of the container, hardly compressible, particles slide past one another.",
+          "Gases: no fixed shape or volume, easily compressed, particles fly freely.",
+        ]),
         sim("sound", "Pump the air out of the jar and watch the ringing bell fall silent — sound needs a medium to carry it.", "sound needs a medium"),
       ]),
       section("Density", [
@@ -1035,6 +1162,9 @@ export const physics9 = [
         p("Density explains many everyday observations: a balloon filled with helium rises because helium is less dense than air; cooking oil floats on water because it is less dense; and a heavy iron anchor sinks because iron is far denser than water."),
         callout("Density is a property of the material, not of the size of the sample. A spoonful and a bucketful of water have the same density.", "key"),
         sim("fluids", "Drop each object into the liquid and watch it float or sink according to its density.", "density and floating"),
+        callout("Worked example: a block has a mass of 800 g and a volume of 250 cm³. Its density is ρ = m ÷ V = 800 ÷ 250 = 3.2 g/cm³, which equals 3200 kg/m³. Compared with water (1000 kg/m³), the block sinks.", "key"),
+        f("\\rho = \\frac{m}{V} \\qquad \\text{so} \\qquad m = \\rho V, \\quad V = \\frac{m}{\\rho}", "Rearranging the density formula"),
+        p("The rearranged forms are just as useful: a tank of known volume filled with oil of known density gives the mass of oil delivered, and measuring the density of a liquid helps identify it. Given any two of mass, volume and density, the third follows."),
       ]),
       section("Floating and sinking", [
         p("Whether an object floats depends on its density compared with the liquid. If the object's density is less than the liquid's, it floats; if greater, it sinks; if equal, it hangs suspended."),
@@ -1045,6 +1175,8 @@ export const physics9 = [
         p("Fish do the same thing with their swim bladders — inflating it makes them rise, deflating makes them sink. A hydrometer works on the same rule in reverse: it sinks deeper into a light liquid and floats higher in a dense one, letting the density be read from the scale."),
         sim("viscosity", "Drop balls of different size through liquids of different thickness and watch terminal velocity change.", "viscosity and terminal velocity"),
         sim("surface-tension", "Raise and lower the surface tension and see whether a needle floats on the liquid film.", "surface tension"),
+        p("A loaded ship sinks lower into the water than an empty one, because its mass — and so the volume of water it must displace — is greater. The waterline marks painted on cargo ships exist so captains can see at a glance how much more load is safe."),
+        callout("A ship is like a hollow box of air; its average density is what decides floating, not the density of its steel hull. That is why the same steel sinks as a solid block yet floats as a ship.", "key"),
       ]),
       section("Pressure", [
         p("Pressure is the force acting perpendicular to a surface divided by the area it acts on. The same force on a smaller area produces a bigger pressure."),
@@ -1054,6 +1186,8 @@ export const physics9 = [
         p("Pressure is also what makes the same knife dangerous in the wrong hands: a fine blade concentrates a modest force onto a tiny edge, producing an enormous pressure that easily cuts. The sharper the edge, the smaller the area, and the larger the pressure."),
         callout("The same force can make enormous pressure if concentrated, or almost none if spread out. This is why drawing pins have a broad head and a sharp point.", "key"),
         sim("pressure", "Spread the same force over different areas and watch the pressure fall or leap - P = F / A.", "pressure"),
+        callout("Worked example: a woman of weight 600 N stands on the floor. With flat shoes her feet cover 0.03 m², so P = 600 ÷ 0.03 = 20,000 Pa. Balanced on one stiletto heel of area 1 cm² = 0.0001 m², the pressure is 600 ÷ 0.0001 = 6,000,000 Pa — enough to dent a wooden floor.", "key"),
+        p("This is why heavy machinery is set on wide foundations, why camels have broad flat feet for sand, and why a person walking on snow wears snowshoes: spreading the weight over a bigger area lowers the pressure."),
       ]),
       section("Pressure in liquids", [
         p("Liquids exert pressure because their weight presses down, and liquids transmit that pressure in all directions. Liquid pressure increases with depth."),
@@ -1062,6 +1196,7 @@ export const physics9 = [
         p("Here h is the depth, Ï the liquid density and g the acceleration due to gravity. Doubling the depth doubles the pressure; a denser liquid gives more pressure at the same depth."),
         p("This is why dam walls are much thicker at the bottom, why deep-sea divers need special suits, and why a submarine's hull must resist crushing force at depth."),
         callout("Pressure in a liquid depends on depth and density and” not on the shape of the container or the amount of liquid.", "key"),
+        p("At a given depth, liquid pressure acts equally in every direction — upward on a submerged object, sideways on a dam wall, downward on the bottom. That is why a small hole in the side of a water tank sprays fastest at the bottom, where the pressure is greatest."),
       ]),
       section("Atmospheric pressure", [
         p("The atmosphere is a layer of air about 100 km thick. Air has weight, so it exerts pressure on everything it touches and” atmospheric pressure."),
@@ -1087,6 +1222,8 @@ export const physics9 = [
           "Hydraulic press and” squeezes metals and waste into bales.",
         ]),
         callout("A hydraulic machine is a force multiplier and” like a lever, but using liquid pressure instead of a bar.", "key"),
+        callout("Worked example: in a hydraulic lift the small piston has area 0.01 m² and the large piston 0.5 m². A 100 N force on the small piston creates a pressure of 100 ÷ 0.01 = 10,000 Pa, which lifts F₂ = P × A₂ = 10,000 × 0.5 = 5000 N on the large piston — fifty times the effort.", "key"),
+        p("The trade-off is distance: the small piston moves far while the large piston moves a little, so the work done (force × distance) is the same on both sides. A hydraulic machine multiplies force but never multiplies energy."),
       ]),
       section("Archimedes' principle and buoyancy", [
         p("When an object is placed in a fluid, the fluid exerts an upward force on it and” the buoyant force. Archimedes' principle states that the buoyant force equals the weight of the fluid displaced by the object."),
@@ -1095,6 +1232,8 @@ export const physics9 = [
         p("A stone feels lighter in water because the water pushes it up with a force equal to the weight of the water it displaces. Weigh the stone in air, then in water, and the difference is the buoyant force."),
         p("This principle explains why ships float, why hot-air balloons rise, and why a hydrometer floats higher in denser liquids."),
         callout("If the buoyant force equals the object's weight, it floats; if the buoyant force is less, it sinks.", "key"),
+        f("\\text{apparent weight} = \\text{true weight} - \\text{buoyant force}", "Weighing an object in a fluid"),
+        p("The 'lost weight' when an object hangs in a liquid is exactly the buoyant force. This is the standard way to measure upthrust in the laboratory: weigh in air, weigh immersed, and subtract. It also gives the volume of an irregular object, since the displaced volume equals V = Fb ÷ (ρg)."),
       ]),
       section("Elasticity and Hooke's law", [
         p("Elasticity is the property of a material to return to its original shape when the deforming force is removed. A spring, a rubber band and a steel wire are elastic; clay is not and” it stays deformed (plastic)."),
@@ -1177,6 +1316,8 @@ export const physics9 = [
         p("Two bodies at the same temperature are said to be in thermal equilibrium — no heat flows between them. A thermometer reads the same temperature as its surroundings precisely because heat flows until equilibrium is reached."),
         callout("Temperature = average particle kinetic energy. Heat = total energy transferred because of a temperature difference.", "key"),
         sim("thermal-equilibrium", "Mix hot and cold bodies and watch both slide to a common final temperature.", "thermal equilibrium"),
+        p("Because temperature measures average particle energy, a small hot object and a large warm object can hold very different amounts of heat. That is why a spark at 800 °C barely warms a pool, while the pool can slowly warm a whole room."),
+        callout("In exams, 'heat' is energy in transit — it flows between bodies. A body never 'contains heat'; it contains internal energy. Heat is the name for the energy that crosses a boundary because of a temperature difference.", "warning"),
       ]),
       section("Temperature scales", [
         p("Three scales are in common use. The Celsius scale (Â°C) sets 0 Â°C at the freezing point of water and 100 Â°C at its boiling point. The Fahrenheit scale (Â°F) is used in the USA. The kelvin scale (K) is the SI scale and starts at absolute zero."),
@@ -1186,6 +1327,8 @@ export const physics9 = [
         figure("A liquid-in-glass thermometer and its scale", "/diagrams/therm-thermometer.svg"),
         p("A temperature difference of 1 Â°C equals a difference of 1 K and” only the zero points differ."),
         callout("Room temperature is about 20 Â°C = 293 K. Absolute zero, âˆ’273 Â°C, is the point of minimum particle motion.", "tip"),
+        callout("Worked example: convert 25 °C to kelvin and to Fahrenheit. Kelvin: T = 25 + 273 = 298 K. Fahrenheit: T = (9/5 × 25) + 32 = 45 + 32 = 77 °F. A change of 1 °C is a change of 1 K, so a rise of 10 °C is a rise of 10 K.", "key"),
+        p("All three scales measure the same thing; they simply choose different zeros and different step sizes. The kelvin is the scientist's choice because it never goes negative, which simplifies the gas laws you will meet in higher classes."),
       ]),
       section("Thermal expansion", [
         p("Most materials expand when heated because their particles vibrate more and take up more space. This expansion is thermal expansion, and it happens in all three dimensions."),
@@ -1199,6 +1342,8 @@ export const physics9 = [
         f("\\Delta l = \\alpha\\, l_0\\, \\Delta T", "Linear expansion of a rod"),
         callout("Î± is the coefficient of linear expansion and” how much each metre of the material grows per degree of temperature rise. Different metals expand at different rates.", "key"),
         sim("thermal-expansion", "Heat the bar and watch it grow - solids, liquids and gases all expand when heated.", "thermal expansion"),
+        callout("The expansion of liquids and gases is far larger than that of solids — that is why thermometers work. Mercury or alcohol expanding up a narrow tube shows temperature changes clearly, while a steel bridge needs only a few centimetres of gap per hundred metres.", "tip"),
+        p("The same physics explains why a glass tumbler cracks when boiling water is poured into it: the inside expands faster than the outside, and the strain shatters the glass. Thin laboratory beakers survive because the heat reaches both walls quickly, keeping the expansion even."),
       ]),
       section("Anomalous expansion of water", [
         p("Water is the great exception. Most liquids expand steadily when heated, but water contracts as it warms from 0 Â°C to 4 Â°C, then expands beyond 4 Â°C. Its density is greatest at 4 Â°C."),
@@ -1206,6 +1351,7 @@ export const physics9 = [
         p("This is why lakes freeze from the top down. In winter, the cold surface water sinks until the whole lake reaches 4 Â°C; water colder than 4 Â°C floats, so ice forms on the surface and the deeper water stays liquid and” fish survive the winter beneath the ice."),
         p("Without this strange property, lakes would freeze solid from the bottom and kill their life."),
         callout("Ice floats because solid water is less dense than liquid water near 4 Â°C and” the same reason icebergs show only a tenth of their mass above water.", "key"),
+        p("Water pipes burst in winter because the freezing water expands — not the metal. As water turns to ice near 0 °C, it suddenly grows by about 9% in volume, and that expansion is powerful enough to split iron pipes."),
       ]),
       section("Bimetallic strips and thermostats", [
         p("A bimetallic strip is made of two different metals and” usually brass and iron and” joined together. Because the metals expand by different amounts, heating the strip makes it bend."),
@@ -1227,6 +1373,12 @@ export const physics9 = [
         p("The same idea governs cooking: vegetables in boiling water cook slowly compared with the same food in a small pan, and a heavy iron pan holds its heat better than a thin aluminium one. The mass and the specific heat together decide how much heat a body can store."),
         callout("A high specific heat means a substance is slow to warm up and slow to cool down. Water is the champion among common liquids.", "key"),
         sim("specific-heat", "Heat the block and watch the temperature climb — a material with a high specific heat warms slowly.", "specific heat capacity"),
+        list("Choosing materials by specific heat:", [
+          "Water (4200 J/kg·°C) for cooling engines and storing heat.",
+          "Aluminium (900 J/kg·°C) for quick-heating cookware.",
+          "Iron (450 J/kg·°C) for heavy pans that hold their heat.",
+          "Sand (about 800 J/kg·°C), which stays hot long after sunset on a beach.",
+        ]),
       ]),
       section("Measuring specific heat capacity", [
         p("Specific heat is found by the method of mixtures. A hot body is dropped into cold water in an insulated container (a calorimeter), and the common final temperature is measured."),
@@ -1235,6 +1387,8 @@ export const physics9 = [
         p("The calorimeter must be well insulated and stirred so the temperature is uniform, and small corrections are made for heat absorbed by the stirrer and thermometer."),
         callout("The method of mixtures is a direct application of the conservation of energy: heat given out by one body is gained by another.", "key"),
         sim("calorimetry", "Pour hot and cold water together in the calorimeter and read off the final temperature.", "calorimetry and method of mixtures"),
+        callout("Worked example: 1 kg of hot water at 60 °C is mixed with 2 kg of cold water at 15 °C in an insulated vessel. Heat lost by the hot water = heat gained by the cold: 1 × c × (60 − T) = 2 × c × (T − 15). The specific heat cancels, giving 60 − T = 2T − 30, so T = 30 °C.", "key"),
+        p("The result makes sense: the mixture settles closer to the larger mass of cold water. Exactly the same equation, with the heat capacities included, finds the specific heat of an unknown solid dropped into the calorimeter."),
       ]),
       section("Latent heat of fusion", [
         p("When a solid melts, its temperature stays constant while heat flows in and” the heat is used to break the forces holding the particles in place, not to raise temperature. This hidden heat is latent heat."),
@@ -1244,6 +1398,7 @@ export const physics9 = [
         p("This is why a refrigerator works so well: the ice in a box absorbs a large amount of heat as it melts, keeping the food cold for a long time even in a warm room. The heat that melts the ice is quietly removed from the surroundings, and the temperature does not rise until the melting is complete."),
         callout("During melting or freezing the temperature does not change, however much heat flows in or out. That constant temperature is the signature of latent heat.", "key"),
         sim("latent-heat", "Melt the ice and watch the temperature hold steady while latent heat works.", "latent heat of fusion"),
+        p("Latent means 'hidden' — the heat is absorbed but the thermometer shows no change. During melting the extra energy is spent breaking the bonds between particles rather than speeding them up, so the temperature cannot rise until every last crystal has melted."),
       ]),
       section("Latent heat of vaporisation", [
         p("Boiling a liquid needs even more energy, because the particles must be torn completely apart into a gas. The specific latent heat of vaporisation Lv is the heat needed to turn 1 kg of liquid into vapour at its boiling point."),
@@ -1252,6 +1407,8 @@ export const physics9 = [
         p("The latent heat of vaporisation of water is about 2.26 MJ/kg and” almost seven times the heat needed to melt the same mass of ice. Steam at 100 Â°C therefore carries far more energy than boiling water, which is why a steam burn is so dangerous."),
         p("Condensation releases all that latent heat back and” that is why steam heating systems are so effective and why hot steam condensing on your skin burns badly."),
         callout("Steam at 100 Â°C can burn far worse than water at 100 Â°C: the condensing steam gives up its huge latent heat of vaporisation onto the skin.", "warning"),
+        p("The reverse process releases energy: when steam condenses on a cold surface it gives back all 2.26 MJ per kilogram. That is why steam heating systems deliver so much warmth and why a kettle's steam jet can scald so badly."),
+        callout("Exam favourite: compare the energy scales. Melting 1 kg of ice takes 336 kJ; heating the resulting water to 100 °C takes 420 kJ; boiling it away takes 2260 kJ. The last step dwarfs the others.", "tip"),
       ]),
       section("Evaporation and boiling", [
         p("Evaporation and boiling are both changes of liquid into vapour, but they differ. Boiling happens throughout the liquid at a fixed temperature (the boiling point) with bubbles forming. Evaporation happens only at the surface and at any temperature."),
@@ -1265,6 +1422,7 @@ export const physics9 = [
         ]),
         p("Evaporation cools the liquid because the fastest particles escape, leaving slower ones behind and” the average kinetic energy falls. Sweating works exactly this way: evaporating sweat carries heat away from your skin."),
         callout("A wet cloth in front of a fan cools a room because the moving air speeds evaporation, and the evaporating water removes heat and” the energy comes from the latent heat of vaporisation.", "tip"),
+        p("Evaporation also explains why water in an open dish disappears even when it is not boiling, why wet clothes dry on a washing line, and why a dog cools itself by panting — evaporation pulls latent heat out of the surface it leaves."),
       ]),
       section("Applications of thermal properties", [
         p("Understanding specific heat and latent heat drives everyday technology. Water is chosen as a coolant in engines, a heat store in solar panels and the working fluid in geysers because of its high specific heat."),
@@ -1342,6 +1500,13 @@ export const physics9 = [
         ]),
         p("In most real situations two or three mechanisms act together and” a hot cup of tea loses heat by all three at once."),
         callout("The Sun's heat reaches Earth through empty space. Only radiation can do that and” conduction and convection need a medium.", "key"),
+        list("Deciding which mechanism dominates:", [
+          "Through a solid metal bar: conduction.",
+          "In a boiling pot of water: convection.",
+          "From the Sun to the Earth: radiation.",
+          "Across the air gap of a double-glazed window: mainly radiation.",
+        ]),
+        p("Real objects usually lose heat by all three at once, and engineers design to favour or block each. A hot cup of tea warms the air around it by conduction, stirs a convection current, and radiates infrared to the room."),
       ]),
       section("Conduction", [
         p("Conduction is the transfer of heat through a material by particle vibration and electron movement. When one end of a metal rod is heated, the particles there vibrate violently and knock their neighbours, passing energy down the rod."),
@@ -1355,6 +1520,8 @@ export const physics9 = [
         p("Because conduction depends on a temperature difference, it also controls how quickly an object cools: a hot metal pan plunged into cold water sheds its heat through the metal in seconds, while a thick-walled clay pot stays warm for hours."),
         callout("Conduction is how the whole length of a metal spoon gets hot even though only the bowl touches the tea and” the energy travels through the metal.", "key"),
         sim("heat-transfer", "Heat one end of the rod and watch the energy march along - metals conduct fastest.", "conduction"),
+        callout("Worked example: one end of a 30 cm copper rod is placed in a flame. The far end warms within a second or two, because copper's free electrons carry energy rapidly. A glass rod of the same size would stay cool far longer, since glass has no free electrons.", "key"),
+        p("The rate of conduction depends on four things: the material, the temperature difference between the two ends, the cross-sectional area, and the thickness the heat must cross. Thick, short conductors with a large temperature difference move heat fastest."),
       ]),
       section("Why metals conduct so well", [
         p("The secret of metals is free electrons. In a metal, some electrons are not tied to any particular atom and drift freely through the whole piece. When one end is heated, these fast-moving electrons carry kinetic energy to the cold end almost instantly."),
@@ -1362,6 +1529,8 @@ export const physics9 = [
         p("Air is a very poor conductor. Trapped air is the secret behind wool, blankets, feathers and insulated jackets and” still air cannot carry heat by convection, and it conducts heat very slowly."),
         f("\\text{conduction rate} \\propto \\frac{\\text{temperature difference} \\times \\text{area}}{\\text{thickness}}", "What controls conduction"),
         callout("A thin sheet of air is one of the best insulators you can get and” birds fluff their feathers, and people wear layers, to trap a blanket of air.", "key"),
+        p("Insulating materials — wool, sawdust, fibreglass, polystyrene — are mostly air with just enough solid skeleton to stop the air moving. Because still air is a poor conductor and cannot convect in tiny pockets, it is the trapped air that insulates, not the material itself."),
+        callout("Two thin blankets trap more air than one thick one, because the layer of air between them is an extra insulator. The same logic stacks layers of clothing in winter.", "tip"),
       ]),
       section("Convection", [
         p("Convection is the transfer of heat through a fluid by the movement of the fluid itself. When a fluid is heated, it expands, becomes less dense and rises; cooler, denser fluid sinks to take its place. This circulation is a convection current."),
@@ -1371,6 +1540,7 @@ export const physics9 = [
         p("Convection explains ocean currents, winds, the rising of hot-air balloons, and how a beaker of water is heated uniformly even if the flame touches only the bottom."),
         callout("Convection needs a fluid and” a liquid or a gas. In a solid, particles cannot flow, so convection cannot happen there.", "key"),
         sim("convection", "Heat the pan from below and watch the fluid circulate as hot fluid rises and cold fluid sinks.", "convection currents"),
+        p("Convection also drives weather. The Sun heats the ground unevenly; warm air over hot ground rises, cool air rushes in below, and the moving air is the wind. Thunderclouds grow the same way, from powerful rising columns of warm, moist air."),
       ]),
       section("Sea breeze and land breeze", [
         p("Sea and land breezes are convection currents on a grand scale. During the day, land heats up faster than the sea (water has a higher specific heat). The warm air above the land rises, and cooler air flows in from the sea and” this is the sea breeze you feel on a hot afternoon at the coast."),
@@ -1399,6 +1569,8 @@ export const physics9 = [
         p("Every object above absolute zero radiates. You feel the warmth of your own body escaping on a cold night, and thermal-imaging cameras work by detecting the infrared every person emits — the hotter the object, the more it radiates."),
         p("Radiation is absorbed by the objects it strikes, warming them and” that is why you feel the warmth of a fire on your face across a cold room."),
         sim("radiation", "Heat the coil and watch it glow red, then white — hotter objects radiate more energy at shorter wavelengths.", "heat radiation and Wien's law"),
+        callout("A fire at 800 °C glows dull red; the same wire at 1500 °C glows white-hot. The colour change is a signature of temperature: hotter objects radiate more energy and shift toward shorter wavelengths — the idea behind the thermal camera a firefighter uses.", "tip"),
+        p("Infrared is invisible to the eye but belongs to the same family of waves as light. It can be reflected, absorbed and focused with mirrors, which is why a concave solar cooker can concentrate the Sun's radiation into a cooking point."),
         callout("Radiation needs no medium and” that is how the Sun's energy crosses 150 million kilometres of empty space.", "key"),
       ]),
       section("Emission and absorption of radiation", [
@@ -1422,12 +1594,19 @@ export const physics9 = [
         p("Heat cannot cross the vacuum by conduction or convection, and the silvered walls reflect radiation, so the contents change temperature very slowly."),
         p("The flask works both ways: a hot drink stays hot because its heat cannot escape, and a cold drink stays cold because outside heat cannot enter. The only real leak is through the stopper and the small area of the neck, which is why the mouth is made as narrow as possible."),
         callout("Each part of the flask defeats one mechanism: vacuum kills conduction and convection, silvering kills radiation, and the stopper seals the neck.", "key"),
+        p("A flask keeps drinks cold just as well as it keeps them hot, because the same design blocks heat from entering. The only significant leak is the tiny area of the neck and stopper — which is why the opening is kept as small as possible."),
       ]),
       section("Keeping warm and” insulation", [
         p("Most heat loss from the human body is by radiation and convection. Insulation works by trapping still air, the best cheap insulator there is."),
         p("Wool, cotton, quilts, fibreglass and polystyrene all trap pockets of air. Double-glazed windows trap a layer of air between two panes, and cavity walls in buildings are filled with insulating material for the same reason."),
         p("Birds fluff their feathers to trap air; animals grow thick fur; penguins huddle together so the ones in the middle stay warm. Every one is using the same physics and” trapped air."),
         callout("Still air conducts heat very slowly and cannot convect in tiny pockets and” that is why trapping air is the universal insulation strategy.", "key"),
+        list("Insulation in the built world:", [
+          "Loft and cavity-wall insulation trap air in buildings.",
+          "Double-glazed windows hold a layer of still air between panes.",
+          "Reflective foil under roofs reflects radiation back downward.",
+          "Curtains and blinds add a barrier at the window.",
+        ]),
       ]),
       section("Solar technology and everyday applications", [
         p("The principles of heat transfer power practical inventions. A solar cooker uses radiation: sunlight heats a blackened box, and the trapped heat (kept in by glass and insulation) cooks food without fuel."),
@@ -1441,6 +1620,7 @@ export const physics9 = [
           "A cardboard box wrapped in newspaper keeps food warm on a picnic and” paper traps air.",
         ]),
         callout("Every time you choose a colour, a material or a position, you are applying conduction, convection and radiation and” the physics of this chapter.", "info"),
+        p("A solar cooker combines everything: a blackened pot absorbs radiation, a glass lid traps the re-emitted infrared, and insulation and a box stop conduction and convection — so sunlight alone can boil water and bake food."),
       ]),
       section("Worked examples and live lab", [
         h("Worked example: which cools faster?"),

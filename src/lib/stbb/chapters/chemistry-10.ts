@@ -19,6 +19,8 @@ export const chemistry10 = [
         p("Whether a reaction can reach equilibrium depends on the vessel. In an open system, products and reactants escape or gases are lost, so the reverse reaction never builds up and the reaction appears to run to completion. Equilibrium is studied in a closed system, where no matter can enter or leave and the temperature is kept constant."),
         callout("Reversibility is written with a double-headed arrow (â‡Œ) to show both the forward and the reverse direction are possible at the same time.", "key"),
         p("Figure 1.1 of the textbook contrasts irreversible and reversible changes: a broken glass cannot be rejoined, while the equilibrium between water and steam can move in either direction depending on temperature."),
+        p("Heating limestone provides a classic industrial example: calcium carbonate decomposes into calcium oxide and carbon dioxide, but the reaction can also run in reverse, because carbon dioxide in moist air slowly turns the lime back into carbonate."),
+        f("\\text{CaCO}_3 \\;\\underleftrightarrow{\\;\\text{heat}\\;}\\; \\text{CaO} + \\text{CO}_2", "Limestone decomposition is also reversible"),
       ]),
       section("Dynamic equilibrium", [
         p("When a reversible reaction is in a closed vessel, the forward reaction starts fast because reactant concentration is high. As products accumulate, the reverse reaction speeds up. The forward rate falls and the reverse rate rises until they become equal."),
@@ -26,6 +28,7 @@ export const chemistry10 = [
         p("At this point the system is in dynamic equilibrium. The word 'dynamic' is crucial: both reactions are still happening continuously, but they cancel each other so that there is no net change. Concentrations of reactants and products remain constant."),
         callout("Dynamic equilibrium does not mean the reaction stops. Molecules are still reacting, but there is no net change and the concentrations are constant.", "key"),
         figure("Forward and reverse rates fall and rise until they meet at equilibrium", "/diagrams/chem-eq-dynamic.svg"),
+        p("Equilibrium mixtures are uniform throughout: because reactions run constantly in both directions, properties such as colour and concentration settle at the same value everywhere in the vessel, provided the contents are well mixed."),
         p("A graph of the two rates against time tells the story in one picture. The forward rate begins at its highest value and falls, while the reverse rate starts at zero and climbs; the curves meet at the equilibrium point, and from then on the system shows no further macroscopic change even though the individual reactions never stop."),
         list("Macroscopic characteristics of the forward reaction:", [
           "Starts with only reactants present; concentrations of reactants fall as reaction proceeds.",
@@ -49,6 +52,7 @@ export const chemistry10 = [
         p("Equilibrium can be recognised by the constancy of measurable properties: colour, pressure, concentration and density all become constant with time, even though molecular activity continues."),
         callout("A constant colour in a coloured reaction mixture (like iodine's brown-purple vapour) is a visible sign that equilibrium has been reached.", "tip"),
         p("Many equilibria are sensitive: a slight push can shift the whole balance. That is why equilibrium is central to both biology and industry."),
+        p("Equilibrium is reached only when the reverse path is physically possible. Most precipitations and combustions run to completion because the products are removed from the system or cannot easily re-form the reactants."),
       ]),
       section("The law of mass action", [
         p("In 1864 the Norwegian chemists Guldberg and Waage stated the law of mass action: at a fixed temperature, the rate of a chemical reaction is directly proportional to the product of the active masses (molar concentrations) of the reactants, each raised to the power of its stoichiometric coefficient."),
@@ -56,6 +60,7 @@ export const chemistry10 = [
         f("\\text{Rate}_{\\text{forward}} \\propto [A]^a [B]^b, \\qquad \\text{Rate}_{\\text{reverse}} \\propto [C]^c [D]^d", "Law of mass action"),
         p("'Active mass' means the effective molar concentration of a species and its moles per cubic decimetre (mol dmâ»Â³). Concentration, not total quantity, is what determines reaction rate."),
         callout("A tiny change in concentration can change the rate dramatically because the terms are raised to powers and the law of mass action is why concentration is the first lever chemists pull.", "key"),
+        p("The law of mass action also explains why grinding a solid speeds up a reaction: smaller particles expose far more surface area, increasing the effective active mass available to the reaction."),
       ]),
       section("Deriving the equilibrium constant", [
         p("At equilibrium the forward and reverse rates are equal. Equating the two proportionality expressions gives a constant ratio of concentration terms and this ratio is the equilibrium constant Kc."),
@@ -65,6 +70,7 @@ export const chemistry10 = [
         f("K_c = \\frac{[\\text{NH}_3]^2}{[\\text{N}_2][\\text{H}_2]^3}", "Equilibrium constant for the Haber process"),
         p("Kc is constant for a given reaction at a given temperature. Its numerical value tells us where the equilibrium lies and which side of the equation wins when the reaction settles."),
         callout("Pure solids and liquids are left out of the Kc expression and only gases and dissolved species count. Their 'concentration' is fixed by density and does not change during the reaction.", "tip"),
+        callout("Worked example: For the Haber reaction N₂ + 3H₂ ⇌ 2NH₃, at equilibrium the concentrations are [N₂] = 0.200 mol dm⁻³, [H₂] = 0.600 mol dm⁻³ and [NH₃] = 0.400 mol dm⁻³. Calculate Kc and state its units. Solution: Kc = [NH₃]² ÷ ([N₂][H₂]³) = (0.400)² ÷ (0.200 × 0.600³) = 0.160 ÷ (0.200 × 0.216) = 0.160 ÷ 0.0432 = 3.7. Units: (mol dm⁻³)² ÷ [(mol dm⁻³) × (mol dm⁻³)³] = (mol dm⁻³)⁻² = mol⁻² dm⁶. So Kc ≈ 3.7 mol⁻² dm⁶, and the value greater than 1 confirms that products are favoured.", "key"),
       ]),
       section("Units of the equilibrium constant", [
         p("Because concentrations are measured in mol dmâ»Â³, Kc carries units that depend on the stoichiometry of the reaction and the powers in the expression determine them."),
@@ -76,6 +82,7 @@ export const chemistry10 = [
           "When the power is zero, Kc has no units.",
         ]),
         callout("In most textbook numerical problems you report the magnitude of Kc and then state its units and for example 54 dmÂ³ molâ»Â¹ or molâ»Â² dmâ¶ depending on the reaction.", "tip"),
+        f("\\text{Units of } K_c = (\\text{mol}\\, \\text{dm}^{-3})^{\\,(c+d)-(a+b)}", "A general formula for the units of Kc"),
       ]),
       section("Importance of the equilibrium constant", [
         p("The value of Kc quantifies how far a reaction proceeds. A large Kc means products dominate at equilibrium and the forward reaction goes almost to completion, which is ideal for synthesis. A small Kc means reactants dominate and the reaction barely starts."),
@@ -84,6 +91,11 @@ export const chemistry10 = [
         f("K_c \\gg 1 \\;\\Rightarrow\\; \\text{products favoured}, \\qquad K_c \\ll 1 \\;\\Rightarrow\\; \\text{reactants favoured}", "Reading the magnitude of Kc"),
         p("In medicine, equilibrium constants describe how drugs bind to proteins; in the environment they govern how gases partition between air and water; in industry they set the design pressure and temperature of reactors."),
         callout("A small Kc does not mean the reaction is useless and Le Chatelier's principle lets us shift it by removing product continuously, as happens in industrial ammonia and sulfuric acid plants.", "info"),
+        list("How Kc guides an industrial decision:", [
+          "A very large Kc means the reaction is effectively one-way, so no product removal is needed.",
+          "A very small Kc means the forward reaction barely starts, so a different route or a shift in conditions is needed.",
+          "An intermediate Kc is engineered with Le Chatelier's principle: pressure, temperature and continuous removal of product raise the yield.",
+        ]),
       ]),
       section("Reaction quotient Qc", [
         p("The reaction quotient Qc uses exactly the same expression as Kc, but it is calculated with the concentrations present at any moment and before equilibrium is reached. It is a snapshot of where the system is."),
@@ -95,6 +107,7 @@ export const chemistry10 = [
         ]),
         p("This comparison is the quantitative heart of equilibrium: Qc tells you which direction the reaction will spontaneously move at the current instant."),
         p("As a worked check, suppose a mixture is prepared whose concentrations give Qc = 40 while Kc for that reaction is 20. Because Qc exceeds Kc, the product concentration is too high, so the reverse reaction must run, converting product back into reactant, until Qc falls to Kc. The same calculation is used by chemists before every industrial reactor is started."),
+        p("The Qc-versus-Kc comparison also predicts the yield of a planned experiment before any chemical is wasted: mix the intended amounts, compute Qc, and read off immediately which direction the reaction will run."),
       ]),
       section("Le Chatelier's principle and concentration", [
         p("Le Chatelier's principle states that if a system at equilibrium is disturbed, the equilibrium shifts in the direction that opposes the disturbance, tending to undo it. The principle applies to changes in concentration, pressure, temperature and the addition of a catalyst."),
@@ -108,6 +121,7 @@ export const chemistry10 = [
         p("The same reasoning works in reverse: adding extra ammonia to the equilibrium mixture forces the reverse reaction, consuming ammonia to regenerate nitrogen and hydrogen until Qc returns to Kc. This is why the position of equilibrium, and not the value of Kc, is what changes when concentrations are altered."),
         callout("Changing concentration never changes the value of Kc itself and it changes the position of equilibrium, which then moves back along the same curve of concentrations to the fixed value of Kc.", "key"),
         p("In industry, product is continuously removed (for example ammonia is condensed out) precisely to keep pulling the equilibrium toward the product side."),
+        p("Changing the concentration of one species does not alter the others by a fixed amount; instead the whole set of concentrations settles at new values that still obey the same Kc."),
       ]),
       section("Le Chatelier's principle and pressure and temperature", [
         p("For reactions involving gases, changing the pressure at constant temperature shifts the equilibrium. Increasing pressure favours the side with fewer gas molecules, because reducing volume squeezes the system toward the side that occupies less space."),
@@ -119,12 +133,14 @@ export const chemistry10 = [
         sim("rate-of-reaction", "Flip the catalyst on and watch the product curve steepen as more collisions succeed - a catalyst speeds a reaction without being used up, and never shifts the equilibrium position.", "collision theory and catalysts"),
         sim("equilibrium", "Watch a reversible reaction reach dynamic equilibrium: add N₂ or H₂, remove NH₃, compress the vessel or change temperature to see Le Chatelier's principle in action.", "chemical equilibrium and Le Chatelier's principle"),
         list("Summary of disturbances:", [
-          "Add reactant â†’ equilibrium shifts to products.",
-          "Remove product â†’ equilibrium shifts to products.",
-          "Raise pressure (gases) â†’ shifts to fewer gas molecules.",
-          "Raise temperature â†’ shifts to the endothermic side.",
-          "Add a catalyst â†’ no shift, equilibrium reached faster.",
+          "Add reactant â†' equilibrium shifts to products.",
+          "Remove product â†' equilibrium shifts to products.",
+          "Raise pressure (gases) â†' equilibrium shifts to fewer gas molecules.",
+          "Raise temperature â†' equilibrium shifts to the endothermic side.",
+          "Add a catalyst â†' no shift, equilibrium reached faster.",
         ]),
+        p("The value of Kc itself changes with temperature, because the balance of forward and reverse rates shifts. For an exothermic forward reaction, Kc falls as temperature rises, even though the new equilibrium is reached faster at the higher temperature."),
+        callout("A common misconception: adding a catalyst does not improve the yield of an equilibrium reaction. It only shortens the time needed to reach equilibrium, and the position of equilibrium is unchanged.", "warning"),
       ]),
       section("Industrial applications of equilibrium", [
         p("The Haber process for ammonia is the classic example. It runs at about 200 atmospheres pressure and around 450 Â°C with an iron catalyst. High pressure pushes the equilibrium toward NHâ‚ƒ, but the temperature is a compromise: lower temperature favours ammonia but slows the reaction, so a moderate temperature with a catalyst is used."),
@@ -135,6 +151,7 @@ export const chemistry10 = [
         f("2\\text{SO}_2 + \\text{O}_2 \\;\\underleftrightarrow{\\;\\text{V}_2\\text{O}_5, 450Â°C\\;}\\; 2\\text{SO}_3 + \\text{heat}", "Contact process"),
         p("Both processes show the power of Le Chatelier's principle in practice: pressure, temperature and continuous product removal are tuned to maximise yield economically rather than merely chemically."),
         callout("In living systems the same principle applies: haemoglobin loads oxygen where it is plentiful (the lungs) and releases it where oxygen is scarce (the tissues), because equilibrium position follows concentration.", "info"),
+        p("Modern ammonia plants recycle unreacted nitrogen and hydrogen, recover waste heat to preheat incoming gases and condense ammonia in stages — every kilogram of energy saved lowers the cost of every tonne of fertiliser produced."),
       ]),
       section("Key terms", [
         list("", [
@@ -194,6 +211,12 @@ export const chemistry10 = [
           "Both are found concentrated in laboratories, where they must be handled with care.",
         ]),
         callout("The word 'acid' comes from the Latin 'acidus', meaning sour. Sour taste, corrosiveness and the ability to turn blue litmus red are classic properties of acids.", "info"),
+        list("Uses of acids and bases in industry:", [
+          "Sulfuric acid — the world's most-produced chemical — is used in car batteries and fertiliser manufacture.",
+          "Hydrochloric acid cleans the oxide layer from steel surfaces before galvanising.",
+          "Calcium hydroxide (lime) reduces soil acidity on farms.",
+          "Sodium hydrogen carbonate is the raising agent in baking powder.",
+        ]),
       ]),
       section("The Arrhenius concept", [
         p("The Swedish chemist Svante Arrhenius defined acids as substances that produce hydrogen ions (Hâº) when dissolved in water, and bases as substances that produce hydroxide ions (OHâ») in water."),
@@ -203,6 +226,7 @@ export const chemistry10 = [
         p("Acids are also described by their strength. A strong acid such as hydrochloric acid ionises completely in water, releasing every proton, while a weak acid such as ethanoic acid releases only a small fraction of its molecules' protons. Strength is a property of the substance itself and is quite different from concentration, which only says how much acid is present in a solution."),
         p("The Arrhenius idea works beautifully for aqueous solutions but fails for bases like ammonia (NHâ‚ƒ), which has no hydroxide group yet acts as a base and it can accept a proton from water and generate OHâ»."),
         callout("Arrhenius theory is restricted to water. Any substance that does not dissolve in water falls outside its reach and a limitation the BrÃ¸nsted-Lowry theory overcomes.", "info"),
+        p("Arrhenius developed his idea while studying electrical conductivity: solutions that conduct electricity contain ions, so acids and bases must ionise in water, and their characteristic properties follow directly from the ions they release."),
       ]),
       section("The BrÃ¸nsted-Lowry concept", [
         p("In 1923 BrÃ¸nsted and Lowry independently generalised the definition: an acid is a proton (Hâº) donor, and a base is a proton acceptor. Water is no longer required."),
@@ -217,6 +241,7 @@ export const chemistry10 = [
           "NHâ‚„âº / NHâ‚ƒ and ammonium (conjugate acid) and ammonia.",
         ]),
         p("Some substances are amphoteric: they can act as an acid in one reaction and as a base in another. Water is the classic example, accepting a proton from hydrogen chloride to become the hydronium ion, yet donating a proton to ammonia to become the hydroxide ion. This dual behaviour is why water is the ideal solvent for studying acids and bases."),
+        p("There is a fixed relationship within each conjugate pair: the stronger the acid, the weaker its conjugate base. Hydrochloric acid is a strong acid, so the chloride ion it leaves behind is an extremely weak base with no tendency to reclaim the proton."),
       ]),
       section("The Lewis concept", [
         p("The American chemist G.N. Lewis pushed the definition further: an acid is an electron-pair acceptor, and a base is an electron-pair donor. This covers reactions with no protons at all."),
@@ -225,6 +250,7 @@ export const chemistry10 = [
         p("Lewis theory includes every BrÃ¸nsted acid and base as a special case, and additionally covers metal ions accepting electron pairs (as in complex ions), making it the most general of the three definitions."),
         callout("Think of Lewis acids as electron-pair 'vacancies' and Lewis bases as electron-pair 'donors'. Metal ions in solution, like CuÂ²âº or FeÂ³âº, are classic Lewis acids.", "tip"),
         p("All three theories remain in use: Arrhenius for everyday aqueous chemistry, BrÃ¸nsted-Lowry for proton transfer anywhere, and Lewis for the widest view of acid-base behaviour."),
+        p("Many metal oxides and halides behave as Lewis acids even where no water is present, which is why Lewis theory also describes reactions in organic solvents, in the solid state and in molten salts."),
       ]),
       section("Comparing the three definitions", [
         p("Each definition adds scope while agreeing on the classic cases. Hydrochloric acid is an acid by all three theories; sodium hydroxide is a base by all three."),
@@ -244,6 +270,7 @@ export const chemistry10 = [
         p("In pure water the two concentrations are equal, so [Hâº] = [OHâ»] = 1 Ã— 10â»â· mol dmâ»Â³. Adding an acid raises [Hâº] and forces [OHâ»] down; adding a base does the reverse. The product stays constant."),
         p("The value of Kw depends on temperature, because self-ionisation is an endothermic process. At 100 Â°C, Kw rises to about 1 Ã— 10â»Â¹Â², so neutral water at that temperature has a pH near 6 — still neutral, because the hydronium and hydroxide concentrations remain equal even though both are higher than at 25 Â°C."),
         callout("Kw is the master equation of aqueous chemistry and whatever is added, the product [Hâº][OHâ»] remains 1 Ã— 10â»Â¹â´ at 25 Â°C.", "key"),
+        p("Because Kw is constant, knowing either concentration in any aqueous solution instantly gives the other: divide 1 × 10⁻¹⁴ by the value you know. This single relationship connects every calculation in this chapter."),
       ]),
       section("The pH scale", [
         p("Because [Hâº] varies over many powers of ten, SÃ¸ren SÃ¸rensen introduced pH as the negative logarithm (base 10) of the hydrogen ion concentration."),
@@ -263,6 +290,7 @@ export const chemistry10 = [
         p("To convert: if [Hâº] = 1 Ã— 10â»Â³ mol dmâ»Â³ then pH = 3, and since pH + pOH = 14, pOH = 11, so [OHâ»] = 1 Ã— 10â»Â¹Â¹ mol dmâ»Â³."),
         p("The logarithm also lets us reverse the calculation: if a solution has pH 4.3, then [Hâº] = 10â»â´Â·Â³ â‰ˆ 5 Ã— 10â»âµ mol dmâ»Â³. This is why even a change of a few tenths of a pH unit represents a real change in the hydrogen ion concentration, and why pH measurement is so sensitive."),
         sim("ph", "Slide along the pH scale from strong acid to strong alkali.", "the pH scale"),
+        callout("Worked example: Find the pH of a solution in which [H⁺] = 4.0 × 10⁻⁴ mol dm⁻³, and also find its pOH at 25 °C. Solution: pH = −log₁₀[H⁺] = −log₁₀(4.0 × 10⁻⁴). Now log₁₀(4.0 × 10⁻⁴) = log₁₀ 4.0 − 4 = 0.60 − 4 = −3.40, so pH = 3.40. Since pH + pOH = 14, pOH = 14 − 3.40 = 10.60, and [OH⁻] = 10⁻¹⁰·⁶⁰ ≈ 2.5 × 10⁻¹¹ mol dm⁻³. The solution is acidic.", "key"),
       ]),
       section("Acid-base indicators", [
         p("An indicator is a weak acid or weak base whose colour differs from the colour of its conjugate. The colour change signals the pH region of the solution."),
@@ -276,6 +304,7 @@ export const chemistry10 = [
         figure("The colour ranges of the three common indicators", "/diagrams/chem-acid-indicators.svg"),
         p("Universal indicator is a blend of several dyes that gives a continuous rainbow across the whole pH range, so a single test paper can estimate the pH of any solution to about one unit. Where an exact value is needed, for example in quality control or medical testing, a calibrated pH meter is used instead of a colour comparison."),
         callout("If we dip a blue litmus paper in a solution and it changes to red, the solution is acidic. Litmus answers only 'acid or base?'; a pH meter answers 'how much?'.", "tip"),
+        p("Indicator colour changes are gradual rather than instant: between its acidic and basic forms, an indicator passes through intermediate tints across its transition range, which is why a paper dipped in a solution of pH 5 shows a purple, not a pure red or blue."),
       ]),
       section("Salts and neutralisation", [
         p("When an acid reacts with a base, they neutralise each other to form a salt and water. Neutralisation is the heart of the chapter:"),
@@ -291,6 +320,7 @@ export const chemistry10 = [
         ]),
         p("Neutralisation releases energy: the reaction of a strong acid with a strong base gives out about 57 kJ for every mole of water formed. This heat warms the beaker when a spill is neutralised, and it is the same chemistry the body uses to keep its internal fluids balanced."),
         sim("titration", "Drip the base into the acid and watch the indicator flash pink at the end point, where the acid is fully neutralised to a salt.", "neutralisation and salts"),
+        f("\\text{2NaOH} + \\text{H}_2\\text{SO}_4 \\to \\text{Na}_2\\text{SO}_4 + 2\\text{H}_2\\text{O}", "Neutralisation producing a sulfate salt"),
       ]),
       section("Hydrolysis of salts", [
         p("Not all salts dissolve to give a neutral solution. Salt ions can react with water and hydrolysis and to re-form a weak acid or weak base, shifting the pH."),
@@ -303,6 +333,7 @@ export const chemistry10 = [
         f("\\text{NH}_4^+ + \\text{H}_2\\text{O} \\;\\underleftrightarrow{\\;\\;}\\; \\text{NH}_3 + \\text{H}_3\\text{O}^+", "Cation hydrolysis gives an acidic salt"),
         p("Everyday experience matches the theory: washing soda (sodium carbonate) feels slippery and dissolves grease because its solution is basic, while ammonium chloride fertiliser slowly makes the soil more acidic with repeated use. Choosing the right salt is therefore part of managing soil pH on farms and in gardens."),
         callout("Hydrolysis is the reverse of neutralisation in solution: salt ions react with water to re-form acid or base, shifting pH.", "tip"),
+        p("Hydrolysis explains why mixing two neutral-looking salt solutions can give a non-neutral result: ammonium chloride is acidic and sodium carbonate is basic, even though neither bottle contains any free acid or free base."),
       ]),
       section("Buffers and buffering agents", [
         p("A buffer is an aqueous solution that has a highly stable pH. A buffering agent is a weak acid and its conjugate base, or a weak base and its conjugate acid, that maintains the pH after more acid or base is added."),
@@ -316,6 +347,7 @@ export const chemistry10 = [
         figure("How a buffer resists pH change by mopping up added acid and base", "/diagrams/chem-acid-buffer.svg"),
         p("A buffer has a limited capacity: once the weak acid or its conjugate base has been used up, further additions of acid or base break through and the pH changes sharply. This is why a buffer is prepared with enough of each component to cover the expected range of disturbance, as in blood, aquarium water and many laboratory reagents."),
         callout("Blood is buffered by the carbonic acid / bicarbonate pair, keeping its pH near 7.4 even as the body produces acid constantly. Deviation of even 0.2 pH units is dangerous.", "key"),
+        f("\\text{CH}_3\\text{COOH} \\;\\underleftrightarrow{\\;\\;}\\; \\text{CH}_3\\text{COO}^- + \\text{H}^+", "The acetate buffer equilibrium"),
       ]),
       section("Corrosive acids and safety", [
         p("Concentrated acids dissolve organic tissue and react vigorously with metals. They are corrosive and they attack skin, eyes and clothing and and they must never be handled without protection."),
@@ -328,6 +360,8 @@ export const chemistry10 = [
         p("Bases such as concentrated sodium hydroxide are equally dangerous, causing severe burns. Corrosion of metals by acids and bases is a constant concern in industry, which is why storage tanks are lined or made of resistant materials."),
         callout("The rule 'do as you oughta, add acid to water' is a lifesaver: the heat of mixing is absorbed by the large volume of water rather than causing the acid layer to boil and spray.", "warning"),
         p("Dilute acids are still acidic: they turn litmus red, react with metals to give hydrogen, and neutralise bases. Corrosiveness scales with concentration."),
+        p("Diluting either a concentrated acid or a concentrated base releases heat. Always add the concentrated reagent slowly to the larger volume of water with stirring, never the reverse, so the heat spreads through the bulk of the water instead of boiling the surface layer."),
+        callout("Never neutralise a concentrated acid spill by pouring concentrated base on it: the neutralisation heat can be violent. Use dilute sodium hydrogen carbonate solution instead.", "warning"),
       ]),
       section("Key terms", [
         list("", [
@@ -391,6 +425,8 @@ export const chemistry10 = [
           "Multiple bonds and double and triple bonds allow compact, rigid structures.",
         ]),
         callout("The chemistry of a compound depends on its functional group, while the alkyl group (R) largely controls its physical properties.", "key"),
+        p("Carbon's small atomic radius lets its chains pack closely, and the C–C bond energy of about 348 kJ mol⁻¹ is high enough to keep long chains stable yet low enough to let them react in controlled, useful ways."),
+        callout("Carbon is unique among the elements in forming millions of stable compounds; silicon, the next member of its group, forms far fewer because its Si–Si bonds are much weaker.", "info"),
       ]),
       section("Sources of organic compounds", [
         p("Almost all organic compounds ultimately come from three fossil sources: coal, natural gas and petroleum (crude oil). All three formed from the remains of plants and tiny marine organisms buried for millions of years."),
@@ -402,6 +438,7 @@ export const chemistry10 = [
         p("Natural gas is often drilled from the same reservoirs as oil and the textbook shows drilling for natural gas in Figure 3.3. Methane from natural gas is the starting point for making hydrogen, methanol, ammonia and many industrial chemicals."),
         p("When coal is heated in the absence of air, a process called destructive distillation, it breaks into three valuable products: coke (nearly pure carbon, used in iron smelting), coal tar (a rich source of aromatic compounds such as benzene and naphthalene) and coal gas (a mixture of hydrogen, methane and carbon monoxide). Each of these is itself a feedstock for further organic chemistry."),
         callout("Fossil sources are finite and burn to carbon dioxide. 'Rise and falls' in supply, and the greenhouse gases released, are why organic chemistry is now also turning to biomass as a renewable carbon source.", "info"),
+        f("\\text{coal} \\xrightarrow{\\text{heat, no air}} \\text{coke} + \\text{coal tar} + \\text{coal gas}", "Products of destructive distillation"),
       ]),
       section("Representing organic molecules", [
         p("Organic chemists represent molecules in several ways: molecular formula (Câ‚‚Hâ‚†), structural formula (showing every bond), condensed formula (bonds to each carbon omitted, atoms grouped) and line (skeletal) structures."),
@@ -414,6 +451,7 @@ export const chemistry10 = [
         p("Percent of carbon in a compound is calculated from its molar mass: the mass of carbon present divided by the molar mass, multiplied by 100. For example, methane (16 g molâ»Â¹, 12 g of carbon) is 75% carbon by mass."),
         f("\\text{\\% of carbon} = \\frac{\\text{mass of carbon}}{\\text{molar mass}} \\times 100", "Carbon percentage"),
         callout("The condensed formula CHâ‚ƒCHâ‚‚OH says 'ethanol': a carbon bonded to three hydrogens, then a carbon bearing two hydrogens and an OH group.", "tip"),
+        callout("Worked example: Calculate the percentage of carbon by mass in ethanol, C₂H₆O. Solution: molar mass of ethanol = (2 × 12) + (6 × 1) + 16 = 24 + 6 + 16 = 46 g mol⁻¹. Carbon contributes 24 g of each 46 g, so percentage carbon = (24 ÷ 46) × 100 = 52.2%. Ethanol is therefore about 52% carbon by mass.", "key"),
       ]),
       section("Hydrocarbons", [
         p("Hydrocarbons are compounds made only of carbon and hydrogen. They form homologous series and families where each member differs from the next by a constant unit, CHâ‚‚, and shares a general formula and similar chemical properties."),
@@ -430,6 +468,7 @@ export const chemistry10 = [
         figure("The benzene ring: six carbons with delocalised electrons", "/diagrams/chem-org-benzene.svg"),
         sim("alkanes", "Add carbon atoms to the chain and watch the alkane grow from methane to octane.", "alkanes and their general formula"),
         sim("alkenes", "Grow the alkene chain and watch it decolourise bromine water - the C=C double bond makes alkenes far more reactive than alkanes.", "alkenes and the double bond"),
+        p("A simple test separates saturated from unsaturated hydrocarbons: shake each sample with bromine water. The orange-brown bromine adds across a double or triple bond, so the colour disappears only with the unsaturated compound; the saturated alkane leaves the colour unchanged."),
       ]),
       section("Functional groups", [
         p("A functional group is an atom or group of atoms that is responsible for the distinctive properties of organic molecules. Each functional group gives a compound its characteristic reactions and defines the family to which it belongs."),
@@ -442,6 +481,12 @@ export const chemistry10 = [
         ]),
         p("The polar hydroxyl group (and“OH) in alcohols improves solubility in water, while the non-polar alkyl group resists it. This opposing action is sufficiently strong for any alkyl group larger than Câ‚„Hâ‚‰ (butyl) to restrict a compound's solubility in water."),
         callout("Detecting a functional group: dip blue litmus paper in a solution and if it turns red, the compound is acidic, revealing a carboxylic acid. Each group has its own distinct tests.", "tip"),
+        list("Distinguishing functional groups by simple tests:", [
+          "Alkanes — no reaction with bromine water; burn with a clean blue flame.",
+          "Alkenes — decolourise bromine water; burn with a smoky flame.",
+          "Alcohols — neutral to litmus; oxidised to aldehydes and carboxylic acids.",
+          "Carboxylic acids — turn blue litmus red and release carbon dioxide with sodium carbonate.",
+        ]),
       ]),
       section("Alkyl halides", [
         p("In alkyl halides the functional group is the halogen atom (and“X), where X can be chlorine, bromine, iodine or fluorine. A hydrogen of the alkane has been replaced by the halogen."),
@@ -453,6 +498,7 @@ export const chemistry10 = [
         p("Alkyl halides are more reactive than alkanes because the carbon-halogen bond is polar and the halogen pulls electron density toward itself. This makes the carbon slightly positive and open to attack by nucleophiles."),
         f("\\text{R} - \\text{X} \\;\\to\\; \\text{R} - \\text{OH} + \\text{X}^-", "Hydrolysis of an alkyl halide"),
         callout("Many alkyl halides are powerful solvents, but some (like CFCs) damage the ozone layer and a chemical property with a global environmental cost.", "warning"),
+        p("The carbon-halogen bond weakens down the group: carbon-iodine bonds are the easiest to break, which is why iodoalkanes are the most reactive alkyl halides and fluoroalkanes the least."),
       ]),
       section("Alcohols", [
         p("In alcohols the functional group is the hydroxyl group (and“OH) attached to a saturated carbon. Methanol (CHâ‚ƒOH) and ethanol (Câ‚‚Hâ‚…OH) are the simplest members."),
@@ -468,6 +514,7 @@ export const chemistry10 = [
         f("\\text{C}_2\\text{H}_5\\text{OH} + 3\\text{O}_2 \\to 2\\text{CO}_2 + 3\\text{H}_2\\text{O}", "Combustion of ethanol"),
         callout("Ethanol in drinks is metabolised by enzymes to ethanal then to ethanoic acid and the same chemistry as the laboratory oxidation of an alcohol to a carboxylic acid.", "info"),
         sim("combustion", "Control the oxygen supply and watch the fuel burn - enough oxygen gives clean carbon dioxide and water, too little gives soot and toxic carbon monoxide.", "combustion of fuels"),
+        f("\\text{C}_6\\text{H}_{12}\\text{O}_6 \\xrightarrow{\\text{yeast}} 2\\text{C}_2\\text{H}_5\\text{OH} + 2\\text{CO}_2", "Fermentation of glucose to ethanol"),
       ]),
       section("Carboxylic acids, esters and amines", [
         p("The carboxyl group (and“COOH) contains a carbonyl and a hydroxyl, and it is weakly acidic and carboxylic acids donate a proton to water, giving the solution pH below 7 and turning blue litmus red."),
@@ -480,6 +527,7 @@ export const chemistry10 = [
         p("Esters have pleasant fruity smells and are used in flavours and perfumes. Amines (Rand“NHâ‚‚) are organic bases that accept protons, like ammonia but with one or more alkyl groups attached."),
         callout("Ethanoic acid (vinegar) is the simplest practical example: its reaction with ethanol gives ethyl ethanoate, which smells like pear drops.", "tip"),
         sim("organic-structures", "Build an ester by choosing a carboxylic acid and an alcohol — watch the condensation reaction produce an ester and water.", "esterification and organic structures"),
+        p("Ethanoic acid is a weak acid: in 1 mol dm⁻³ solution only about one molecule in every two hundred has donated its proton, so the solution is far less acidic than hydrochloric acid of the same concentration."),
       ]),
       section("Isomerism", [
         p("Isomers are compounds with the same molecular formula but different structures. Their atoms are arranged differently, giving them different physical and often chemical properties."),
@@ -492,6 +540,7 @@ export const chemistry10 = [
         p("Cis-trans isomerism arises in alkenes because the double bond prevents rotation: the two chlorines in 1,2-dichloroethene can sit on the same side (cis) or opposite sides (trans)."),
         callout("Glucose and fructose are structural isomers and same formula Câ‚†Hâ‚â‚‚Oâ‚†, different arrangements of atoms. One is an aldehyde-based sugar, the other a ketone-based sugar.", "key"),
         f("\\text{C}_4\\text{H}_{10} \\to \\text{CH}_3\\text{CH}_2\\text{CH}_2\\text{CH}_3 \\;\\text{or}\\; \\text{CH}_3\\text{CH(CH}_3\\text{)CH}_3", "Two isomers of butane"),
+        p("Isomers differ in physical properties as well as structure: butane boils at −0.5 °C, while its branched isomer 2-methylpropane boils at −11.7 °C, because the branched molecule presents a smaller surface area for weak intermolecular attractions."),
       ]),
       section("Petroleum and fractional distillation", [
         p("Crude oil (petroleum) is a mixture of hundreds of hydrocarbons of different chain lengths. Fractional distillation separates them by boiling point in a tall fractionating column."),
@@ -507,6 +556,7 @@ export const chemistry10 = [
         figure("Fractional distillation of crude oil: fractions by boiling point", "/diagrams/chem-org-fractional.svg"),
         p("Fractional distillation exploits boiling-point differences but does not change the chemicals. Cracking and heating large hydrocarbons to break them into smaller, more valuable ones and is a chemical process used to turn heavy fractions into petrol."),
         sim("distillation", "Heat the mixture and once it boils the vapour condenses and collects - the same boiling-point separation that splits crude oil into fractions.", "fractional distillation"),
+        p("Each fraction is a family of hydrocarbons boiling within a range, not a single pure chemical: petrol contains many C₅–C₁₂ compounds, and it is the boiling range, not one substance, that defines the fraction."),
       ]),
       section("Polymers and polymerisation", [
         p("Polymers are giant molecules built from many small repeating units called monomers. The process of joining monomers is polymerisation."),
@@ -525,6 +575,7 @@ export const chemistry10 = [
         ]),
         callout("Most polymers are not biodegradable. Plastic waste accumulates in the environment and a major pollution challenge.", "warning"),
         sim("polymers", "Join the ethene monomers one by one and watch a polymer chain grow.", "polymerisation"),
+        p("Polymer properties are tuned by branching and cross-linking: low-density polyethylene is flexible because its chains branch, while high-density polyethylene is stiffer because its chains pack together tightly and form more crystals."),
       ]),
       section("Key terms", [
         list("", [
@@ -595,6 +646,7 @@ export const chemistry10 = [
         ]),
         callout("Biochemistry also studies vitamins and minerals and organic and inorganic micronutrients without which the four biomolecules cannot do their jobs.", "info"),
         sim("biomolecules", "Choose a biomolecule and watch its monomers join into a polymer - carbohydrates, proteins and fats each build up from smaller units.", "biomolecules and their monomers"),
+        p("Biochemistry also explains disease: diabetes is a failure of insulin signalling, sickle-cell anaemia is a single wrong amino acid in haemoglobin, and scurvy is a shortage of the vitamin C needed to build collagen."),
       ]),
       section("Carbohydrates", [
         p("Carbohydrates are compounds of carbon, hydrogen and oxygen, usually with the formula Câ‚™(Hâ‚‚O)â‚˜. They are the body's preferred fuel and are classified by how many sugar units they contain."),
@@ -607,6 +659,8 @@ export const chemistry10 = [
         f("\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2 \\to 6\\text{CO}_2 + 6\\text{H}_2\\text{O} + \\text{energy}", "Oxidation of glucose in respiration"),
         callout("Glucose and fructose are structural isomers and the same formula Câ‚†Hâ‚â‚‚Oâ‚†, but glucose is an aldehyde sugar and fructose a ketone sugar.", "key"),
         figure("Glucose: the cell's energy sugar", "/diagrams/chem-bio-glucose.svg"),
+        f("n\\, \\text{C}_6\\text{H}_{12}\\text{O}_6 \\to (\\text{C}_6\\text{H}_{10}\\text{O}_5)_n + n\\, \\text{H}_2\\text{O}", "Condensation of glucose into a polysaccharide"),
+        callout("Worked example: Glucose has the molecular formula C₆H₁₂O₆. What is its empirical formula? Solution: divide every subscript by their highest common factor, 6, giving the ratio CH₂O. Because the hydrogen and oxygen are present in the 2 : 1 ratio of water, these compounds are called carbohydrates.", "key"),
       ]),
       section("Proteins and amino acids", [
         p("Proteins are chains of amino acids joined by peptide bonds. Each amino acid has an amino group (and“NHâ‚‚), a carboxyl group (and“COOH) and a variable side chain R, all attached to the same carbon."),
@@ -615,6 +669,7 @@ export const chemistry10 = [
         p("There are 20 standard amino acids. Eight are essential and the body cannot make them, so they must come from food. The sequence of amino acids folds into a precise three-dimensional shape that determines what the protein does."),
         callout("A protein's function depends on its shape, which depends on its amino-acid sequence. A single wrong amino acid (as in sickle cell haemoglobin) changes the cell's behaviour.", "key"),
         figure("Amino acids join by peptide bonds to form proteins", "/diagrams/chem-bio-aminoacid.svg"),
+        p("The peptide bond is an amide link formed by condensation: one molecule of water is released for every bond made, and the reverse reaction, hydrolysis, breaks proteins back into amino acids during digestion."),
       ]),
       section("Functions of proteins", [
         p("Proteins are the most versatile biomolecules, carrying out thousands of different jobs in the body."),
@@ -627,6 +682,7 @@ export const chemistry10 = [
         ]),
         p("Haemoglobin's iron-containing heme group binds oxygen in the lungs and releases it in the tissues. Insulin, a small protein hormone, tells cells to take up glucose and its loss or resistance leads to diabetes."),
         callout("Eggs, meat, fish, milk and pulses provide dietary protein. A diet deficient in essential amino acids cannot maintain or repair body tissue.", "tip"),
+        p("Keratin makes hair and nails tough and waterproof, while collagen, the most abundant protein in the human body, gives skin, tendons and bone their strength."),
       ]),
       section("Lipids", [
         p("Lipids are a diverse group of compounds insoluble in water but soluble in organic solvents such as alcohol and ether. Fats, oils, phospholipids and steroids all belong to this family."),
@@ -640,6 +696,7 @@ export const chemistry10 = [
         f("\\text{glycerol} + 3\\;\\text{fatty acids} \\to \\text{triglyceride} + 3\\;\\text{H}_2\\text{O}", "Formation of a fat"),
         callout("The health difference lies in saturation: saturated fats (solid, animal) are linked to heart disease when eaten in excess, while unsaturated oils (liquid, vegetable) are healthier.", "warning"),
         figure("A fat: glycerol + three fatty acids = triglyceride", "/diagrams/chem-bio-lipids.svg"),
+        p("Oils are unsaturated because their fatty-acid chains contain C=C double bonds; the double bonds bend the chains so the molecules cannot pack tightly, which keeps oils liquid at room temperature."),
       ]),
       section("Nucleic acids", [
         p("Nucleic acids are long polymers of nucleotides. Each nucleotide has a sugar (ribose or deoxyribose), a phosphate group and one of four nitrogenous bases."),
@@ -650,6 +707,8 @@ export const chemistry10 = [
         p("In DNA the bases pair specifically and adenine with thymine, and guanine with cytosine. This base-pairing lets DNA copy itself and direct protein synthesis. A gene is a stretch of DNA coding for one protein."),
         f("\\text{Adenine} \\to \\text{Thymine}, \\qquad \\text{Guanine} \\to \\text{Cytosine}", "Complementary base pairing"),
         callout("DNA is often called the 'blueprint of life' because the order of its bases stores all the instructions an organism needs.", "key"),
+        f("\\text{Nucleotides} \\xrightarrow{\\text{condensation}} \\text{sugar-phosphate backbone} + \\text{base sequence}", "Building a nucleic acid strand"),
+        callout("The order of bases in DNA is like the order of letters in a sentence: the same alphabet, arranged differently, carries entirely different information.", "info"),
       ]),
       section("Enzymes", [
         p("Enzymes are protein catalysts that speed up biochemical reactions by about a million-fold without being consumed. Each enzyme recognises one type of molecule and its substrate and which binds at the active site."),
@@ -662,6 +721,7 @@ export const chemistry10 = [
           "Named by adding '-ase' and sucrase breaks sucrose, amylase breaks starch.",
         ]),
         figure("Enzymes: the substrate fits the active site", "/diagrams/chem-bio-enzyme.svg"),
+        p("Enzyme names reveal their jobs: maltase breaks maltose, lipase breaks lipids and protease breaks proteins — the '-ase' ending signals an enzyme, and the stem of the name identifies its substrate."),
       ]),
       section("Factors affecting enzyme activity", [
         p("Enzyme activity is very sensitive to conditions. Three factors matter most: temperature, pH and substrate concentration."),
@@ -673,6 +733,7 @@ export const chemistry10 = [
         callout("A high fever above 40 Â°C can denature critical enzymes and proteins unravel and lose their shape, and with it their function.", "warning"),
         p("Denaturation is usually irreversible: the precise three-dimensional fold that makes the active site is destroyed, so the enzyme can no longer bind its substrate."),
         sim("enzyme", "Raise or lower the temperature and pH and watch enzyme activity peak then collapse as the protein denatures.", "factors affecting enzyme activity"),
+        p("Increasing substrate concentration raises the rate only up to a limit: once every active site is busy, adding more substrate has no further effect, and the rate is then limited by how fast the enzyme itself can work."),
       ]),
       section("Vitamins", [
         p("Vitamins are organic micronutrients needed in small amounts for normal metabolism. The body cannot make most of them, so they must be supplied in the diet. They are classed by solubility."),
@@ -682,6 +743,13 @@ export const chemistry10 = [
         ]),
         p("Vitamin A is needed for vision and skin health; vitamin D controls calcium absorption and bone formation; vitamin C is required to make collagen; the B-complex vitamins act as coenzymes in energy metabolism."),
         callout("Deficiency diseases reveal each vitamin's job: lack of vitamin C causes scurvy, vitamin D deficiency causes rickets, vitamin A deficiency causes night blindness, and lack of B-vitamins causes anaemia and nervous disorders.", "tip"),
+        p("Many vitamins act as coenzymes: the B-vitamins help enzymes grip their substrate or transfer small chemical groups, so although they are needed only in tiny amounts, their absence halts entire metabolic pathways."),
+        list("How vitamins differ from macronutrients:", [
+          "Needed in tiny amounts — milligrams or micrograms per day.",
+          "Supply no significant energy.",
+          "Act as regulators and coenzymes rather than fuels.",
+          "Deficiencies cause specific diseases, not general weakness.",
+        ]),
       ]),
       section("Vitamins in the diet", [
         p("A balanced diet provides all the vitamins. Over-cooking destroys heat-sensitive vitamins, especially vitamin C, which is why fresh fruit and lightly cooked vegetables are valuable."),
@@ -694,6 +762,7 @@ export const chemistry10 = [
         ]),
         p("Fat-soluble vitamins can accumulate to toxic levels if taken in huge doses, because the body stores them; water-soluble vitamins are safer in excess because they are excreted."),
         callout("Sunlight on the skin makes vitamin D, but in indoor lifestyles dietary and supplemental sources become essential.", "info"),
+        p("Fat-soluble vitamins survive cooking better than water-soluble ones, because they dissolve in the fat of the food rather than being lost in the cooking water."),
       ]),
       section("Key terms", [
         list("", [
@@ -764,6 +833,7 @@ export const chemistry10 = [
           "Trace gases, dust and water vapour make up the rest.",
         ]),
         callout("Water vapour is variable and from nearly zero in deserts to about 4% in humid air. All the other gases are measured in 'dry air'.", "info"),
+        p("Air is not uniform with height: near the ground it is dense and well mixed, but above about 100 km the gases begin to separate by mass, and the lightest gases, hydrogen and helium, gradually escape into space."),
       ]),
       section("Layers of the atmosphere", [
         p("The atmosphere is arranged in layers, distinguished by how temperature changes with altitude. Each layer has a distinct role."),
@@ -777,6 +847,7 @@ export const chemistry10 = [
         p("Temperature decreases with height in the troposphere but increases in the stratosphere, because the ozone layer there absorbs ultraviolet radiation. This 'inversion' makes the stratosphere very stable and pollutants dumped there stay for years."),
         callout("In the upper troposphere water vapour and other gases are quite low in quantity; most pollution lives near the ground where we breathe.", "tip"),
         figure("Layers of the atmosphere, from troposphere to exosphere", "/diagrams/chem-atmos-layers.svg"),
+        p("The tropopause, the cold boundary at the top of the troposphere, acts like a lid on the weather: rising water vapour condenses there, which is why jet aircraft climb into the stable stratosphere to fly above almost all clouds and storms."),
       ]),
       section("Air pollution and primary pollutants", [
         p("Air pollution is the contamination of the atmosphere by substances harmful to health and the environment. Pollutants are classified as primary and emitted directly from a source and or secondary and formed by reactions in the air."),
@@ -789,6 +860,7 @@ export const chemistry10 = [
         ]),
         p("Burning fossil fuels in vehicles, factories and homes is the dominant source. Carbon dioxide, though not usually classed as a pollutant, is the most important of the greenhouse gases we add."),
         callout("Carbon monoxide binds to haemoglobin about 200 times more strongly than oxygen, starving the body of oxygen and exhaust gas is deadly in closed spaces.", "warning"),
+        p("Lead was once a major pollutant in city air, added to petrol as an anti-knock agent; the switch to unleaded fuel removed it almost completely, showing how decisively a pollutant source can be eliminated when its chemistry is understood."),
       ]),
       section("Secondary pollutants and smog", [
         p("Secondary pollutants form in the atmosphere when primary pollutants react together and especially in sunlight. The most damaging are ozone and other oxidants produced from nitrogen oxides and hydrocarbons."),
@@ -800,6 +872,7 @@ export const chemistry10 = [
         p("Photochemical smog forms when strong sunlight drives reactions between NOâ‚“ and hydrocarbons, producing a brownish haze rich in ozone. It is typical of sunny cities with heavy traffic and Los Angeles was the classic case, and many large Pakistani cities now see it in winter inversions."),
         f("\\text{NO}_x + \\text{hydrocarbons} + \\text{sunlight} \\to \\text{O}_3 + \\text{PANs} + \\text{haze}", "Photochemical smog"),
         callout("Smog has two faces: the grey sulfurous smog of coal-burning cities, and the brown photochemical smog of vehicle-dominated cities. Both damage the lungs.", "info"),
+        p("The Great Smog of London in 1952 was the classic sulphurous episode: coal smoke mixed with winter fog and settled in cold, still air, and the concentrated pollution killed thousands of people within days."),
       ]),
       section("The ozone layer", [
         p("The stratospheric ozone layer is a shield of ozone molecules (Oâ‚ƒ) between about 15 and 35 km that absorbs most of the sun's harmful ultraviolet radiation, especially UV-B and UV-C."),
@@ -810,6 +883,7 @@ export const chemistry10 = [
         callout("The Montreal Protocol (1987) banned CFCs worldwide. The ozone layer is slowly recovering and proof that international chemistry policy can work.", "info"),
         p("It is vital to distinguish the protective stratospheric ozone from harmful ground-level ozone: the same molecule, but one shields us while the other burns our lungs."),
         figure("The ozone layer shields Earth from ultraviolet radiation", "/diagrams/chem-atmos-ozone.svg"),
+        p("The ozone shield absorbs most of the sun's UV-B before it reaches the ground; without it, DNA is damaged far more easily, and rates of skin cancer and eye cataracts would rise sharply."),
       ]),
       section("The greenhouse effect", [
         p("Certain gases let sunlight in but trap the infrared (heat) radiation the Earth re-emits. These greenhouse gases and carbon dioxide, methane, water vapour and nitrous oxide and keep the planet about 33 Â°C warmer than it would otherwise be."),
@@ -824,6 +898,7 @@ export const chemistry10 = [
         figure("The greenhouse effect: heat in, heat trapped", "/diagrams/chem-atmos-greenhouse.svg"),
         sim("greenhouse", "Add carbon dioxide to the atmosphere and watch the heat trap grow - but too much overheats the planet.", "the greenhouse effect"),
         f("\\text{CO}_2 \\uparrow \\;\\Rightarrow\\; \\text{infrared trapping} \\uparrow \\;\\Rightarrow\\; \\text{global temperature} \\uparrow", "The enhanced greenhouse effect"),
+        callout("Worked example: Pre-industrial air contained about 280 ppm of CO₂, while today's air contains about 420 ppm. Calculate the percentage increase. Solution: increase = 420 − 280 = 140 ppm. Percentage increase = (140 ÷ 280) × 100 = 50%. So the CO₂ concentration has risen by about half since the industrial era began.", "key"),
       ]),
       section("Global warming and its impacts", [
         p("Global warming is the rise in the average surface temperature of the Earth caused by the enhanced greenhouse effect. The planet has already warmed by more than 1 Â°C since the industrial era began."),
@@ -836,6 +911,13 @@ export const chemistry10 = [
         ]),
         p("The textbook stresses the balance: a modest greenhouse effect is advantageous to life on earth, but in excess it becomes dangerous. The chemistry is simple and more greenhouse gases, more trapped heat and while the solutions involve every branch of science and policy."),
         callout("Even small global temperature rises produce large changes: a 1 Â°C average shift rearranges weather systems around the planet.", "warning"),
+        p("Climate projections are chemistry in action: they calculate how extra greenhouse gases trap more infrared, how the surface warms in response, and how that warming feeds back through melting ice, more water vapour and changing clouds."),
+        list("Ways each of us can cut emissions:", [
+          "Use public transport, cycle or walk instead of private cars.",
+          "Conserve electricity by switching off unused appliances and lights.",
+          "Avoid burning waste and prefer efficient stoves.",
+          "Plant trees, which absorb CO₂ and shade buildings.",
+        ]),
         p("Mitigation means cutting emissions of COâ‚‚ and methane; adaptation means building cities, farms and coasts that can survive the changes already underway."),
       ]),
       section("Air quality and human health", [
@@ -849,6 +931,7 @@ export const chemistry10 = [
         ]),
         p("Children, the elderly and people with asthma are most vulnerable. The Air Quality Index (AQI) turns pollutant concentrations into a simple number: the higher the value, the worse the air and the stronger the health advisory."),
         callout("Smoggy winter days are not just unpleasant and they measurably raise hospital admissions for respiratory and heart conditions.", "warning"),
+        p("On days when the Air Quality Index is high, people with asthma are advised to avoid strenuous outdoor exercise and keep windows shut, because fine particles and ground-level ozone peak during the afternoon."),
         p("Because pollution is produced locally, city-level action and cleaner fuels, fewer private cars, green transport and improves health within weeks, not years."),
       ]),
       section("Acid rain", [
@@ -858,6 +941,7 @@ export const chemistry10 = [
         f("\\text{CaCO}_3 + \\text{H}_2\\text{SO}_4 \\to \\text{CaSO}_4 + \\text{CO}_2 + \\text{H}_2\\text{O}", "Acid rain attacking marble"),
         callout("Acid rain can travel hundreds of kilometres on the wind, so a country's emissions become another country's problem and pollution ignores borders.", "warning"),
         figure("Acid rain: formation and damage to buildings and lakes", "/diagrams/chem-atmos-acid-rain.svg"),
+        p("Lakes on limestone are protected because the alkaline rock neutralises the incoming acid, while lakes on granite bedrock have no such buffer and acidify first, losing their fish and other aquatic life."),
       ]),
       section("Controlling air pollution", [
         p("Air pollution is largely preventable. Reducing it requires changing fuels, improving combustion and trapping pollutants before they escape."),
@@ -871,6 +955,8 @@ export const chemistry10 = [
         p("The air quality in cities improves quickly when policies are enforced and the clearest demonstrations are the ban on leaded petrol and the fall in smog when industry reduces emissions."),
         callout("Every individual action and cycling, conserving electricity, planting trees and contributes, because the atmosphere is a shared commons.", "tip"),
         sim("photosynthesis", "Raise the light or carbon dioxide and watch the plant bubble out more oxygen - photosynthesis pulls CO2 out of the air and returns O2.", "photosynthesis and the carbon cycle"),
+        p("Sulfur dioxide can be removed from power-plant exhaust with lime-based scrubbers, producing gypsum that is then used to make wallboard — a waste stream turned into a useful product."),
+        callout("A single mature tree absorbs roughly 20 kg of CO₂ per year, so urban tree planting is both a climate measure and a health measure.", "info"),
       ]),
       section("Key terms", [
         list("", [
@@ -938,6 +1024,7 @@ export const chemistry10 = [
           "It is the most abundant solvent on Earth and yet only a tiny fraction is fresh and drinkable.",
         ]),
         callout("Water is often called the 'universal solvent' because it dissolves more substances than any other liquid and which is precisely why it is so easily polluted.", "key"),
+        p("Water's polarity also creates hydrogen bonds between its molecules: they keep water liquid at room temperature, raise its boiling point to 100 °C, and make it expand when it freezes so that ice floats on lakes and ponds."),
       ]),
       section("The water cycle and freshwater distribution", [
         p("Water circulates endlessly through the hydrologic cycle: the sun evaporates water from oceans, lakes and soil; it rises, condenses into clouds and falls as rain or snow; then it returns through rivers and groundwater to the sea."),
@@ -946,6 +1033,8 @@ export const chemistry10 = [
         callout("The same water has been cycling for billions of years and the water you drink may have passed through dinosaurs, glaciers and oceans. The cycle does not create water; it only moves and purifies it.", "info"),
         figure("The water cycle: evaporation, condensation, precipitation, runoff", "/diagrams/chem-water-cycle.svg"),
         p("Because the fresh supply is fixed but the demand is growing, protecting the quality of rivers, lakes and groundwater is as urgent as protecting the quantity."),
+        callout("Worked example: A city of one million people uses about 500 litres of water per person per day. How many cubic metres does the city consume each day? Solution: total use = 1,000,000 × 500 = 500,000,000 litres. Since 1 m³ = 1000 litres, the daily consumption is 500,000,000 ÷ 1000 = 500,000 m³ per day.", "key"),
+        sim("water-cycle", "Evaporate, condense and precipitate — follow a drop of water around its journey through the cycle.", "the water cycle"),
       ]),
       section("Hard and soft water", [
         p("Soft water lathers readily with soap. Hard water does not and it forms a scum of insoluble soap instead. The cause is dissolved calcium and magnesium salts."),
@@ -957,6 +1046,7 @@ export const chemistry10 = [
         p("Hard water also forms a scale of calcium carbonate inside kettles, pipes and boilers and wasting fuel, blocking plumbing and eventually damaging equipment."),
         callout("Soft water lathers easily but can be corrosive to pipes because it contains fewer dissolved minerals to buffer it.", "warning"),
         figure("Hard water forms scum; soft water lathers", "/diagrams/chem-water-hardness.svg"),
+        p("A simple test distinguishes the two: shake a little soap solution with a sample of the water. Soft water lathers at once, while hard water first forms white scum and lathers only after enough soap has been added to remove the hardness ions."),
       ]),
       section("Temporary hardness", [
         p("Temporary hardness is caused by calcium and magnesium hydrogencarbonates and Ca(HCOâ‚ƒ)â‚‚ and Mg(HCOâ‚ƒ)â‚‚. It is called temporary because simple boiling removes it."),
@@ -964,6 +1054,7 @@ export const chemistry10 = [
         f("\\text{Ca(HCO}_3\\text{)}_2 \\xrightarrow{\\text{heat}} \\text{CaCO}_3 \\downarrow + \\text{CO}_2 + \\text{H}_2\\text{O}", "Removal of temporary hardness by boiling"),
         p("Because it can be cured by heating, temporary hardness is the lesser of the two problems and but the scale it leaves behind is still damaging."),
         callout("Scale in a kettle is calcium carbonate. Vinegar (ethanoic acid) dissolves it because the acid reacts with the carbonate to release carbon dioxide.", "tip"),
+        p("Temporary hardness can also decline when the water is left standing in air, because the dissolved hydrogencarbonate slowly loses carbon dioxide and the carbonate precipitates out — which is why some chalky water turns cloudy on standing."),
       ]),
       section("Permanent hardness", [
         p("Permanent hardness is caused by calcium and magnesium sulfates and chlorides and CaSOâ‚„, MgSOâ‚„, CaClâ‚‚, MgClâ‚‚. Boiling does not remove these salts, hence the name 'permanent'."),
@@ -976,6 +1067,7 @@ export const chemistry10 = [
         f("\\text{Ca}^{2+} + \\text{Na}_2\\text{CO}_3 \\to \\text{CaCO}_3 \\downarrow + 2\\text{Na}^+", "Washing-soda treatment"),
         p("Ion-exchange softening is used on a huge scale in laundries and industry: hard water flows through a column of resin, and the calcium and magnesium stay behind while softened water emerges."),
         callout("Reverse osmosis is also the basis of modern desalination plants that turn seawater into drinking water and energy-hungry but effective.", "info"),
+        f("2\\text{R-SO}_3\\text{Na} + \\text{Ca}^{2+} \\to (\\text{R-SO}_3)_2\\text{Ca} + 2\\text{Na}^+", "Ion-exchange softening of hard water"),
       ]),
       section("Disadvantages of hard water", [
         p("Hard water causes practical and economic problems in the home and in industry:"),
@@ -987,6 +1079,7 @@ export const chemistry10 = [
         ]),
         p("In industry, scale in boiler tubes is dangerous: a thin layer of calcium carbonate is a good insulator, so the metal overheats and can burst. Water is therefore softened before entering boilers."),
         callout("The scum problem is why modern detergents were invented and synthetic surfactants do not form insoluble calcium salts, so they clean perfectly well in hard water.", "key"),
+        p("The economic cost of hardness is considerable: industry softens water before boilers precisely because a thin carbonate layer insulates the metal, wastes fuel and, if left unchecked, causes boiler tubes to overheat and fail."),
       ]),
       section("Water pollution", [
         p("Water pollution is the contamination of rivers, lakes, groundwater and seas by harmful substances. It kills aquatic life, spreads disease and destroys the water's usefulness."),
@@ -999,6 +1092,7 @@ export const chemistry10 = [
         ]),
         p("Heavy metals do not break down. They accumulate in the food chain and a process called biomagnification and so top predators and, eventually, humans receive the highest doses."),
         callout("The textbook puts it plainly: the detergent lingers in the water for an extended period of time, rendering it unsuitable for aquatic life.", "warning"),
+        p("Pollutants enter water from point sources, such as a factory pipe, and from diffuse sources, such as fertiliser washing off an entire valley of farmland; diffuse sources are far harder to locate and control."),
       ]),
       section("Eutrophication", [
         p("Detergents include phosphate salts, which allow algae to develop quickly in water bodies and float on the surface. This is known as eutrophication."),
@@ -1012,6 +1106,7 @@ export const chemistry10 = [
         ]),
         callout("Eutrophication turns a living lake into a lifeless green soup. Cutting phosphate detergents and controlling fertiliser runoff are the key remedies.", "key"),
         figure("Eutrophication: nutrients turn a lake green", "/diagrams/chem-water-eutrophication.svg"),
+        p("The whole sequence is a chain reaction: nutrients feed the algae, the bloom blocks sunlight, plants die, decay consumes dissolved oxygen, and fish suffocate. A lake can tip into this state suddenly once the nutrient level crosses a threshold."),
       ]),
       section("Water treatment", [
         p("Before water is safe to drink it passes through a treatment works. The goal is water that is permanently safe and the textbook reminds us that clean water is among our most essential needs on earth."),
@@ -1025,6 +1120,8 @@ export const chemistry10 = [
         p("Chlorine is the most common disinfectant because it acts continuously through the distribution pipes. Ozone and UV are preferred in some plants because they leave no chemical taste, but they protect only the treated water, not the pipes."),
         callout("Purification of water does not stop at the tap: boiling for at least a minute, or filtering, is still recommended for water from unreliable sources.", "tip"),
         figure("Stages of water treatment: screening to disinfection", "/diagrams/chem-water-treatment.svg"),
+        p("Many treatment works add a final carbon-filtration stage: activated carbon absorbs the organic molecules that give water a musty taste or a strong chlorine smell, improving both safety and drinkability."),
+        callout("Boiling kills pathogens but does not remove dissolved salts or heavy metals, so for contaminated wells, filtration or distillation may also be needed.", "info"),
       ]),
       section("Monitoring water quality", [
         p("Water quality is judged by measurable standards. Physical, chemical and biological parameters tell us whether water is safe to drink and whether rivers and lakes are healthy."),
@@ -1037,6 +1134,13 @@ export const chemistry10 = [
         ]),
         p("Laboratories use analytical chemistry and pH meters, conductivity, chromatography and spectroscopy and to measure these parameters routinely. Safe limits are set by bodies like the WHO and national standards agencies."),
         callout("Coliform bacteria are the key biological indicator: their presence means sewage contamination and a real risk of waterborne disease.", "warning"),
+        p("Dissolved oxygen is the health monitor of a river: clean, fast-flowing water holds more oxygen than warm, stagnant, polluted water, so a sudden fall in dissolved oxygen is an early warning of pollution upstream."),
+        list("What each water-quality parameter reveals:", [
+          "pH — tells whether the water is acidic, neutral or alkaline.",
+          "Dissolved oxygen — high means a healthy river; low means pollution.",
+          "Turbidity — cloudy water carries suspended soil and microbes.",
+          "Coliforms — their presence signals sewage contamination.",
+        ]),
         p("Continuous monitoring of rivers and groundwater catches pollution early, when it is still cheap and easy to fix."),
       ]),
       section("Water conservation and safety", [
@@ -1050,6 +1154,7 @@ export const chemistry10 = [
         ]),
         p("Legislation now requires factories to treat effluent before release, and households to limit detergents. Combined with better treatment, these steps protect both people and aquatic ecosystems."),
         callout("Clean water is life and the textbook stresses that safe, clean water must be available to everyone, and chemistry provides the tools to make it so.", "key"),
+        p("Rainwater harvesting and the reuse of grey water reduce demand on the mains, while on farms drip irrigation delivers water straight to plant roots instead of letting it evaporate from open channels."),
       ]),
       section("Key terms", [
         list("", [
@@ -1115,6 +1220,7 @@ export const chemistry10 = [
           "Quantitative analysis and determines their amount or concentration.",
         ]),
         callout("Analytical chemistry underpins medicine (blood tests), environmental monitoring (air and water quality), food safety and criminal forensics.", "info"),
+        p("Analytical results are only as good as the sample: a single drop of river water cannot describe the whole river, so a sound sampling strategy is the first step of every analysis."),
       ]),
       section("Qualitative analysis and testing for ions", [
         p("Qualitative tests look for characteristic evidence of a particular ion or compound. Colour, smell, precipitation, flame colour and gas evolution are all clues."),
@@ -1126,6 +1232,13 @@ export const chemistry10 = [
         ]),
         p("Because many ions give similar results, qualitative analysis is systematic: ions are separated group by group using selective precipitations, and each final test is diagnostic."),
         callout("In the laboratory, 'clean and rinse the apparatus' is not a formality and contamination is the most common cause of wrong analytical results.", "tip"),
+        p("Quick clues such as flame colour and precipitate colour must always be confirmed: several metal ions give similar orange or red colours, so a characteristic confirmatory test is run before any ion is reported as present."),
+        list("The detective's toolkit of qualitative clues:", [
+          "Flame colour — identifies certain metal ions.",
+          "Precipitate colour — confirms specific ions when a reagent is added.",
+          "Gas evolution — limewater, splints and pop tests identify gases.",
+          "Smell — pungent, rotten-egg and fruity odours give quick hints.",
+        ]),
       ]),
       section("Flame tests", [
         p("When a metal salt is heated in a flame, the metal ions absorb energy and their electrons jump to higher shells. As the electrons fall back, they emit light of characteristic wavelengths and giving each metal its own flame colour."),
@@ -1142,6 +1255,8 @@ export const chemistry10 = [
         callout("Sodium contamination is everywhere, so a faint yellow flame does not always prove sodium is present and the sample and wire must be clean.", "warning"),
         figure("Flame tests identify metal ions by colour", "/diagrams/chem-analytical-flame.svg"),
         sim("atom", "Set the atomic number and watch the electrons fill their shells - when flame tests heat these electrons they jump and fall back, emitting each metal's characteristic colour.", "flame tests"),
+        p("The wire used in flame tests must be cleaned with concentrated hydrochloric acid between tests, because a trace of sodium from dust or fingers is enough to mask every other colour with its intense yellow."),
+        callout("Flame emission is the same physics as fireworks: the metal salts packed into a firework give the reds, greens and blues of the display.", "info"),
       ]),
       section("The pH meter", [
         p("A pH meter measures the hydrogen ion concentration of a solution directly and far more accurately than indicator paper. It consists of a glass electrode, a reference electrode and a meter that displays pH."),
@@ -1155,6 +1270,7 @@ export const chemistry10 = [
         ]),
         callout("A pH meter reads tenths or hundredths of a pH unit, where litmus paper gives only acid/base/neutral. That precision matters in quality control and research.", "key"),
         figure("The pH meter reads hydrogen ion concentration", "/diagrams/chem-analytical-phmeter.svg"),
+        callout("Worked example: A pH meter reads 5.40 for a solution at 25 °C. Find [H⁺] and [OH⁻]. Solution: [H⁺] = 10⁻⁵·⁴⁰ = 4.0 × 10⁻⁶ mol dm⁻³. Since [H⁺][OH⁻] = 1 × 10⁻¹⁴, [OH⁻] = 1 × 10⁻¹⁴ ÷ (4.0 × 10⁻⁶) = 2.5 × 10⁻⁹ mol dm⁻³. The solution is acidic.", "key"),
       ]),
       section("Conductivity and conductometry", [
         p("An electrolyte solution conducts electricity because its ions carry charge. A conductivity meter measures how well the solution conducts by applying an alternating voltage between two electrodes."),
@@ -1162,6 +1278,7 @@ export const chemistry10 = [
         f("\\kappa \\;\\propto\\; c \\cdot z^2 \\cdot u", "Conductivity depends on concentration, charge and mobility"),
         p("Conductometry uses this principle to follow a reaction in real time. During a titration of hydrochloric acid with sodium hydroxide, for example, Hâº ions (which conduct very well) are replaced by Naâº, and the conductivity changes predictably until the equivalence point is reached."),
         callout("Conductometry tracks neutralisation in real time: as acid and base react, the ionic concentrations and and thus conductivity and change predictably.", "tip"),
+        p("Conductivity is temperature-sensitive because ions move faster when the solution is hot, so measurements are made at a fixed temperature or corrected automatically by the instrument's temperature compensation."),
         p("Because conductivity measures all ions present, it cannot distinguish individual species and for that, chromatography or spectroscopy is needed."),
       ]),
       section("Chromatography", [
@@ -1176,6 +1293,7 @@ export const chemistry10 = [
         callout("Chromatography is used to test food dyes, analyse drugs in blood, detect pollutants and even compare ink on a forged document and a tool of the forensic chemist.", "info"),
         figure("Paper chromatography separates a mixture into its components", "/diagrams/chem-analytical-chromatography.svg"),
         sim("chromatography", "Run the ink up the paper and watch the colours separate.", "paper chromatography"),
+        p("Chromatography is far broader than paper strips: gases are separated in gas chromatography, proteins in column chromatography, and dyes on thin-layer plates, yet all rely on the same principle of different travel speeds through the stationary phase."),
       ]),
       section("Spectrophotometry", [
         p("A spectrophotometer shines light through a coloured solution and measures how much is absorbed. The amount of light absorbed is proportional to the concentration of the coloured substance and the Beerand“Lambert law."),
@@ -1183,6 +1301,7 @@ export const chemistry10 = [
         p("By measuring the absorbance of known standards, a calibration graph is drawn, and unknown concentrations are read straight off it. This is the workhorse method for quantitative analysis of coloured species."),
         p("Flame tests use the same principle in emission: instead of measuring light absorbed, the instrument measures the coloured light emitted by excited metal ions and atomic emission spectroscopy and which can detect parts-per-million of metals in water."),
         callout("The dispersion of white light into its component colours and the spectrum and underlies all of spectroscopy, from the rainbow of the prism to the precise wavelengths of instruments.", "tip"),
+        callout("Worked example: A coloured solution has an absorbance of 0.400 in a 1.0 cm cell, and the molar absorptivity of the coloured species is 8.0 × 10³ dm³ mol⁻¹ cm⁻¹. Use A = εcl to find the concentration. Solution: c = A ÷ (εl) = 0.400 ÷ (8.0 × 10³ × 1.0) = 5.0 × 10⁻⁵ mol dm⁻³.", "key"),
       ]),
       section("Volumetric analysis and titrations", [
         p("A titration is the quantitative tool of choice for acids and bases: a solution of known concentration (the titrant) is added from a burette to a measured volume of the sample until the reaction is complete. The volume used reveals the unknown concentration."),
@@ -1197,6 +1316,8 @@ export const chemistry10 = [
         f("c_1 V_1 = c_2 V_2", "Concentration Ã— volume is conserved in a 1:1 reaction"),
         callout("Titration turns a colour change into a number: one drop too many over-shoots the end point, so skilled titration is about control and repetition.", "tip"),
         figure("Titration: the burette measures the unknown", "/diagrams/chem-analytical-titration.svg"),
+        p("Skill in titration is about control: a white tile under the flask makes the end-point colour change easier to judge, and reading the burette at eye level from the bottom of the meniscus removes parallax error."),
+        sim("titration", "Add the titrant drop by drop and watch the end point flash as the unknown is neutralised exactly.", "titration and volumetric analysis"),
       ]),
       section("Gravimetric analysis", [
         p("Gravimetric analysis determines the amount of a substance by weighing it. The analyte is converted into a solid of known composition, which is filtered, dried and weighed."),
@@ -1210,6 +1331,7 @@ export const chemistry10 = [
         f("\\text{SO}_4^{2-} + \\text{Ba}^{2+} \\to \\text{BaSO}_4 \\downarrow", "Precipitating sulfate for weighing"),
         p("Gravimetry is slow but extremely accurate and needs no calibration against standards and the balance is the standard. It is the classic reference method for checking other techniques."),
         callout("The solubility product controls gravimetry: the precipitate must be so insoluble that effectively all the analyte is recovered, and Ksp tells us how complete that recovery is.", "key"),
+        p("Gravimetry needs no calibration curve because the balance measures mass directly, so results trace back to the kilogram, the fundamental unit of mass — which is why gravimetry remains the reference method for checking other techniques."),
       ]),
       section("Solubility product Ksp", [
         p("Some salts dissolve only slightly. When such a salt is in contact with its saturated solution, a dynamic equilibrium exists between the solid and its dissolved ions, described by the solubility product."),
@@ -1218,6 +1340,7 @@ export const chemistry10 = [
         p("Ksp is constant at a given temperature. A higher Ksp means the salt is more soluble. For a salt like AgCl, Ksp = [Agâº][Clâ»]; for Caâ‚ƒ(POâ‚„)â‚‚, the expression includes the powers of the stoichiometry."),
         p("Salts with very low Ksp precipitate in order of their solubility and the 'reach the elution' sequence of the textbook underlies qualitative analysis schemes and water softening: adding an ion already in the solid makes the product exceed Ksp, so precipitation occurs."),
         callout("If the ionic product exceeds Ksp, the salt precipitates; if it is below Ksp, more solid can dissolve. This simple comparison controls everything from kidney stones to water softening.", "key"),
+        p("Ksp also explains the common-ion effect: adding chloride ions to a saturated silver chloride solution raises [Cl⁻], the ionic product exceeds Ksp, and silver chloride precipitates until the product falls back to Ksp."),
       ]),
       section("Applications of analytical chemistry", [
         p("Analytical chemistry reaches into every area of modern life. It monitors drinking water and air quality, verifies the purity of medicines and foods, and supports diagnosis through blood and urine tests."),
@@ -1230,6 +1353,7 @@ export const chemistry10 = [
         ]),
         p("Choosing the right method matters: flame tests and precipitation for quick qualitative answers, the pH meter for acidity, conductometry for ionic strength, chromatography for mixtures, and spectrophotometry for precise concentrations."),
         callout("Quantitative results are only as good as the calibration and 'garbage in, garbage out' applies to every instrument and every analyst.", "warning"),
+        p("Quality control depends on analytical chemistry at every stage: the composition of every batch of medicine, food, fuel and fertiliser is checked before it reaches the public, and the checks are repeated continuously during production."),
       ]),
       section("Key terms", [
         list("", [
@@ -1300,6 +1424,7 @@ export const chemistry10 = [
           "Polymers, plastics, cement and glass.",
         ]),
         callout("The most-produced chemicals in the world are sulfuric acid, ammonia, nitrogen, oxygen and lime and the 'bulk chemicals' that feed every other industry.", "info"),
+        p("Scale changes the chemistry in practical ways: heat and pressure that are trivial in a test tube become major energy costs in a factory, so industrial plants recycle heat, reuse by-products and run continuously for maximum efficiency."),
       ]),
       section("Plant nutrients and fertilisers", [
         p("Plants need macronutrients and nitrogen (N), phosphorus (P) and potassium (K) and plus secondary nutrients and micronutrients. Of these, nitrogen is usually the limiting factor in soil."),
@@ -1312,6 +1437,7 @@ export const chemistry10 = [
         f("\\text{NH}_3 + \\text{HNO}_3 \\to \\text{NH}_4\\text{NO}_3", "Ammonium nitrate fertiliser"),
         callout("Over-use of fertilisers is counterproductive: excess nitrates and phosphates wash into rivers, causing eutrophication.", "warning"),
         figure("Fertilisers replace the NPK nutrients plants remove", "/diagrams/chem-ind-fertiliser.svg"),
+        callout("Worked example: Urea, CO(NH₂)₂, has a molar mass of 60 g mol⁻¹ and carries two nitrogen atoms (each 14 g), so 28 g of every mole is nitrogen. Calculate the percentage of nitrogen and the nitrogen in a 50 kg bag. Solution: percentage nitrogen = (28 ÷ 60) × 100 = 46.7%. A 50 kg bag therefore contains 50 × 0.467 ≈ 23.4 kg of nitrogen.", "key"),
       ]),
       section("Ammonia and the Haber process", [
         p("Ammonia is made industrially by the Haber process, discovered by Fritz Haber and scaled up by Carl Bosch. Nitrogen from the air combines with hydrogen from natural gas:"),
@@ -1321,6 +1447,7 @@ export const chemistry10 = [
         callout("The Haber process makes nitrogen available to plants as fertiliser and feeds the world: roughly half of the nitrogen atoms in your body passed through an ammonia plant.", "key"),
         figure("The Haber process: fixing nitrogen from the air", "/diagrams/chem-ind-haber.svg"),
         p("Almost all ammonia is used to make fertilisers, nitric acid, nylon and explosives."),
+        p("The hydrogen for the Haber process comes from natural gas and steam: methane reacts with steam to give carbon monoxide and hydrogen, and the carbon monoxide is then shifted to more hydrogen and carbon dioxide."),
       ]),
       section("Nitric acid and the Ostwald process", [
         p("Nitric acid is manufactured by oxidising ammonia in the Ostwald process. Ammonia is burned over a platinum-rhodium gauze:"),
@@ -1329,6 +1456,7 @@ export const chemistry10 = [
         f("2\\text{NO} + \\text{O}_2 \\to 2\\text{NO}_2, \\qquad 3\\text{NO}_2 + \\text{H}_2\\text{O} \\to 2\\text{HNO}_3 + \\text{NO}", "Formation of nitric acid"),
         p("Nitric acid is a key ingredient of ammonium nitrate fertilisers and explosives, and is used to make dyes, drugs and polymers."),
         callout("The NO recycled from the absorption step is re-oxidised, so nothing is wasted and a textbook example of industrial efficiency.", "tip"),
+        p("The platinum-rhodium gauze must run at about 850 °C to drive the fast oxidation and keep the catalyst surface clear, and the ammonia-air ratio is controlled carefully because the mixture can be explosive."),
       ]),
       section("Sulfuric acid and the Contact process", [
         p("Sulfuric acid, the most-produced chemical in the world, is made by the Contact process. Sulfur is burned to sulfur dioxide, which is oxidised over a vanadium(V) oxide catalyst:"),
@@ -1338,6 +1466,7 @@ export const chemistry10 = [
         p("Sulfuric acid is used in fertiliser manufacture, metal processing, car batteries, detergents, dyes and the refining of petroleum."),
         callout("Le Chatelier's principle again governs the Contact process: excess air and continuous removal of SOâ‚ƒ push the equilibrium toward product.", "info"),
         figure("The Contact process: sulfur to sulfuric acid", "/diagrams/chem-ind-contact.svg"),
+        p("The sulfur for the Contact process comes from mined deposits, from smelting sulfide ores, or from 'sour' natural gas, where hydrogen sulfide is burned to recover both the sulfur and useful heat."),
       ]),
       section("Soap and saponification", [
         p("Soap is made by saponification: heating an animal or vegetable fat (a triglyceride) with a strong alkali such as sodium hydroxide or potassium hydroxide. The fat breaks into glycerol and the sodium (or potassium) salts of fatty acids and the soap itself."),
@@ -1347,6 +1476,7 @@ export const chemistry10 = [
         callout("Soap works by making an emulsion: tiny oil droplets surrounded by soap molecules are carried away by water, which is how soap removes grease and dirt from skin.", "key"),
         figure("Saponification: fat + alkali → soap + glycerol", "/diagrams/chem-ind-soap.svg"),
         sim("soap", "Watch the soap tails dissolve into the grease drop while the polar heads face the water - micelles form and lift the grease away.", "soap and cleansing"),
+        p("Soap-making is one of the oldest chemical industries: for thousands of years, animal fat was boiled with wood-ash lye, which supplied the alkali, and the fat split into soap and glycerol — the same saponification reaction run in modern plants today."),
       ]),
       section("Detergents and cleansing", [
         p("Modern detergents are synthetic surfactants designed to clean even in hard water, where ordinary soap forms an insoluble scum with calcium and magnesium ions."),
@@ -1359,6 +1489,7 @@ export const chemistry10 = [
         f("\\text{C}_{12}\\text{H}_{25} - \\text{OSO}_3\\text{Na} \\;\\to\\; \\text{C}_{12}\\text{H}_{25}\\text{OSO}_3^- + \\text{Na}^+", "An anionic detergent"),
         p("Detergents share soap's structure and a long tail plus an ionic head and but their ionic heads do not precipitate with calcium, so no scum forms."),
         callout("Detergents containing phosphates pollute rivers through eutrophication, which is why modern brands are phosphate-reduced.", "warning"),
+        p("Straight-chain (linear) detergents are biodegradable, but the branched detergents used before the 1960s resisted breakdown and piled up as mountains of foam on rivers — a pollution problem that the chemical redesign of the molecule solved."),
       ]),
       section("Polymers and plastics", [
         p("Plastics are polymers and long chains of repeating monomer units made by polymerisation. Two routes exist: addition and condensation."),
@@ -1371,6 +1502,7 @@ export const chemistry10 = [
         p("The properties of a plastic depend on the monomer and the chain structure. Thermoplastics soften when heated and can be remoulded; thermosetting plastics set permanently and cannot be remelted."),
         callout("Soaps, lubricants, detergents, medicines, paints and adhesives all rely on petrochemicals. Plastic waste is a design problem: most conventional plastics are not readily biodegradable.", "warning"),
         p("Recycling plastics reduces waste, saves oil and cuts carbon emissions and but it requires clean separation of different polymer types."),
+        p("The numbered recycling codes (1 to 7) printed on plastic containers identify the polymer type; sorting by code lets each plastic be remelted into a new product with similar properties, which is why clean separation matters."),
       ]),
       section("Cement manufacture", [
         p("Cement is the glue of modern construction. Portland cement is made by heating a mixture of limestone (calcium carbonate) and clay in a rotary kiln to about 1450 Â°C, producing clinker, which is then cooled and ground with a little gypsum."),
@@ -1378,6 +1510,13 @@ export const chemistry10 = [
         f("\\text{CaCO}_3 \\xrightarrow{\\text{heat}} \\text{CaO} + \\text{CO}_2", "Decomposition of limestone"),
         p("When water is added to cement, hydration reactions form calcium silicate hydrates, which set and harden into a strong interlocking mass. Concrete and cement, sand and gravel and is the most-used material on Earth after water."),
         callout("Cement-making releases about half a tonne of COâ‚‚ per tonne of cement and both from the chemistry and from the fuel. Low-carbon cements are a major research goal.", "warning"),
+        p("Concrete does not set by drying: it hardens through hydration reactions in which water reacts chemically with the clinker minerals to form an interlocking solid, which is why fresh concrete is kept damp and cured for several days."),
+        list("The raw materials of concrete:", [
+          "Cement — the binder that hardens when hydrated.",
+          "Sand and aggregate (gravel) — the inert filler.",
+          "Water — drives the hydration reactions.",
+          "Steel reinforcement — carries tension that concrete alone cannot withstand.",
+        ]),
       ]),
       section("Petroleum products and petrochemicals", [
         p("Crude oil is fractionally distilled in a tall column, separating hydrocarbons by boiling point into gases, petrol, kerosene, diesel, lubricating oil and bitumen. These fractions power transport, heating and industry."),
@@ -1391,6 +1530,8 @@ export const chemistry10 = [
         ]),
         p("Petrochemicals go further: naphtha fractions are 'cracked' into small alkenes like ethene and propene, which become the monomers for polyethylene, polypropylene, PVC and countless other plastics."),
         callout("From one barrel of oil come fuels, plastics, synthetic rubber, paints, medicines and fertilisers and petroleum is simultaneously an energy source and the feedstock of the chemical industry.", "key"),
+        f("\\text{C}_{16}\\text{H}_{34} \\xrightarrow{\\text{crack}} \\text{C}_8\\text{H}_{18} + \\text{C}_8\\text{H}_{16}", "Cracking a heavy hydrocarbon into petrol and an alkene"),
+        callout("Crude oil is often worth more as chemicals than as fuel, which is why refineries convert the heavy fractions by cracking and reforming before sale.", "info"),
         p("Recycling, renewable monomers and biodegradable polymers are the industry's response to the environmental cost of plastic."),
       ]),
       section("Key terms", [

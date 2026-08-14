@@ -13,6 +13,7 @@ export const biology9 = [
     sections: [
       section("Biology and” the science of life", [
         p("Biology is the scientific study of life. The word biology comes from the Greek words bios (meaning life) and logos (meaning study or knowledge). Biology deals with the study of living organisms and” their structure, functions, growth, origin, evolution and distribution. It ranges from the smallest viruses and bacteria, which are invisible to the naked eye, to the largest plants and animals, and even to the ecosystems in which all living things interact."),
+        p("Biology touches almost every human concern. It explains why a seed grows into a plant, why a wound heals, how vaccines protect the body, and why some diseases spread faster than others. Food, medicine, clean water and a healthy environment all depend on the living world, so the understanding biology gives us is not merely academic; it is the foundation of human survival and well-being."),
         p("Every living organism performs certain activities that mark it as alive. Biology asks how these activities work, how organisms are built, how they reproduce, how they inherit features from their parents, and how they relate to one another and to their environment. The answers to these questions shape medicine, agriculture, food production and the conservation of nature."),
         callout("Biology literally means the study of life: bios means life and logos means study. All the branches of the subject, from molecular biology to ecology, are only different lenses through which the same living world is examined.", "key"),
 
@@ -25,11 +26,21 @@ export const biology9 = [
           "Anabolism and” builds large, complex molecules from simple ones; requires energy; examples include photosynthesis and protein synthesis.",
           "Catabolism and” breaks large, complex molecules into simpler ones; releases energy; examples include respiration and digestion.",
         ]),
+        list("The vital processes that mark a living thing:", [
+          "Nutrition and” taking in food for energy and materials.",
+          "Respiration and” releasing energy from food.",
+          "Growth and” increase in size or in the number of cells.",
+          "Movement and” locomotion or the flow of cytoplasm.",
+          "Sensitivity and” responding to changes in the surroundings.",
+          "Excretion and” removing harmful wastes.",
+          "Reproduction and” producing new individuals of the species.",
+        ]),
       ]),
       section("Divisions of biology", [
         p("The whole subject of biology is divided into three major divisions on the basis of the type of organism studied. Botany is the study of plants, zoology is the study of animals, and microbiology is the study of microorganisms such as bacteria, protozoa, fungi and viruses."),
         p("Each division is large enough to be a subject of its own. A botanist might study the growth of wheat crops, a zoologist might study the behaviour of birds, and a microbiologist might study the bacteria that cause typhoid. The divisions overlap in practice and” for instance, the study of plant diseases needs both botany and microbiology."),
         callout("The three great divisions of biology are Botany (plants), Zoology (animals) and Microbiology (microorganisms). Together they cover every known form of life.", "key"),
+        callout("Example: A single grain of wheat shows all three divisions at work. The growth of the plant is studied by botany, the insects that attack it are studied by zoology, and the bacteria and fungi that cause its diseases are studied by microbiology and” one object, examined through three lenses.", "key"),
       ]),
       section("Branches of biology and” structural studies", [
         p("Each division of biology is further split into specialized branches. Some branches deal with the structure of organisms. Morphology is the study of the form and external structure of organisms, while anatomy studies the internal structure of organisms as revealed by dissection. Histology is the microscopic study of tissues, cell biology (or cytology) studies the structure and function of cells, and molecular biology deals with the structure and function of the molecules that make life possible, such as DNA and proteins."),
@@ -61,6 +72,7 @@ export const biology9 = [
       section("Biology and other sciences", [
         p("Biology does not stand alone; it borrows tools and ideas from other sciences and returns them enriched. Biochemistry is the chemistry of living things, biophysics applies the laws of physics to life, and biomathematics uses mathematics to describe biological data such as growth rates and population changes. Biogeography studies the distribution of organisms over the surface of the Earth, and bio-economics examines the economic importance of living things."),
         p("Many of the great advances in biology have come from these borderlands. The structure of DNA was revealed using the physics of X-ray diffraction, and our understanding of epidemics now rests on mathematical models."),
+        callout("In the field of forensic science, biology, chemistry and physics combine: a drop of blood or a single strand of hair can reveal who left it behind, using techniques that once belonged to three separate sciences.", "info"),
         callout("A biologist today often needs the language of chemistry, physics and mathematics. Interdisciplinary fields such as biochemistry and biophysics have produced some of biology's greatest discoveries.", "tip"),
       ]),
       section("Careers in biology", [
@@ -74,15 +86,18 @@ export const biology9 = [
           "Research and teaching and” discovering new knowledge and sharing it.",
         ]),
         p("Most of these careers begin with a degree in one of the biological sciences and then specialize. The demand for trained biologists grows as the world faces the challenges of food security, disease and environmental change."),
+        p("A career in biology is a career of observation and service. Whatever the specialty, the biologist is always trying to understand something about life and” and to use that understanding to improve the condition of plants, animals or people."),
       ]),
       section("Biology and the Holy Quran", [
         p("The Holy Quran repeatedly invites human beings to observe the natural world and to reflect on its creation. It draws attention to the wonders of the human body, the growth of plants, the variety of animals and the delicate balance of the universe and” all of which are subjects that biology studies in detail."),
         p("The Quran states that every living thing is made of water, a fact that matches what modern biology teaches about the chemistry of life. It also describes the development of the human being from a small beginning and” what today's biology recognizes as the growth of an embryo from a single fertilized cell."),
+        p("The Quran also draws attention to the honeybee, the ant and the birds, describing behaviour that biology has since confirmed. This invitation to observe, reflect and investigate is a natural beginning for scientific inquiry and” for many Muslim scientists it was the very motive that led them to study nature."),
         callout("Faith and science are not rivals. The Quran urges humanity to study nature: the more deeply we understand the living world, the more we appreciate the design behind it.", "key"),
       ]),
       section("Muslim scientists and biology", [
         p("Muslim scientists made important contributions to biology during the golden age of Islamic civilization. Jabir Bin Hayan, known as the father of chemistry, developed practical techniques such as crystallization and distillation that are still used in laboratories today. His careful experimental methods influenced the way science is done."),
         p("Abdul Malik Asmai studied animals in detail and is regarded as a founder of zoology. He described the external features and habits of animals such as the camel, horse and sheep in his works. Bu Ali Sina, known in the West as Avicenna, was a physician and philosopher whose book The Canon of Medicine remained a standard medical text in Europe for centuries. He emphasized observation and the testing of ideas in the treatment of disease."),
+        p("Another great figure is Ibn Al-Nafis, the thirteenth-century physician who first described the circulation of blood from the heart to the lungs and back and” a discovery usually credited to William Harvey centuries later. Such contributions show that the foundations of modern biology were laid by scientists from many lands and cultures."),
         list("Contributions at a glance:", [
           "Jabir Bin Hayan and” father of chemistry; developed crystallization and distillation.",
           "Abdul Malik Asmai and” pioneer of zoology; described the features of many animals.",
@@ -94,6 +109,7 @@ export const biology9 = [
         p("Life is built in layers. At the simplest level, matter is made of atoms. The most important atoms in living things are carbon, hydrogen, oxygen and nitrogen, which together make up about 99 percent of the mass of the human body. Two or more atoms join to form molecules, and molecules combine to form the large compounds on which life depends."),
         p("At the molecular level we find the biomolecules: proteins, carbohydrates, lipids and nucleic acids. Proteins are the workers of the cell, carbohydrates store energy, lipids form membranes and store fuel, and nucleic acids like DNA carry hereditary information. The interactions of these molecules are the subject of molecular biology."),
         f("\\text{subatomic particles} \\to \\text{atoms} \\to \\text{molecules} \\to \\text{organelles}", "The first steps of biological organization"),
+        p("Beyond the organelles, the same building order continues without a break. Organelles are organized into cells, cells into tissues, tissues into organs, organs into organ systems, and organ systems into a complete organism. This ladder of increasing complexity is called the levels of biological organization and” it is the framework on which all of biology hangs."),
         sim("biomolecules", "Choose a biomolecule and watch its monomers join into a polymer — fats pack 38 kJ per gram, carbohydrates and proteins 17.", "biomolecules — monomers into polymers"),
       ]),
       section("From organelles to cells", [
@@ -105,6 +121,7 @@ export const biology9 = [
       section("Tissues, organs and organ systems", [
         p("In multicellular organisms, similar cells group together to form tissues. A tissue is a group of cells that are similar in structure and work together to perform one function. For example, muscle tissue is made of cells that can contract, and nervous tissue is made of nerve cells that carry signals."),
         p("Several tissues combine to form an organ. The stomach, for instance, is made of muscle tissue that churns food, epithelial tissue that lines its inner surface, and connective tissue that holds it together. Organs then work in groups called organ systems: the stomach, intestines, liver and pancreas together form the digestive system, and the heart, blood and vessels form the circulatory system."),
+        f("\\text{cell} \\to \\text{tissue} \\to \\text{organ} \\to \\text{organ system} \\to \\text{organism}", "The hierarchy from cell to organism"),
         list("From cells to the whole organism:", [
           "Cells and” the basic units of life.",
           "Tissues and” groups of similar cells performing one function.",
@@ -116,17 +133,20 @@ export const biology9 = [
       section("Population, community and ecosystem", [
         p("The organization of life continues beyond the individual. A population is a group of organisms of the same species living together in a particular place at the same time. All the plants and animals of a pond, for example, form the populations that live there."),
         p("When all the populations of an area are considered together, they form a community. A community, together with its non-living environment and” the soil, water, air and temperature and” forms an ecosystem. A pond is a complete ecosystem: the water and mud are the non-living part, while the algae, fish and insects form the living community."),
+        p("Ecosystems are open systems and” energy and materials continually flow through them. Sunlight enters the pond and is captured by the algae, which are eaten by the insects, which are eaten by the fish; when these die, bacteria and fungi recycle their bodies back into the water and mud. The same pattern of flow repeats in forests, deserts and oceans."),
         f("\\text{population} \\to \\text{community} \\to \\text{ecosystem}", "Levels of ecological organization"),
         callout("The same pond shows every level of organization: individual fish (organism), all the fish of one kind (population), all living things in the water (community), and the pond with its water and mud (ecosystem).", "tip"),
       ]),
       section("The biosphere", [
         p("The highest level of biological organization is the biosphere and” the part of the Earth in which life exists. It includes the upper parts of the soil and rocks (lithosphere), the oceans, rivers and lakes (hydrosphere), and the lower part of the atmosphere where living things fly and air moves."),
         p("Life is not spread evenly through the biosphere. It is richest near the surface, where sunlight, water and nutrients meet. The biosphere is a single connected system: an ocean current can carry nutrients around the world, and the gases released in one place are shared by organisms everywhere."),
+        p("The biosphere is also self-sustaining and” within it, plants produce the oxygen and food that animals need, while animals and decomposers return the carbon dioxide and minerals that plants require. Because of these loops, the biosphere can support life without any outside help except the energy of the sun."),
         callout("The biosphere is the global ecosystem and” the sum of every ecosystem on Earth, from the deepest ocean trench to the highest mountain meadow.", "key"),
       ]),
       section("Unicellular and multicellular organisms", [
         p("Organisms may be unicellular, colonial or multicellular. A unicellular organism such as Amoeba consists of a single cell that performs all the vital functions of life. Amoeba moves with the help of finger-like projections called pseudopodia, which also wrap around food; it digests this food, grows, excretes wastes and reproduces by dividing in two."),
         p("Colonial organisms are made of many cells that live together, yet each cell still carries out all the functions of life independently. Volvox is a beautiful green colonial alga: hundreds of cells float together in a hollow ball, but each cell feeds, respires and reproduces on its own, and the colony moves by the beating of their flagella."),
+        p("The advantages of organization are clear. A single cell can only exchange materials with its surroundings across its own surface, so it cannot grow large. A multicellular body escapes this limit: by building millions of small cells with a vast total surface area, plants and animals can reach the size of a whale or a banyan tree."),
         p("In multicellular organisms, however, cells are specialized. Different cells perform different jobs, and no single cell can do everything alone. This division of labour is what allows plants and animals to grow to a large size and to carry out complex activities such as digestion, movement and thought."),
         list("The three ways of being multicellular:", [
           "Unicellular and” one cell does everything (Amoeba, bacteria).",
@@ -207,15 +227,18 @@ export const biology9 = [
         p("Biology is not only a collection of facts; it is also a way of solving problems. When a biologist observes something unusual and” a disease, a strange organism, or a pattern in nature and” the search for an explanation begins. The organized way of finding that explanation is called the biological method, which is simply the scientific method applied to the living world."),
         p("In this chapter we follow one famous biological problem from start to finish: the search for the cause of malaria. By studying this example you will see every step of the scientific method in action, from the first observations to the final conclusion."),
         callout("The scientific method is not a single rigid recipe. It is a flexible circle: every conclusion raises new questions, and the cycle of observation and testing begins again.", "key"),
+        callout("Example: A gardener notices that the leaves of a potted plant are turning yellow. The observations are made (yellow leaves, poor growth), a hypothesis is formed (the plant lacks a mineral), a deduction follows (adding the mineral should restore the colour), and a test is set up with a treated and an untreated plant. If the treated plant recovers, the hypothesis is supported and” this is the scientific method in miniature.", "key"),
       ]),
       section("The scientific method and” an overview", [
         p("The scientific method proceeds in an orderly way. First, a problem is recognized and the relevant observations are gathered. Second, a hypothesis and” a tentative explanation and” is formulated. Third, deductions are made from the hypothesis: predictions that must be true if the hypothesis is correct. Fourth, experiments are designed and performed to test these deductions."),
         p("The results of the experiments are then recorded and analyzed. If the results support the hypothesis, it is strengthened and may grow into a theory or a law; if they contradict it, the hypothesis is rejected or modified and the process begins again."),
         f("\\text{observation} \\to \\text{hypothesis} \\to \\text{deduction} \\to \\text{experiment} \\to \\text{conclusion}", "The steps of the scientific method"),
+        p("Two habits make the method reliable. The first is repetition and” a result seen once may be an accident, so experiments are repeated and their results checked again and again. The second is recording and” observations and measurements are written down as they are made, so that other scientists can read them, repeat the work and build on it. Science is a shared, public activity."),
       ]),
       section("Observation", [
         p("The scientific method begins with observation and” noticing and carefully recording the facts of a problem. Observations can be made with the senses or with instruments. A scientist watching the behaviour of bees, measuring the growth of a plant, or counting the parasites in a drop of blood is all making observations."),
         p("Good observation is more than looking; it is systematic and accurate. The observer decides what to record, how to measure it, and when. Repeated observations are usually needed before a problem can be properly defined."),
+        p("Instruments extend the senses. A hand lens reveals details the eye misses, a microscope reveals cells and microbes, a thermometer measures temperature exactly, and a balance measures mass. Each instrument makes an observation more precise and less dependent on the judgement of a single observer."),
       ]),
       section("Qualitative and quantitative observations", [
         p("Observations are of two kinds. Qualitative observations deal with the qualities of things and” their colour, smell, taste or shape and” and are usually expressed in words. Quantitative observations deal with numbers and measurements and” the temperature, mass, length, or number of something."),
@@ -223,11 +246,18 @@ export const biology9 = [
           "Qualitative and” describes qualities such as colour, smell and shape; for example, a malaria patient looks pale and has a fever.",
           "Quantitative and” measures amounts and numbers; for example, a patient's temperature is 40 Â°C, or there are thousands of parasites per millilitre of blood.",
         ]),
+        callout("Tip: When you record a quantitative observation, always write the unit and” 40 without saying degrees Celsius is not a measurement, it is a number. Units turn numbers into information.", "tip"),
         p("Quantitative observations are generally more reliable than qualitative ones because they are exact and can be compared and analysed mathematically. Biologists therefore try to measure whenever they can."),
       ]),
       section("Hypothesis", [
         p("After the observations have been collected, the biologist tries to explain them. A hypothesis is a tentative statement that tries to explain the observations and” a guess that can be tested. It is often written in the form: if this idea is true, then a certain result should follow."),
         p("A good hypothesis must be testable by experiment or further observation. It must also be falsifiable and” it must be possible to show that it is wrong if it is wrong. Untestable ideas, however interesting, cannot be treated as scientific hypotheses."),
+        list("A good hypothesis should be:", [
+          "Simple and” it should explain the observations without unnecessary assumptions.",
+          "Testable and” it must lead to an experiment or further observation.",
+          "Falsifiable and” it must be possible to show that it is wrong if it is wrong.",
+          "Consistent with known facts and” it should not contradict established knowledge.",
+        ]),
         callout("A hypothesis is not a final answer; it is a starting point. It must be testable. For example, 'the mosquito transmits malaria' is a testable hypothesis, while a vague guess cannot be tested.", "key"),
       ]),
       section("Deduction and” reasoning from the hypothesis", [
@@ -245,12 +275,14 @@ export const biology9 = [
       section("Experimentation", [
         p("An experiment is a controlled test of a deduction. In a good experiment only one variable is changed at a time and” the independent variable. All other conditions are kept constant so that any observed effect can be traced to the single change. The factor that is measured is the dependent variable."),
         p("The experiment is performed on two groups that are identical in every way except the one variable. The experimental group receives the treatment under test, while the control group does not. Comparing the two groups shows whether the treatment really made a difference."),
+        p("The results must be collected carefully and honestly, whether they support the hypothesis or not. A single result that contradicts the hypothesis is not a failure but a gift and” it tells the scientist that the idea needs revision. This honesty is what makes experiments trustworthy."),
         callout("Controlled experiments remove doubt. If plants given fertilizer grow faster than identical plants without it, under the same light, water and temperature, then the fertilizer is the cause and” because only fertilizer differed.", "tip"),
 
       ]),
       section("The case of malaria and” observations", [
         p("For centuries malaria killed and crippled millions of people, especially in warm regions. In 1880 the French scientist Charles Laveran examined the blood of malaria patients under a microscope and observed a tiny parasite and” now called Plasmodium and” living inside the red blood cells. Here was the first solid observation connecting the disease to a microorganism."),
         p("Further observations added a clue. Malaria was common in low, swampy areas where mosquitoes were abundant, and the disease struck people who slept in places exposed to mosquito bites. These observations suggested that the parasite might travel from a sick person to a healthy one, but how was not yet known."),
+        p("Laveran's discovery named the criminal and” Plasmodium and” but not the route by which it travelled. The clue lay in the map of the disease: malaria clustered in low, marshy districts where mosquitoes breed. A biologist could now frame a question sharp enough to test: how does the parasite pass from a sick person to a healthy one?"),
         callout("One careful observation and” a parasite in the blood of a malaria patient and” changed the direction of medicine. Observation of nature is where every scientific problem begins.", "info"),
       ]),
       section("The case of malaria and” hypothesis and deduction", [
@@ -266,17 +298,20 @@ export const biology9 = [
       section("Results, theory, law and principle", [
         p("When the results of many experiments support a hypothesis, it is accepted and promoted to the status of a theory and” a well-supported explanation of a natural phenomenon. A theory is more than a guess; it summarizes a large body of evidence, like the cell theory or the theory of evolution."),
         p("When a theory is repeatedly verified and shown to hold everywhere, it may be stated as a law and” a concise description of a relationship of cause and effect that appears to be without exception, such as Mendel's laws of inheritance. A principle is a fundamental truth that serves as a rule of action or reasoning."),
+        p("It is worth remembering that in science the words have strict meanings. In everyday speech a theory is often a wild guess, but in biology a theory such as the cell theory is a well-tested explanation supported by thousands of observations. This is why scientists are careful to use the words hypothesis, theory and law precisely."),
         callout("A hypothesis is an idea awaiting a test. A theory is a hypothesis supported by much evidence. A law is a statement of a universal pattern. Science treats all of them as open to revision if new evidence appears.", "key"),
       ]),
       section("Mathematics and biology", [
         p("Biology today is increasingly quantitative. Ratios and proportions allow biologists to express relationships precisely. When Mendel crossed tall and dwarf pea plants, he recorded the results as a ratio of three tall plants to one dwarf and” the famous 3 : 1 ratio that led to his laws of inheritance."),
         p("Mathematical biology uses equations and statistics to describe growth, populations, the spread of disease and the structure of molecules. Without such analysis, a pile of observations is only a pile; with it, hidden patterns emerge."),
         f("\\text{ratio of tall to dwarf plants} = 3 : 1", "Mendel's observation expressed as a ratio"),
+        f("\\text{percentage} = \\frac{\\text{number in one group}}{\\text{total number}} \\times 100\\%", "Turning counts into a comparison"),
         sim("genetics", "Cross plants in a Punnett square and watch the 3 : 1 ratio of inherited traits appear.", "Mendelian inheritance"),
       ]),
       section("The biological method at work and” a review", [
         p("The story of malaria shows the whole method. Observations of the blood of patients and of mosquito-infested areas led to a hypothesis; deductions from the hypothesis predicted what a test should show; controlled experiments with a sick group and a healthy group confirmed the predictions; and the supported hypothesis became an accepted explanation with practical consequences."),
         p("The same method now runs through all of biology and” from testing a new vaccine to deciding whether a chemical harms a fish population. The steps may be disguised by equipment and technology, but observation, hypothesis, deduction, experiment and conclusion are always there."),
+        callout("Even today, when a new disease appears, the biological method is the first weapon: scientists observe the symptoms, form a hypothesis about the cause, deduce how to test it, and run the experiments that confirm or reject it and” exactly as Laveran did for malaria.", "info"),
         callout("The scientific method is self-correcting. An idea that fails its tests is discarded or improved, and the knowledge that survives is the knowledge we can trust.", "key"),
       ]),
       section("Key terms", [
@@ -339,11 +374,13 @@ export const biology9 = [
       section("What is biodiversity?", [
         p("Biodiversity is the variety of life in an area or on the whole Earth. The word combines bio, meaning life, and diversity, meaning variety. Biodiversity includes the number of different species, the variety of genes within each species, and the variety of ecosystems and” forests, deserts, oceans, wetlands and” in which these species live."),
         p("Estimates suggest that around 8.7 million species exist on Earth, yet only about 1.2 million have been described and named. Each species is the product of millions of years of evolution, and once lost, it is gone forever."),
+        callout("Example: A single hectare of tropical rainforest may hold hundreds of tree species and thousands of species of insects and birds and” more than an entire cold country. That one hectare shows biodiversity at all three levels: the number of species, the genetic variety within each, and the richness of the ecosystem they form together.", "key"),
         callout("Biodiversity is the variety of life in all its forms and” species, genes and ecosystems. It is the living fabric of our planet.", "key"),
       ]),
       section("Importance of biodiversity", [
         p("Biodiversity matters for every living thing, including humans. Ecologically, each species has a role: plants produce food, decomposers recycle nutrients, and predators keep prey populations in balance. Remove one link and the whole chain can collapse."),
         p("Biodiversity is also a living storehouse of value for people. Crops, medicines, timber, fibres and many industrial products come from wild species. The genes of wild plants have been used again and again to improve our cultivated varieties, making them disease-resistant and higher yielding. Beyond its use, biodiversity has aesthetic and ethical value and” the beauty of a coral reef or a forest is reason enough to protect it."),
+        p("The wild relatives of our crops are genetic treasuries. When a disease attacks the cultivated rice or wheat of today, plant breeders often find resistance in a wild ancestor growing in a forest or on a mountainside and” which is why losing a habitat can rob us of solutions we have not yet discovered."),
         list("Why biodiversity is valuable:", [
           "Ecological value and” food chains, nutrient cycling and natural balance.",
           "Economic value and” food, medicines, timber and fibres.",
@@ -362,6 +399,7 @@ export const biology9 = [
           "Homologous organs and” same origin and structure, different functions; evidence of common ancestry.",
           "Analogous organs and” different origin and structure, same function; evidence of adaptation, not ancestry.",
         ]),
+        callout("The forelimbs of a human, a bat and a whale share the same bone pattern even though one grasps, one flies and one swims and” strong evidence that all three evolved from a common ancestor.", "info"),
       ]),
       section("Taxonomy and the taxonomic hierarchy", [
         p("Classification is hierarchical and” organisms are placed in groups within groups, from the broadest to the narrowest. The standard hierarchy runs from kingdom down through phylum, class, order, family and genus to species, the smallest unit of classification."),
@@ -371,6 +409,7 @@ export const biology9 = [
       section("The species concept", [
         p("The species is the basic unit of classification. A species is a group of organisms that can interbreed and produce fertile offspring. Members of one species are isolated from other species and” a horse and a donkey may mate, but their offspring, the mule, is sterile, so the two remain separate species."),
         p("The concept has limits and” some bacteria and plants reproduce without mating, and many species are distinguished by structure or DNA rather than by interbreeding and” but it remains the most useful working definition for the living world."),
+        p("Species do not stand still. As populations become separated and face different conditions, they gradually change, and after many generations they may no longer be able to interbreed and” at that point a new species has arisen. This slow change, called evolution, is why the living world contains so many distinct species."),
         callout("A species is a group of organisms that can interbreed and produce fertile offspring. Because a mule is sterile, the horse and donkey that produced it belong to different species.", "key"),
       ]),
       section("The history of classification and” two kingdoms", [
@@ -393,15 +432,23 @@ export const biology9 = [
           "Animalia and” eukaryotic, multicellular organisms that obtain food by eating other organisms.",
         ]),
         callout("Whittaker's five-kingdom system sorts life by three questions: Are the cells prokaryotic or eukaryotic? Is the body unicellular or multicellular? And how does the organism get its food?", "key"),
+        p("Whittaker's classification is still the most practical framework for the school laboratory, even though modern genetics has refined our picture of the relationships between organisms. Its great strength is simplicity and” three questions about the cell, the body and the food sort almost every organism into a kingdom."),
         sim("classification", "Sort organisms into their branches of the tree - the levels mirror Whittaker's five-kingdom division of life.", "the five-kingdom system"),
       ]),
       section("Kingdom Monera and Protista", [
         p("Monera are prokaryotes and” their cells have no true nucleus and no membrane-bound organelles. Their genetic material is a single circular chromosome floating in the cytoplasm. Bacteria are the best-known members; they live almost everywhere, from soil and water to the human intestine, and some cause disease while many others are helpful."),
         p("Protista are eukaryotes and” their cells have a true nucleus and” but most are unicellular. Amoeba, Paramecium and Euglena belong here, along with many simple algae. Their single cells carry out all the functions of life: feeding, movement, excretion and reproduction."),
+        p("Bacteria are the most abundant organisms on Earth and” a single gram of soil may hold billions of them. Most are harmless or helpful: they fix nitrogen for plants, help digest our food and make products from cheese to medicines. Only a minority cause disease, yet that minority includes typhoid, cholera and tuberculosis."),
       ]),
       section("Kingdom Fungi", [
         p("Fungi are eukaryotic organisms that cannot photosynthesize. Instead, they absorb their food from dead or living matter through their cell walls. They are mostly multicellular and” the familiar mushroom is the fruiting body of a fungus whose body is a network of fine threads called hyphae, together forming the mycelium."),
         p("Fungi are the great recyclers of nature. As saprophytes, they decompose dead plants and animals and return nutrients to the soil. Alongside the beneficial moulds that give us cheese and penicillin, a few fungi are parasites that cause diseases such as athlete's foot and ringworm."),
+        list("Why fungi matter:", [
+          "Decomposers and” they recycle dead matter and return nutrients to the soil.",
+          "Food and” mushrooms and the yeast that raises bread.",
+          "Medicine and” the mould Penicillium gives us the antibiotic penicillin.",
+          "Industry and” fungi ripen cheeses and produce enzymes for food processing.",
+        ]),
       ]),
       section("Kingdom Plantae and Animalia", [
         p("The kingdom Plantae contains the green, photosynthetic organisms: flowering plants, ferns, mosses and conifers. Plant cells are eukaryotic and multicellular, with a cell wall made of cellulose, and they capture light energy to make their own food by photosynthesis."),
@@ -415,12 +462,14 @@ export const biology9 = [
       section("Binomial nomenclature", [
         p("Every species needs one universal name, otherwise biologists in different countries would not know they are discussing the same organism. The system used is binomial nomenclature, introduced by Carolus Linnaeus. Each species receives a name of two Latin words: the first is the genus (always capitalized) and the second is the specific name (always lowercase). The whole name is written in italics or underlined."),
         p("The rules are strict and prevent confusion. The onion is Allium cepa, the mango is Mangifera indica, the frog Rana tigrina is Rana tigrina, and human beings are Homo sapiens. The same organism has the same binomial name in every country and in every language."),
+        p("Linnaeus also grouped related genera into families, orders, classes and kingdoms, creating the hierarchy we use today. He is therefore called the father of taxonomy and” his system of naming, more than two centuries old, is still the international language of biology."),
         f("\\text{Allium cepa} \\text{ (onion)}, \\quad \\text{Mangifera indica} \\text{ (mango)}, \\quad \\text{Homo sapiens} \\text{ (human)}", "Examples of binomial names"),
         callout("In binomial nomenclature the genus name is capitalized and the specific name is not and” Homo sapiens, never homo Sapiens and” and the two-word name is italicized.", "tip"),
       ]),
       section("Biodiversity in Pakistan and endangered species", [
         p("Pakistan lies where several great biogeographical regions meet, so its biodiversity is remarkably rich. The country has towering mountains, deserts, forests, plains and a long coastline, and supports thousands of species of plants and animals, many of them found nowhere else."),
         p("Yet this wealth is under threat. Hunting, the destruction of habitat, pollution and the trade in animals have pushed several national treasures to the edge of extinction. Among the endangered species of Pakistan are the snow leopard, the Indus river dolphin, the Sindh ibex, the Punjab urial, the markhor, the Houbara bustard and the green sea turtle."),
+        p("Protection is not only the work of governments. Community conservation and” in which the people who live beside the wildlife are given a share in protecting it and” has proved successful for species like the markhor, whose numbers have begun to recover where local guardians earn their living from tourism rather than hunting."),
         list("Endangered species of Pakistan:", [
           "Snow leopard and” the ghost of the high mountains.",
           "Indus river dolphin and” one of the rarest mammals on Earth, found in the Indus.",
@@ -433,6 +482,13 @@ export const biology9 = [
         p("Deforestation and” the cutting down of forests and” is one of the greatest threats to biodiversity. Forests are the home of most of the world's species. When they are cleared for timber, fuel or farming, the animals and plants that lived there lose their habitat and their numbers collapse."),
         p("The effects spread far beyond the forest itself. Tree roots hold the soil together, so deforestation leads to soil erosion, floods and landslides. The loss of trees also changes the climate and reduces the rainfall that the region depends on."),
         p("Conservation is the careful management of natural resources so that they are not wasted. It can take the form of national parks and wildlife sanctuaries, breeding programs for endangered animals, laws against hunting, and the sustainable use of forests. Protecting biodiversity is not a luxury and” it is the protection of the ecosystems that support all life, including our own."),
+        list("Ways to conserve biodiversity:", [
+          "Establish and properly guard national parks and wildlife sanctuaries.",
+          "Stop illegal hunting and the trade in wild animals and their parts.",
+          "Plant trees and restore forests on degraded land.",
+          "Breed endangered species in captivity and release them into safe habitats.",
+          "Educate communities so that conservation becomes a shared responsibility.",
+        ]),
         callout("When a forest is cut down, the species that lived there are not the only victims. Soil washes away, rivers silt up and the land itself grows poorer. Conservation protects the whole web, not just one thread.", "warning"),
       ]),
       section("Key terms", [
@@ -503,11 +559,13 @@ export const biology9 = [
           "Electron microscope and” uses electrons; magnifies up to about one million times; views dead, prepared specimens; resolution down to a few nanometres.",
         ]),
         p("Two ideas govern how well a microscope works. Magnification is how many times larger an image appears than the object itself. Resolution is the ability to distinguish two points that are close together and” the sharper the resolution, the finer the detail that can be seen. A high magnification with poor resolution reveals only a blur; it is resolution that makes detail visible."),
+        p("Since the 1930s, electron microscopes have revealed structures no light microscope could show and” the double membrane of the cell, the cristae of mitochondria and the particles of ribosomes. The internal map of the cell that biology students learn today was drawn almost entirely with these instruments."),
         sim("microscope", "Choose the objective lens and adjust the focus — the total magnification is the eyepiece times the objective.", "magnification, resolution and focusing"),
       ]),
       section("The cell theory", [
         p("As microscopes improved, biologists began to realize that all living things share one feature: they are made of cells. In 1838 the botanist Matthias Schleiden stated that all plants are made of cells, and in 1839 the zoologist Theodor Schwann extended the same idea to animals. In 1855 the German physician Rudolf Virchow added the third great idea: all cells arise from pre-existing cells."),
         p("Together these ideas form the cell theory, the foundation of biology. It states that all living organisms are composed of one or more cells, that the cell is the basic structural and functional unit of life, and that new cells arise only from the division of existing cells."),
+        p("The cell theory is more than a historical curiosity and” it guides medical research today. Because all cells come from pre-existing cells, cancer is understood as the uncontrolled division of ordinary body cells; because all organisms are cellular, a doctor studies the cells of a patient's blood or tumour to diagnose disease."),
         callout("The cell theory rests on three statements: all organisms are made of cells; the cell is the basic unit of life; and all cells come from pre-existing cells. Every later discovery in cell biology has built on this foundation.", "key"),
       ]),
       section("Prokaryotic and eukaryotic cells", [
@@ -532,17 +590,25 @@ export const biology9 = [
       section("Diffusion and facilitated diffusion", [
         p("Diffusion is the movement of molecules from a region of higher concentration to a region of lower concentration. It is a passive process and” it needs no energy and” and it continues until the molecules are evenly spread. In the body, oxygen diffuses from the air in the lungs into the blood, and carbon dioxide diffuses in the opposite direction. In leaves, carbon dioxide diffuses into cells and oxygen diffuses out."),
         p("Some molecules, however, cannot pass through the lipid interior of the membrane easily because they are charged or too large. These molecules cross with the help of special carrier proteins in the membrane. This is facilitated diffusion and” the molecules still move down their concentration gradient and still need no energy, but they pass through protein channels instead of the lipid layer."),
+        f("\\text{rate of diffusion} \\propto \\frac{\\text{surface area} \\times \\text{concentration gradient}}{\\text{distance}}", "The three factors that control diffusion"),
         callout("Diffusion and facilitated diffusion are both passive and” they move substances down a concentration gradient without using cellular energy. Only the route differs.", "key"),
+        sim("diffusion", "Watch the dye spread from the concentrated drop to the clear water - no energy is spent, only the gradient.", "diffusion"),
       ]),
       section("Osmosis and plasmolysis", [
         p("Osmosis is the diffusion of water through a selectively permeable membrane. Water moves from the region where it is more concentrated (a dilute solution) to the region where it is less concentrated (a more concentrated solution). If two solutions have the same strength, they are isotonic; water moves in equal amounts in both directions and there is no net movement."),
         p("The effect of osmosis on a plant cell depends on the surrounding solution. In a hypotonic solution (one more dilute than the cell sap), water enters and the cell swells, pressing the cytoplasm against the cell wall and” a state called turgor that keeps plants upright. In a hypertonic solution (one more concentrated than the cell sap), water leaves the cell and the cell membrane pulls away from the cell wall and” this is plasmolysis, which causes a plant to wilt."),
         f("\\text{H}_2\\text{O} \\text{ moves: dilute solution } \\to \\text{ concentrated solution across a membrane}", "The direction of osmosis"),
+        list("What a solution does to a plant cell:", [
+          "Hypotonic (dilute) and” water enters; the cell swells and becomes turgid.",
+          "Isotonic (equal) and” no net movement of water; the cell stays unchanged.",
+          "Hypertonic (concentrated) and” water leaves; the cell plasmolyses and wilts.",
+        ]),
         sim("osmosis", "Change the strength of the solution around a cell and watch water move in or out by osmosis.", "osmosis and cell water"),
       ]),
       section("Active transport", [
         p("Sometimes a cell must move substances against the concentration gradient and” from a region of low concentration to one of high concentration. This is active transport, and it requires energy in the form of ATP, supplied by the cell's respiration. Carrier proteins in the membrane pump the substance across."),
         p("Active transport is essential in the living world. The roots of plants absorb mineral ions from the soil even when the soil is more dilute than the root cells. The kidneys actively reabsorb glucose from the filtrate back into the blood, and nerve cells pump ions across their membranes to maintain the electrical charge needed for signals."),
+        callout("The sodium-potassium pump is a famous example: every nerve cell continually pumps sodium ions out and potassium ions in against their gradients, spending about a third of the energy it uses, so that it can fire a signal when needed.", "info"),
         list("Passive versus active transport:", [
           "Diffusion and osmosis and” passive; down the gradient; no energy used.",
           "Facilitated diffusion and” passive; down the gradient; uses carrier proteins; no energy.",
@@ -553,6 +619,7 @@ export const biology9 = [
       section("The nucleus", [
         p("The nucleus is the control centre of the cell. It is surrounded by a double nuclear envelope pierced by pores that allow materials to pass between the nucleus and the cytoplasm. Inside, the fluid nucleoplasm holds the nucleolus and the genetic material in the form of chromatin and” long threads of DNA wrapped around proteins."),
         p("The nucleus directs all the activities of the cell. Its DNA carries the instructions for making proteins, and it copies itself before a cell divides, so that each daughter cell receives a full set of hereditary instructions."),
+        p("Because the nucleus directs the activities of the cell, a cell that loses its nucleus cannot live long. The red blood cells of mammals, which eject their nuclei as they mature, survive only about 120 days and” just enough to serve their lifetime of carrying oxygen."),
         callout("The nucleolus, a dense body inside the nucleus, is where ribosomes are assembled before they leave for the cytoplasm.", "info"),
         sim("dna", "Watch the double helix packed in the nucleus - DNA carries the hereditary instructions the cell copies before every division.", "the nucleus"),
       ]),
@@ -574,6 +641,7 @@ export const biology9 = [
       section("Vacuoles, lysosomes and centrioles", [
         p("Vacuoles are fluid-filled sacs used for storage. Plant cells usually have one large central vacuole filled with cell sap and” a solution of water, sugars and salts and” which stores materials and, by its pressure, keeps the cell turgid. Animal cells have many small vacuoles. In single-celled organisms such as Amoeba, contractile vacuoles pump excess water out of the cell."),
         p("Centrioles are small, barrel-shaped organelles made of microtubules, found just outside the nucleus of animal cells (and a few lower plants). During cell division they move to opposite ends of the cell and help form the spindle along which the chromosomes separate."),
+        callout("Tip: To remember the plant-animal differences, compare them one by one: the cell wall and the chloroplast are present only in plants, the centriole only in animals, and the vacuole is large in plants but small in animals.", "tip"),
       ]),
       section("Plant cell versus animal cell", [
         p("Plant and animal cells share the same basic parts and” a cell membrane, a nucleus, cytoplasm, ribosomes and mitochondria and” but they differ in important ways."),
@@ -584,15 +652,18 @@ export const biology9 = [
           "Centrioles and” present in animal cells, absent in most plant cells.",
           "Shape and” plant cells are boxy and rigid; animal cells are irregular and flexible.",
         ]),
+        p("Despite the differences, the two cells are fundamentally alike and” both are eukaryotic, both use the same genetic code, and both burn glucose in their mitochondria to make ATP. The differences of wall, chloroplast and vacuole reflect different ways of life, not different chemistries."),
       ]),
       section("Cell size and the surface area to volume ratio", [
         p("Why are cells so small? As a cell grows, its volume increases faster than its surface area. If the cell doubled in size, its surface area would increase four times but its volume would increase eight times. Since all the materials the cell needs enter through the surface, a large cell would soon starve and” the surface could not keep up with the demands of the volume."),
         f("\\frac{\\text{surface area}}{\\text{volume}} \\text{ decreases as the cell grows}", "Why cells stay small"),
         p("This is why cells divide when they reach a certain size: division restores a high surface area to volume ratio. It is also why organisms are made of many small cells rather than one enormous one."),
+        callout("Example: A cube of side 1 cm has a surface area of 6 cm² and a volume of 1 cm³, so its surface area to volume ratio is 6. A cube of side 2 cm has a surface area of 24 cm² and a volume of 8 cm³, so its ratio is only 3. Doubling the side halves the ratio and” the cube has grown but its surface can no longer feed its bulk.", "key"),
       ]),
       section("Animal tissues", [
         p("In multicellular animals, groups of similar cells form tissues. There are four basic types. Epithelial tissue covers the outside of the body and lines internal surfaces, protecting organs and allowing exchange and” the lining of the mouth, the skin and the inner surface of blood vessels are all epithelial. Connective tissue supports and binds the body together; blood, bone, cartilage and fat are all connective tissues."),
         p("Muscle tissue is specialized for contraction and produces movement and” skeletal muscle moves the limbs, smooth muscle moves the walls of the stomach and intestines, and cardiac muscle pumps the heart. Nervous tissue is made of neurons that carry electrical signals between the brain, the organs and the muscles, making sensation and response possible."),
+        p("Tissues are the building materials of organs, and a single organ may combine several of them. The stomach uses epithelial tissue for its lining, muscle tissue for churning, connective tissue for its coats and nervous tissue to control it and” four tissues in one organ."),
         list("The four animal tissues:", [
           "Epithelial and” covers surfaces and lines cavities.",
           "Connective and” supports and binds (blood, bone, cartilage).",
@@ -603,6 +674,7 @@ export const biology9 = [
       section("Plant tissues", [
         p("Plant tissues are divided into two great groups. Meristematic tissues are the growing tissues and” their cells divide continuously. Apical meristems at the tips of roots and shoots make the plant grow longer, while lateral meristems in the stems make it grow thicker."),
         p("When meristematic cells stop dividing, they become permanent tissues. The epidermal tissue covers the plant and prevents water loss. Ground tissues include parenchyma (soft packing and storage cells), collenchyma (support in young stems) and sclerenchyma (thick-walled fibres that give strength). Conducting tissues move materials through the plant: xylem carries water and minerals upward from the roots, and phloem carries the sugars made by photosynthesis to the rest of the plant. Together, xylem and phloem form the vascular bundles."),
+        p("In the leaf the vascular bundles appear as the network of veins. In the stem they may be arranged in a ring, and each bundle holds xylem on the inner side and phloem on the outer and” a pattern that repeats in every branch, root and leaf of the plant."),
         callout("Xylem and phloem are the plant's transport system and” xylem carries water and minerals up, phloem carries food around. Both are made of highly specialized cells.", "key"),
       ]),
       section("Key terms", [
@@ -679,21 +751,30 @@ export const biology9 = [
       section("The cell cycle and” an overview", [
         p("The cell cycle is the orderly sequence of events through which a cell grows, prepares itself and divides to produce new cells. It has two main phases. During interphase the cell carries out its normal activities and prepares for division; during the mitotic phase the nucleus divides and the cell splits into two."),
         p("The cycle is tightly controlled. Cells that are not supposed to divide remain in the cycle without dividing, and the whole process runs like a well-regulated assembly line. When that regulation fails, the result can be cancer."),
+        p("The length of the cycle varies with the cell. A dividing skin cell may complete the whole cycle in about a day, while a cell of the liver may wait months between divisions and a mature neuron may never divide again and” the cell cycle is timed to the needs of the tissue."),
         f("G_1 \\to S \\to G_2 \\to \\text{mitosis} \\to \\text{cytokinesis}", "The phases of the cell cycle"),
         sim("mitosis", "Run the cell cycle and watch the phases - the division simulator plays out the mitotic phase that rounds off every cycle.", "the cell cycle"),
       ]),
       section("Interphase", [
         p("Interphase is the longest phase of the cell cycle, and it is a time of intense activity, not rest. It is divided into three stages. In the G1 stage (first gap) the cell grows, synthesizes proteins and carries out its normal functions. In the S stage (synthesis) the DNA replicates, so that each chromosome now consists of two identical sister chromatids. In the G2 stage (second gap) the cell synthesizes the proteins it will need for division, such as the spindle proteins."),
         p("Some cells leave the cycle after G1 and enter a resting state called G0. Mature nerve cells and muscle cells spend most of their lives in G0, carrying out their functions without dividing. Other cells, such as the skin cells and the cells lining the intestine, divide continually."),
+        list("The stages of interphase:", [
+          "G1 (first gap) and” the cell grows and carries out its normal functions.",
+          "S (synthesis) and” the DNA is replicated, doubling the genetic material.",
+          "G2 (second gap) and” the cell builds the proteins needed for division.",
+        ]),
+        p("Interphase is the period of greatest metabolic activity in the cell's life. It is during interphase that the cell doubles its supply of proteins and organelles, so that at division it can split fairly and both daughters receive enough cytoplasm to begin their own cycles."),
         callout("The S in the S stage stands for synthesis and” it is the stage in which DNA is copied, so that the two daughter cells will each inherit a complete set of genetic information.", "key"),
       ]),
       section("Chromosomes and their structure", [
         p("The genetic material of a cell is organized into chromosomes and” thread-like structures made of DNA tightly wound around proteins. Before division, every chromosome replicates and consists of two sister chromatids joined at a point called the centromere."),
         p("The centromere divides the chromosome into two arms: the short arm is called p and the long arm is called q. The two tips of the chromosome are the telomeres, protective caps that prevent the chromosome from fraying and are involved in ageing. Human body cells carry 46 chromosomes, arranged in 23 pairs."),
+        f("\\text{human body cell: } 46 \\text{ chromosomes} = 23 \\text{ pairs}; \\quad \\text{human gamete: } 23 \\text{ chromosomes}", "The chromosome number of humans"),
       ]),
       section("Types of chromosomes", [
         p("Chromosomes are classified by the position of the centromere. A metacentric chromosome has its centromere in the middle, giving two arms of equal length and a V shape. A submetacentric chromosome has the centromere slightly off centre, so one arm is a little shorter than the other."),
         p("In an acrocentric chromosome the centromere lies near one end, leaving one very short arm, while in a telocentric chromosome the centromere is at the very tip, so the chromosome has only one arm. The position of the centromere is a fixed feature of each chromosome and helps biologists identify it."),
+        p("A full set of chromosomes, photographed and arranged in order, is called a karyotype. Doctors prepare karyotypes from a drop of blood to count the chromosomes and check for abnormalities, which is how conditions such as Down syndrome are confirmed."),
         list("Chromosome types by centromere position:", [
           "Metacentric and” centromere in the middle; equal arms.",
           "Submetacentric and” centromere off centre; arms unequal.",
@@ -709,10 +790,12 @@ export const biology9 = [
       section("Prophase", [
         p("Prophase is the first stage of mitosis. The long, thin chromatin threads condense into thick, distinct chromosomes, each visible as two sister chromatids joined at the centromere. In animal cells the centrioles move to opposite ends of the cell, and spindle fibres begin to form between them."),
         p("By the end of prophase the nucleolus has disappeared and the nuclear membrane has broken down, releasing the chromosomes into the cytoplasm where the spindle can act on them."),
+        p("Condensation is essential. In their long interphase threads, the chromosomes are too delicate and tangled to be pulled apart accurately; by coiling them into compact rods, prophase turns the genetic material into packages the spindle can move."),
       ]),
       section("Metaphase", [
         p("In metaphase the chromosomes are pulled to the equator of the cell, lining up along an imaginary plane called the metaphase plate. Spindle fibres from opposite poles attach to the centromere of each chromosome, one fibre on each side."),
         p("The alignment of the chromosomes at the equator ensures that, when they separate, each daughter cell will receive one chromatid from every chromosome."),
+        callout("Tip: To keep the stages in order, remember the phrase My Mighty Anaphase Telegraphs: Prophase (chromosomes condense), Metaphase (they line up at the middle), Anaphase (they separate apart) and Telophase (two nuclei form).", "tip"),
       ]),
       section("Anaphase", [
         p("Anaphase is the moment of separation. The centromeres divide, and the sister chromatids are pulled apart by the shortening spindle fibres to opposite poles of the cell. Each separated chromatid is now a complete daughter chromosome in its own right."),
@@ -726,6 +809,7 @@ export const biology9 = [
       section("Significance of mitosis", [
         p("Mitosis performs three great services for an organism. It brings about growth and” a multicellular organism becomes larger because its cells divide, increasing the number of cells. It repairs the body, replacing the cells that are lost when tissues are damaged, and it replaces worn-out cells, such as the skin cells that are constantly shed and the red blood cells that last only about 120 days."),
         p("In many organisms mitosis is also a means of reproduction. Unicellular organisms such as Amoeba and bacteria reproduce by division of a single cell into two, and some multicellular organisms produce new individuals by budding and” all of it powered by mitosis."),
+        callout("Example: When you cut your finger, the cells at the wound edge receive signals to divide and” they pass through repeated mitotic cycles, and within days new cells have filled the gap and the wound has closed. Every healed cut, every growing fingernail and every new leaf is a visible record of mitosis.", "key"),
       ]),
       section("Meiosis and” an introduction", [
         p("Meiosis is the special division that produces the sex cells, or gametes and” sperm and egg cells in animals, and spores in many plants. Its two great results are a halving of the chromosome number and the shuffling of genes."),
@@ -744,10 +828,12 @@ export const biology9 = [
           "Diakinesis and” condensation completes and the nuclear membrane breaks.",
         ]),
         callout("Crossing over in prophase I is a major source of genetic variation. It mixes maternal and paternal genes, which is why children differ from both parents and from each other.", "key"),
+        callout("A second source of variation is independent assortment: in metaphase I the bivalents line up at random, so the maternal and paternal chromosomes are mixed into the gametes in a huge number of combinations and” even without crossing over, a pair of chromosomes can be divided in two ways.", "info"),
       ]),
       section("Meiosis II", [
         p("Meiosis II is the equational division and” it resembles mitosis, but the cells have only half the chromosome number. There is no further DNA replication. In prophase II the chromosomes condense again, and in metaphase II they line up at the equator of each cell. In anaphase II the centromeres divide and the sister chromatids are pulled apart. In telophase II the nuclei reform."),
         p("Meiosis II thus divides the two cells produced by meiosis I into four cells in all, each with a single set of chromosomes. In animals these are the gametes: one sperm-producing cell gives four sperms, while one egg-producing cell gives one functional egg and three small polar bodies."),
+        p("The polar bodies are not wasted effort and” they allow the egg to retain nearly all the stored food of the parent cell while meiosis still produces four haploid products. The sperm, needing no food store, contributes little cytoplasm to the next generation."),
       ]),
       section("Mitosis and meiosis compared", [
         list("The two divisions side by side:", [
@@ -755,12 +841,14 @@ export const biology9 = [
           "Meiosis and” two divisions; four daughter cells; chromosome number halved (2n to n); daughter cells genetically different; produces gametes and spores; generates variation.",
         ]),
         p("The contrast is complete: mitosis preserves the genetic makeup of a cell, while meiosis creates new combinations of genes. Together they maintain life and” mitosis building and maintaining the body, meiosis producing the next generation."),
+        p("Both divisions begin from the same kind of interphase with the same replicated chromosomes. The difference is that meiosis adds a first division in which the homologous partners separate, and it is this reductional division and” with its crossing over and independent assortment and” that produces variety in the gametes."),
       ]),
       section("Errors in cell division and” non-disjunction and cancer", [
         p("Division is usually accurate, but mistakes happen. Non-disjunction is the failure of homologous chromosomes (in meiosis I) or sister chromatids (in meiosis II) to separate properly. One gamete then receives an extra chromosome and another receives one too few."),
         p("When an extra chromosome 21 is carried into the egg or sperm, the child is born with three copies of chromosome 21 instead of two and” a condition called trisomy 21, or Down syndrome. The affected child has 47 chromosomes and shows characteristic features and some degree of intellectual disability."),
         f("\\text{non-disjunction} \\to \\text{trisomy } 21 \\to \\text{Down syndrome}", "A chromosome error and its result"),
         p("Cancer is a different kind of division failure. In cancer, the controls that limit cell division break down and cells divide without restraint, forming tumours that invade surrounding tissues. The risk is raised by agents that damage DNA, such as tobacco smoke, radiation and certain chemicals. Treatments such as surgery, radiation and chemotherapy all attack the over-dividing cells, while research into the cell cycle aims to stop the disease at its source."),
+        p("Not every extra chromosome is fatal. Extra copies of the small chromosomes such as 21 are survivable, while an extra copy of a large chromosome usually ends the pregnancy early and” which is why most trisomies are seen in miscarried embryos rather than in live births."),
         callout("Healthy division is controlled division. The cell cycle has checkpoints that hold the cell until the previous stage is finished correctly and” and cancer is what happens when those checkpoints fail.", "warning"),
       ]),
       section("Key terms", [
@@ -824,6 +912,7 @@ export const biology9 = [
       section("What are enzymes?", [
         p("Enzymes are proteins that act as biological catalysts and” substances that speed up chemical reactions without being used up in the process. Nearly every reaction that takes place inside a living cell is driven by an enzyme. Without them, the chemistry of life would be far too slow to sustain it."),
         p("The word enzyme comes from the Greek en, meaning in, and zyme, meaning yeast and” a reminder of where the first enzyme was discovered, in the yeast that ferments fruit sap into alcohol. Today we know that enzymes do far more than ferment fruit: they digest food, build molecules, copy DNA and release energy from glucose."),
+        p("The power of enzymes lies in their numbers and their speed. A single cell contains thousands of different enzymes, each assigned to its own reaction, and a single enzyme molecule may process thousands of substrate molecules every second and” together they carry out the entire chemistry of life without ever getting tired."),
         callout("An enzyme is a protein catalyst. It speeds up a reaction, lowers the energy needed for it, and is itself unchanged at the end and” a single enzyme molecule can be used again and again.", "key"),
         sim("enzyme", "Watch the substrate dock into the active site and speed up the reaction - the enzyme emerges unchanged, ready to work again.", "what are enzymes?"),
       ]),
@@ -840,20 +929,28 @@ export const biology9 = [
         p("Most chemical reactions need a push before they start. The activation energy is the initial energy that must be supplied for a reaction to begin. In the laboratory a reaction might be started by heating the reactants, but a living cell cannot be heated to start its reactions."),
         p("This is where enzymes are vital. An enzyme provides an alternative route for the reaction with a much lower activation energy. The reaction then proceeds rapidly at body temperature, releasing or storing energy in a controlled way."),
         f("E_a(\\text{uncatalysed}) \\, > \\, E_a(\\text{catalysed})", "The enzyme lowers the activation energy"),
+        callout("An enzyme does not change how much product is finally formed and” it only changes how fast the reaction reaches its end point. The energy released or absorbed by the overall reaction is exactly the same with or without the enzyme.", "info"),
 
       ]),
       section("How enzymes work and” the enzyme-substrate complex", [
         p("The molecule on which an enzyme acts is called the substrate. The reaction happens in a special pocket of the enzyme called the active site. The substrate enters the active site, binds to it, and is transformed into the product; then the product leaves and the enzyme is ready for the next molecule."),
         p("The substrate is held in the active site for the short time it is being transformed, forming what is called the enzyme-substrate complex. Because the enzyme is not consumed, it can process enormous numbers of substrate molecules and” some enzymes handle thousands of reactions per second."),
         f("\\text{substrate} + \\text{enzyme} \\to \\text{enzyme-substrate complex} \\to \\text{product} + \\text{enzyme}", "The enzyme cycle"),
+        callout("Example: Chew a piece of plain bread for a minute without swallowing and the taste slowly turns sweet. The bread is mostly starch, and the salivary amylase in your mouth is breaking it into maltose, a sugar and” you are tasting an enzyme reaction happening in your own mouth.", "key"),
       ]),
       section("Naming of enzymes", [
         p("Most enzymes are named by adding the ending -ase to the name of their substrate or the reaction they catalyse. The enzyme that acts on starch (amylose) is amylase; the enzyme that acts on fats (lipids) is lipase; the enzyme that digests proteins is protease; and the enzyme that splits sucrose is sucrase."),
         p("A few well-known enzymes keep their older names, which give no clue to their action: pepsin and trypsin digest proteins in the stomach and intestine, and renin (rennin) curdles milk. The old names are kept because they have been used for centuries."),
+        list("Enzyme names and their clues:", [
+          "The suffix -ase and” added to the substrate or the reaction, as in amylase (starch), lipase (fats) and sucrase (sucrose).",
+          "The substrate and” most enzyme names begin with the name of their substrate.",
+          "Old names and” pepsin, trypsin and renin keep their historical names.",
+        ]),
       ]),
       section("Characteristics of enzymes", [
         p("Enzymes have a set of distinctive characteristics. They are proteins and can be destroyed by anything that destroys proteins. They are highly specific and” each enzyme acts on one substrate or one type of substrate, fitting it exactly at the active site. They are extremely efficient, working millions of times faster than the same reaction without them."),
         p("Enzymes are not used up in the reaction, so tiny amounts can catalyse large quantities of substrate. Their activity is strongly affected by temperature, pH and the concentration of the substrate, and many enzymes act reversibly and” the same enzyme that splits a molecule can, under different conditions, join its parts together."),
+        p("Because enzymes are proteins, anything that denatures proteins also destroys them and” strong acids, heavy metals such as mercury and silver, and high temperatures all unfold the enzyme and end its activity. This is why heavy metals are poisonous and why scalding water kills the enzymes of the microbes in it."),
         list("Key characteristics of enzymes:", [
           "Protein nature and” destroyed by conditions that destroy proteins.",
           "Specificity and” each enzyme acts on a particular substrate.",
@@ -865,6 +962,7 @@ export const biology9 = [
       section("Cofactors and coenzymes", [
         p("Many enzymes need a non-protein helper before they can work. The helper, called a cofactor, may be an inorganic ion and” such as zinc (ZnÂ²âº), magnesium (MgÂ²âº), manganese (MnÂ²âº), iron (FeÂ²âº), copper (CuÂ²âº), potassium (Kâº) or sodium (Naâº) and” or it may be an organic molecule called a coenzyme, such as NAD, NADP or FAD, which are often derived from vitamins."),
         p("The protein part of such an enzyme is called the apoenzyme; together with its cofactor it forms the active holoenzyme. A diet short of the vitamins needed to make coenzymes therefore slows down whole families of enzyme reactions and” one reason why vitamins are essential."),
+        p("Vitamin B1, for example, becomes part of a coenzyme needed for the breakdown of glucose, and the B vitamin niacin is built into NAD, the coenzyme that carries hydrogen in respiration. A deficiency of the vitamin therefore slows the very reactions the coenzyme serves."),
       ]),
       section("Activators and inhibitors", [
         p("Enzyme activity can be increased or decreased by other substances. Activators are substances that make an enzyme work faster and” some metal ions act as activators by helping the enzyme bind its substrate."),
@@ -874,16 +972,19 @@ export const biology9 = [
       section("Effect of substrate concentration", [
         p("The rate of an enzyme reaction depends on how much substrate is available. When substrate is scarce, each enzyme molecule has plenty of spare capacity, and the rate rises steeply as more substrate is added."),
         p("Eventually every active site is occupied at the same time, and the enzyme is said to be saturated. Adding still more substrate then produces no increase in rate and” the graph levels off at a plateau. The only way to go faster is to add more enzyme."),
+        p("The same logic applies in reverse: when the substrate is plentiful and the enzyme is saturated, the reaction runs at its maximum speed for that amount of enzyme. A biologist measuring this rate can therefore tell how much enzyme is present in a sample and” the basis of many medical tests."),
       ]),
       section("Effect of temperature", [
         p("Temperature has a double effect on enzymes. As the temperature rises towards the optimum, the molecules move faster and collide more often, so the reaction rate increases. For most human enzymes the optimum is around 37 to 40 Â°C."),
         p("Above the optimum the picture reverses. The heat vibrates the protein so violently that its delicate shape begins to unfold and” the enzyme is denatured and can no longer bind its substrate. Denaturation is usually permanent. This is why very high fevers are dangerous, and why freezing food slows spoilage: low temperatures slow the enzymes of the microbes without destroying the food."),
+        p("Different organisms have different optima. The enzymes of a polar fish work best near 0 °C, while those of a hot-spring bacterium may be most active at 70 °C. Each organism's enzymes are matched to the temperature of its normal environment."),
         callout("An enzyme works fastest at its optimum temperature. Above it, denaturation destroys the active site and” and unlike cooling, which is reversible, heating an enzyme past its limit is usually permanent.", "key"),
       ]),
       section("Effect of pH", [
         p("Like temperature, pH affects enzyme activity because the shape of a protein depends on the balance of acids and bases around it. Each enzyme works best at a particular optimum pH, and its activity falls away on either side of that value."),
         p("The enzymes of the stomach work in strongly acidic conditions: pepsin, which begins protein digestion, has its optimum around pH 2. The enzymes of the small intestine work in alkaline conditions: trypsin prefers a pH of about 8. Most of the enzymes inside cells work best near the neutral pH of the cell, about 7.4."),
         f("\\text{pepsin (stomach): optimum pH } \\approx 2; \\quad \\text{trypsin (intestine): optimum pH } \\approx 8", "Different enzymes, different optima"),
+        callout("This is why food passes through carefully controlled regions: the acidic stomach works with pepsin at pH 2, and the alkaline intestine works with trypsin at pH 8 and” an enzyme moved to the wrong place stops working.", "warning"),
       ]),
       section("The lock and key model", [
         p("How does an enzyme achieve such exact specificity? In 1894 the German chemist Emil Fischer proposed the lock and key model. He compared the enzyme to a lock and the substrate to the key: only the correctly shaped substrate can fit the active site, just as only the right key turns a lock."),
@@ -897,6 +998,13 @@ export const biology9 = [
       section("Uses of enzymes in industry", [
         p("Because enzymes are specific, efficient and work at mild temperatures, industry uses them widely. In the food industry, enzymes clarify fruit juices, ripen cheese, bake bread and brew beer. In the paper industry, enzymes remove the starch used to size paper and bleach wood pulp."),
         p("Enzymes also soften and clean leather, desize textiles, and remove protein and grease stains in biological detergents. In medicine, enzymes such as streptokinase dissolve blood clots after a heart attack, and digestive enzyme preparations help patients who cannot digest their food properly. This commercial application of enzymes and other biological materials is the branch of biology called biotechnology."),
+        list("Enzymes in everyday life:", [
+          "Biological detergents and” proteases and lipases remove protein and grease stains.",
+          "Food industry and” enzymes clarify juices, ripen cheese and bake bread.",
+          "Medicine and” streptokinase dissolves blood clots after a heart attack.",
+          "Textiles and leather and” enzymes soften leather and desize fabrics.",
+          "Paper industry and” enzymes bleach pulp and remove starch size.",
+        ]),
         callout("Biotechnology turns enzymes into everyday products: the crispest fruit juice, the softest leather and the washing powder that lifts a grease stain are all enzyme technology at work.", "info"),
       ]),
       section("Key terms", [
@@ -968,22 +1076,32 @@ export const biology9 = [
         p("Much of bioenergetics is the chemistry of electron transfer. Oxidation is the loss of electrons (or of hydrogen atoms), and reduction is the gain of electrons (or of hydrogen atoms). The two always occur together and” when one molecule is oxidized, another is reduced and” so the reactions are called redox reactions."),
         p("In photosynthesis, water is oxidized: it is split, releasing oxygen gas and supplying electrons. Carbon dioxide is reduced: it gains hydrogen, building up to glucose. In respiration the roles reverse and” glucose is oxidized to carbon dioxide and water, and the electrons released pass along a chain, releasing energy in a controlled way."),
         f("\\text{oxidation: loss of electrons/H; } \\quad \\text{reduction: gain of electrons/H}", "The language of redox"),
+        p("The same language describes everyday chemistry. When iron rusts, the iron atoms give up electrons to oxygen and” the iron is oxidized and the oxygen is reduced. When a fire burns wood, the carbon in the wood is oxidized to carbon dioxide. Living cells carry out the same kind of electron transfers, but step by step, releasing the energy in small usable packets instead of a single blaze."),
       ]),
       section("ATP and” the energy currency of the cell", [
         p("The energy released by respiration is not used directly; it is first stored in a small molecule called ATP, adenosine triphosphate. ATP is the energy currency of the cell and” the molecule that every energy-using process spends."),
         p("ATP is made by adding a third phosphate group to ADP (adenosine diphosphate). This addition stores energy; breaking the bond and removing the phosphate releases it again. The reaction is reversible: ADP + P plus energy gives ATP, and ATP gives back ADP plus P plus energy whenever a cell needs it."),
         f("\\text{ADP} + \\text{P}_i + \\text{energy} \\rightleftharpoons \\text{ATP}", "Storing and releasing the cell's energy"),
         callout("A resting human uses and re-synthesizes a remarkable amount of ATP every day and” the molecule is continuously recycled as energy is stored in it and spent from it.", "info"),
+        callout("Example: A resting adult's body makes and recycles roughly its own weight in ATP every day and” about 60 to 70 kilograms and” yet at any instant the body holds only a few grams. Each molecule is spent and rebuilt continuously, which is why ATP is called a currency rather than a store.", "key"),
 
       ]),
       section("Photosynthesis and” an overview", [
         p("Photosynthesis is the process by which green plants make glucose from carbon dioxide and water, using the energy of sunlight. The word means making (synthesis) with light (photo). It is the source of nearly all the food on Earth and of most of the oxygen in the atmosphere."),
         p("In photosynthesis, energy that arrives as light is converted into chemical energy stored in the bonds of glucose. The overall reaction is simple, but the process behind it takes place in many steps in two great stages and” the light reactions and the dark reactions."),
+        p("Nearly all the organic matter on Earth began in a chloroplast. The food that nourishes every plant, every herbivore and every carnivore was once glucose built by photosynthesis, and the oxygen in every breath was released from the water that photosynthesis split."),
         sim("photosynthesis", "Run the factory - light energy is captured, and carbon dioxide and water are turned into glucose and oxygen.", "photosynthesis overview"),
       ]),
       section("Where photosynthesis happens", [
         p("Photosynthesis takes place in the chloroplasts, the green organelles found mainly in the cells of the leaf. Chloroplasts are enclosed in a double membrane and filled with an inner fluid called the stroma. Within the stroma lie stacks of flattened sacs called thylakoids, and each stack is a granum."),
         p("The membranes of the thylakoids carry the green pigment chlorophyll, which absorbs light. Because chlorophyll absorbs red and blue light strongly and reflects green, the leaves look green. The capture of light energy begins in these membranes, while the building of glucose continues in the stroma."),
+        list("Adaptations of the leaf for photosynthesis:", [
+          "Broad, flat lamina and” a large surface to capture sunlight.",
+          "Transparent epidermis and” lets light reach the inner cells.",
+          "Chlorophyll in the chloroplasts and” absorbs the light energy.",
+          "Stomata and” let carbon dioxide in and oxygen out.",
+          "Veins and” bring water up and carry food away.",
+        ]),
 
       ]),
       section("The light reactions", [
@@ -993,6 +1111,7 @@ export const biology9 = [
       section("The dark reactions", [
         p("The dark reactions take place in the stroma and do not need light directly and” although they depend on the ATP and NADPH produced by the light reactions, so they too stop when a plant is kept in darkness for long. Their work is carbon fixation: carbon dioxide from the air is combined with the hydrogen carried by NADPH and built, with the energy of ATP, into glucose."),
         p("This cycle of reactions, called the Calvin cycle, is a loop and” the molecules that accept carbon dioxide are regenerated at the end of every turn, so the cycle can keep running as long as carbon dioxide, ATP and NADPH are supplied."),
+        p("The Calvin cycle is named for the American scientist Melvin Calvin, who worked out its steps with the help of radioactive carbon. Each turn of the cycle fixes one molecule of carbon dioxide; six turns are needed to build one molecule of glucose."),
       ]),
       section("The balanced equation of photosynthesis", [
         p("Putting the whole process together, six molecules of carbon dioxide combine with six molecules of water to give one molecule of glucose and six molecules of oxygen:"),
@@ -1008,31 +1127,42 @@ export const biology9 = [
           "Carbon dioxide concentration and” more COâ‚‚ speeds the rate until another factor limits it.",
           "Temperature and” the rate rises with warmth up to the optimum, then falls as enzymes denature.",
         ]),
+        callout("Tip: In a greenhouse, growers add carbon dioxide, increase the light and keep the temperature near the optimum and” when no factor is limiting, the crop grows at full speed.", "tip"),
       ]),
       section("Respiration and” releasing the energy of glucose", [
         p("Respiration is the process by which the energy stored in glucose is released for the cell's use. It is the mirror image of photosynthesis: the food built up by the plant is broken down, and the energy it releases is captured in ATP."),
         p("Respiration may be aerobic, using oxygen and releasing a large amount of energy, or anaerobic, working without oxygen and releasing far less. In both cases glucose is the usual fuel, and the breakdown is controlled by enzymes step by step."),
+        callout("Respiration should not be confused with breathing. Breathing is the mechanical movement of air in and out of the lungs; respiration is the chemical release of energy from food, which happens inside the mitochondria of every cell.", "info"),
         sim("respiration", "Switch between aerobic and anaerobic respiration and compare the ATP yield — about 38 with oxygen, just 2 without.", "aerobic and anaerobic respiration"),
       ]),
       section("Aerobic respiration", [
         p("Aerobic respiration uses oxygen and releases the maximum energy from glucose. The complete breakdown of one molecule of glucose yields six molecules of carbon dioxide and six of water, together with a large store of energy and” about 2827 kilojoules per mole of glucose."),
         p("The process takes place in three stages. Glycolysis, in the cytoplasm, splits glucose into two molecules of pyruvic acid and yields a little ATP. The Krebs cycle, in the mitochondria, strips the carbon and hydrogen atoms, releasing carbon dioxide and loading the electron carriers with hydrogen. Finally, the electron transport chain, on the inner mitochondrial membranes, combines the hydrogen with oxygen to form water and generates the bulk of the ATP."),
+        p("The three stages are not separate shops and” the products of one feed the next. Glycolysis hands its pyruvic acid to the Krebs cycle, and the Krebs cycle hands its loaded electron carriers to the transport chain. Only the last stage uses oxygen directly, which is why oxygen is needed in amounts that match the level of activity."),
         f("\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2 \\to 6\\text{CO}_2 + 6\\text{H}_2\\text{O} + 2827 \\text{ kJ}", "Aerobic respiration"),
       ]),
       section("Anaerobic respiration in microorganisms and” fermentation", [
         p("When oxygen is scarce or absent, some organisms respire anaerobically. Yeast cells ferment glucose to ethyl alcohol and carbon dioxide, releasing energy:"),
         f("\\text{C}_6\\text{H}_{12}\\text{O}_6 \\to 2\\text{C}_2\\text{H}_5\\text{OH} + 2\\text{CO}_2 + \\text{energy}", "Alcoholic fermentation in yeast"),
         p("Fermentation releases far less energy than aerobic respiration and” only two molecules of ATP per molecule of glucose instead of about thirty-six. The ethanol still contains most of the energy of the glucose, which is why fermentation is wasteful of energy but perfectly adequate for a simple organism."),
+        list("Products of fermentation used by humans:", [
+          "Alcohol and” the ethanol of beer and wine, made by yeast.",
+          "Carbon dioxide and” the gas that makes bread rise.",
+          "Lactic acid and” the souring of milk into yoghurt.",
+          "Acetic acid and” the vinegar made by certain bacteria.",
+        ]),
         sim("fermentation", "Without oxygen, yeast converts glucose into ethanol and carbon dioxide.", "fermentation in microorganisms"),
       ]),
       section("Anaerobic respiration in humans and” lactic acid", [
         p("Human muscle cells can also respire anaerobically for short bursts. During hard exercise, oxygen cannot reach the muscles fast enough, and the muscles begin to break glucose down without oxygen. The product is not alcohol but lactic acid:"),
         f("\\text{C}_6\\text{H}_{12}\\text{O}_6 \\to 2\\text{C}_3\\text{H}_6\\text{O}_3 + \\text{energy}", "Anaerobic respiration in muscle"),
         p("Lactic acid accumulates in the muscles and causes the familiar burning pain, cramp and fatigue of hard exercise. After the exercise stops, the body repays its oxygen debt and” it must take in extra oxygen to break down the lactic acid. This is why we continue to breathe deeply for a while after we finish running."),
+        callout("The burning cramp of hard exercise is a warning from the muscles: the oxygen supply is not keeping up, and the anaerobic pathway that is keeping you moving produces the acid that hurts. Slow down, breathe, and the oxygen debt will be repaid.", "warning"),
       ]),
       section("Importance of anaerobic respiration", [
         p("Fermentation is not just a curiosity and” it is one of humanity's oldest technologies. Yeast produces the alcohol of beer and wine and the carbon dioxide that makes bread rise. Bacteria produce the lactic acid that sours milk into yoghurt and cheese, and other microbes produce the acetic acid of vinegar."),
         p("Even the painful lactic acid of our own muscles has its uses: it shows the body how to keep working when the oxygen supply cannot keep up, buying the time needed for the aerobic system to take over."),
+        p("Fermentation is also a window on the past and” the first living cells appeared on Earth before oxygen accumulated in the atmosphere, so they must have obtained their energy anaerobically. The fermentation pathway is thought to be one of the oldest of all biochemical processes."),
         callout("Aerobic respiration gives about 18 times more energy per molecule of glucose than anaerobic respiration and” which is why oxygen is so precious to every animal.", "key"),
       ]),
       section("Photosynthesis and respiration compared", [
@@ -1114,10 +1244,12 @@ export const biology9 = [
         p("Nutrition is the process by which organisms take in food and use it for energy, growth and repair. Food supplies the nutrients and” carbohydrates, proteins, fats, vitamins, minerals and water and” that build the body and fuel its activities."),
         p("Organisms differ greatly in how they obtain this food. Some make their own, some feed on dead remains, some live inside other organisms, and some eat whole meals. All of these strategies are studied under nutrition."),
         callout("Nutrition provides two things every organism needs: materials to build and repair the body, and energy to keep it working.", "key"),
+        callout("Example: An average adult needs about 8,400 to 10,000 kJ of energy each day. A bowl of cooked rice provides roughly 800 kJ and a chapati about 300 kJ, so a day's meals must add up to many such portions and” a simple way to see why the quantity and quality of food both matter.", "key"),
       ]),
       section("Autotrophic nutrition", [
         p("Autotrophs are organisms that make their own food. The great majority are photoautotrophs and” green plants, algae and some bacteria that use the energy of sunlight to synthesize glucose from carbon dioxide and water by photosynthesis. The glucose is then converted into starch, cellulose, proteins and fats as needed."),
         p("A few bacteria are chemoautotrophs, obtaining energy not from light but from chemical reactions, such as the oxidation of ammonia or sulphur. All other organisms depend, directly or indirectly, on the autotrophs that started the food chain."),
+        p("The glucose made by a leaf is immediately used in several ways: some is burned in respiration for energy, some is joined into starch for storage, some is built into cellulose for cell walls, and some is combined with mineral nitrogen to make the amino acids of proteins. Autotrophy is thus the source of every type of food molecule."),
         f("6\\text{CO}_2 + 6\\text{H}_2\\text{O} \\xrightarrow{\\text{light}} \\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2", "Autotrophs build their own food"),
       ]),
       section("Heterotrophic nutrition", [
@@ -1127,10 +1259,13 @@ export const biology9 = [
           "Parasitic nutrition and” living in or on a living host and taking food from it, usually harming the host. Tapeworms, hookworms and the plant Cuscuta are parasites.",
           "Holozoic nutrition and” taking in whole food and digesting it inside the body. Amoeba, humans and most animals feed in this way.",
         ]),
+        callout("The three modes shade into one another. A saprophyte digests its food before it absorbs it, a parasite steals ready-made food from a living host, and a holozoic feeder digests its food after taking it in and” the same needs, three strategies.", "info"),
+        sim("food-web", "Follow the energy from the producers up through the consumers - every food chain begins with an autotroph.", "food chains and webs"),
       ]),
       section("Parasitic nutrition", [
         p("Parasites live at the expense of a host. Some are plant parasites, others infect animals. Cuscuta, the amarbel, is a yellow, twining vine that cannot photosynthesize; it coils around its host plant and pushes suckers called haustoria into the host's stem to draw out food and water."),
         p("The tapeworm lives in the human small intestine, where digested food is already available; it attaches by hooks and suckers and absorbs nutrients through its body wall. The hookworm attaches to the intestinal wall and sucks blood, causing anaemia, while the leech is an external parasite that pierces the skin and sucks blood."),
+        callout("Parasites are best defeated by prevention: boiling drinking water, cooking meat well, washing hands and keeping surroundings clean break the chain by which tapeworms, hookworms and other parasites reach a new host.", "warning"),
         list("Some familiar parasites:", [
           "Cuscuta (amarbel) and” plant parasite that sucks food through haustoria.",
           "Tapeworm and” intestinal parasite that absorbs digested food.",
@@ -1141,6 +1276,13 @@ export const biology9 = [
       section("Holozoic nutrition and” Amoeba as an example", [
         p("Holozoic nutrition means taking in whole food and digesting it within the body. Amoeba, a single-celled organism, shows the complete process. It moves by extending finger-like pseudopodia, which flow around a small organism such as a paramecium and enclose it in a food vacuole."),
         p("Digestive enzymes enter the food vacuole and break the prey into soluble products, which are absorbed into the cytoplasm. The undigested remains are carried to the surface and expelled. One cell performs feeding, digestion, absorption and egestion all by itself."),
+        list("Steps of holozoic nutrition in Amoeba:", [
+          "Ingestion and” pseudopodia surround the prey and enclose it in a food vacuole.",
+          "Digestion and” enzymes in the vacuole break the food into soluble products.",
+          "Absorption and” the digested food diffuses into the cytoplasm.",
+          "Assimilation and” the absorbed food is used to build cytoplasm and energy.",
+          "Egestion and” the undigested remains are expelled at the surface.",
+        ]),
         sim("locomotion", "Choose an animal and watch how it moves — Amoeba flows with pseudopodia, the earthworm stretches, the fish swims with fins and the bird flies with wings.", "locomotion in animals"),
       ]),
       section("Minerals and water uptake in plants", [
@@ -1151,6 +1293,7 @@ export const biology9 = [
       section("Carbohydrates and fats", [
         p("Carbohydrates are the body's main energy food. Sugars such as glucose are used immediately, while starch and glycogen store energy. Cereals and” wheat, rice, maize and” and potatoes, fruit and vegetables supply most of the carbohydrate in a diet. The indigestible cellulose of plant foods forms fibre, which keeps the intestine healthy."),
         p("Fats and oils are the most concentrated energy store: a gram of fat provides more than twice the energy of a gram of carbohydrate. They also insulate the body, cushion the organs and form part of every cell membrane. Butter, ghee, cooking oil, nuts and the fat of meat supply them."),
+        f("\\text{1 g of fat} \\approx 38 \\text{ kJ}; \\quad \\text{1 g of carbohydrate or protein} \\approx 17 \\text{ kJ}", "Energy density of the food groups"),
         list("Energy foods:", [
           "Carbohydrates and” quick energy; stored as starch and glycogen; sources: bread, rice, potatoes, sugar.",
           "Fats and oils and” concentrated energy and insulation; sources: butter, ghee, oils, nuts.",
@@ -1159,6 +1302,7 @@ export const biology9 = [
       section("Proteins", [
         p("Proteins are the building blocks of the body. They form the muscles, skin, hair and enzymes, and they build and repair tissues. Proteins are made of amino acids; the body can make some of these, but the essential amino acids must come from food."),
         p("Good sources of protein are meat, fish, eggs, milk and the legumes of our own fields and” beans, peas and pulses such as dal. A diet lacking protein leads to failure of growth and repair. Children who receive too little protein suffer from kwashiorkor, with stunted growth and a swollen belly, while severe deficiency of both protein and energy causes marasmus, in which the child becomes extremely thin."),
+        p("Proteins are judged by their amino acids. Animal proteins such as those of milk, eggs and meat supply all the essential amino acids and are called complete; plant proteins may lack one or two, which is why a vegetarian diet that mixes cereals with pulses and” rice with dal, for example and” provides the missing amino acids together."),
       ]),
       section("Vitamins, minerals and water", [
         p("Vitamins are organic substances needed in tiny amounts to regulate the body's chemistry; they are essential because the body cannot make most of them. Vitamin A protects the eyes, vitamin D builds bones, vitamin C keeps the gums and skin healthy, the B vitamins run the release of energy from food, and vitamin K helps the blood to clot."),
@@ -1171,11 +1315,13 @@ export const biology9 = [
         ]),
         sim("vitamins", "Balance the daily diet and watch the body stay healthy - too little of any vitamin brings trouble.", "vitamins and minerals"),
         p("Minerals such as calcium and phosphorus build bone, iron carries oxygen in haemoglobin, iodine is part of the thyroid hormone, and sodium and potassium maintain the electrical activity of nerves and muscles. Water, the most overlooked nutrient, makes up about 60 to 70 percent of the body: it dissolves food, transports materials, cools the body and participates in almost every reaction."),
+        p("The B vitamins act as a team: thiamine (B1), riboflavin (B2) and niacin (B3) all take part in the release of energy from food, which is why a deficiency brings weakness and tiredness rather than one dramatic disease. Their signs are mild but widespread and” another reason a varied diet matters."),
       ]),
       section("Balanced diet and the food pyramid", [
         p("A balanced diet is one that provides all the nutrients in the correct proportions, together with enough energy for the person's age, size and activity. It includes carbohydrates for energy, proteins for growth and repair, fats in moderation, vitamins and minerals for health, and plenty of water and fibre."),
         p("The food pyramid guides the balance. The base is made of the starchy foods and” bread, rice and cereals and” which should form the largest part of every meal. Above them sit fruits and vegetables, eaten plentifully. Next come meat, fish, eggs and dairy products, needed in moderate amounts. At the top, smallest of all, are fats, oils and sweets, to be eaten sparingly."),
         callout("The food pyramid is read from bottom to top: eat most of the foods at the base and least of those at the apex and” and remember water and exercise are part of a healthy lifestyle too.", "key"),
+        callout("Tip: The pyramid adapts to the person and” a growing teenager needs more protein and energy than an office worker, and a labourer needs more carbohydrate than a clerk. 'Balanced' means balanced for you, at your age and activity.", "tip"),
       ]),
       section("Malnutrition and deficiency diseases", [
         p("Malnutrition means a wrong balance of nutrients and” too little of what the body needs, or too much. Undernutrition is the result of not enough food or not enough of the right foods. It appears as marasmus and kwashiorkor in children, anaemia where iron is scarce, goitre where iodine is missing, and night blindness where vitamin A is lacking."),
@@ -1186,17 +1332,20 @@ export const biology9 = [
         p("Pakistan has one of the highest rates of malnutrition in the world. Large numbers of children are underweight or stunted because their families cannot afford enough food, and even where food is plentiful, the diet may lack vitamins and minerals and” the hidden hunger of micronutrient deficiency."),
         p("The most common deficiencies are iron (anaemia, especially in women), iodine (goitre and intellectual impairment) and vitamin A (blindness and weakened immunity). The government and aid organizations fight this with iodized salt, the fortification of flour with iron and folic acid, vitamin A supplements and school feeding programs."),
         callout("Malnutrition is not simply hunger: a child can have enough calories and still be malnourished if the food lacks the vitamins and minerals the body needs.", "warning"),
+        p("The first one thousand days of life, from conception to the second birthday, are the critical window and” nutrition in this period shapes a child's health and intelligence for life. Programs that feed mothers and young children therefore protect more than the present and” they protect the next generation."),
       ]),
       section("The digestive system and” an overview", [
         p("In humans, food must be broken down before the body can use it. Digestion is the breakdown of large, insoluble food molecules into small, soluble ones that can pass through the intestinal wall. It has two sides: mechanical digestion, the physical breaking of food by teeth and muscle, and chemical digestion, the action of digestive enzymes."),
         p("The digestive system is a long tube, the alimentary canal, with glands attached to it and” the salivary glands, the gastric glands of the stomach, the liver, the pancreas and the intestinal glands. Each part of the canal has its own enzymes, and food moves along it by the wave-like contractions called peristalsis."),
         figure("The human alimentary canal and its associated glands", "/diagrams/bio-digestive-system.svg"),
         f("\\text{carbohydrates} \\to \\text{sugars}; \\quad \\text{proteins} \\to \\text{amino acids}; \\quad \\text{fats} \\to \\text{fatty acids} + \\text{glycerol}", "The goal of digestion"),
+        p("Mechanical and chemical digestion work together. Chewing and the churning of the stomach break the food into smaller pieces, and smaller pieces expose more surface to the enzymes; the enzymes then do the chemical work that no amount of grinding could achieve and” breaking large molecules, not just large lumps, into absorbable ones."),
         sim("digestion", "Follow the food from the mouth through the whole canal - each station breaks it down a little more.", "the digestive system"),
       ]),
       section("Digestion in the mouth and stomach", [
         p("Digestion begins in the mouth. The teeth cut and grind the food, increasing its surface area, while the tongue mixes it with saliva. Saliva moistens the food and contains salivary amylase, the first enzyme, which begins breaking starch into maltose."),
         p("The softened food is swallowed down the oesophagus, where peristalsis pushes it into the stomach. The stomach is a muscular bag with a lining of gastric glands. It churns the food and secretes hydrochloric acid and the enzyme pepsin, which digests proteins into peptides. The acid kills most bacteria and gives pepsin its working pH. After a few hours the food has become a semi-liquid soup called chyme, which is released through the pyloric valve into the small intestine."),
+        p("The stomach protects itself from its own acid and enzymes and” its lining is coated with a thick layer of mucus. When that protection fails, the acid reaches the stomach wall itself and the result is an ulcer and” a painful raw patch that can bleed."),
         f("\\text{starch} \\xrightarrow{\\text{salivary amylase}} \\text{maltose} \\xrightarrow{\\text{maltase}} \\text{glucose}", "Carbohydrate digestion step by step"),
       ]),
       section("Digestion and absorption in the small intestine", [
@@ -1282,6 +1431,7 @@ export const biology9 = [
       section("The root system and root hairs", [
         p("In plants, water and minerals are absorbed from the soil by the roots. The tip of each root is protected by a root cap, and behind the growing tip the surface is covered with thousands of tiny outgrowths called root hairs and” fine extensions of single epidermal cells."),
         p("Root hairs greatly increase the surface area of the root and push their way between the soil particles, wrapping the root in a living envelope of absorbing cells. Through these hairs, water and dissolved minerals pass into the cortex and then travel inward to the xylem in the centre of the root."),
+        p("The efficiency of a root system is astonishing and” the root hairs of a single rye plant, laid end to end, would stretch for hundreds of kilometres. The more surface the roots spread, the more water and minerals the plant can gather from a given patch of soil."),
         f("\\text{soil water} \\to \\text{root hairs} \\to \\text{cortex} \\to \\text{xylem} \\to \\text{stem} \\to \\text{leaves}", "The route of water through the plant"),
         sim("plant-transport", "Follow the water from the root hairs through the cortex to the xylem and up the stem.", "root system and root hairs"),
       ]),
@@ -1292,20 +1442,29 @@ export const biology9 = [
       section("Active transport in roots", [
         p("Minerals are different. The concentration of mineral ions inside the root cells is often higher than in the soil water, so diffusion would push them out, not in. The root must therefore pump the ions in against their concentration gradient and” a process called active transport."),
         p("Active transport uses energy in the form of ATP, spent by carrier proteins in the membranes of the root hair cells. In this way the plant gathers the minerals it needs even from very dilute soil water and” the same mechanism by which animal cells load glucose from the blood."),
+        p("Active transport does more than feed the plant and” by concentrating ions in the root, it lowers the water potential of the root cells and helps water move in by osmosis. Energy spent on pumping ions therefore pays for water as well as minerals."),
       ]),
       section("The xylem and” the pathway of water", [
         p("The xylem is the plant's water pipe. It is made of dead, hollow tubes and” tracheids and vessels and” whose walls are thickened and hardened with lignin, so they neither collapse nor leak. The xylem carries water and dissolved minerals in one direction only: upward from the roots to the stem and into the leaves."),
         p("Water is driven upward by several forces. Root pressure gives a modest push from below; capillary action helps in the narrow tubes; but the main engine is transpiration pull from above. The columns of water stick to the walls and to each other by cohesion, so that when water evaporates from the leaves, the whole column is drawn upward like a thread."),
+        list("The forces that raise water in the xylem:", [
+          "Root pressure and” a modest upward push from the roots.",
+          "Capillary action and” water climbing the narrow tubes.",
+          "Transpiration pull and” the main force, drawing the column from above.",
+          "Cohesion and adhesion and” water sticks to itself and to the tube walls.",
+        ]),
       ]),
       section("Transpiration", [
         p("Transpiration is the loss of water vapour from the leaves, chiefly through the stomata and” the microscopic pores opened and closed by their guard cells. As water evaporates from the wet surfaces of the leaf cells, it is replaced by water drawn up the xylem, and this pull is what raises water to the top of the tallest trees."),
         figure("Stomata open and close as their guard cells take in and lose water", "/diagrams/bio-stomata.svg"),
         p("Transpiration is not waste. It provides the pulling force that carries water and minerals to the leaves, it cools the plant like an evaporative fan, and it keeps the leaf cells turgid so they can work. Its rate rises on hot, dry, windy days and falls when the stomata close."),
+        p("The stomata are the plant's variable valves. When the guard cells take up water they swell and bend, opening the pore; when they lose water they straighten and close it. The plant opens wide in the morning, when it can photosynthesize, and closes at noon heat or in drought, trading some photosynthesis for survival."),
         callout("On a hot dry day a plant may lose water faster than its roots can take it in, and the leaves wilt. The stomata close to slow the loss and” at the price of less carbon dioxide entering for photosynthesis.", "key"),
       ]),
       section("The phloem and” translocation of food", [
         p("The phloem carries the food made by the leaves to every other part of the plant. It is made of living cells and” sieve tubes, joined end to end, with companion cells that keep them alive. This transport of food is called translocation."),
         p("Unlike the xylem, the phloem moves materials in any direction needed: sugars flow from the leaves, where they are made, to the roots, fruits, seeds and growing tips where they are used or stored. The food is loaded actively into the sieve tubes at the source and unloaded at the sink."),
+        callout("A classic experiment shows the phloem at work: remove a ring of bark (and with it the phloem) from a branch and the bark swells just above the ring and” the food made by the leaves piles up because it cannot pass the cut, while water still rises through the untouched xylem.", "info"),
         list("The two conducting tissues compared:", [
           "Xylem and” dead hollow tubes; carries water and minerals upward; one-way flow.",
           "Phloem and” living sieve tubes; carries food both ways; active transport involved.",
@@ -1319,15 +1478,24 @@ export const biology9 = [
       section("Blood plasma", [
         p("Blood is a connective tissue made of cells floating in a liquid called plasma. Plasma is a pale yellow fluid, about 90 percent water, in which everything the body carries is dissolved."),
         p("Plasma contains the plasma proteins and” albumin, globulin, fibrinogen and prothrombin and” which maintain water balance, fight infection and make the blood clot. It carries the nutrients absorbed from food, glucose, amino acids, fatty acids and vitamins; the wastes urea, uric acid and creatinine; the mineral salts, bicarbonates, chlorides, sulphates and phosphates of sodium and potassium; and the hormones that travel from their glands to their targets. Most of the carbon dioxide of the blood is carried here as dissolved bicarbonate."),
+        list("What the plasma carries:", [
+          "Plasma proteins and” albumin, globulin, fibrinogen and prothrombin.",
+          "Nutrients and” glucose, amino acids, fatty acids and vitamins.",
+          "Wastes and” urea, uric acid and creatinine.",
+          "Salts and” bicarbonates, chlorides, sulphates and phosphates.",
+          "Hormones and” messengers from their glands to their targets.",
+        ]),
         callout("Plasma is the river in which everything else travels: nutrients out to the cells, wastes away from them, hormones between organs, and heat around the body.", "info"),
       ]),
       section("Red blood cells", [
         p("The red blood cells (erythrocytes) are the oxygen carriers. In humans they are tiny, biconcave discs and” thinner at the centre than at the edge and” which gives them more surface area for gas exchange. They have no nucleus when mature, leaving more room for haemoglobin."),
         p("Haemoglobin is the red pigment that picks up oxygen in the lungs and releases it in the tissues. A healthy adult has about five million red cells in each cubic millimetre of blood. They are made in the bone marrow, live for about 120 days and are broken down in the spleen. When the number of red cells or the amount of haemoglobin falls, the blood carries less oxygen and the person becomes anaemic."),
+        p("The biconcave shape is a design for exchange and” its two dimples give each cell a larger surface than a sphere of the same volume, and the thin centre shortens the distance oxygen must travel to reach the haemoglobin. Every feature of the red cell serves one purpose: carrying oxygen."),
       ]),
       section("White blood cells and platelets", [
         p("The white blood cells (leucocytes) are the defenders of the body. Larger than red cells and carrying a nucleus, they are fewer and” about six to eight thousand per cubic millimetre and” but their numbers rise sharply during infection. Some, like the neutrophils and monocytes, engulf and digest bacteria in a process called phagocytosis; others, the lymphocytes, produce the antibodies that neutralize specific invaders."),
         p("Platelets are tiny fragments of cells, about a quarter of a million per cubic millimetre. When a blood vessel is damaged, platelets gather at the wound and, with fibrinogen turned to fibrin, form a clot that plugs the leak and starts the healing."),
+        callout("A high temperature is often the body reporting for duty: a sudden rise in the white cell count tells the doctor that an infection is present, and counting the different types of white cells helps identify the kind of infection and” which is why a simple blood test is so informative.", "info"),
         list("The cells of the blood:", [
           "Red blood cells and” carry oxygen in haemoglobin.",
           "White blood cells and” fight infection by phagocytosis and antibodies.",
@@ -1341,6 +1509,7 @@ export const biology9 = [
         figure("Arteries, capillaries and veins compared", "/diagrams/bio-blood-vessels.svg"),
         p("Capillaries are microscopic vessels with walls only one cell thick. It is here, in every tissue, that materials are exchanged: oxygen and nutrients pass out to the cells, and carbon dioxide and wastes pass in."),
         p("From the capillaries the blood collects into veins, which carry it back to the heart. The pressure has fallen by now, so the veins have thinner walls and are fitted with valves that prevent the blood from flowing backwards and” which is why blood flows uphill in a raised arm but cannot run backwards to the hand."),
+        p("You can feel the difference between the vessels. The pulse you take at the wrist is the wave of pressure passing along an artery with each beat; the bluish vessels you see beneath the skin are veins carrying the returning blood; and the capillaries are too fine to see at all and” they would fit through a single hair's width."),
       ]),
       section("The human heart and circulation", [
         p("The heart is a muscular pump of four chambers: the thin-walled right and left atria receive blood, and the thick-walled right and left ventricles pump it out. Valves between the chambers and at the exits keep the blood flowing in one direction."),
@@ -1348,15 +1517,18 @@ export const biology9 = [
         figure("The four-chambered heart and the double circulation", "/diagrams/bio-heart-circulation.svg"),
         f("\\text{left ventricle} \\to \\text{body} \\to \\text{right atrium}; \\quad \\text{right ventricle} \\to \\text{lungs} \\to \\text{left atrium}", "Double circulation"),
         p("The heart beats about 72 times a minute in a resting adult, and the sound of each beat and” the familiar lub-dub and” is the closing of the valves. Each beat pushes blood through about a hundred thousand kilometres of vessels."),
+        callout("Example: A resting adult's heart pumps about 5 litres of blood every minute. That is 300 litres an hour and more than 7,000 litres a day and” in a single day the heart pushes the body's whole blood volume through the vessels again and again, and over a lifetime it beats more than two and a half billion times.", "key"),
       ]),
       section("Blood pressure", [
         p("Blood pressure is the force exerted by the blood against the walls of the arteries. It is highest when the heart contracts, forcing blood into the arteries and” the systolic pressure and” and lowest when the heart relaxes and” the diastolic pressure. It is measured with a sphygmomanometer and written as a fraction, about 120 over 80 millimetres of mercury in a healthy adult."),
         p("Blood pressure is not constant; it rises with exercise and falls with rest. But when it stays persistently high and” hypertension and” the heart works harder and the arteries are damaged, raising the risk of heart attack and stroke."),
+        p("Blood pressure is measured with a sphygmomanometer and a stethoscope. As the cuff is deflated, the first sound heard is the systolic pressure and the last sound is the diastolic; the two numbers are written with the systolic first and” 120 over 80, in millimetres of mercury."),
         f("\\text{blood pressure} = \\frac{\\text{systolic}}{\\text{diastolic}} \\approx \\frac{120}{80} \\text{ mmHg}", "Measuring the pressure"),
       ]),
       section("Cardiovascular disorders", [
         p("The commonest disease of the transport system is atherosclerosis and” the gradual clogging of the arteries. Cholesterol carried in the blood as LDL can deposit in the wall of an artery, forming a hard plaque that narrows the vessel and reduces the flow of blood."),
         p("When the coronary arteries that feed the heart muscle itself become narrowed or blocked, the heart is starved of oxygen. The result is angina, the chest pain of a struggling heart, and finally a heart attack and” a myocardial infarction and” when part of the heart muscle dies. If a blood clot blocks an artery in the brain, part of the brain dies instead, and the result is a stroke."),
+        p("Atherosclerosis usually begins quietly in youth and” fatty streaks appear in the arteries of many teenagers and” and builds for decades before the first symptom. This long silent development is exactly why a healthy lifestyle from an early age is so important."),
         list("Risk factors for atherosclerosis:", [
           "A diet rich in fats and cholesterol.",
           "Smoking, which damages the lining of the arteries.",
@@ -1369,6 +1541,7 @@ export const biology9 = [
       section("The lymphatic system", [
         p("Not all of the fluid that leaves the blood capillaries returns to them directly. Some seeps out into the spaces between the cells, bathing them in tissue fluid. This fluid, called lymph, is drained by a network of lymph vessels and finally returned to the blood near the heart."),
         p("Along the lymph vessels lie the lymph nodes, small glands that filter the lymph and trap bacteria and dead cells; they also make lymphocytes, so they are central to immunity. The lymphatic system also absorbs the fats from the intestine. The swollen glands you feel in the neck during a sore throat are lymph nodes fighting the infection."),
+        p("When the lymph vessels are blocked or the lymph cannot return to the blood, fluid collects in the tissues and the affected part swells and” a condition called oedema. The lymphatic system also carries the digested fats from the intestine as a milky fluid called chyle."),
         callout("Lymph is blood plasma that has left the vessels: it carries the same water and dissolved substances, and its return journey keeps the tissues from swelling and carries wastes away.", "info"),
       ]),
       section("Key terms", [
