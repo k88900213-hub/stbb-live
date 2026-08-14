@@ -610,189 +610,189 @@ export function offlineTutor(req: TutorRequest): TutorResponse {
 
 const SIMPLE_SVGS: Record<string, string> = {
   flowchart: `<svg viewBox="0 0 600 620" xmlns="http://www.w3.org/2000/svg">
-  <defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,1 L9,5 L0,9z" fill="#64748b"/></marker></defs>
-  <rect width="600" height="620" fill="#f8fafc" rx="12"/>
-  <text x="300" y="36" text-anchor="middle" font-family="system-ui" font-size="20" font-weight="bold" fill="#1e293b">Process Flowchart</text>
-  <rect x="210" y="56" width="180" height="44" rx="22" fill="#6366f1"/>
+  <defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,1 L9,5 L0,9z" fill="#c2843f"/></marker></defs>
+  <rect width="600" height="620" fill="#fdf8f3" rx="12"/>
+  <text x="300" y="36" text-anchor="middle" font-family="system-ui" font-size="20" font-weight="bold" fill="#241a12">Process Flowchart</text>
+  <rect x="210" y="56" width="180" height="44" rx="22" fill="#f97316"/>
   <text x="300" y="83" text-anchor="middle" font-family="system-ui" font-size="14" font-weight="600" fill="#fff">Start</text>
-  <line x1="300" y1="100" x2="300" y2="132" stroke="#64748b" stroke-width="2" marker-end="url(#a1)"/>
-  <rect x="170" y="132" width="260" height="48" rx="8" fill="#0ea5e9"/>
+  <line x1="300" y1="100" x2="300" y2="132" stroke="#c2843f" stroke-width="2" marker-end="url(#a1)"/>
+  <rect x="170" y="132" width="260" height="48" rx="8" fill="#f59e0b"/>
   <text x="300" y="161" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#fff">1. Collect Raw Data</text>
-  <line x1="300" y1="180" x2="300" y2="212" stroke="#64748b" stroke-width="2" marker-end="url(#a1)"/>
-  <rect x="170" y="212" width="260" height="48" rx="8" fill="#0ea5e9"/>
+  <line x1="300" y1="180" x2="300" y2="212" stroke="#c2843f" stroke-width="2" marker-end="url(#a1)"/>
+  <rect x="170" y="212" width="260" height="48" rx="8" fill="#f59e0b"/>
   <text x="300" y="241" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#fff">2. Process &amp; Analyze</text>
-  <line x1="300" y1="260" x2="300" y2="292" stroke="#64748b" stroke-width="2" marker-end="url(#a1)"/>
-  <polygon points="300,292 390,332 300,372 210,332" fill="#f59e0b" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="300" y="337" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="600" fill="#1e293b">Valid?</text>
-  <line x1="210" y1="332" x2="100" y2="332" stroke="#64748b" stroke-width="2"/>
-  <line x1="100" y1="332" x2="100" y2="432" stroke="#64748b" stroke-width="2" marker-end="url(#a1)"/>
+  <line x1="300" y1="260" x2="300" y2="292" stroke="#c2843f" stroke-width="2" marker-end="url(#a1)"/>
+  <polygon points="300,292 390,332 300,372 210,332" fill="#fb923c" stroke="#eadfc9" stroke-width="1"/>
+  <text x="300" y="337" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="600" fill="#241a12">Valid?</text>
+  <line x1="210" y1="332" x2="100" y2="332" stroke="#c2843f" stroke-width="2"/>
+  <line x1="100" y1="332" x2="100" y2="432" stroke="#c2843f" stroke-width="2" marker-end="url(#a1)"/>
   <text x="152" y="326" font-family="system-ui" font-size="11" font-weight="500" fill="#ef4444">No</text>
   <rect x="30" y="432" width="140" height="44" rx="8" fill="#ef4444"/>
   <text x="100" y="459" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="600" fill="#fff">Flag for Review</text>
-  <line x1="300" y1="372" x2="300" y2="432" stroke="#64748b" stroke-width="2" marker-end="url(#a1)"/>
+  <line x1="300" y1="372" x2="300" y2="432" stroke="#c2843f" stroke-width="2" marker-end="url(#a1)"/>
   <text x="318" y="400" font-family="system-ui" font-size="11" font-weight="500" fill="#10b981">Yes</text>
   <rect x="170" y="432" width="260" height="48" rx="8" fill="#10b981"/>
   <text x="300" y="461" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#fff">3. Generate Report</text>
-  <line x1="300" y1="480" x2="300" y2="512" stroke="#64748b" stroke-width="2" marker-end="url(#a1)"/>
+  <line x1="300" y1="480" x2="300" y2="512" stroke="#c2843f" stroke-width="2" marker-end="url(#a1)"/>
   <rect x="170" y="512" width="260" height="48" rx="8" fill="#10b981"/>
   <text x="300" y="541" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#fff">4. Store Results</text>
-  <line x1="300" y1="560" x2="300" y2="576" stroke="#64748b" stroke-width="2" marker-end="url(#a1)"/>
-  <rect x="210" y="576" width="180" height="38" rx="19" fill="#6366f1"/>
+  <line x1="300" y1="560" x2="300" y2="576" stroke="#c2843f" stroke-width="2" marker-end="url(#a1)"/>
+  <rect x="210" y="576" width="180" height="38" rx="19" fill="#f97316"/>
   <text x="300" y="600" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#fff">End</text>
 </svg>`,
 
   "concept-map": `<svg viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg">
-  <defs><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,1 L9,5 L0,9z" fill="#64748b"/></marker></defs>
-  <rect width="600" height="500" fill="#f8fafc" rx="12"/>
-  <text x="300" y="36" text-anchor="middle" font-family="system-ui" font-size="20" font-weight="bold" fill="#1e293b">Concept Map</text>
-  <rect x="180" y="210" width="240" height="60" rx="12" fill="#6366f1"/>
+  <defs><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,1 L9,5 L0,9z" fill="#c2843f"/></marker></defs>
+  <rect width="600" height="500" fill="#fdf8f3" rx="12"/>
+  <text x="300" y="36" text-anchor="middle" font-family="system-ui" font-size="20" font-weight="bold" fill="#241a12">Concept Map</text>
+  <rect x="180" y="210" width="240" height="60" rx="12" fill="#f97316"/>
   <text x="300" y="247" text-anchor="middle" font-family="system-ui" font-size="16" font-weight="bold" fill="#fff">Core Concept</text>
-  <rect x="50" y="80" width="170" height="48" rx="10" fill="#0ea5e9"/>
+  <rect x="50" y="80" width="170" height="48" rx="10" fill="#f59e0b"/>
   <text x="135" y="109" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#fff">Definition</text>
-  <line x1="220" y1="110" x2="260" y2="210" stroke="#94a3b8" stroke-width="1.8" marker-end="url(#a2)"/>
-  <text x="226" y="156" font-family="system-ui" font-size="10" fill="#64748b" font-style="italic">defines</text>
-  <rect x="380" y="80" width="170" height="48" rx="10" fill="#0ea5e9"/>
+  <line x1="220" y1="110" x2="260" y2="210" stroke="#d9c3a8" stroke-width="1.8" marker-end="url(#a2)"/>
+  <text x="226" y="156" font-family="system-ui" font-size="10" fill="#8a6b4f" font-style="italic">defines</text>
+  <rect x="380" y="80" width="170" height="48" rx="10" fill="#fb923c"/>
   <text x="465" y="109" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#fff">Properties</text>
-  <line x1="380" y1="110" x2="340" y2="210" stroke="#94a3b8" stroke-width="1.8" marker-end="url(#a2)"/>
-  <text x="374" y="156" font-family="system-ui" font-size="10" fill="#64748b" font-style="italic">describes</text>
+  <line x1="380" y1="110" x2="340" y2="210" stroke="#d9c3a8" stroke-width="1.8" marker-end="url(#a2)"/>
+  <text x="374" y="156" font-family="system-ui" font-size="10" fill="#8a6b4f" font-style="italic">describes</text>
   <rect x="50" y="360" width="170" height="48" rx="10" fill="#10b981"/>
   <text x="135" y="389" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#fff">Applications</text>
-  <line x1="220" y1="384" x2="260" y2="270" stroke="#94a3b8" stroke-width="1.8" marker-end="url(#a2)"/>
-  <text x="226" y="334" font-family="system-ui" font-size="10" fill="#64748b" font-style="italic">used in</text>
+  <line x1="220" y1="384" x2="260" y2="270" stroke="#d9c3a8" stroke-width="1.8" marker-end="url(#a2)"/>
+  <text x="226" y="334" font-family="system-ui" font-size="10" fill="#8a6b4f" font-style="italic">used in</text>
   <rect x="380" y="360" width="170" height="48" rx="10" fill="#f59e0b"/>
   <text x="465" y="389" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#fff">Examples</text>
-  <line x1="380" y1="384" x2="340" y2="270" stroke="#94a3b8" stroke-width="1.8" marker-end="url(#a2)"/>
-  <text x="374" y="334" font-family="system-ui" font-size="10" fill="#64748b" font-style="italic">illustrates</text>
-  <rect x="200" y="420" width="200" height="44" rx="10" fill="#6366f1" opacity="0.15"/>
-  <text x="300" y="447" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="600" fill="#6366f1">Related: See Chapter 5</text>
-  <line x1="300" y1="270" x2="300" y2="420" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4"/>
+  <line x1="380" y1="384" x2="340" y2="270" stroke="#d9c3a8" stroke-width="1.8" marker-end="url(#a2)"/>
+  <text x="374" y="334" font-family="system-ui" font-size="10" fill="#8a6b4f" font-style="italic">illustrates</text>
+  <rect x="200" y="420" width="200" height="44" rx="10" fill="#f97316" opacity="0.15"/>
+  <text x="300" y="447" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="600" fill="#f97316">Related: See Chapter 5</text>
+  <line x1="300" y1="270" x2="300" y2="420" stroke="#d9c3a8" stroke-width="1.2" stroke-dasharray="4"/>
 </svg>`,
 
   cycle: `<svg viewBox="0 0 600 520" xmlns="http://www.w3.org/2000/svg">
-  <defs><marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,1 L9,5 L0,9z" fill="#64748b"/></marker></defs>
-  <rect width="600" height="520" fill="#f8fafc" rx="12"/>
-  <text x="300" y="36" text-anchor="middle" font-family="system-ui" font-size="20" font-weight="bold" fill="#1e293b">Cycle Diagram</text>
-  <circle cx="300" cy="280" r="140" fill="none" stroke="#e2e8f0" stroke-width="2.5" stroke-dasharray="8 4"/>
-  <rect x="220" y="80" width="160" height="48" rx="10" fill="#6366f1"/>
+  <defs><marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,1 L9,5 L0,9z" fill="#c2843f"/></marker></defs>
+  <rect width="600" height="520" fill="#fdf8f3" rx="12"/>
+  <text x="300" y="36" text-anchor="middle" font-family="system-ui" font-size="20" font-weight="bold" fill="#241a12">Cycle Diagram</text>
+  <circle cx="300" cy="280" r="140" fill="none" stroke="#eadfc9" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <rect x="220" y="80" width="160" height="48" rx="10" fill="#f97316"/>
   <text x="300" y="109" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#fff">1. Initiation</text>
-  <line x1="370" y1="120" x2="430" y2="190" stroke="#64748b" stroke-width="2" marker-end="url(#a3)"/>
-  <rect x="420" y="190" width="160" height="48" rx="10" fill="#0ea5e9"/>
+  <line x1="370" y1="120" x2="430" y2="190" stroke="#c2843f" stroke-width="2" marker-end="url(#a3)"/>
+  <rect x="420" y="190" width="160" height="48" rx="10" fill="#fb923c"/>
   <text x="500" y="219" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#fff">2. Execution</text>
-  <line x1="520" y1="248" x2="470" y2="340" stroke="#64748b" stroke-width="2" marker-end="url(#a3)"/>
+  <line x1="520" y1="248" x2="470" y2="340" stroke="#c2843f" stroke-width="2" marker-end="url(#a3)"/>
   <rect x="370" y="380" width="160" height="48" rx="10" fill="#10b981"/>
   <text x="450" y="409" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#fff">3. Evaluation</text>
-  <line x1="370" y1="404" x2="270" y2="404" stroke="#64748b" stroke-width="2" marker-end="url(#a3)"/>
+  <line x1="370" y1="404" x2="270" y2="404" stroke="#c2843f" stroke-width="2" marker-end="url(#a3)"/>
   <rect x="80" y="380" width="160" height="48" rx="10" fill="#f59e0b"/>
-  <text x="160" y="409" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#1e293b">4. Optimization</text>
-  <line x1="130" y1="380" x2="180" y2="310" stroke="#64748b" stroke-width="2" marker-end="url(#a3)"/>
+  <text x="160" y="409" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#241a12">4. Optimization</text>
+  <line x1="130" y1="380" x2="180" y2="310" stroke="#c2843f" stroke-width="2" marker-end="url(#a3)"/>
   <rect x="80" y="190" width="160" height="48" rx="10" fill="#ef4444"/>
   <text x="160" y="219" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#fff">5. Review</text>
-  <line x1="180" y1="190" x2="240" y2="128" stroke="#64748b" stroke-width="2" marker-end="url(#a3)"/>
-  <text x="300" y="285" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="500" fill="#94a3b8">Repeat</text>
+  <line x1="180" y1="190" x2="240" y2="128" stroke="#c2843f" stroke-width="2" marker-end="url(#a3)"/>
+  <text x="300" y="285" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="500" fill="#d9c3a8">Repeat</text>
 </svg>`,
 
   hierarchy: `<svg viewBox="0 0 600 480" xmlns="http://www.w3.org/2000/svg">
-  <rect width="600" height="480" fill="#f8fafc" rx="12"/>
-  <text x="300" y="36" text-anchor="middle" font-family="system-ui" font-size="20" font-weight="bold" fill="#1e293b">Hierarchy</text>
-  <rect x="190" y="56" width="220" height="52" rx="10" fill="#6366f1"/>
+  <rect width="600" height="480" fill="#fdf8f3" rx="12"/>
+  <text x="300" y="36" text-anchor="middle" font-family="system-ui" font-size="20" font-weight="bold" fill="#241a12">Hierarchy</text>
+  <rect x="190" y="56" width="220" height="52" rx="10" fill="#f97316"/>
   <text x="300" y="88" text-anchor="middle" font-family="system-ui" font-size="15" font-weight="bold" fill="#fff">Kingdom</text>
-  <line x1="300" y1="108" x2="300" y2="138" stroke="#64748b" stroke-width="2"/>
-  <line x1="100" y1="138" x2="500" y2="138" stroke="#64748b" stroke-width="2"/>
-  <line x1="100" y1="138" x2="100" y2="168" stroke="#64748b" stroke-width="2"/>
-  <line x1="230" y1="138" x2="230" y2="168" stroke="#64748b" stroke-width="2"/>
-  <line x1="370" y1="138" x2="370" y2="168" stroke="#64748b" stroke-width="2"/>
-  <line x1="500" y1="138" x2="500" y2="168" stroke="#64748b" stroke-width="2"/>
-  <rect x="35" y="168" width="130" height="42" rx="8" fill="#0ea5e9"/>
+  <line x1="300" y1="108" x2="300" y2="138" stroke="#c2843f" stroke-width="2"/>
+  <line x1="100" y1="138" x2="500" y2="138" stroke="#c2843f" stroke-width="2"/>
+  <line x1="100" y1="138" x2="100" y2="168" stroke="#c2843f" stroke-width="2"/>
+  <line x1="230" y1="138" x2="230" y2="168" stroke="#c2843f" stroke-width="2"/>
+  <line x1="370" y1="138" x2="370" y2="168" stroke="#c2843f" stroke-width="2"/>
+  <line x1="500" y1="138" x2="500" y2="168" stroke="#c2843f" stroke-width="2"/>
+  <rect x="35" y="168" width="130" height="42" rx="8" fill="#f59e0b"/>
   <text x="100" y="194" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="600" fill="#fff">Animalia</text>
-  <rect x="165" y="168" width="130" height="42" rx="8" fill="#0ea5e9"/>
+  <rect x="165" y="168" width="130" height="42" rx="8" fill="#f59e0b"/>
   <text x="230" y="194" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="600" fill="#fff">Plantae</text>
-  <rect x="305" y="168" width="130" height="42" rx="8" fill="#0ea5e9"/>
+  <rect x="305" y="168" width="130" height="42" rx="8" fill="#fb923c"/>
   <text x="370" y="194" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="600" fill="#fff">Fungi</text>
-  <rect x="435" y="168" width="130" height="42" rx="8" fill="#0ea5e9"/>
+  <rect x="435" y="168" width="130" height="42" rx="8" fill="#fb923c"/>
   <text x="500" y="194" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="600" fill="#fff">Monera</text>
-  <line x1="100" y1="210" x2="100" y2="248" stroke="#64748b" stroke-width="1.5"/>
-  <line x1="55" y1="248" x2="145" y2="248" stroke="#64748b" stroke-width="1.5"/>
-  <line x1="55" y1="248" x2="55" y2="278" stroke="#64748b" stroke-width="1.5"/>
-  <line x1="145" y1="248" x2="145" y2="278" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="100" y1="210" x2="100" y2="248" stroke="#c2843f" stroke-width="1.5"/>
+  <line x1="55" y1="248" x2="145" y2="248" stroke="#c2843f" stroke-width="1.5"/>
+  <line x1="55" y1="248" x2="55" y2="278" stroke="#c2843f" stroke-width="1.5"/>
+  <line x1="145" y1="248" x2="145" y2="278" stroke="#c2843f" stroke-width="1.5"/>
   <rect x="20" y="278" width="70" height="32" rx="6" fill="#10b981"/>
   <text x="55" y="299" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="600" fill="#fff">Vertebrata</text>
   <rect x="110" y="278" width="70" height="32" rx="6" fill="#10b981"/>
   <text x="145" y="299" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="600" fill="#fff">Invertebrata</text>
-  <line x1="230" y1="210" x2="230" y2="248" stroke="#64748b" stroke-width="1.5"/>
-  <line x1="190" y1="248" x2="270" y2="248" stroke="#64748b" stroke-width="1.5"/>
-  <line x1="190" y1="248" x2="190" y2="278" stroke="#64748b" stroke-width="1.5"/>
-  <line x1="270" y1="248" x2="270" y2="278" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="230" y1="210" x2="230" y2="248" stroke="#c2843f" stroke-width="1.5"/>
+  <line x1="190" y1="248" x2="270" y2="248" stroke="#c2843f" stroke-width="1.5"/>
+  <line x1="190" y1="248" x2="190" y2="278" stroke="#c2843f" stroke-width="1.5"/>
+  <line x1="270" y1="248" x2="270" y2="278" stroke="#c2843f" stroke-width="1.5"/>
   <rect x="155" y="278" width="70" height="32" rx="6" fill="#f59e0b"/>
-  <text x="190" y="299" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="600" fill="#1e293b">Angiosperm</text>
+  <text x="190" y="299" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="600" fill="#241a12">Angiosperm</text>
   <rect x="235" y="278" width="70" height="32" rx="6" fill="#f59e0b"/>
-  <text x="270" y="299" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="600" fill="#1e293b">Gymnosperm</text>
-  <rect x="150" y="340" width="300" height="40" rx="8" fill="#6366f1" opacity="0.1"/>
-  <text x="300" y="365" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="500" fill="#6366f1">Five Kingdom Classification (Whittaker, 1969)</text>
+  <text x="270" y="299" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="600" fill="#241a12">Gymnosperm</text>
+  <rect x="150" y="340" width="300" height="40" rx="8" fill="#f97316" opacity="0.1"/>
+  <text x="300" y="365" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="500" fill="#f97316">Five Kingdom Classification (Whittaker, 1969)</text>
 </svg>`,
 
   sequence: `<svg viewBox="0 0 600 480" xmlns="http://www.w3.org/2000/svg">
-  <defs><marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,1 L9,5 L0,9z" fill="#64748b"/></marker></defs>
-  <rect width="600" height="480" fill="#f8fafc" rx="12"/>
-  <text x="300" y="36" text-anchor="middle" font-family="system-ui" font-size="20" font-weight="bold" fill="#1e293b">Sequence Diagram</text>
-  <rect x="80" y="56" width="130" height="42" rx="10" fill="#6366f1"/>
+  <defs><marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,1 L9,5 L0,9z" fill="#c2843f"/></marker></defs>
+  <rect width="600" height="480" fill="#fdf8f3" rx="12"/>
+  <text x="300" y="36" text-anchor="middle" font-family="system-ui" font-size="20" font-weight="bold" fill="#241a12">Sequence Diagram</text>
+  <rect x="80" y="56" width="130" height="42" rx="10" fill="#f97316"/>
   <text x="145" y="82" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#fff">Client</text>
-  <rect x="390" y="56" width="130" height="42" rx="10" fill="#0ea5e9"/>
+  <rect x="390" y="56" width="130" height="42" rx="10" fill="#f59e0b"/>
   <text x="455" y="82" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="600" fill="#fff">Server</text>
-  <line x1="145" y1="98" x2="145" y2="440" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="5 3"/>
-  <line x1="455" y1="98" x2="455" y2="440" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="5 3"/>
-  <rect x="115" y="114" width="60" height="16" rx="4" fill="#6366f1" opacity="0.12"/>
-  <text x="145" y="126" text-anchor="middle" font-family="system-ui" font-size="8" font-weight="500" fill="#6366f1">activate</text>
-  <line x1="165" y1="144" x2="435" y2="144" stroke="#6366f1" stroke-width="2" marker-end="url(#a4)"/>
-  <text x="300" y="138" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="500" fill="#1e293b">1. sendRequest()</text>
-  <rect x="430" y="156" width="50" height="14" rx="4" fill="#0ea5e9" opacity="0.12"/>
-  <text x="455" y="166" text-anchor="middle" font-family="system-ui" font-size="8" font-weight="500" fill="#0ea5e9">process</text>
-  <line x1="435" y1="190" x2="165" y2="190" stroke="#0ea5e9" stroke-width="2" marker-end="url(#a4)"/>
-  <text x="300" y="184" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="500" fill="#1e293b">2. sendData()</text>
-  <line x1="165" y1="228" x2="435" y2="228" stroke="#6366f1" stroke-width="2" marker-end="url(#a4)"/>
-  <text x="300" y="222" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="500" fill="#1e293b">3. processData()</text>
+  <line x1="145" y1="98" x2="145" y2="440" stroke="#d9c3a8" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <line x1="455" y1="98" x2="455" y2="440" stroke="#d9c3a8" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <rect x="115" y="114" width="60" height="16" rx="4" fill="#f97316" opacity="0.12"/>
+  <text x="145" y="126" text-anchor="middle" font-family="system-ui" font-size="8" font-weight="500" fill="#f97316">activate</text>
+  <line x1="165" y1="144" x2="435" y2="144" stroke="#f97316" stroke-width="2" marker-end="url(#a4)"/>
+  <text x="300" y="138" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="500" fill="#241a12">1. sendRequest()</text>
+  <rect x="430" y="156" width="50" height="14" rx="4" fill="#f59e0b" opacity="0.12"/>
+  <text x="455" y="166" text-anchor="middle" font-family="system-ui" font-size="8" font-weight="500" fill="#f59e0b">process</text>
+  <line x1="435" y1="190" x2="165" y2="190" stroke="#f59e0b" stroke-width="2" marker-end="url(#a4)"/>
+  <text x="300" y="184" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="500" fill="#241a12">2. sendData()</text>
+  <line x1="165" y1="228" x2="435" y2="228" stroke="#f97316" stroke-width="2" marker-end="url(#a4)"/>
+  <text x="300" y="222" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="500" fill="#241a12">3. processData()</text>
   <rect x="400" y="242" width="110" height="64" rx="6" fill="#f59e0b" opacity="0.15" stroke="#f59e0b" stroke-width="1"/>
   <text x="455" y="258" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="600" fill="#f59e0b">loop [more data]</text>
-  <line x1="435" y1="280" x2="165" y2="280" stroke="#0ea5e9" stroke-width="2" marker-end="url(#a4)"/>
-  <text x="300" y="274" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="500" fill="#1e293b">4. chunk()</text>
-  <line x1="165" y1="320" x2="435" y2="320" stroke="#6366f1" stroke-width="2" marker-end="url(#a4)"/>
-  <text x="300" y="314" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="500" fill="#1e293b">5. finalize()</text>
+  <line x1="435" y1="280" x2="165" y2="280" stroke="#f59e0b" stroke-width="2" marker-end="url(#a4)"/>
+  <text x="300" y="274" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="500" fill="#241a12">4. chunk()</text>
+  <line x1="165" y1="320" x2="435" y2="320" stroke="#f97316" stroke-width="2" marker-end="url(#a4)"/>
+  <text x="300" y="314" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="500" fill="#241a12">5. finalize()</text>
   <line x1="435" y1="358" x2="165" y2="358" stroke="#10b981" stroke-width="2" marker-end="url(#a4)"/>
-  <text x="300" y="352" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="500" fill="#10b981">6. ACK + complete</text>
-  <rect x="115" y="374" width="60" height="16" rx="4" fill="#6366f1" opacity="0.12"/>
-  <text x="145" y="386" text-anchor="middle" font-family="system-ui" font-size="8" font-weight="500" fill="#6366f1">deactivate</text>
+  <text x="300" y="352" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="500" fill="#241a12">6. ACK + complete</text>
+  <rect x="115" y="374" width="60" height="16" rx="4" fill="#f97316" opacity="0.12"/>
+  <text x="145" y="386" text-anchor="middle" font-family="system-ui" font-size="8" font-weight="500" fill="#f97316">deactivate</text>
 </svg>`,
 
   comparison: `<svg viewBox="0 0 600 520" xmlns="http://www.w3.org/2000/svg">
-  <rect width="600" height="520" fill="#f8fafc" rx="12"/>
-  <text x="300" y="36" text-anchor="middle" font-family="system-ui" font-size="20" font-weight="bold" fill="#1e293b">Comparison</text>
-  <rect x="30" y="56" width="250" height="48" rx="10" fill="#6366f1"/>
+  <rect width="600" height="520" fill="#fdf8f3" rx="12"/>
+  <text x="300" y="36" text-anchor="middle" font-family="system-ui" font-size="20" font-weight="bold" fill="#241a12">Comparison</text>
+  <rect x="30" y="56" width="250" height="48" rx="10" fill="#f97316"/>
   <text x="155" y="85" text-anchor="middle" font-family="system-ui" font-size="15" font-weight="bold" fill="#fff">Option A</text>
-  <rect x="320" y="56" width="250" height="48" rx="10" fill="#0ea5e9"/>
+  <rect x="320" y="56" width="250" height="48" rx="10" fill="#f59e0b"/>
   <text x="445" y="85" text-anchor="middle" font-family="system-ui" font-size="15" font-weight="bold" fill="#fff">Option B</text>
-  <line x1="30" y1="120" x2="280" y2="120" stroke="#e2e8f0" stroke-width="1"/>
-  <line x1="320" y1="120" x2="570" y2="120" stroke="#e2e8f0" stroke-width="1"/>
-  <rect x="40" y="130" width="230" height="42" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="155" y="156" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="500" fill="#1e293b">Feature 1: Speed</text>
-  <rect x="330" y="130" width="230" height="42" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="445" y="156" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="500" fill="#1e293b">Feature 1: Speed</text>
-  <rect x="40" y="182" width="230" height="42" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="155" y="208" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="500" fill="#1e293b">Feature 2: Cost</text>
-  <rect x="330" y="182" width="230" height="42" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="445" y="208" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="500" fill="#1e293b">Feature 2: Cost</text>
-  <rect x="40" y="234" width="230" height="42" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="155" y="260" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="500" fill="#1e293b">Feature 3: Accuracy</text>
-  <rect x="330" y="234" width="230" height="42" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="445" y="260" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="500" fill="#1e293b">Feature 3: Accuracy</text>
-  <rect x="40" y="286" width="230" height="42" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="155" y="312" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="500" fill="#1e293b">Feature 4: Ease of Use</text>
-  <rect x="330" y="286" width="230" height="42" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="445" y="312" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="500" fill="#1e293b">Feature 4: Ease of Use</text>
+  <line x1="30" y1="120" x2="280" y2="120" stroke="#eadfc9" stroke-width="1"/>
+  <line x1="320" y1="120" x2="570" y2="120" stroke="#eadfc9" stroke-width="1"/>
+  <rect x="40" y="130" width="230" height="42" rx="8" fill="#fff" stroke="#eadfc9" stroke-width="1"/>
+  <text x="155" y="156" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="500" fill="#241a12">Feature 1: Speed</text>
+  <rect x="330" y="130" width="230" height="42" rx="8" fill="#fff" stroke="#eadfc9" stroke-width="1"/>
+  <text x="445" y="156" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="500" fill="#241a12">Feature 1: Speed</text>
+  <rect x="40" y="182" width="230" height="42" rx="8" fill="#fff" stroke="#eadfc9" stroke-width="1"/>
+  <text x="155" y="208" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="500" fill="#241a12">Feature 2: Cost</text>
+  <rect x="330" y="182" width="230" height="42" rx="8" fill="#fff" stroke="#eadfc9" stroke-width="1"/>
+  <text x="445" y="208" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="500" fill="#241a12">Feature 2: Cost</text>
+  <rect x="40" y="234" width="230" height="42" rx="8" fill="#fff" stroke="#eadfc9" stroke-width="1"/>
+  <text x="155" y="260" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="500" fill="#241a12">Feature 3: Accuracy</text>
+  <rect x="330" y="234" width="230" height="42" rx="8" fill="#fff" stroke="#eadfc9" stroke-width="1"/>
+  <text x="445" y="260" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="500" fill="#241a12">Feature 3: Accuracy</text>
+  <rect x="40" y="286" width="230" height="42" rx="8" fill="#fff" stroke="#eadfc9" stroke-width="1"/>
+  <text x="155" y="312" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="500" fill="#241a12">Feature 4: Ease of Use</text>
+  <rect x="330" y="286" width="230" height="42" rx="8" fill="#fff" stroke="#eadfc9" stroke-width="1"/>
+  <text x="445" y="312" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="500" fill="#241a12">Feature 4: Ease of Use</text>
   <rect x="95" y="348" width="120" height="36" rx="8" fill="#10b981"/>
   <text x="155" y="371" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="600" fill="#fff">Recommended</text>
   <rect x="385" y="348" width="120" height="36" rx="8" fill="#ef4444"/>
   <text x="445" y="371" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="600" fill="#fff">Alternative</text>
-  <rect x="140" y="410" width="320" height="38" rx="8" fill="#6366f1" opacity="0.1"/>
-  <text x="300" y="434" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="500" fill="#6366f1">Choose based on your specific requirements</text>
+  <rect x="140" y="410" width="320" height="38" rx="8" fill="#f97316" opacity="0.1"/>
+  <text x="300" y="434" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="500" fill="#f97316">Choose based on your specific requirements</text>
 </svg>`,
 };
 

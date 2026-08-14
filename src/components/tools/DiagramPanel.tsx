@@ -123,7 +123,7 @@ export function DiagramPanel({ sectionTitle, text }: DiagramPanelProps) {
     <div className="flex min-h-0 flex-1 flex-col p-4">
       <div className="flex items-center justify-between">
         <h3 className="font-display text-base font-semibold text-foreground flex items-center gap-2">
-          <Network className="h-4 w-4 text-indigo-500" />
+          <Network className="h-4 w-4 text-orange-500" />
           AI Diagram Generator
         </h3>
         {result && (
@@ -137,7 +137,7 @@ export function DiagramPanel({ sectionTitle, text }: DiagramPanelProps) {
         )}
       </div>
       <p className="mt-1 text-xs text-foreground/55">
-        Generate visual diagrams from <span className="font-medium text-indigo-600 dark:text-indigo-400">{sectionTitle}</span>
+        Generate visual diagrams from <span className="font-medium text-orange-600 dark:text-orange-400">{sectionTitle}</span>
       </p>
 
       <div className="mt-3 grid grid-cols-3 gap-1.5">
@@ -147,7 +147,7 @@ export function DiagramPanel({ sectionTitle, text }: DiagramPanelProps) {
             onClick={() => setKind(k.kind)}
             className={`flex flex-col items-center gap-0.5 rounded-xl border px-2 py-2 text-center transition ${
               kind === k.kind
-                ? "border-indigo-400/60 bg-indigo-50 text-indigo-700 shadow-sm dark:bg-indigo-400/10 dark:text-indigo-300"
+                ? "border-orange-400/60 bg-orange-50 text-orange-700 shadow-sm dark:bg-orange-400/10 dark:text-orange-300"
                 : "border-white/40 bg-white/50 text-foreground/60 hover:bg-white/80 dark:border-white/10 dark:bg-white/5 dark:text-foreground/55"
             }`}
           >
@@ -161,7 +161,7 @@ export function DiagramPanel({ sectionTitle, text }: DiagramPanelProps) {
       <button
         onClick={generate}
         disabled={loading}
-        className="mt-3 flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-indigo-500 to-violet-500 px-4 py-2.5 text-sm font-semibold text-white shadow-lg shadow-indigo-500/30 transition hover:brightness-110 disabled:opacity-50"
+        className="mt-3 flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-orange-500 to-amber-500 px-4 py-2.5 text-sm font-semibold text-white shadow-lg shadow-orange-500/30 transition hover:brightness-110 disabled:opacity-50"
       >
         {loading ? <Spinner className="h-4 w-4" /> : <Sparkles className="h-4 w-4" />}
         {loading ? "Generating\u2026" : "Generate Diagram"}
@@ -176,24 +176,24 @@ export function DiagramPanel({ sectionTitle, text }: DiagramPanelProps) {
             <div className="flex items-center gap-1.5">
               <button
                 onClick={copySvg}
-                className="flex items-center gap-1 rounded-lg border border-indigo-300/50 bg-indigo-50 px-2 py-1 text-[10px] font-semibold text-indigo-700 transition hover:bg-indigo-100 dark:border-indigo-400/25 dark:bg-indigo-400/10 dark:text-indigo-300"
+                className="flex items-center gap-1 rounded-lg border border-orange-300/50 bg-orange-50 px-2 py-1 text-[10px] font-semibold text-orange-700 transition hover:bg-orange-100 dark:border-orange-400/25 dark:bg-orange-400/10 dark:text-orange-300"
               >
                 {copied ? <Check className="h-3 w-3" /> : <Copy className="h-3 w-3" />}
                 {copied ? "Copied" : "Copy"}
               </button>
               <button
                 onClick={downloadSvg}
-                className="flex items-center gap-1 rounded-lg border border-indigo-300/50 bg-indigo-50 px-2 py-1 text-[10px] font-semibold text-indigo-700 transition hover:bg-indigo-100 dark:border-indigo-400/25 dark:bg-indigo-400/10 dark:text-indigo-300"
+                className="flex items-center gap-1 rounded-lg border border-orange-300/50 bg-orange-50 px-2 py-1 text-[10px] font-semibold text-orange-700 transition hover:bg-orange-100 dark:border-orange-400/25 dark:bg-orange-400/10 dark:text-orange-300"
               >
                 <ArrowDownToLine className="h-3 w-3" /> SVG
               </button>
               <button
                 onClick={downloadPng}
-                className="flex items-center gap-1 rounded-lg border border-indigo-300/50 bg-indigo-50 px-2 py-1 text-[10px] font-semibold text-indigo-700 transition hover:bg-indigo-100 dark:border-indigo-400/25 dark:bg-indigo-400/10 dark:text-indigo-300"
+                className="flex items-center gap-1 rounded-lg border border-orange-300/50 bg-orange-50 px-2 py-1 text-[10px] font-semibold text-orange-700 transition hover:bg-orange-100 dark:border-orange-400/25 dark:bg-orange-400/10 dark:text-orange-300"
               >
                 <ArrowDownToLine className="h-3 w-3" /> PNG
               </button>
-              <span className="rounded-full bg-indigo-100 px-2 py-0.5 text-[10px] font-medium text-indigo-700 dark:bg-indigo-400/15 dark:text-indigo-300">
+              <span className="rounded-full bg-orange-100 px-2 py-0.5 text-[10px] font-medium text-orange-700 dark:bg-orange-400/15 dark:text-orange-300">
                 {result.mode === "online" ? result.provider : "demo"}
               </span>
             </div>
@@ -202,7 +202,7 @@ export function DiagramPanel({ sectionTitle, text }: DiagramPanelProps) {
           <GlassCard className="p-3">
             <div
               ref={svgRef}
-              className="flex justify-center overflow-hidden rounded-lg bg-white [&>svg]:max-w-full [&>svg]:h-auto dark:bg-slate-50"
+              className="flex justify-center overflow-hidden rounded-lg bg-[#fdf8f3] [&>svg]:max-w-full [&>svg]:h-auto dark:bg-[#1a1410]"
               dangerouslySetInnerHTML={{ __html: sanitizeSvg(result.svg) }}
             />
           </GlassCard>
@@ -216,21 +216,21 @@ export function DiagramPanel({ sectionTitle, text }: DiagramPanelProps) {
       )}
 
       {fullscreen && result && (
-        <div className="fixed inset-0 z-[100] flex flex-col bg-white dark:bg-slate-950">
-          <div className="flex items-center justify-between border-b border-slate-200 px-4 py-3 dark:border-slate-800">
+        <div className="fixed inset-0 z-[100] flex flex-col bg-[#fdf8f3] dark:bg-[#0d0a08]">
+          <div className="flex items-center justify-between border-b border-orange-200/60 px-4 py-3 dark:border-orange-400/20">
             <h4 className="text-sm font-semibold text-foreground">{result.title}</h4>
             <div className="flex items-center gap-2">
-              <button onClick={copySvg} className="flex items-center gap-1 rounded-lg bg-indigo-50 px-2.5 py-1.5 text-xs font-semibold text-indigo-700 transition hover:bg-indigo-100 dark:bg-indigo-400/10 dark:text-indigo-300">
+              <button onClick={copySvg} className="flex items-center gap-1 rounded-lg bg-orange-50 px-2.5 py-1.5 text-xs font-semibold text-orange-700 transition hover:bg-orange-100 dark:bg-orange-400/10 dark:text-orange-300">
                 {copied ? <Check className="h-3.5 w-3.5" /> : <Copy className="h-3.5 w-3.5" />}
                 {copied ? "Copied" : "Copy SVG"}
               </button>
-              <button onClick={downloadSvg} className="flex items-center gap-1 rounded-lg bg-indigo-50 px-2.5 py-1.5 text-xs font-semibold text-indigo-700 transition hover:bg-indigo-100 dark:bg-indigo-400/10 dark:text-indigo-300">
+              <button onClick={downloadSvg} className="flex items-center gap-1 rounded-lg bg-orange-50 px-2.5 py-1.5 text-xs font-semibold text-orange-700 transition hover:bg-orange-100 dark:bg-orange-400/10 dark:text-orange-300">
                 <ArrowDownToLine className="h-3.5 w-3.5" /> SVG
               </button>
-              <button onClick={downloadPng} className="flex items-center gap-1 rounded-lg bg-indigo-50 px-2.5 py-1.5 text-xs font-semibold text-indigo-700 transition hover:bg-indigo-100 dark:bg-indigo-400/10 dark:text-indigo-300">
+              <button onClick={downloadPng} className="flex items-center gap-1 rounded-lg bg-orange-50 px-2.5 py-1.5 text-xs font-semibold text-orange-700 transition hover:bg-orange-100 dark:bg-orange-400/10 dark:text-orange-300">
                 <ArrowDownToLine className="h-3.5 w-3.5" /> PNG
               </button>
-              <button onClick={() => setFullscreen(false)} className="rounded-lg p-1.5 text-foreground/50 hover:bg-slate-100 hover:text-foreground dark:hover:bg-slate-800">
+              <button onClick={() => setFullscreen(false)} className="rounded-lg p-1.5 text-foreground/50 hover:bg-orange-100/60 hover:text-foreground dark:hover:bg-orange-400/10">
                 <X className="h-4 w-4" />
               </button>
             </div>
@@ -242,7 +242,7 @@ export function DiagramPanel({ sectionTitle, text }: DiagramPanelProps) {
             />
           </div>
           {result.description && (
-            <div className="border-t border-slate-200 px-6 py-3 dark:border-slate-800">
+            <div className="border-t border-orange-200/60 px-6 py-3 dark:border-orange-400/20">
               <p className="text-xs text-foreground/60">{result.description}</p>
             </div>
           )}

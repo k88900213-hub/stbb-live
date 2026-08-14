@@ -229,19 +229,19 @@ export async function diagram(req: DiagramRequest): Promise<DiagramResponse> {
   const provider = getProvider();
   if (!provider) return offlineDiagram(req);
 
-  const PALETTE = `COLOR PALETTE (use ONLY these colors):
-- Primary nodes: #6366f1 (indigo)
-- Secondary nodes: #0ea5e9 (sky)
-- Accent/highlight: #f59e0b (amber)
-- Success/positive: #10b981 (emerald)
-- Danger/negative: #ef4444 (rose)
-- Background: #f8fafc (slate-50)
+  const PALETTE = `COLOR PALETTE (use ONLY these colors, matching the warm cream-and-orange site theme):
+- Primary nodes: #f97316 (orange-500)
+- Secondary nodes: #f59e0b (amber-500)
+- Accent/highlight: #fb923c (orange-400)
+- Success/positive: #10b981 (emerald-500)
+- Danger/negative: #ef4444 (rose-500)
+- Background: #fdf8f3 (warm cream, the site background)
 - Card fill: #ffffff (white)
-- Dark text: #1e293b (slate-800)
-- Medium text: #475569 (slate-600)
-- Light text/lines: #94a3b8 (slate-400)
-- Borders: #e2e8f0 (slate-200)
-- Arrow stroke: #64748b (slate-500)`;
+- Dark text: #241a12 (warm dark brown, the site foreground)
+- Medium text: #8a6b4f (warm brown)
+- Light text/lines: #d9c3a8 (warm tan)
+- Borders: #eadfc9 (warm sand)
+- Arrow stroke: #c2843f (warm amber-brown)`;
 
   const kindInstructions: Record<DiagramKind, string> = {
     flowchart: `FLOWCHART rules:
@@ -260,7 +260,7 @@ export async function diagram(req: DiagramRequest): Promise<DiagramResponse> {
 - Connect with labeled lines: relationship text in 11px italic above/beside lines
 - Use curved or angled connectors, not all straight
 - 4-6 surrounding concepts max
-- Color-code: central=#6366f1, sub-concepts alternate #0ea5e9/#10b981/#f59e0b`,
+- Color-code: central=#f97316, sub-concepts alternate #f59e0b/#10b981/#fb923c`,
 
     cycle: `CYCLE rules:
 - Arrange 3-6 stages in a CIRCLE formation
@@ -269,13 +269,13 @@ export async function diagram(req: DiagramRequest): Promise<DiagramResponse> {
 - Stage numbers or small icons inside each box
 - Stage labels below each box
 - Center: empty or small label like "Cycle"
-- Color gradient around the cycle: #6366f1 -> #0ea5e9 -> #10b981 -> #f59e0b -> #ef4444 -> #8b5cf6
+- Color gradient around the cycle: #f97316 -> #fb923c -> #f59e0b -> #10b981 -> #ef4444 -> #c2843f
 - Use transform="rotate()" on text if needed for curved labels`,
 
     hierarchy: `HIERARCHY rules:
 - Tree layout: root at top, branches go DOWN
-- Root node: large rounded rect (220x50px), fill #6366f1
-- Level 2: medium rounded rects (160x40px), fill #0ea5e9
+- Root node: large rounded rect (220x50px), fill #f97316
+- Level 2: medium rounded rects (160x40px), fill #f59e0b
 - Level 3: small rounded rects (130x34px), fill #10b981
 - Connect with straight vertical lines, then horizontal branches
 - Use line elements for connectors, not paths
@@ -291,13 +291,13 @@ export async function diagram(req: DiagramRequest): Promise<DiagramResponse> {
 - Messages alternate direction (left-to-right, right-to-left)
 - 3-5 messages max
 - Add "loop" or "alt" box around repeated sections if applicable
-- Color: actor boxes different colors (#6366f1, #0ea5e9), arrows #64748b`,
+- Color: actor boxes different colors (#f97316, #f59e0b), arrows #c2843f`,
 
     comparison: `COMPARISON rules:
 - Two-column layout, side by side
-- Column headers: large rounded rects (240x44px), fills #6366f1 and #0ea5e9
+- Column headers: large rounded rects (240x44px), fills #f97316 and #f59e0b
 - 3-5 rows of comparison items
-- Each row: two matching rectangles (240x38px), white fill, #e2e8f0 border
+- Each row: two matching rectangles (240x38px), white fill, #eadfc9 border
 - Row content: short phrases (3-5 words max)
 - Vertical alignment between rows
 - Optional: "VS" label between columns
@@ -329,7 +329,7 @@ CRITICAL SVG RULES:
 8. Keep total SVG under 4000 characters
 9. Height should be auto-calculated based on content (typically 400-700)
 10. Center-align all text with text-anchor="middle"
-11. White text (#ffffff) on colored backgrounds, dark text (#1e293b) on light backgrounds
+11. White text (#ffffff) on colored backgrounds, dark text (#241a12) on light backgrounds
 
 RESPOND WITH STRICT JSON ONLY (no markdown, no explanation):
 {"title":"string","svg":"<svg>...complete valid SVG...</svg>","description":"2-3 sentence explanation of what the diagram shows and how to read it"}`;
