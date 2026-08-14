@@ -7,19 +7,16 @@ import type { Block } from "@/lib/content/types";
 import { RichText } from "@/lib/reader/render";
 import { useProgress } from "@/store/progress";
 import { useSpeech } from "@/hooks/useSpeech";
-import { useNotes } from "@/hooks/useNotes";
 import { AiExplainCard } from "./AiExplainCard";
 import FormulaBlock from "./FormulaBlock";
 import { GlassCard, Spinner } from "@/components/ui/GlassCard";
 import { SimLab } from "@/components/sim/SimLab";
 import {
   BookOpen,
-  Check,
   Languages,
   Loader2,
   MessageCircleQuestion,
   Play,
-  Save,
   Sparkles,
   Square,
   Volume2,
@@ -55,11 +52,8 @@ interface BlockViewProps {
 
 export function BlockView({ block, chapterSlug, chapterTitle, sectionTitle, mode = "intermediate", audience }: BlockViewProps) {
   const ref = useRef<HTMLDivElement | null>(null);
-  const { recordView, recordAsk, recordNote } = useProgress();
+  const { recordView, recordAsk } = useProgress();
   const { supported, speaking, speak, stop } = useSpeech();
-  const { addNote } = useNotes();
-  const [saved, setSaved] = useState(false);
-
   const [explain, setExplain] = useState<ExplainResponse | null>(null);
   const [explaining, setExplaining] = useState(false);
   const [askOpen, setAskOpen] = useState(false);
@@ -126,13 +120,6 @@ export function BlockView({ block, chapterSlug, chapterTitle, sectionTitle, mode
     } finally {
       setTranslating(false);
     }
-  };
-
-  const handleSaveNote = () => {
-    addNote(chapterSlug, sectionTitle, text);
-    recordNote(chapterSlug);
-    setSaved(true);
-    setTimeout(() => setSaved(false), 1600);
   };
 
   if (block.type === "heading") {
@@ -235,7 +222,6 @@ export function BlockView({ block, chapterSlug, chapterTitle, sectionTitle, mode
             icon={speaking ? <Square className="h-3.5 w-3.5" /> : <Volume2 className="h-3.5 w-3.5" />}
           />
         )}
-        <ActionButton onClick={handleSaveNote} active={saved} label={saved ? "Saved" : "Save note"} icon={saved ? <Check className="h-3.5 w-3.5" /> : <Save className="h-3.5 w-3.5" />} />
         <ActionButton
           onClick={() => speak(text)}
           label="Read aloud"
