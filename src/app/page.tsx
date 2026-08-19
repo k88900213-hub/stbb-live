@@ -1,30 +1,18 @@
 import { book } from "@/lib/content/catalog";
 import Link from "next/link";
 import { ImportedLibrary } from "@/components/home/ImportedLibrary";
-import { FeatureCarousel } from "@/components/home/FeatureCarousel";
 import {
   ArrowRight,
-  BrainCircuit,
   BookOpenCheck,
   Cpu,
-  FlaskConical,
-  Languages,
   LibraryBig,
-  MessageSquareText,
-  Mic,
-  NotebookPen,
-  Radar,
   Rocket,
   ScanText,
-  Sparkles,
-  Users,
-  Zap,
 } from "lucide-react";
 
 export default function Home() {
   return (
     <div className="relative min-h-screen overflow-hidden">
-      <Background />
 
       <main className="relative z-10 mx-auto max-w-5xl px-6 pb-24 pt-20 sm:pt-28">
         <div className="text-center">
@@ -80,27 +68,6 @@ export default function Home() {
 
         <section className="mt-16">
           <h2 className="mb-4 flex items-center gap-2 font-display text-xl font-bold text-foreground">
-            <Sparkles className="h-5 w-5 text-orange-500" />
-            Everything you can do
-          </h2>
-          <FeatureCarousel
-            items={[
-              { icon: <BrainCircuit className="h-5 w-5" />, title: "Live Reading Engine", desc: "Explain any paragraph in plain, easy-to-understand language — without changing the textbook." },
-              { icon: <MessageSquareText className="h-5 w-5" />, title: "Ask Anything", desc: "Select any text and ask: what does this mean, in Urdu, with an example, or like I'm 10." },
-              { icon: <FlaskConical className="h-5 w-5" />, title: "AI Simulations", desc: "Build circuits, run force experiments, and visualize physics — right inside the chapter." },
-              { icon: <NotebookPen className="h-5 w-5" />, title: "One-click Notes", desc: "Smart notes, cheat sheets, mind maps, key points and flashcards generated from any section." },
-              { icon: <Zap className="h-5 w-5" />, title: "Quiz Engine", desc: "MCQs from easy to Olympiad level with instant feedback and explanations." },
-              { icon: <Mic className="h-5 w-5" />, title: "Voice Learning", desc: "Listen to any passage read aloud, pause, and ask questions while you listen." },
-              { icon: <Languages className="h-5 w-5" />, title: "Instant Translation", desc: "Every page in Urdu, Arabic, German, French, Spanish, Hindi or Chinese." },
-              { icon: <Radar className="h-5 w-5" />, title: "Confusion Detection", desc: "Progress analytics track reading time, focus level, and weak topics in real time." },
-              { icon: <ScanText className="h-5 w-5" />, title: "Import Anything", desc: "Paste notes, photograph a textbook page, or upload a PDF — it becomes a live chapter." },
-              { icon: <Users className="h-5 w-5" />, title: "Personal AI Tutor", desc: "A tutor that remembers your history, predicts performance, and adapts its style." },
-            ]}
-          />
-        </section>
-
-        <section className="mt-16">
-          <h2 className="mb-4 flex items-center gap-2 font-display text-xl font-bold text-foreground">
             <Cpu className="h-5 w-5 text-orange-500" />
             Your live books
           </h2>
@@ -136,16 +103,6 @@ export default function Home() {
           Neural Sync Infinity · {book.edition} · AI powered by OpenAI / Gemini with an offline demo engine
         </p>
       </main>
-    </div>
-  );
-}
-
-function Background() {
-  return (
-    <div className="pointer-events-none absolute inset-0 -z-0">
-      <div className="absolute -left-32 -top-32 h-96 w-96 rounded-full bg-orange-200/50 blur-3xl dark:bg-orange-500/10" />
-      <div className="absolute right-0 top-40 h-80 w-80 rounded-full bg-amber-200/50 blur-3xl dark:bg-amber-400/10" />
-      <div className="absolute bottom-0 left-1/3 h-72 w-72 rounded-full bg-orange-100/60 blur-3xl dark:bg-orange-400/5" />
     </div>
   );
 }
